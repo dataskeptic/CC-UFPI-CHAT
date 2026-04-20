@@ -15,7 +15,7 @@ from pathlib import Path
 # Variables already set in the environment take priority (override=False).
 try:
     from dotenv import load_dotenv
-    load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=False)
+    load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=True)
 except ImportError:
     pass  # python-dotenv not installed; rely on shell environment
 
