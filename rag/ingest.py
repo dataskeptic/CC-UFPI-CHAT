@@ -9,12 +9,12 @@ from config import config
 def get_embeddings():
     if config.embeddings.type == "local":
         print(f"[*] Loading local HuggingFace model: {config.embeddings.model_name}")
-        # PyTorch natively defaults to CPU if no NVIDIA/AMD GPU is found.
-        # Intel Iris Xe Graphics requires Intel Extension for PyTorch (IPEX) to be used via 'xpu'.
-        # For our 300M parameter model, CPU inference on an i7 11th Gen is actually very fast.
         return HuggingFaceEmbeddings(
             model_name=config.embeddings.model_name,
-            model_kwargs={'device': 'cpu'}, # Forcing CPU for stability unless IPEX is configured
+            model_kwargs={
+                'device': 'cpu',
+                'trust_remote_code': True,  # Required for models with custom code (e.g. Jina)
+            },
             encode_kwargs={'normalize_embeddings': True}
         )
     else:
@@ -28,8 +28,6 @@ def ingest_documents():
     
     # 1. Find all documents
     files = []
-    # We have three folders from our extraction: extracted_regulamento, extracted_ppp_cc, extracted_fluxograma
-    # We will search the parent directory for all matching files.
     for folder in ["extracted_regulamento", "extracted_ppc_cc", "extracted_fluxograma"]:
         folder_path = docs_dir / folder
         if folder_path.exists():
@@ -41,7 +39,6 @@ def ingest_documents():
     all_chunks = []
     
     if format == "md":
-        # Markdown Header Splitting preserves semantics wonderfully
         headers_to_split_on = [
             ("##", "Section"),
         ]
@@ -50,7 +47,6 @@ def ingest_documents():
         for file in files:
             content = file.read_text(encoding="utf-8")
             chunks = markdown_splitter.split_text(content)
-            # Add file source metadata
             for chunk in chunks:
                 chunk.metadata["source"] = file.name
             all_chunks.extend(chunks)
