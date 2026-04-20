@@ -1,10 +1,10 @@
 experiment:
   format: "md" # Options: "md", "txt"
-  documents_dir: "../extracted_docs" # Default base dir
+  documents_dir: "../extract_docs" # Default base dir
 
 embeddings:
   type: "local" # Options: "local", "api"
-  model_name: "microsoft/harrier-oss-v1-270m" # Quick default
+  model_name: "jinaai/jina-embeddings-v5-text-nano" # Quick default
   # For OpenRouter or OpenAI compatible API
   api_base: ""
   api_key: ""
