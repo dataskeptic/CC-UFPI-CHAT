@@ -1,1 +1,8 @@
 /docs_sigaa_cc
+.env
+/__pycache__
+/chroma_db_md
+/chroma_db_txt
+/rag/__pycache__
+/rag/chroma_db_md
+/rag/chroma_db_txt
