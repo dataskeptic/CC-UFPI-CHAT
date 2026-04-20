@@ -13,7 +13,8 @@ def get_embeddings():
             model_name=config.embeddings.model_name,
             model_kwargs={
                 'device': 'cpu',
-                'trust_remote_code': True,  # Required for models with custom code (e.g. Jina)
+                'trust_remote_code': True,   # Required for models with custom code (e.g. Jina)
+                'default_task': 'retrieval', # Required by Jina v5: sets task for both indexing and querying
             },
             encode_kwargs={'normalize_embeddings': True}
         )
@@ -23,35 +24,35 @@ def get_embeddings():
 def ingest_documents():
     docs_dir = Path(config.experiment.documents_dir)
     format = config.experiment.format
-    
+
     print(f"[*] Starting ingestion for format: .{format}")
-    
+
     # 1. Find all documents
     files = []
     for folder in ["extracted_regulamento", "extracted_ppc_cc", "extracted_fluxograma"]:
         folder_path = docs_dir / folder
         if folder_path.exists():
             files.extend(list(folder_path.glob(f"*.{format}")))
-            
+
     print(f"[*] Found {len(files)} files.")
-    
+
     # 2. Chunking
     all_chunks = []
-    
+
     if format == "md":
         headers_to_split_on = [
             ("##", "Section"),
         ]
         markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
-        
+
         for file in files:
             content = file.read_text(encoding="utf-8")
             chunks = markdown_splitter.split_text(content)
             for chunk in chunks:
                 chunk.metadata["source"] = file.name
             all_chunks.extend(chunks)
-            
-    else: # txt
+
+    else:  # txt
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
             chunk_overlap=100,
@@ -62,20 +63,20 @@ def ingest_documents():
             docs = loader.load()
             chunks = text_splitter.split_documents(docs)
             all_chunks.extend(chunks)
-            
+
     print(f"[*] Generated {len(all_chunks)} chunks.")
-    
+
     # 3. Embed & Store
     embeddings = get_embeddings()
     db_path = f"./chroma_db_{format}"
-    
+
     print(f"[*] Embedding and saving to ChromaDB at {db_path}...")
     vectorstore = Chroma.from_documents(
         documents=all_chunks,
         embedding=embeddings,
         persist_directory=db_path
     )
-    print("[*] Ingestion Complete!")
+    print("[*] Ingestion complete!")
 
 if __name__ == "__main__":
     ingest_documents()
