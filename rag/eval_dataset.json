@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Quais são os pré-requisitos da disciplina de Computação Gráfica?",
+        "ground_truth": "Os pré-requisitos para Computação Gráfica são Prog. Orientada a Objetos e Álgebra Linear."
+    },
+    {
+        "question": "O que acontece com o curso de um aluno se a sua integralização curricular não ocorrer no limite máximo estipulado?",
+        "ground_truth": "O aluno cuja integralização curricular não ocorrer no limite máximo estipulado pelo projeto pedagógico do curso terá o seu curso automaticamente cancelado, conforme o Art. 24 do Regulamento Geral da Graduação."
+    },
+    {
+        "question": "Quantas horas totais de Estágio Supervisionado o currículo 5 de Ciência da Computação exige?",
+        "ground_truth": "O Estágio Supervisionado exige 330 horas."
+    },
+    {
+        "question": "Qual é a disciplina com o código ID 39 no currículo de Ciência da Computação?",
+        "ground_truth": "A disciplina com ID 39 é Trab. de Conclusão de Curso I."
+    }
+]
