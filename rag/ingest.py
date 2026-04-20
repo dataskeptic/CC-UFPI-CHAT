@@ -13,10 +13,12 @@ def get_embeddings():
             model_name=config.embeddings.model_name,
             model_kwargs={
                 'device': 'cpu',
-                'trust_remote_code': True,   # Required for models with custom code (e.g. Jina)
-                'default_task': 'retrieval', # Required by Jina v5: sets task for both indexing and querying
+                'trust_remote_code': True,  # Required for models with custom code (e.g. Jina)
             },
-            encode_kwargs={'normalize_embeddings': True}
+            encode_kwargs={
+                'normalize_embeddings': True,
+                'task': 'retrieval',  # Jina v5 requires task at encode time
+            }
         )
     else:
         raise NotImplementedError("API embeddings not implemented yet")
