@@ -3,17 +3,23 @@
 app.py — Streamlit chat interface for CC-UFPI-CHAT.
 
 Run from the repo root:
-    cd rag
-    streamlit run ../app.py
-
-Or set PYTHONPATH so the rag/ imports resolve:
     PYTHONPATH=rag streamlit run app.py
 """
 
 import sys
 import os
+from pathlib import Path
 
-# Make sure rag/ modules are importable when running from repo root
+# ── Load .env before anything else ────────────────────────────────────────────
+# Looks for .env in the project root (same folder as this file).
+# Variables already set in the environment take priority (override=False).
+try:
+    from dotenv import load_dotenv
+    load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=False)
+except ImportError:
+    pass  # python-dotenv not installed; rely on shell environment
+
+# ── Make rag/ importable when running from repo root ──────────────────────────
 RAG_DIR = os.path.join(os.path.dirname(__file__), "rag")
 if RAG_DIR not in sys.path:
     sys.path.insert(0, RAG_DIR)
@@ -33,7 +39,6 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-/* Source cards */
 .source-card {
     background: #f8f9fa;
     border-left: 4px solid #0068c9;
@@ -68,15 +73,29 @@ with st.sidebar:
     )
     st.divider()
 
-    # API key input (stored only in session, never persisted)
-    api_key_input = st.text_input(
-        "🔑 OpenRouter API Key",
-        type="password",
-        placeholder="sk-or-...",
-        help="Necessário para gerar respostas. Não é salvo em disco.",
-    )
-    if api_key_input:
-        os.environ["OPENROUTER_API_KEY"] = api_key_input
+    # If key is already loaded from .env, show a success indicator.
+    # Otherwise show the manual input as fallback.
+    if os.environ.get("OPENROUTER_API_KEY"):
+        st.success("🔑 API Key carregada do ambiente.", icon="✅")
+        # Still allow override via input if user wants to swap keys
+        api_key_override = st.text_input(
+            "Substituir API Key (opcional)",
+            type="password",
+            placeholder="sk-or-...",
+            help="Deixe em branco para usar a chave do arquivo .env.",
+        )
+        if api_key_override:
+            os.environ["OPENROUTER_API_KEY"] = api_key_override
+    else:
+        st.warning("⚠️ Nenhuma API Key encontrada no ambiente.")
+        api_key_input = st.text_input(
+            "🔑 OpenRouter API Key",
+            type="password",
+            placeholder="sk-or-...",
+            help="Ou adicione OPENROUTER_API_KEY ao arquivo .env na raiz do projeto.",
+        )
+        if api_key_input:
+            os.environ["OPENROUTER_API_KEY"] = api_key_input
 
     st.divider()
     if st.button("🗑️ Limpar conversa"):
@@ -92,8 +111,6 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 if "sources_history" not in st.session_state:
-    # Parallel list to messages: stores source docs for each user turn
-    # None for assistant messages, list[Document] for user turns
     st.session_state.sources_history = []
 
 # ── Main layout: chat (left) + sources (right) ────────────────────────────────
@@ -103,26 +120,21 @@ col_chat, col_sources = st.columns([2, 1])
 with col_chat:
     st.subheader("💬 Conversa")
 
-    # Render existing messages
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
 
-    # Chat input
     user_input = st.chat_input("Faça uma pergunta sobre o curso...")
 
     if user_input:
-        # Check API key
         if not os.environ.get("OPENROUTER_API_KEY"):
-            st.warning("⚠️ Insira sua chave de API do OpenRouter na barra lateral antes de enviar.")
+            st.warning("⚠️ Insira sua chave de API do OpenRouter na barra lateral ou adicione-a ao arquivo .env.")
             st.stop()
 
-        # Show user message immediately
         st.session_state.messages.append({"role": "user", "content": user_input})
         with st.chat_message("user"):
             st.markdown(user_input)
 
-        # Call RAG pipeline
         with st.chat_message("assistant"):
             with st.spinner("Buscando nos documentos..."):
                 try:
@@ -138,9 +150,8 @@ with col_chat:
 
             st.markdown(answer)
 
-        # Save to history
         st.session_state.messages.append({"role": "assistant", "content": answer})
-        st.session_state.sources_history.append(sources)  # tied to the latest Q&A pair
+        st.session_state.sources_history.append(sources)
 
         st.rerun()
 
@@ -152,7 +163,6 @@ with col_sources:
     if not st.session_state.sources_history:
         st.info("Os trechos dos documentos usados para gerar cada resposta aparecerão aqui.")
     else:
-        # Show sources for the most recent answer
         latest_sources = st.session_state.sources_history[-1]
 
         if not latest_sources:
@@ -164,7 +174,6 @@ with col_sources:
                 source_file = doc.metadata.get("source", "desconhecido")
                 section = doc.metadata.get("Section", "")
 
-                # Friendly label
                 if "fluxograma" in source_file.lower():
                     icon = "🗺️"
                 elif "ppc" in source_file.lower():
@@ -181,12 +190,9 @@ with col_sources:
                 with st.expander(f"Trecho {i} — {label}", expanded=(i == 1)):
                     st.markdown(doc.page_content)
 
-        # History navigation
         if len(st.session_state.sources_history) > 1:
             st.divider()
             st.caption("Histórico de fontes:")
-            # Show a selectbox to browse sources from previous turns
-            # We pair each sources entry with the corresponding user message
             user_messages = [
                 msg["content"]
                 for msg in st.session_state.messages
