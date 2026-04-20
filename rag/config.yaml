@@ -4,7 +4,7 @@ experiment:
 
 embeddings:
   type: "local" # Options: "local", "api"
-  model_name: "jinaai/jina-embeddings-v5-text-nano" # Quick default
+  model_name: "google/embeddinggemma-300m" # Quick default
   # For OpenRouter or OpenAI compatible API
   api_base: ""
   api_key: ""

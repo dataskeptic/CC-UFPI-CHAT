@@ -1,27 +1,33 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from config import config
 
+# Load .env from project root (one level up from rag/)
+load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env", override=False)
+
 def get_embeddings():
+    hf_token = os.environ.get("HF_TOKEN")
+    if not hf_token:
+        raise EnvironmentError("HF_TOKEN not found. Add it to your .env file or export it in the shell.")
+
     if config.embeddings.type == "local":
         print(f"[*] Loading local HuggingFace model: {config.embeddings.model_name}")
         return HuggingFaceEmbeddings(
             model_name=config.embeddings.model_name,
             model_kwargs={
                 'device': 'cpu',
-                'trust_remote_code': True,  # Required for models with custom code (e.g. Jina)
+                'token': hf_token,
             },
-            encode_kwargs={
-                'normalize_embeddings': True,
-                'task': 'retrieval',  # Jina v5 requires task at encode time
-            }
+            encode_kwargs={'normalize_embeddings': True}
         )
     else:
         raise NotImplementedError("API embeddings not implemented yet")
+
 
 def ingest_documents():
     docs_dir = Path(config.experiment.documents_dir)
@@ -79,6 +85,7 @@ def ingest_documents():
         persist_directory=db_path
     )
     print("[*] Ingestion complete!")
+
 
 if __name__ == "__main__":
     ingest_documents()
