@@ -4,12 +4,12 @@ experiment:
 
 embeddings:
   type: "local" # Options: "local", "api"
-  model_name: "sentence-transformers/all-MiniLM-L6-v2" # Quick default
+  model_name: "microsoft/harrier-oss-v1-270m" # Quick default
   # For OpenRouter or OpenAI compatible API
   api_base: ""
   api_key: ""
   
 llm:
   provider: "openrouter"
-  model: "google/gemini-1.5-pro"
-  temperature: 0.0
+  model: "nvidia/nemotron-3-nano-30b-a3b:free"
+  temperature: 0.3
