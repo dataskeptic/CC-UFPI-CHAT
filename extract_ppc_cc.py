@@ -20,7 +20,7 @@ from datetime import datetime
 
 # ── Configuração ───────────────────────────────────────────────────────────────
 INPUT_PDF  = Path("docs_sigaa_cc/Projeto Pedagógico do Curso (Currículo 5 - Criado em 2019).pdf")
-OUTPUT_DIR = Path("extract_docs/extracted_ppc_cc")
+OUTPUT_DIR = Path("extracted_docs/extracted_ppc_cc")
 
 # ── Padrões de ruído específicos do PPC UFPI ──────────────────────────────────
 NOISE_PATTERNS = [

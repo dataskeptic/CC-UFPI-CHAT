@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime
 
 INPUT_PDF = Path("documentos_sigaa/Fluxograma Curricular do Curso (Currículo 5 - Criado em 2019).pdf")
-OUTPUT_DIR = Path("extracted_fluxograma")
+OUTPUT_DIR = Path("extracted_docs/extracted_fluxograma")
 
 def parse_blocks(blocks):
     disciplines = {}

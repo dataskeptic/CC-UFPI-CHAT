@@ -6,6 +6,6 @@
 /rag/__pycache__
 /rag/chroma_db_md
 /rag/chroma_db_txt
-extract_docs/
+extracted_docs/
 .venv-docling
 .venv
