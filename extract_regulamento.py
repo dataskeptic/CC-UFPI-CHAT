@@ -17,7 +17,7 @@ from datetime import datetime
 
 # ── Configuração ───────────────────────────────────────────────────────────────
 INPUT_PDF  = Path("docs_sigaa_cc/Regulamento Geral da Graduação (Atualizado em 03 - 05 - 2023)")
-OUTPUT_DIR = Path("extracted_regulamento/extract_docs")
+OUTPUT_DIR = Path("extracted_docs/extracted_regulamento/")
 
 # ── Padrões de ruído ──────────────────────────────────────────────────────────
 NOISE_PATTERNS = [
