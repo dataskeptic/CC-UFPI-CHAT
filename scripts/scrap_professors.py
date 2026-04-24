@@ -16,7 +16,8 @@ OUTPUT_TXT.mkdir(exist_ok=True)
 
 def slugify(name: str) -> str:
     name = name.lower().strip()
-    for src, dst in [("áàãâä","a"),("éèêë","e"),("íìîï","i"),("óòõôö","o"),("úùûü","u"),("ç","c")]:
+    for src, dst in [("áàãâä", "a"), ("éèêë", "e"), ("íìîï", "i"),
+                     ("óòõôö", "o"), ("úùûü", "u"), ("ç", "c")]:
         for ch in src:
             name = name.replace(ch, dst)
     name = re.sub(r"[^a-z0-9]+", "_", name)
@@ -30,13 +31,10 @@ def clean(text: str) -> str:
 # ── Step 1: collect professor list ────────────────────────────────────────────
 
 def collect_professors(page) -> list:
-    """Return list of {name, siape, profile_url, disciplines_url} dicts."""
     print(f"[INFO] Acessando lista: {DEPT_URL}")
     page.goto(DEPT_URL, wait_until="networkidle", timeout=30000)
 
     professors = []
-
-    # Each professor row has <span class="pagina"><a href="/sigaa/public/docente/portal.jsf?siape=XXXXX">
     spans = page.locator("span.pagina")
     for i in range(spans.count()):
         link = spans.nth(i).locator("a")
@@ -46,24 +44,21 @@ def collect_professors(page) -> list:
         if not href:
             continue
 
-        # Name is in span.nome in the same row
-        # Walk up to <tr> then grab span.nome
         row = spans.nth(i).locator("xpath=ancestor::tr[1]")
         name_span = row.locator("span.nome")
         if name_span.count() == 0:
             continue
         raw_name = clean(name_span.first.inner_text())
-        # Strip degree suffix like "(DOUTOR)", "(MESTRE)"
         name = re.sub(r"\s*\(.*?\)\s*$", "", raw_name).strip()
-
         if not name:
             continue
 
         profile_url = (BASE_URL + href) if href.startswith("/") else href
-        # Disciplines URL follows predictable pattern
         siape_match = re.search(r"siape=(\d+)", href)
         siape = siape_match.group(1) if siape_match else ""
-        disciplines_url = f"{BASE_URL}/sigaa/public/docente/disciplinas.jsf?siape={siape}" if siape else ""
+        disciplines_url = (
+            f"{BASE_URL}/sigaa/public/docente/disciplinas.jsf?siape={siape}" if siape else ""
+        )
 
         professors.append({
             "name": name,
@@ -91,56 +86,69 @@ def scrape_profile(page, prof: dict) -> dict:
         "disciplinas": [],
     }
 
-    # ── Profile page ────────────────────────────────────────────────────────────
     page.goto(prof["profile_url"], wait_until="networkidle", timeout=30000)
 
-    # The profile uses <dl><dt>label</dt><dd>value</dd></dl> inside #perfil-docente
-    # and a similar structure inside #contatos-docente
+    # Profile: dl/dt/dd inside #perfil-docente
+    # Contacts: dl/dt/dd inside #contato  (singular, confirmed from live HTML)
     try:
-        dls = page.locator("#perfil-docente dl, #contatos-docente dl")
+        dls = page.locator("#perfil-docente dl, #contato dl")
         for i in range(dls.count()):
             dl = dls.nth(i)
-            dt = clean(dl.locator("dt").first.inner_text()) if dl.locator("dt").count() else ""
-            dd = dl.locator("dd")
-            if dd.count() == 0:
+            dt_loc = dl.locator("dt")
+            dd_loc = dl.locator("dd")
+            if dt_loc.count() == 0 or dd_loc.count() == 0:
                 continue
-            value = clean(dd.first.inner_text())
 
-            if "Descri" in dt and "pessoal" in dt.lower():
+            dt = clean(dt_loc.first.inner_text())
+            # dd may contain <i>não informado</i> — still read the text
+            value = clean(dd_loc.first.inner_text())
+            # treat "não informado" as empty
+            if value.lower() in ("não informado", "nao informado"):
+                value = ""
+
+            dt_lower = dt.lower()
+
+            if "descri" in dt_lower and "pessoal" in dt_lower:
                 data["descricao"] = value
-            elif "Forma" in dt and ("acad" in dt.lower() or "profissional" in dt.lower()):
+
+            elif "forma" in dt_lower and ("acad" in dt_lower or "profissional" in dt_lower):
                 data["formacao_profissional"] = value
-            elif "reas de Interesse" in dt or "reas de interesse" in dt.lower():
+
+            elif "reas de interesse" in dt_lower:
                 data["areas_interesse"] = value
-            elif "Lattes" in dt:
-                # value may be empty; grab from <a href>
+
+            elif "lattes" in dt_lower:
                 a = dl.locator("a")
                 if a.count() > 0:
                     data["lattes"] = clean(a.first.get_attribute("href") or value)
                 else:
                     data["lattes"] = value
-            elif "Endere" in dt and "profissional" in dt.lower():
+
+            elif "endere" in dt_lower and "profissional" in dt_lower:
                 data["endereco"] = value
-            elif dt.lower() == "sala":
+
+            elif dt_lower.strip() == "sala":
                 data["sala"] = value
-            elif "Telefone" in dt or "Ramal" in dt:
+
+            elif "telefone" in dt_lower or "ramal" in dt_lower:
                 data["telefone"] = value
-            elif "eletr" in dt.lower() or "e-mail" in dt.lower() or "Email" in dt:
-                # prefer mailto: href
+
+            # "Endereço eletrônico" — the email field
+            elif "eletr" in dt_lower:
                 a = dl.locator("a")
                 if a.count() > 0:
                     href = clean(a.first.get_attribute("href") or "")
                     data["email"] = href.replace("mailto:", "").strip() or value
                 else:
                     data["email"] = value
-    except Exception as e:
-        print(f"      [WARN] perfil: {e}")
 
-    # ── Disciplines page ────────────────────────────────────────────────────────
+    except Exception as e:
+        print(f"      [WARN] perfil/contato: {e}")
+
+    # Disciplines page
     if prof["disciplines_url"]:
         try:
             page.goto(prof["disciplines_url"], wait_until="networkidle", timeout=30000)
-            # Graduation content is in div#turmas-graduacao — already in DOM, no tab click needed
             data["disciplinas"] = parse_graduation_table(page)
         except Exception as e:
             print(f"      [WARN] disciplinas: {e}")
@@ -163,37 +171,35 @@ def parse_graduation_table(page) -> list:
         for i in range(rows.count()):
             row = rows.nth(i)
 
-            # Semester header: <td class="anoPeriodo">
+            # Semester header
             periodo = row.locator("td.anoPeriodo")
             if periodo.count() > 0:
                 current_semester = clean(periodo.first.inner_text())
                 continue
 
-            # Spacer rows — skip
-            spacer = row.locator("td.spacer")
-            if spacer.count() > 0:
+            # Spacer rows
+            if row.locator("td.spacer").count() > 0:
                 continue
 
-            # Discipline row: td.codigo | td (name) | td.ch | td.horario
+            # Discipline row
             codigo_td = row.locator("td.codigo")
             if codigo_td.count() == 0:
                 continue
 
             code = clean(codigo_td.first.inner_text())
-
-            # Name cell is the <td> immediately after td.codigo (no special class)
-            all_tds = row.locator("td")
             name = ""
             ch = ""
             horario = ""
+
+            all_tds = row.locator("td")
             for j in range(all_tds.count()):
-                cls = all_tds.nth(j).get_attribute("class") or ""
+                cls = (all_tds.nth(j).get_attribute("class") or "").strip()
                 val = clean(all_tds.nth(j).inner_text())
                 if cls == "":
                     name = val
-                elif "ch" in cls:
+                elif cls == "ch":
                     ch = val
-                elif "horario" in cls:
+                elif cls == "horario":
                     horario = val
 
             if code and name and current_semester:
@@ -246,16 +252,17 @@ def format_txt(name: str, prof: dict, data: dict) -> str:
         for d in data["disciplinas"]:
             if d["semester"] != current_sem:
                 current_sem = d["semester"]
-                lines.append(f"")
+                lines.append("")
                 lines.append(f"  Semestre: {current_sem}")
                 lines.append(f"  {'Código':<14} {'Disciplina':<50} {'C.H.':<8} Horário")
                 lines.append(f"  {'-'*14} {'-'*50} {'-'*8} {'-'*16}")
-            lines.append(f"  {d['code']:<14} {d['name']:<50} {d['workload']:<8} {d['schedule']}")
+            lines.append(
+                f"  {d['code']:<14} {d['name']:<50} {d['workload']:<8} {d['schedule']}"
+            )
     else:
         lines.append("Nenhuma disciplina de graduação encontrada.")
 
-    lines.append("")
-    lines.append(sep)
+    lines += ["", sep]
     return "\n".join(lines)
 
 
@@ -301,10 +308,11 @@ def format_md(name: str, prof: dict, data: dict) -> str:
                 lines.append("")
                 lines.append("| Código | Disciplina | Carga Horária | Horário |")
                 lines.append("|--------|------------|---------------|---------|")
-            lines.append(f"| {d['code']} | {d['name']} | {d['workload']} | {d['schedule']} |")
+            lines.append(
+                f"| {d['code']} | {d['name']} | {d['workload']} | {d['schedule']} |"
+            )
     else:
-        lines.append("")
-        lines.append("_Nenhuma disciplina de graduação encontrada._")
+        lines += ["", "_Nenhuma disciplina de graduação encontrada._"]
 
     return "\n".join(lines)
 
@@ -337,7 +345,9 @@ def write_index_md(entries: list):
     for e in entries:
         name_link = f"[{e['name']}](md/{e['slug']}.md)"
         lattes = f"[link]({e['lattes']})" if e["lattes"] not in ("", "—") else "—"
-        lines.append(f"| {name_link} | {e['email'] or '—'} | {lattes} | {e['disciplines_count']} |")
+        lines.append(
+            f"| {name_link} | {e['email'] or '—'} | {lattes} | {e['disciplines_count']} |"
+        )
     (OUTPUT_ROOT / "index.md").write_text("\n".join(lines), encoding="utf-8")
     print("[OK] index.md")
 
@@ -374,7 +384,10 @@ def main():
                     "slug": slug,
                     "disciplines_count": len(data["disciplinas"]),
                 })
-                print(f"   [OK] {slug}.txt / {slug}.md  ({len(data['disciplinas'])} disciplinas)")
+                print(
+                    f"   [OK] {slug}.txt / {slug}.md"
+                    f"  ({len(data['disciplinas'])} disciplinas)"
+                )
 
             except Exception as e:
                 print(f"   [ERRO] {name}: {e}")
