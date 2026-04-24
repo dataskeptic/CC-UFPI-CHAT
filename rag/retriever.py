@@ -1,4 +1,10 @@
+import sys
 from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from langchain_chroma import Chroma
 from rag.ingest import get_embeddings
 from config.settings import config
@@ -6,13 +12,15 @@ from config.settings import config
 
 def get_retriever():
     embeddings = get_embeddings()
-    format = config.experiment.format
-    db_path = str(Path(__file__).parent / f"chroma_db_{format}")
+    fmt = config.experiment.format
+
+    # Must match the path used in ingest.py
+    db_path = str(PROJECT_ROOT / f"chroma_db_{fmt}")
 
     print(f"[*] Loading ChromaDB from {db_path}...")
     vectorstore = Chroma(
         persist_directory=db_path,
-        embedding_function=embeddings
+        embedding_function=embeddings,
     )
 
     return vectorstore.as_retriever(search_kwargs={"k": 4})
