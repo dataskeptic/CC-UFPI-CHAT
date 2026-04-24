@@ -15,17 +15,17 @@ from pathlib import Path
 # Variables already set in the environment take priority (override=False).
 try:
     from dotenv import load_dotenv
-    load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=True)
+    load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env", override=True)
 except ImportError:
     pass  # python-dotenv not installed; rely on shell environment
 
-# ── Make rag/ importable when running from repo root ──────────────────────────
-RAG_DIR = os.path.join(os.path.dirname(__file__), "rag")
-if RAG_DIR not in sys.path:
-    sys.path.insert(0, RAG_DIR)
+# ── Make project root importable when running from app/ ───────────────────────
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
 import streamlit as st
-from pipeline import ask
+from rag.pipeline import ask
 
 # ── Page config ───────────────────────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 experiment:
-  format: "md" # Options: "md", "txt"
-  documents_dir: "../extract_docs" # Default base dir
+  format: "txt" # Options: "md", "txt"
+  documents_dir: "extracted_docs" # Default base dir
 
 embeddings:
   type: "local" # Options: "local", "api"

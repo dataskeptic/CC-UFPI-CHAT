@@ -1,11 +1,15 @@
 import os
+import sys
 from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 from dotenv import load_dotenv
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
-from config import config
+from config.settings import config
 
 # Load .env from project root (one level up from rag/)
 load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env", override=False)
@@ -30,7 +34,7 @@ def get_embeddings():
 
 
 def ingest_documents():
-    docs_dir = Path(config.experiment.documents_dir)
+    docs_dir = PROJECT_ROOT / config.experiment.documents_dir
     format = config.experiment.format
 
     print(f"[*] Starting ingestion for format: .{format}")

@@ -3,7 +3,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 PAGE_URL = "https://sigaa.ufpi.br/sigaa/public/curso/documentos.jsf?lc=pt_BR&id=74268"
-OUTPUT_DIR = Path("docs_sigaa_cc")
+PROJECT_ROOT = Path(__file__).parent.parent
+OUTPUT_DIR = PROJECT_ROOT / "docs_sigaa_cc"
 
 def sanitize_filename(name: str) -> str:
     name = name.strip()

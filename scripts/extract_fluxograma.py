@@ -8,8 +8,9 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-INPUT_PDF = Path("documentos_sigaa/Fluxograma Curricular do Curso (Currículo 5 - Criado em 2019).pdf")
-OUTPUT_DIR = Path("extracted_docs/extracted_fluxograma")
+PROJECT_ROOT = Path(__file__).parent.parent
+INPUT_PDF = PROJECT_ROOT / "docs_sigaa_cc/Fluxograma Curricular do Curso (Currículo 5 - Criado em 2019).pdf"
+OUTPUT_DIR = PROJECT_ROOT / "extracted_docs/extracted_fluxograma"
 
 def parse_blocks(blocks):
     disciplines = {}

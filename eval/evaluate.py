@@ -8,8 +8,14 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
-from retriever import get_retriever
-from config import config
+import sys
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from rag.retriever import get_retriever
+from config.settings import config
 
 def get_llm():
     if config.llm.provider == "openrouter":
@@ -46,7 +52,8 @@ Resposta:"""
 
 def run_evaluation():
     print("[*] Loading eval dataset...")
-    with open("eval_dataset.json", "r", encoding="utf-8") as f:
+    dataset_path = Path(__file__).parent / "eval_dataset.json"
+    with open(dataset_path, "r", encoding="utf-8") as f:
         data = json.load(f)
         
     retriever = get_retriever()

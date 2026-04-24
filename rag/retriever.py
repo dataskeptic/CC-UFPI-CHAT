@@ -1,7 +1,7 @@
 from pathlib import Path
 from langchain_chroma import Chroma
-from ingest import get_embeddings
-from config import config
+from rag.ingest import get_embeddings
+from config.settings import config
 
 
 def get_retriever():

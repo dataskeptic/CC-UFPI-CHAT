@@ -8,15 +8,20 @@ Provides:
 - ask()             : single-call helper that returns answer + source docs
 """
 
+import sys
 import os
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.documents import Document
 
-from retriever import get_retriever
-from config import config
+from rag.retriever import get_retriever
+from config.settings import config
 
 
 # ── Prompt ────────────────────────────────────────────────────────────────────
