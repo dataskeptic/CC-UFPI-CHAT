@@ -13,6 +13,8 @@ OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 OUTPUT_MD.mkdir(exist_ok=True)
 OUTPUT_TXT.mkdir(exist_ok=True)
 
+MAX_SEMESTERS = 4
+
 
 def slugify(name: str) -> str:
     name = name.lower().strip()
@@ -26,6 +28,16 @@ def slugify(name: str) -> str:
 
 def clean(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def keep_recent_semesters(disciplines: list, max_semesters: int = MAX_SEMESTERS) -> list:
+    """Keep only disciplines from the N most recent semesters."""
+    seen = []
+    for d in disciplines:
+        if d["semester"] not in seen:
+            seen.append(d["semester"])
+    recent = seen[:max_semesters]
+    return [d for d in disciplines if d["semester"] in recent]
 
 
 # ── Step 1: collect professor list ────────────────────────────────────────────
@@ -100,9 +112,7 @@ def scrape_profile(page, prof: dict) -> dict:
                 continue
 
             dt = clean(dt_loc.first.inner_text())
-            # dd may contain <i>não informado</i> — still read the text
             value = clean(dd_loc.first.inner_text())
-            # treat "não informado" as empty
             if value.lower() in ("não informado", "nao informado"):
                 value = ""
 
@@ -133,7 +143,6 @@ def scrape_profile(page, prof: dict) -> dict:
             elif "telefone" in dt_lower or "ramal" in dt_lower:
                 data["telefone"] = value
 
-            # "Endereço eletrônico" — the email field
             elif "eletr" in dt_lower:
                 a = dl.locator("a")
                 if a.count() > 0:
@@ -145,11 +154,12 @@ def scrape_profile(page, prof: dict) -> dict:
     except Exception as e:
         print(f"      [WARN] perfil/contato: {e}")
 
-    # Disciplines page
+    # Disciplines page — only last MAX_SEMESTERS semesters
     if prof["disciplines_url"]:
         try:
             page.goto(prof["disciplines_url"], wait_until="networkidle", timeout=30000)
-            data["disciplinas"] = parse_graduation_table(page)
+            all_disciplines = parse_graduation_table(page)
+            data["disciplinas"] = keep_recent_semesters(all_disciplines)
         except Exception as e:
             print(f"      [WARN] disciplinas: {e}")
 
@@ -244,7 +254,7 @@ def format_txt(name: str, prof: dict, data: dict) -> str:
         f"Telefone/Ramal: {data['telefone'] or 'Não informado'}",
         f"E-mail        : {data['email'] or 'Não informado'}",
         "",
-        "--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO) ---",
+        f"--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS {MAX_SEMESTERS} SEMESTRES) ---",
     ]
 
     if data["disciplinas"]:
@@ -295,7 +305,7 @@ def format_md(name: str, prof: dict, data: dict) -> str:
         f"- **Telefone/Ramal:** {data['telefone'] or 'Não informado'}",
         f"- **E-mail:** {data['email'] or 'Não informado'}",
         "",
-        "## Disciplinas Ministradas (Graduação)",
+        f"## Disciplinas Ministradas (Graduação — Últimos {MAX_SEMESTERS} Semestres)",
     ]
 
     if data["disciplinas"]:
@@ -340,7 +350,7 @@ def write_index_md(entries: list):
         "# Índice de Professores — Ciência da Computação / UFPI",
         "",
         "| Professor | E-mail | Lattes | Disciplinas (grad.) |",
-        "|-----------|--------|--------|---------------------|" ,
+        "|-----------|--------|--------|---------------------|",
     ]
     for e in entries:
         name_link = f"[{e['name']}](md/{e['slug']}.md)"
