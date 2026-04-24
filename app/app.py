@@ -3,23 +3,19 @@
 app.py — Streamlit chat interface for CC-UFPI-CHAT.
 
 Run from the repo root:
-    PYTHONPATH=rag streamlit run app.py
+    streamlit run app/app.py
 """
 
 import sys
 import os
 from pathlib import Path
 
-# ── Load .env before anything else ────────────────────────────────────────────
-# Looks for .env in the project root (same folder as this file).
-# Variables already set in the environment take priority (override=False).
 try:
     from dotenv import load_dotenv
     load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env", override=True)
 except ImportError:
-    pass  # python-dotenv not installed; rely on shell environment
+    pass
 
-# ── Make project root importable when running from app/ ───────────────────────
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
@@ -33,188 +29,114 @@ st.set_page_config(
     page_title="CC-UFPI Chat",
     page_icon="🎓",
     layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
-# ── Custom CSS ────────────────────────────────────────────────────────────────
+# ── Minimal CSS — only what Streamlit can't do natively ───────────────────────
 
-st.markdown("""
-<style>
-.source-card {
-    background: #f8f9fa;
-    border-left: 4px solid #0068c9;
-    border-radius: 6px;
-    padding: 10px 14px;
-    margin-bottom: 8px;
-    font-size: 0.85rem;
+st.markdown("""<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html, body, [class*="css"] { font-family: 'Inter', sans-serif !important; }
+
+/* hide chrome */
+#MainMenu, header, footer, [data-testid="collapsedControl"] { display: none !important; }
+
+/* widen the content area */
+.block-container { max-width: 860px !important; padding: 1rem 2rem !important; }
+
+/* header block */
+.hero { text-align:center; padding:2.5rem 0 1.2rem; }
+.hero h1 { font-size:2rem; font-weight:700; margin:0; }
+.hero h1 em { font-style:normal; background:linear-gradient(135deg,#7C6AFF,#B196FF);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.hero p { color:#8B949E; font-size:.88rem; margin:.5rem 0 0; }
+.pills { display:flex; justify-content:center; gap:.45rem; margin-top:.9rem; flex-wrap:wrap; }
+.pill { font-size:.72rem; font-weight:500; padding:.3rem .7rem; border-radius:999px;
+  border:1px solid rgba(124,106,255,.3); color:#B196FF; background:rgba(124,106,255,.06); }
+
+/* chat bubbles */
+[data-testid="stChatMessage"] {
+  border-radius:12px !important; border:1px solid #21262D !important;
+  margin-bottom:.6rem !important;
 }
-.source-label {
-    font-weight: 600;
-    color: #0068c9;
-    margin-bottom: 4px;
-}
-.source-snippet {
-    color: #444;
-    line-height: 1.5;
-}
-</style>
-""", unsafe_allow_html=True)
+</style>""", unsafe_allow_html=True)
 
-# ── Sidebar ───────────────────────────────────────────────────────────────────
+# ── Header ────────────────────────────────────────────────────────────────────
 
-with st.sidebar:
-    st.image("https://www.ufpi.br/images/logo_ufpi.png", width=160)
-    st.title("CC-UFPI Chat")
-    st.markdown(
-        "Assistente acadêmico do curso de **Ciência da Computação — UFPI**.\n\n"
-        "Faça perguntas sobre:\n"
-        "- 📘 Projeto Pedagógico do Curso (PPC)\n"
-        "- 📋 Regulamento de Graduação\n"
-        "- 🗺️ Fluxograma Curricular"
-    )
-    st.divider()
+st.markdown("""<div class="hero">
+  <h1><em>CC-UFPI</em> Chat</h1>
+  <p>Converse com os documentos oficiais do curso de Ciência da Computação</p>
+  <div class="pills">
+    <span class="pill">PPC</span>
+    <span class="pill">Regulamento</span>
+    <span class="pill">Fluxograma</span>
+  </div>
+</div>""", unsafe_allow_html=True)
 
-    # If key is already loaded from .env, show a success indicator.
-    # Otherwise show the manual input as fallback.
-    if os.environ.get("OPENROUTER_API_KEY"):
-        st.success("🔑 API Key carregada do ambiente.", icon="✅")
-        # Still allow override via input if user wants to swap keys
-        api_key_override = st.text_input(
-            "Substituir API Key (opcional)",
-            type="password",
-            placeholder="sk-or-...",
-            help="Deixe em branco para usar a chave do arquivo .env.",
-        )
-        if api_key_override:
-            os.environ["OPENROUTER_API_KEY"] = api_key_override
-    else:
-        st.warning("⚠️ Nenhuma API Key encontrada no ambiente.")
-        api_key_input = st.text_input(
-            "🔑 OpenRouter API Key",
-            type="password",
-            placeholder="sk-or-...",
-            help="Ou adicione OPENROUTER_API_KEY ao arquivo .env na raiz do projeto.",
-        )
-        if api_key_input:
-            os.environ["OPENROUTER_API_KEY"] = api_key_input
-
-    st.divider()
-    if st.button("🗑️ Limpar conversa"):
-        st.session_state.messages = []
-        st.session_state.sources_history = []
-        st.rerun()
-
-    st.caption("CC-UFPI-CHAT · Monografia UFPI")
+st.divider()
 
 # ── Session state ─────────────────────────────────────────────────────────────
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
-
 if "sources_history" not in st.session_state:
     st.session_state.sources_history = []
 
-# ── Main layout: chat (left) + sources (right) ────────────────────────────────
+# ── Render chat history (messages + inline sources) ───────────────────────────
 
-col_chat, col_sources = st.columns([2, 1])
+for idx, msg in enumerate(st.session_state.messages):
+    with st.chat_message(msg["role"]):
+        st.markdown(msg["content"])
 
-with col_chat:
-    st.subheader("💬 Conversa")
+    # After each assistant message, show its sources inline
+    if msg["role"] == "assistant":
+        # Figure out which sources_history index this corresponds to
+        assistant_idx = sum(
+            1 for m in st.session_state.messages[:idx + 1] if m["role"] == "assistant"
+        ) - 1
+        if assistant_idx < len(st.session_state.sources_history):
+            sources = st.session_state.sources_history[assistant_idx]
+            if sources:
+                with st.expander(f"Fontes consultadas  —  {len(sources)} trechos"):
+                    for i, doc in enumerate(sources, 1):
+                        src = doc.metadata.get("source", "—")
+                        sec = doc.metadata.get("Section", "")
+                        label = src + (f" / {sec}" if sec else "")
+                        st.caption(f"**[{i}]** {label}")
+                        st.markdown(doc.page_content)
+                        if i < len(sources):
+                            st.divider()
 
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+# ── Chat input ────────────────────────────────────────────────────────────────
 
-    user_input = st.chat_input("Faça uma pergunta sobre o curso...")
+if prompt := st.chat_input("Pergunte sobre o curso..."):
+    if not os.environ.get("OPENROUTER_API_KEY"):
+        st.error("OPENROUTER_API_KEY não encontrada. Adicione ao arquivo .env.")
+        st.stop()
 
-    if user_input:
-        if not os.environ.get("OPENROUTER_API_KEY"):
-            st.warning("⚠️ Insira sua chave de API do OpenRouter na barra lateral ou adicione-a ao arquivo .env.")
-            st.stop()
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
 
-        st.session_state.messages.append({"role": "user", "content": user_input})
-        with st.chat_message("user"):
-            st.markdown(user_input)
+    with st.chat_message("assistant"):
+        with st.spinner("Consultando documentos..."):
+            try:
+                result = ask(prompt)
+                answer, sources = result["answer"], result["sources"]
+            except Exception as e:
+                answer, sources = f"Erro: {e}", []
+        st.markdown(answer)
 
-        with st.chat_message("assistant"):
-            with st.spinner("Buscando nos documentos..."):
-                try:
-                    result = ask(user_input)
-                    answer = result["answer"]
-                    sources = result["sources"]
-                except EnvironmentError as e:
-                    answer = f"❌ Erro de configuração: {e}"
-                    sources = []
-                except Exception as e:
-                    answer = f"❌ Erro ao processar a pergunta: {e}"
-                    sources = []
+    st.session_state.messages.append({"role": "assistant", "content": answer})
+    st.session_state.sources_history.append(sources)
+    st.rerun()
 
-            st.markdown(answer)
+# ── Clear button (only when there's history) ──────────────────────────────────
 
-        st.session_state.messages.append({"role": "assistant", "content": answer})
-        st.session_state.sources_history.append(sources)
-
-        st.rerun()
-
-# ── Sources panel ─────────────────────────────────────────────────────────────
-
-with col_sources:
-    st.subheader("📄 Documentos Recuperados")
-
-    if not st.session_state.sources_history:
-        st.info("Os trechos dos documentos usados para gerar cada resposta aparecerão aqui.")
-    else:
-        latest_sources = st.session_state.sources_history[-1]
-
-        if not latest_sources:
-            st.warning("Nenhum documento foi recuperado para a última pergunta.")
-        else:
-            st.caption(f"**{len(latest_sources)} trechos** usados na última resposta:")
-
-            for i, doc in enumerate(latest_sources, 1):
-                source_file = doc.metadata.get("source", "desconhecido")
-                section = doc.metadata.get("Section", "")
-
-                if "fluxograma" in source_file.lower():
-                    icon = "🗺️"
-                elif "ppc" in source_file.lower():
-                    icon = "📘"
-                elif "regulamento" in source_file.lower():
-                    icon = "📋"
-                else:
-                    icon = "📄"
-
-                label = f"{icon} {source_file}"
-                if section:
-                    label += f" › {section}"
-
-                with st.expander(f"Trecho {i} — {label}", expanded=(i == 1)):
-                    st.markdown(doc.page_content)
-
-        if len(st.session_state.sources_history) > 1:
-            st.divider()
-            st.caption("Histórico de fontes:")
-            user_messages = [
-                msg["content"]
-                for msg in st.session_state.messages
-                if msg["role"] == "user"
-            ]
-            options = [
-                f"Pergunta {i+1}: {q[:50]}..."
-                if len(q) > 50 else f"Pergunta {i+1}: {q}"
-                for i, q in enumerate(user_messages)
-            ]
-            if options:
-                selected_idx = st.selectbox(
-                    "Ver fontes de:",
-                    range(len(options)),
-                    format_func=lambda i: options[i],
-                    index=len(options) - 1,
-                )
-                selected_sources = st.session_state.sources_history[selected_idx]
-                if selected_idx != len(options) - 1:
-                    st.caption(f"**{len(selected_sources)} trechos** para a pergunta selecionada:")
-                    for i, doc in enumerate(selected_sources, 1):
-                        source_file = doc.metadata.get("source", "desconhecido")
-                        section = doc.metadata.get("Section", "")
-                        with st.expander(f"Trecho {i} — {source_file}", expanded=False):
-                            st.markdown(doc.page_content)
+if st.session_state.messages:
+    _, mid, _ = st.columns([2, 1, 2])
+    with mid:
+        if st.button("Limpar conversa", use_container_width=True):
+            st.session_state.messages = []
+            st.session_state.sources_history = []
+            st.rerun()
