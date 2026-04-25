@@ -1,0 +1,81 @@
+============================================================
+PROFESSOR: CARLOS ANDRE BATISTA DE CARVALHO
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=2547255
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+Não informado
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Não informado
+
+--- ÁREAS DE INTERESSE ---
+Não informado
+
+--- CURRÍCULO LATTES ---
+Não informado
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: 3215-5837
+E-mail        : candrebc@ufpi.edu.br
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  CSI036         ESTAGIO I                                          75h      -
+  CSI036         ESTAGIO I                                          75h      -
+  CSI036         ESTAGIO I                                          75h      -
+  CSI036         ESTAGIO I                                          75h      -
+  CSI036         ESTAGIO I                                          75h      -
+  CSI036         ESTAGIO I                                          75h      -
+  DC/CCN036      PROJETO E ANÁLISE DE ALGORITMOS                    60h      35M34
+  DC/CCN040      SEGURANÇA EM SISTEMAS                              60h      24T34
+  DC/CCN030      TEORIA DA COMPUTAÇÃO                               60h      24M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN036      PROJETO E ANÁLISE DE ALGORITMOS                    60h      35M34
+  DC/CCN040      SEGURANÇA EM SISTEMAS                              60h      24T34
+  CSI035         SISTEMAS DISTRIBUIDOS                              75h      -
+  CSI035         SISTEMAS DISTRIBUIDOS                              75h      -
+  CSI035         SISTEMAS DISTRIBUIDOS                              75h      -
+  CSI035         SISTEMAS DISTRIBUIDOS                              75h      -
+  CSI035         SISTEMAS DISTRIBUIDOS                              75h      -
+  DC/CCN030      TEORIA DA COMPUTAÇÃO                               60h      24M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN036      PROJETO E ANÁLISE DE ALGORITMOS                    60h      35M34
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  CSI025         REDES DE COMPUTADORES                              75h      -
+  DC/CCN040      SEGURANÇA EM SISTEMAS                              60h      24T34
+  DC/CCN030      TEORIA DA COMPUTAÇÃO                               60h      24M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  CSI021         PROJETO E ANALISE DE ALGORITMOS                    75h      -
+  DC/CCN040      SEGURANÇA EM SISTEMAS                              60h      35T34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+============================================================

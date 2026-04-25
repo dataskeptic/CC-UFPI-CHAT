@@ -1,0 +1,1988 @@
+---
+title: "Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação"
+curriculum: "Currículo 5 - Criado em 2019"
+institution: "Universidade Federal do Piauí (UFPI)"
+extracted_at: "2026-04-23T20:24:24"
+extractor: "docling+tableformer-accurate"
+---
+
+<!-- image -->
+## PROJETO PEDAGÓGICO DO CURSO DE BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
+<!-- image -->
+## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL DO PIAUÍ CAMPUS MINISTRO PETRÔNIO PORTELA CENTRO DE CIÊNCIAS DA NATUREZA BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
+Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação, da Universidade Federal do Piauí - Campus Ministro Petrônio Portela, no município de Teresina, Piauí, a ser implementado em 2019.2.
+ CORPO DIRIGENTE
+### DIRETOR
+Prof. Dr. Edmilson Miranda de Moura
+### VICE-DIRETOR
+Prof. Dr. Jefferson Cruz dos Santos Leite
+### COORDENADOR DO CURSO
+Prof. Dr. Kelson Rômulo Teixeira Aires
+### SUBCOORDENADOR DO CURSO
+Prof. Dr. Erico Meneses Leão
+### COMPOSIÇÃO DO COLEGIADO DO CURSO
+Prof. Dr. Kelson Rômulo Teixeira Aires (Presidente) Prof. Dr. Erico Meneses Leão (Vice-Presidente) Prof. Dr. Raimundo Santos Moura (Membro) Prof. Dr. André Castelo Branco Soares (Membro) Profa. Dra. Franciane de Brito Vieira (Departamento de Matemática) Felipe Barros Caminha (Representante Discente)
+### COMPOSIÇÃO DO NÚCLEO DOCENTE ESTRUTURANTE DO CURSO
+Prof. Dr. Kelson Rômulo Teixeira Aires (Presidente)
+Prof. Dr. Erico Meneses Leão
+Prof. Dr. Raimundo Santos Moura
+Prof. Dr. André Castelo Branco Soares
+Prof. Dr. Rodrigo de Melo Souza Veras
+### IDENTIFICAÇÃO DA MANTENEDORA
+MANTENEDORA: FUFPI RAZÃO SOCIAL: Universidade Federal do Piauí SIGLA: UFPI NATUREZA JURÍDICA: Pública CNPJ: 06.517.387/0001-34 ENDEREÇO: Campus Universitário Ministro Petrônio Portella, Ininga s/n, 64049-550 CIDADE: Teresina TELEFONE: (86) 3215-5511 E-MAIL: scs@ufpi.edu.br
+PÁGINA ELETRÔNICA:
+www.ufpi.br
+### IDENTIFICAÇÃO DO CURSO
+DENOMINAÇÃO DO CURSO:
+Bacharelado em Ciência da Computação
+CRIAÇÃO DO CURSO:
+Portaria MEC Nº 675/1998 do Conselho Federal de
+Educação, de 08/07/1998
+RECONHECIMENTO DO CURSO: Portaria MEC Nº 283/2011 do Conselho Federal de Educação, de 22/07/2011
+TÍTULO ACADÊMICO:
+Bacharel em Ciência da Computação
+MODALIDADE:
+Ensino Presencial
+## DURAÇÃO DO CURSO:
+Mínimo: 04 (quatro) anos (08 períodos letivos)
+Média: 05 (cinco) anos (10 períodos letivos)
+Máximo: 07 (sete) anos (14 períodos letivos); com 50% a mais do tempo para integralização dos alunos com necessidades especiais de aprendizagem (Resolução CEPEX n o 054/2017).
+ACESSO AO CURSO: Exame Nacional do Ensino Médio (ENEM), através do Sistema de Seleção Unificada - SISU/MEC e de acordo com Edital específico da UFPI.
+REGIME LETIVO: CRÉDITO - Unidade Didática Pedagógica (15h de trabalho tanto para as atividades de aulas teóricas, quanto para as atividades práticas e estágios. Resolução nº 086/95CEPEX).
+TURNO(S) DE OFERTA: Diurno, com atividades oferecidas preferencialmente no turno diurno.
+VAGAS AUTORIZADAS:
+36 (1 o Período) Diurno + 36 (2 o Período) Diurno
+| COMPONENTES CURRICULARES           |   CARGA HORÁRIA |   CRÉDITOS |
+|------------------------------------|-----------------|------------|
+| Disciplinas Obrigatórias           |           2.100 |        140 |
+| Disciplinas Optativas              |             540 |         36 |
+| Trabalho de Conclusão de Curso     |             120 |         08 |
+| Atividades Complementares          |             120 |         08 |
+| Estágio Supervisionado Obrigatório |             330 |         22 |
+| TOTAL                              |           3.210 |        214 |
+## SUMÁRIO
+
+- APRESENTAÇÃO
+- 1.
+- INTRODUÇÃO
+- 1.1.
+- Justificativa
+- 1.2.
+- Contexto regional e local
+- 1.3.
+- Histórico e estrutura organizacional da UFPI e do Curso
+- 2.
+- CONCEPÇÃO DO CURSO
+- 2.1.
+- Princípios curriculares e especificidades do Curso
+- 2.2.
+- Objetivos do curso
+- 2.3.
+- Perfil do egresso, competências e habilidades
+- 3.
+- PROPOSTA CURRICULAR
+- 3.1.
+- Estrutura e organização curricular
+- 3.2.
+- Matriz Curricular
+- 3.2.1.
+- Fluxograma
+- 3.3.
+- Estágio supervisionado, atividades complementares e trabalho de conclusão
+- 3.3.1.
+- Estágio Supervisionado
+- 3.3.2.
+- Trabalho de Conclusão de Curso
+- 3.3.3.
+- Atividades Complementares
+- 3.4.
+- Metodologia
+- 4.
+- POLÍTICAS INSTITUCIONAIS
+- 4.1.
+- Políticas institucionais de ensino, pesquisa e extensão
+- 4.2.
+- Políticas institucionais de apoio à comunidade acadêmica
+- 4.2.1.
+- Apoio ao docente
+- 4.2.2.
+- Apoio ao discente
+- 5.
+- SISTEMÁTICA DE AVALIAÇÃO
+- 5.1.
+- Avaliação da aprendizagem
+- 5.2.
+- Do PPC
+- 5.3.
+- Avaliações Externas ao Curso
+- 6.
+- EMENTÁRIO DAS DISCIPLINAS
+- 6.1.
+- Disciplinas Obrigatórias
+- 6.1.1.
+- 1 o Período
+- 6.1.2.
+- 2 o Período
+- 6.1.3.
+- 3 o Período
+- 6.1.4.
+- 4 o Período
+- 6.1.5.
+- 5 o Período
+- 6.1.6.
+- 6 o Período
+- 6.1.7.
+- 7 o Período
+- 6.1.8.
+- 8 o Período
+- 6.2.
+- Disciplinas Optativas
+- 7.
+- CORPO DOCENTE 93
+- 7.1.
+- Núcleo Docente Estruturante - NDE 93
+- 7.2.
+- Atuação e regime de trabalho do coordenador 93
+- 7.3.
+- Perfil do corpo docente 93
+- 8.
+- INFRAESTRUTURA FÍSICA E INSTALAÇÕES ACADÊMICAS 95
+- 8.1.
+- Local de funcionamento, infraestrutura física e laboratórios 95
+- 9.
+- EQUIVALÊNCIA ENTRE PROJETOS PEDAGÓGICOS 99
+- 10.
+- ADAPTAÇÃO CURRICULAR101
+- REFERÊNCIAS 103
+- APÊNDICE I - FLUXOGRAMA DE DISCIPLINAS DO CURSO 105
+- APÊNDICE II - REGULAMENTO DO TRABALHO DE CONCLUSÃO DE CURSO107
+- APÊNDICE III - REGULAMENTO DAS ATIVIDADES COMPLEMENTARES 113
+
+## APRESENTAÇÃO
+Este documento apresenta ao Conselho de Ensino Pesquisa e Extensão da Universidade Federal do Piauí (CEPEX), o Projeto Pedagógico do Bacharelado em Ciência da Computação da UFPI, para implantação do Currículo 05.
+O Núcleo Docente Estruturante (NDE) do curso, juntamente com os professores do Departamento de Computação, buscou subsídios para elaboração deste projeto nos seguintes documentos:
+- i) Diretrizes Curriculares de Cursos da Área de Computação e Informática/MEC [3,4];
+2. ii) Referenciais de Formação para os Cursos de Graduação em Computação [5];
+3. iii) Curriculum Guidelines for Undergraduate Degree Programs in Computer Science do Institute of Electrical and Electronic Engineers (IEEE) [6];
+4. iv) Parecer do Conselho Nacional de Educação sobre cargas horárias de Cursos de Bacharelado presenciais [3,4];
+- v) Plano de Desenvolvimento Institucional da Universidade Federal do Piauí [7].
+Levou-se também em consideração um elenco de disciplinas que permite um melhor desempenho do profissional da Computação na sociedade, o equilíbrio entre aprendizagens teóricas e práticas e capacitação condizente com o mercado de trabalho local, nacional e Internacional.
+Esta proposta é o resultado das discussões, reflexão e trabalho, bem como do envolvimento dos professores e alunos que fazem o Bacharelado de Ciência da Computação da Universidade Federal do Piauí.
+## 1.  INTRODUÇÃO
+## 1.1.  Justificativa
+O atual projeto pedagógico do bacharelado em Ciência da Computação da UFPI foi desenvolvido em 2009. Nesses últimos 10 anos, a Ciência da Computação evoluiu bastante. Esse processo de atualização das ementas com a criação e extinção de disciplinas foi realizado seguindo as diretrizes curriculares propostas pelo IEEE.
+Somado a necessidade de atualização de conteúdo do curso, os seguintes aspectos impulsionam a proposta de um novo projeto pedagógico para o curso:
+- Aumentar a carga horária de disciplinas optativas, viabilizando que o aluno participe diretamente na escolha de um maior número de disciplinas eletivas;
+- Adaptar a matriz curricular com o objetivo de aumentar o contato com disciplinas mais práticas desde os primeiros períodos do curso. Acreditase que esta medida deve contribuir para reduzir a evasão de alunos;
+- Uniformizar a carga horária das disciplinas do curso em 60 horas. Essa medida visa potencializar a concentração de disciplinas, evitando que o aluno tenha tempo ocioso entre duas disciplinas no mesmo dia;
+- Aumentar a carga horária do estágio curricular. Segundo análise realizada, identificou-se que, na prática, os alunos trabalham cerca de 20 horas semanais dedicadas aos estágios curriculares, carga horária superior ao que era atribuída ao aluno. Portanto, percebeu-se a necessidade de aumentar a carga-horária atribuída à atividade de estágio obrigatório;
+- Alterar a carga horária total do curso, de 3.120 para 3.210 horas, segundo as diretrizes curriculares do MEC;
+- Extinguir as disciplinas de 90 horas do currículo;
+- Adequar os nomes, ementas, carga horária, pré-requisitos e distribuição de créditos de acordo com a evolução de cada área do curso;
+- Incluir, excluir e modificar disciplinas obrigatórias e específicas, de forma a tornar o currículo mais atual;
+- Adequar a carga horária e os regulamentos do Trabalho de Conclusão de Curso e do Estágio Supervisionado.
+## 1.2.  Contexto regional e local
+O Piauí ocupa uma área de 251.529,186 km2, equivalente a aproximadamente 2,95% da área do País, onde se encontram 223 municípios. Possuindo aproximadamente 3.195.421 habitantes. Os municípios mais importantes são Teresina, Paranaíba, Picos e Floriano. As indústrias de transformação, têxteis, bebidas, cimento, açúcar e álcool, beneficiamento de soja, e de extração vegetal são os principais representantes da recente expansão industrial piauiense, estando localizada nas principais cidades. Entretanto, mais recentemente, nota-se a interiorização com novos empreendimentos instalados em Uruçuí, Fronteiras, Guadalupe e Baixa Grande do Ribeiro. O setor industrial responde por 12,7% do PIB do Piauí que em 2016 alcançou algo em torno de 37 bilhões.
+No Piauí a agricultura, a pecuária, o turismo e o extrativismo também são setores econômicos importantes. Na agricultura destacam-se a cultura de: milho, feijão, arroz, mandioca, algodão, cana-de-açúcar e soja, além de manga, laranja, castanha de caju e algodão. Na pecuária, além da criação de bovinos, ovinos e suínos, destaca-se a criação de caprinos, dada a excelente adaptação destes às condições climáticas do semiárido. O turismo no Piauí é uma importante fonte de receita para o Estado: no Norte (litoral) encontra-se o Delta do Parnaíba, dividido entre Piauí e Maranhão e no Sul existem os parques nacionais. No extrativismo vegetal destaca-se a extração do Babaçu e da Carnaúba, que são matérias-primas usadas nas indústrias automotivas, de cosméticos, etc. No extrativismo mineral, a produção está ligada à extração de mármore, amianto, gemas, ardósia, níquel, talco e vermiculita.
+## 1.3.  Histórico e estrutura organizacional da UFPI e do Curso
+A Universidade Federal do Piauí (UFPI) é uma instituição federal de Ensino Superior sediada na cidade de Teresina - Estado do Piauí e com campi nas cidades de Parnaíba, Picos, Floriano e Bom Jesus. A Instituição é mantida pela Fundação Universidade Federal do Piauí - FUFPI (criada pela Lei nº 5.528, de 12/11/1968) e é financiada com recursos do Governo Federal.
+A UFPI foi instalada em 01 de março de 1971 a partir da fusão de algumas faculdades isoladas que existiam no Estado - Faculdade de Direito, Faculdade Católica de Filosofia, Faculdade de Odontologia, Faculdade de Administração (Parnaíba) e Faculdade de Medicina.
+A administração da universidade realiza-se, nos planos de deliberação e execução, em nível superior e em nível setorial (dos Centros). Os órgãos deliberativos superiores são:
+- Conselho Diretor - CONDIR (FUFPI), órgão supremo que administra os bens da Fundação Universidade Federal do Piauí;
+- Conselho de Administração - CAD, órgão deliberativo e consultivo da universidade em matéria administrativa;
+- Conselho de Ensino, Pesquisa e Extensão - CEPEX, órgão supremo de deliberação em matéria de ensino, pesquisa e extensão;
+- Conselho Universitário - CONSUN, órgão supremo de deliberação coletiva da universidade. Define a política geral desta IES.
+Os órgãos executivos são formados pelas:
+- Reitoria, órgão central executivo, dirigido pelo Reitor, que fiscaliza e superintende todas as atividades da universidade;
+- Vice-Reitoria, ao Vice-Reitor compete exercer as atribuições definidas no Estatuto, no Regimento Geral e em Atos de delegação baixados pelo Reitor. Atua de forma permanente;
+- Pró-Reitorias, são órgãos que auxiliam o Reitor no exercício de suas tarefas executivas, sendo-lhes delegadas atribuições concernentes às respectivas áreas de atuação.
+O Bacharelado em Ciência da Computação da Universidade Federal do Piauí foi criado em 1989 através da Resolução 006/89-Conselho Universitário da UFPI e reconhecido pelo MEC com a portaria nº 675 de 08/07/1998. Sua execução está a cargo da Coordenação do Bacharelado em Ciência da Computação como a atuação predominante do Departamento de Computação. O Bacharelado em Ciência da Computação conta ainda com a colaboração de outros departamentos/cursos: Física, Matemática, Educação Física, Estatística e Filosofia.
+Em 1993, o Curso passou por mudanças no seu currículo (Resolução 042/93 CEPEX). Em 2001 várias ementas foram modificadas para adequar o currículo às necessidades do profissional em Ciência da Computação (Resolução 60/01 CEPEX), com a mudança para o currículo 02. Em 2003 passou por nova reformulação para implantação do Currículo 03 (106/03 e 147/03-CEPEX). O reconhecimento do Curso foi renovado através da Portaria do MEC Nº. 4.237 de 22/12/2004.
+Em 2009, o curso teve seu projeto reformulado com a implantação do currículo 04. Tal reformulação seguiu o Currículo de referência da SBC e nas Diretrizes Curriculares para cursos da área de Computação e Informática apresentada pelo Ministério da Educação (MEC), por meio da Secretaria de Educação Superior (SESU).
+Neste novo projeto pedagógico, o Bacharelado em Ciência da Computação passa a ter o seu currículo 05. Tal projeto pedagógico foi elaborado seguindo as diretrizes de cursos de Ciência da Computação do IEEE, as diretrizes curriculares para cursos da área de Computação e Informática apresentada pelo Ministério da Educação (MEC) e as normas internas da UFPI.
+## 2.  CONCEPÇÃO DO CURSO
+## 2.1.  Princípios curriculares e especificidades do Curso
+Os princípios curriculares do Bacharelado em Ciência da Computação - BCC foram definidos com base nas diretrizes curriculares dos cursos de Ciência da Computação do MEC (Resolução MEC/CNE/CES no 5/2016) e no Curriculum Guidelines for Undergraduate Degree Programs in Computer Science do Institute of Electrical and Electronic Engineers (IEEE). Tudo isso visando construir um currículo capaz de gerar conhecimentos, habilidades e competências, fundamentais para atender aos desafios e exigências atuais da sociedade. Os princípios curriculares do cursão são:
+- O currículo de ciência da computação deve ser projetado para fornecer aos alunos a flexibilidade de trabalhar em várias disciplinas. A computação é um campo amplo que se conecta e se baseia em muitas disciplinas, incluindo matemática, engenharia elétrica, estatística, belas artes, linguística e ciências físicas e da vida. Os estudantes de Ciência da Computação devem desenvolver a flexibilidade para trabalhar em todas as disciplinas;
+- O currículo de Ciência da Computação deve ser projetado para preparar os formandos para uma variedade de profissões, atraindo toda a gama de talentos para o campo. A ciência da computação afeta quase todos os empreendimentos modernos;
+- O currículo deve preparar os alunos para a aprendizagem ao longo da vida. Os estudantes de ciência da computação devem aprender a integrar a teoria e prática, reconhecer a importância da abstração;
+- A formação do Bacharel em Ciência da Computação deve integrar processos de investigação e pesquisa, desenvolvendo uma habilidade de análise contínua dos novos processos, paradigmas e tecnologias que se apresentam.
+O BCC é um curso dinâmico, o conteúdo das disciplinas de tecnologia muda rapidamente, exigindo que professores e alunos se atualizem frequentemente. Muitas vezes, essa atualização não permite estudar determinados conteúdos através de livros, porque tais livros ainda não foram lançados. É fundamental que os professores e alunos participem de eventos científicos e tecnológicos com o objetivo de potencializar a atualização.
+Outra especificidade do BCC é a disponibilidade de equipamentos e softwares específicos, com objetivo de viabilizar a realização de aulas práticas e o desenvolvimento de trabalhos práticos pelos alunos. Destaca-se ainda que tais equipamentos e softwares precisam ser atualizados ou substituídos visando proporcionar um ambiente computacional compatível com o mercado de trabalho.
+## 2.2.  Objetivos do curso
+O Bacharelado em Ciência da Computação se destina à formação de profissionais para atuar no mercado de trabalho, usando soluções computacionais já existentes ou propondo novas soluções. Neste contexto, é necessária uma formação abrangente na área de computação considerando as suas principais subáreas. Este curso visa proporcionar a seus alunos uma formação básica nos fundamentos científicos da Computação, seguindo as recomendações das diretrizes de currículos do IEEE para cursos de Ciência da Computação, e da Resolução MEC/CNE/CES n o 5/2016.
+## 2.3.  Perfil do egresso, competências e habilidades
+Os egressos do Bacharelado em Ciência da Computação devem ser profissionais com capacidade e habilidade de atuar no setor privado ou público, em atividades de pesquisa, desenvolvimento de novas soluções computacionais e consultoria. Além disso, espera-se que o egresso deste curso tenha também capacidade para empreender na área de computação. A seguir são listadas as principais características do egresso:
+- Capacidade para aplicar seus conhecimentos de maneira independente e inovadora, acompanhando a evolução do setor e buscando soluções nas diferentes áreas aplicadas;
+- Formação humanística, permitindo a compreensão do mundo e da sociedade, e o desenvolvimento de habilidades de trabalho em grupo e de comunicação e expressão;
+- Formação em negócios, permitindo uma visão da dinâmica organizacional;
+- Preocupação constante com a atualização tecnológica e com o estado da arte;
+- Domínio da língua inglesa para leitura técnica na área;
+- Conhecimento básico das legislações trabalhistas e de propriedade intelectual.
+Além destas características gerais o profissional da Computação deve ter os seguintes conhecimentos técnicos:
+- Processo de projeto para a construção de soluções de problemas com base científica;
+- Modelagem e especificação de soluções computacionais para diversos tipos de problemas;
+- Validação da solução de um problema de forma efetiva;
+- Projeto e implementação de sistemas de computação;
+- Critérios para seleção de software e hardware adequados às necessidades empresariais, industriais, administrativas de ensino e de pesquisa.
+Este curso deve preparar o profissional para contribuir para a evolução do conhecimento do ponto de vista científico e tecnológico, e utilizar esse conhecimento na avaliação, especificação e desenvolvimento de ferramentas, métodos e sistemas computacionais. As atividades desses profissionais envolvem:
+- A investigação e desenvolvimento de conhecimento teórico na área da computação;
+- A análise e modelagem de problemas do ponto de vista computacional;
+- O projeto e implementação de sistemas de computação.
+Os egressos do Curso de Computação devem conhecer e respeitar os princípios éticos que regem a sociedade, em particular os da área de computação, para isso, devem:
+- Implementar sistemas que visem melhorar as condições de trabalho dos usuários, sem causar danos ao meio ambiente;
+- Facilitar o acesso e a disseminação do conhecimento na área da computação.
+## 3.  PROPOSTA CURRICULAR
+## 3.1.  Estrutura e organização curricular
+O presente projeto pedagógico do Bacharelado em Ciência da Computação, apresenta uma mudança curricular envolvendo flexibilização vertical e horizontal. A flexibilização vertical supõe três divisões: um núcleo de formação geral; a formação específica; e a formação livre. A flexibilização horizontal tem por objetivo possibilitar ao aluno desenvolver várias atividades acadêmicas e contabilizá-las no seu currículo. Dentre elas, pode-se destacar a participação em congressos, seminários, palestras, iniciação à pesquisa, monitoria, extensão, e a vivência profissional representada por estágios.
+A estrutura curricular segue o regime de Unidade Didática Pedagógica (UDP) adotado na UFPI e contabilizados no semestre. O aluno para integralizar o curso deverá cursar 2100 horas de disciplinas obrigatórias e 540 horas de disciplinas optativas, distribuídas em 08 períodos letivos. Para receber o grau e fazer jus ao diploma de Bacharel em Ciência da Computação, o aluno deverá realizar, no mínimo, 120 horas do Trabalho de Conclusão de Curso (TCC), 120 horas de Atividades Complementares e 330 horas de Estágio Supervisionado, e, além de realizar o Exame Nacional de Desempenho dos Estudantes (ENADE) quando indicado.
+A carga horária de disciplinas recomendada por período, não deverá ultrapassar 420 horas (28 UDP). Tal medida tem por objetivo garantir ao estudante horário livre durante a semana para a realização de atividades de livre escolha, estágios, iniciação científica, monitoria e extensão.
+## 3.2.  Matriz Curricular
+A matriz curricular abrange disciplinas direcionadas à formação geral em Computação, apresentando tópicos clássicos da área, bem como tópicos relevantes relativos aos últimos avanços científicos e tecnológicos. Na Tabela 01 pode ser visualizada a matriz curricular, e na Tabela 02 a distribuição de carga horária do curso.
+As disciplinas obrigatórias do Curso segundo sua distribuição por área temática e unidade responsável estão na Tabela 03, e a lista de disciplinas optativas, com a referida unidade responsável, na Tabela 04.
+Tabela 01 - Matriz Curricular.
+| 1 o PERÍODO   | 1 o PERÍODO                         | 1 o PERÍODO   | 1 o PERÍODO   | 1 o PERÍODO                                                              |
+|---------------|-------------------------------------|---------------|---------------|--------------------------------------------------------------------------|
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Cálculo Diferencial e Integral I    | 2.2.0         | 60            | - - - - -                                                                |
+| A definir     | Introdução à Lógica                 | 2.2.0         | 60            | - - - - -                                                                |
+| A definir     | Informática e Sociedade             | 2.2.0         | 60            | - - - - -                                                                |
+| DIE0075       | Programação Estruturada             | 3.1.0         | 60            | - - - - -                                                                |
+| CLE0187       | Inglês Técnico e Científico         | 4.0.0         | 60            | - - - - -                                                                |
+| A definir     | Seminários de Introdução ao Curso   | 2.0.0         | 30            | - - - - -                                                                |
+| DFI0254       | Introdução a Metodologia Científica | 4.0.0         | 60            | - - - - -                                                                |
+| 2 o PERÍODO   | 2 o PERÍODO                         | 2 o PERÍODO   | 2 o PERÍODO   | 2 o PERÍODO                                                              |
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Cálculo Diferencial e Integral II   | 2.2.0         | 60            | - Cálc. Dif. Integ. I (1 o Per.)                                         |
+| DIE0025       | Circuitos Digitais                  | 2.2.0         | 60            | - Introd. Lógica (1 o Per.)                                              |
+| DMA0057       | Matemática Discreta                 | 2.2.0         | 60            | - Introd. Lógica (1 o Per.)                                              |
+| A definir     | Estruturas de Dados                 | 2.2.0         | 60            | - DIE0075                                                                |
+| A definir     | Programação Orientada a Objetos     | 2.2.0         | 60            | - DIE0075                                                                |
+| A definir     | Laboratório de Programação          | 1.3.0         | 60            | - DIE0075                                                                |
+| 3 o PERÍODO   | 3 o PERÍODO                         | 3 o PERÍODO   | 3 o PERÍODO   | 3 o PERÍODO                                                              |
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Álgebra Linear                      | 2.2.0         | 60            | - Cálc. Dif. Integ. II (2 o Per.)                                        |
+| DIE0082       | Arquitetura de Computadores         | 3.1.0         | 60            | - DIE0025                                                                |
+| A definir     | Probabilidade e Estatística         | 2.2.0         | 60            | - Cálc. Dif. Integ. I (1 o Per.)                                         |
+| A definir     | Banco de Dados                      | 2.2.0         | 60            | - Estrut. de Dados (2 o Per.) - Prog. Ori. Objetos (2 o Per.)            |
+| DIE0083       | Interface Humano Computador         | 2.2.0         | 60            | - DIE0075                                                                |
+| DIE0084       | Teoria e Aplicações em Grafos       | 3.1.0         | 60            | - Estrut. de Dados (2 o Per.)                                            |
+| 4 o PERÍODO   | 4 o PERÍODO                         | 4 o PERÍODO   | 4 o PERÍODO   | 4 o PERÍODO                                                              |
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Computação Gráfica                  | 2.2.0         | 60            | - Prog. Ori. Objetos (2 o Per.) - Álgebra Linear (3 o Per.) o            |
+| A definir     | Sistemas Operacionais               | 2.2.0         | 60            | - Prog. Ori. Objetos (2 Per.) - DIE0082                                  |
+| DIE0085       | Programação Linear                  | 2.2.0         | 60            | - DIE0075 - Álgebra Linear (3 o Per.)                                    |
+| A definir     | Redes de Computadores               | 2.2.0         | 60            | - DIE0082                                                                |
+| DIE0093       | Projeto e Análise de Algoritmos     | 2.2.0         | 60            | - DIE0084                                                                |
+| A definir     | Processamento Digital de Imagens    | 2.2.0         | 60            | - Prog. Ori. Objetos (2 o Per.) - Álgebra Linear (3 o Per.)              |
+| 5 o PERÍODO   | 5 o PERÍODO                         | 5 o PERÍODO   | 5 o PERÍODO   | 5 o PERÍODO                                                              |
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Sistemas Distribuídos               | 2.2.0         | 60            | - Sist. Operacionais (4 o Per.) - Redes Comput. (4 o Per.)               |
+| DIE0092       | Teoria da Computação                | 2.2.0         | 60            | - DMA0057 - Estrut. de Dados (2 o Per.)                                  |
+| A definir     | Engenharia de Software I            | 2.2.0         | 60            | - Banco de Dados (3 o Per.)                                              |
+| DIE0101       | Segurança em Sistemas               | 3.1.0         | 60            | - Sist. Operacionais (4 o Per.) - Redes Comput. (4 o Per.) o             |
+| A definir     | Inteligência Artificial             | 2.2.0         | 60            | - Prog. Ori. Objetos (2 Per.) - Prob. e estatística (3 o Per.) - DIE0093 |
+| x-x-x-x-x     | Optativa                            | x.x.x         | xx            | x x x x x                                                                |
+| 6 o PERÍODO   | 6 o PERÍODO                         | 6 o PERÍODO   | 6 o PERÍODO   | 6 o PERÍODO                                                              |
+| CÓDIGO        | DISCIPLINA                          | CRÉDITO       | CH            | PRÉ-REQUISITOS                                                           |
+| A definir     | Compiladores                        | 2.2.0         | 60            | - Prog. Ori. Objetos (2 o Per.) - DIE0092                                |
+| DIE0097       | Linguagens de Programação           | 3.1.0         | 60            | - Prog. Ori. Objetos (2 o Per.)                                          |
+| A definir     | Engenharia de Software II           | 2.2.0         | 60            | - Eng. Software I (5 o Per.)                                             |
+| A definir     | Bancos de Dados Relacionais         | 2.2.0         | 60            | - Banco de Dados (3 o Per.)                                              |
+| x-x-x-x-x     | Optativa                            | x.x.x         | xx            | x x x x x                                                                |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+|-------------|--------------------------------------------|-------------|-------------|--------------------------------------------------------------------------------------------------|
+| 7 o PERÍODO | 7 o PERÍODO                                | 7 o PERÍODO | 7 o PERÍODO | 7 o PERÍODO                                                                                      |
+| CÓDIGO      | DISCIPLINA                                 | CRÉDITO     | CH          | PRÉ-REQUISITOS                                                                                   |
+| A definir   | Trabalho de Conclusão de Curso I           | 2.2.0       | 60          | - Sist. Distribuídos (5 o Per.) - Inteligên. Artificial (5 o Per.) - Eng. Software II (6 o Per.) |
+| A definir   | Estágio Supervisionado                     | 0.22.0      | 330         | - Sist. Distribuídos (5 o Per.) - Inteligên. Artificial (5 o Per.) - Eng. Software II (6 o Per.) |
+| DIE0100     | Programação Funcional                      | 2.2.0       | 60          | - DIE0097                                                                                        |
+| DBI0057     | Educação Ambiental, Tecnologia e Sociedade | 2.0.0       | 30          | - - - - -                                                                                        |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+| 8 o PERÍODO | 8 o PERÍODO                                | 8 o PERÍODO | 8 o PERÍODO | 8 o PERÍODO                                                                                      |
+| CÓDIGO      | DISCIPLINA                                 | CRÉDITO     | CH          | PRÉ-REQUISITOS                                                                                   |
+| DIE0104     | Trabalho de Conclusão de Curso II          | 2.2.0       | 60          | - T.C.C. I (7 o Per.)                                                                            |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+| x-x-x-x-x   | Optativa                                   | x.x.x       | xx          | x x x x x                                                                                        |
+Como pôde ser observado, a Tabela 01 apresenta a lista de pré-requisitos de cada componente curricular. Além disso, é importante salientar que o Estágio Supervisionado (descrito na Seção 3.3.1) possui como pré-requisitos as disciplinas:
+- Sistemas Distribuídos;
+- Inteligência Artificial;
+- Engenharia de Software II.
+Tabela 02 - Distribuição de carga horária do curso.
+| Carga Horária Obrigatória                       |   Total (horas) |
+|-------------------------------------------------|-----------------|
+| Carga Horária de Disciplinas Obrigatórias       |            2100 |
+| Carga Horária de Trabalho de Conclusão de Curso |             120 |
+| Carga Horária de Disciplinas Optativas (mínimo) |             540 |
+| Carga horária total do Curso                    |            2760 |
+| Carga Horária de Estágio Supervisionado         |             330 |
+| Carga Horária de Atividades Complementares      |             120 |
+| TOTAL                                           |            3210 |
+Tabela 03 - Distribuição das disciplinas obrigatórias do curso por área temática.
+| Área Temática                  | Disciplina                                 | Unidade Responsável                           |   Período |   Carga Horária |
+|--------------------------------|--------------------------------------------|-----------------------------------------------|-----------|-----------------|
+| Matemática                     | Introdução à Lógica                        | CCN / Dpto de Computação                      |         1 |              60 |
+| Matemática                     | Cálculo Diferencial e Integral I           | CCN / Dpto de Matemática                      |         1 |              60 |
+| Matemática                     | Cálculo Diferencial e Integral II          | CCN / Dpto de Matemática                      |         2 |              60 |
+| Matemática                     | Matemática Discreta                        | CCN / Dpto de Matemática                      |         2 |              60 |
+| Matemática                     | Álgebra Linear                             | CCN / Dpto de Matemática                      |         3 |              60 |
+| Matemática                     | Probabilidade e Estatística                | CCN / Coord. do Curso de Estatística          |         3 |              60 |
+| Fundamentos da Computação      | Programação Estruturada                    | CCN / Dpto de Computação                      |         1 |              60 |
+| Fundamentos da Computação      | Seminários de Introdução ao Curso          | CCN / Dpto de Computação                      |         1 |              30 |
+| Fundamentos da Computação      | Circuitos Digitais                         | CCN / Dpto de Computação                      |         2 |              60 |
+| Fundamentos da Computação      | Estruturas de Dados                        | CCN / Dpto de Computação                      |         2 |              60 |
+| Fundamentos da Computação      | Programação Orientada a Objetos            | CCN / Dpto de Computação                      |         2 |              60 |
+| Fundamentos da Computação      | Laboratório de Programação                 | CCN / Dpto de Computação                      |         2 |              60 |
+| Fundamentos da Computação      | Arquitetura de Computadores                | CCN / Dpto de Computação                      |         3 |              60 |
+| Fundamentos da Computação      | Teoria e Aplicações em Grafos              | CCN / Dpto de Computação                      |         3 |              60 |
+| Fundamentos da Computação      | Sistemas Operacionais                      | CCN / Dpto de Computação                      |         4 |              60 |
+| Fundamentos da Computação      | Programação Linear                         | CCN / Dpto de Computação                      |         4 |              60 |
+| Fundamentos da Computação      | Projeto e Análise de Algoritmos            | CCN / Dpto de Computação                      |         4 |              60 |
+| Fundamentos da Computação      | Teoria da Computação                       | CCN / Dpto de Computação                      |         5 |              60 |
+| Fundamentos da Computação      | Linguagens de Programação                  | CCN / Dpto de Computação                      |         6 |              60 |
+| Fundamentos da Computação      | Programação Funcional                      | CCN / Dpto de Computação                      |         7 |              60 |
+| Tecnologia da Computação       | Banco de Dados                             | CCN / Dpto de Computação                      |         3 |              60 |
+| Tecnologia da Computação       | Interface Humano Computador                | CCN / Dpto de Computação                      |         3 |              60 |
+| Tecnologia da Computação       | Computação Gráfica                         | CCN / Dpto de Computação                      |         4 |              60 |
+| Tecnologia da Computação       | Redes de Computadores                      | CCN / Dpto de Computação                      |         4 |              60 |
+| Tecnologia da Computação       | Processamento Digital de Imagens           | CCN / Dpto de Computação                      |         4 |              60 |
+| Tecnologia da Computação       | Sistemas Distribuídos                      | CCN / Dpto de Computação                      |         5 |              60 |
+| Tecnologia da Computação       | Engenharia de Software I                   | CCN / Dpto de Computação                      |         5 |              60 |
+| Tecnologia da Computação       | Segurança em Sistemas                      | CCN / Dpto de Computação                      |         5 |              60 |
+| Tecnologia da Computação       | Inteligência Artificial                    | CCN / Dpto de Computação                      |         5 |              60 |
+| Tecnologia da Computação       | Compiladores                               | CCN / Dpto de Computação                      |         6 |              60 |
+| Tecnologia da Computação       | Engenharia de Software II                  | CCN / Dpto de Computação                      |         6 |              60 |
+| Tecnologia da Computação       | Bancos de Dados Relacionais                | CCN / Dpto de Computação                      |         6 |              60 |
+| Contexto Social e Profissional | Informática e Sociedade                    | CCN / Dpto de Computação                      |         1 |              60 |
+| Contexto Social e Profissional | Inglês Técnico e Científico                | CCHL / Coord. do Curso de Letras Estrangeiras |         1 |              60 |
+| Contexto Social e Profissional | Introdução a Metodologia Científica        | CCN / Dpto de Biologia                        |         1 |              60 |
+| Contexto Social e Profissional | Trabalho de Conclusão de Curso I           | CCN / Dpto de Computação                      |         7 |              60 |
+| Contexto Social e Profissional | Educação Ambiental, Tecnologia e Sociedade | CCHL / Dpto de Filosofia                      |         7 |              30 |
+| Contexto Social e Profissional | Estágio Supervisionado                     | CCN / Dpto de Computação                      |         7 |             330 |
+| Contexto Social e Profissional | Trabalho de Conclusão de Curso II          | CCN / Dpto de Computação                      |         8 |              60 |
+Tabela 04 - Lista de disciplinas optativas distribuídas por período.
+| DISCIPLINAS OPTATIVAS   | DISCIPLINAS OPTATIVAS                         | DISCIPLINAS OPTATIVAS                | DISCIPLINAS OPTATIVAS   | DISCIPLINAS OPTATIVAS   | DISCIPLINAS OPTATIVAS                                     |
+|-------------------------|-----------------------------------------------|--------------------------------------|-------------------------|-------------------------|-----------------------------------------------------------|
+| 5 o PERÍODO             | 5 o PERÍODO                                   | 5 o PERÍODO                          | 5 o PERÍODO             | 5 o PERÍODO             | 5 o PERÍODO                                               |
+| CÓDIGO                  | DISCIPLINA                                    | UNID. RESPONSÁVEL                    | CRÉD                    | CH                      | PRÉ-REQUISITOS                                            |
+| A definir               | Cálculo Diferencial e Integral III            | CCN / Dpto de Matemática             | 2.2.0                   | 60                      | - Cálc. Dif. Integ. II (2 o p.)                           |
+| A definir               | Eletricidade e Magnetismo                     | CCN / Dpto de Física                 | 2.2.0                   | 60                      | - Cálc. Dif. Integ. I (1 o p.)                            |
+| A definir               | Empreendedorismo                              | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Sem. Int. Curso (1 o p.)                                |
+| A definir               | Estruturas de Dados Avançadas                 | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Estrut. de Dados (2 o p.)                               |
+| LIBRAS012               | Libras - Língua Brasileira de Sinais          | Coord. do Curso de Letras - Libras   | 2.2.0                   | 60                      | - - - - -                                                 |
+| A definir               | Métodos Computacionais em Estatística         | CCN / Coord. do Curso de Estatística | 2.2.0                   | 60                      | - Prob. e Estatística (3 o p.)                            |
+| A definir               | Métodos Numéricos                             | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Cálc. Dif. Integ. I (1 o p.) - Álgebra Linear (3 o p.)  |
+| DEF0073                 | Prática Desportiva I                          | CCS / Dpto de Educ. Física           | 0.2.0                   | 30                      | - - - - -                                                 |
+| DEFE/CCE007             | Relações Étnico-Raciais, Gênero e Diversidade | CCE/Dpto de Fundamentos da Educação  | 4.0.0                   | 60                      | - - - - -                                                 |
+| 6 o PERÍODO             | 6 o PERÍODO                                   | 6 o PERÍODO                          | 6 o PERÍODO             | 6 o PERÍODO             | 6 o PERÍODO                                               |
+| A definir               | Computação Paralela                           | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Sist. Distribuídos (5 o p.)                             |
+| A definir               | Fluxos em Redes                               | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0084 - DIE0085                                       |
+| A definir               | Modelagem e Simulação de Sistemas             | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Prog. Ori. Objetos (2 o p.) - Redes de Comput. (4 o p.) |
+| A definir               | Redes Neurais Artificiais                     | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Inteligên. Artificial (5 o p.)                          |
+| A definir               | Sistemas Embarcados                           | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0082                                                 |
+| 7 o PERÍODO             | 7 o PERÍODO                                   | 7 o PERÍODO                          | 7 o PERÍODO             | 7 o PERÍODO             | 7 o PERÍODO                                               |
+| A definir               | Bancos de Dados Distribuídos e Paralelos      | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Banco de Dados (3 o p.)                                 |
+| A definir               | Engenharia de Software Experimental           | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Eng. Software II (6 o p.)                               |
+| A definir               | Laboratório de Compiladores                   | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Compiladores (6 o p.)                                   |
+| A definir               | Processamento de Linguagem Natural            | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Estrut. de Dados (2 o p.) - Prog. Ori. Objetos (2 o p.) |
+| A definir               | Programação Inteira                           | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0085 - DIE0093                                       |
+| A definir               | Programação Não Linear                        | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Cálc. Dif. Integ. II (2 o p.)                           |
+| A definir               | Redes de Comunicação Sem Fio                  | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Prog. Ori. Objetos (2 o p.) - Redes de Comput. (4 o p.) |
+| A definir               | Sistemas Fuzzy                                | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0075                                                 |
+| A definir               | Teste de Software                             | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Eng. Software II (6 o p.)                               |
+| DIE0140                 | Tópicos em Bioinformática                     | CCN / Dpto de Computação             | 4.0.0                   | 60                      | - DIE0075                                                 |
+| 8 o PERÍODO             | 8 o PERÍODO                                   | 8 o PERÍODO                          | 8 o PERÍODO             | 8 o PERÍODO             | 8 o PERÍODO                                               |
+| A definir               | Tópicos em Arquitetura de Computadores        | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0082                                                 |
+| A definir               | Tópicos em Banco de Dados                     | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Banco de Dados (3 o p.)                                 |
+| A definir               | Tópicos em Computação Aplicada                | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Estrut. de Dados (2 o p.)                               |
+| A definir               | Tópicos em Engenharia de Software             | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Eng. Software II (6 o p.)                               |
+| A definir               | Tópicos em Inteligência Artificial            | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Inteligên. Artificial (5 o p.)                          |
+| A definir               | Tópicos em Programação                        | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Prog. Ori. Objetos (2 o p.)                             |
+| A definir               | Tópicos em Redes de Computadores              | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Redes de Comput. (4 o p.)                               |
+| A definir               | Tópicos em Segurança em Sistemas              | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - DIE0101                                                 |
+| A definir               | Tópicos em Sistemas Computacionais            | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Estrut. de Dados (2 o p.)                               |
+| A definir               | Tópicos em Sistemas Operacionais              | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Sist. Operacionais (4 o p.)                             |
+| A definir               | Visão Computacional                           | CCN / Dpto de Computação             | 2.2.0                   | 60                      | - Álgebra Linear (3 o p.) - Prog. Ori. Objetos (2 o p.)   |
+## 3.2.1. Fluxograma
+O fluxograma do curso está apresentado na Tabela 05, e pode ser melhor visualizado no Apêndice I.
+Tabela 05 - Fluxograma de disciplinas do curso.
+<!-- image -->
+## 3.3.  Estágio supervisionado, atividades complementares e trabalho de conclusão
+## 3.3.1. Estágio Supervisionado Obrigatório
+O Estágio Supervisionado Obrigatório do curso de Bacharelado em Ciência da Computação da UFPI está regulamentado de acordo com a Lei Federal 11.788 de 25 de setembro de 2008, que dispõe sobre o estágio de estudantes; e o Regulamento Geral da Graduação da Pró-Reitoria de Ensino de Graduação (PREG) da UFPI (Resolução CEPEX Nº 177/12), atualizado em 20 de junho de 2018. A legislação e documentação vigentes referente ao Estágio Supervisionado estão disponíveis no sítio da Coordenadoria Geral de Estágio da Universidade Federal do Piauí.
+De acordo com as Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação (RESOLUÇÃO Nº 5, de 16 de novembro de 2016 do Conselho Nacional de Educação - CNE / Câmara de Educação Superior - CES), o Estágio Supervisionado é um ato escolar educativo desenvolvido no ambiente de
+trabalho, com o objetivo de preparar o estudante para o mercado de trabalho, por meio do desenvolvimento de competências inerentes à atividade profissional e da contextualização curricular.
+Segundo o Art. 72º do Regulamento Geral da Graduação da UFPI, o Estágio Obrigatório deverá ser desenvolvido em até 20% (vinte por cento) da carga horária do currículo pleno de cada curso. Dessa forma, o Estágio Supervisionado para o curso de Bacharelado em Ciência da Computação da UFPI será caracterizado como uma atividade acadêmica obrigatória, de orientação individual ou coletiva, e possuirá uma carga horária de 330 horas. Além disso, para a realização do Estágio Supervisionado, o discente deverá integralizar com aprovação as seguintes componentes curriculares: Sistemas Distribuídos, Inteligência Artificial e Engenharia de Software II.
+A realização do Estágio Supervisionado por parte do aluno de Ciência da Computação visa atingir os seguintes objetivos:
+- Integrar o conhecimento acadêmico com atividades profissionais;
+- Vivenciar a prática profissional e as tendências do mercado;
+- Vivenciar uma nova modalidade de aprendizagem com experiências para o alcance dos objetivos educacionais, tendo em vista a interdisciplinaridade;
+- Oportunizar para desenvolver habilidades de liderança (atuar de forma participativa, crítica, reflexiva, criativa, compartilhada, sinérgica e com segurança);
+- Participar do gerenciamento da assistência prestada ao cliente (negociar, inovar, ousar, estudar, desenvolver estratégias nas ações e visão crítica, ter consciência sócio-político-cultural, interagir permanentemente com o cliente);
+- Desenvolver habilidades e competências necessárias para o exercício imediato de uma função relacionada à sua formação no mercado de trabalho.
+O Estágio Supervisionado deverá ser realizado em instituições públicas ou privadas que exerçam atividades correlacionadas com a Ciência da Computação e que estejam devidamente cadastradas na Coordenadoria Geral de Estágio - CGE, vinculada à Pró-Reitoria de Ensino de Graduação - PREG da UFPI. O estágio será
+caracterizado entre a Instituição de ensino e as pessoas jurídicas de direito público e privado através de instrumento jurídico denominado Termo de Convênio, periodicamente reexaminado, no qual estejam acordadas todas as condições de realização do estágio. O referido convênio a ser firmado será de acordo com a legislação vigente, nos termos da Lei Federal Nº 11.788 de 25 de setembro de 2008 e das resoluções UFPI que versam sobre a matéria, mediante assinatura de termo de compromisso com interveniência obrigatória da Coordenadoria Geral de Estágio.
+As atividades a serem desenvolvidas durante o Estágio Supervisionado poderão estar enquadradas nas áreas correlatas da Ciência da Computação.
+De acordo com o Art. 68º do Regulamento Geral da Graduação da UFPI, o Estágio Supervisionado deverá ter acompanhamento por docente do quadro efetivo da UFPI (orientador do estágio) e por um supervisor de campo da parte concedente. O orientador do estágio é o elo entre o órgão formador e a instituição que recebe o aluno para a realização do estágio supervisionado. O orientador de estágio é responsável pelo acompanhamento didático-pedagógico do aluno e deve avaliar periodicamente o desempenho dos alunos através de instrumento específico, orientar o aluno na elaboração do relatório de conclusão do estágio curricular e propor alternativas pedagógicas de acordo com as necessidades e/ou cultura institucional no decorrer do estágio, garantindo o alcance dos objetivos propostos. Por sua vez, o supervisor de campo deverá ser um profissional lotado no local de realização do estágio e será responsável pelo acompanhamento do aluno durante o desenvolvimento da atividade.
+A avaliação final do estágio é de responsabilidade do orientador do estágio (professor da UFPI) e será realizada com base na qualidade do relatório de conclusão do estágio curricular do discente, bem como no desenvolvimento e conclusão das atividades planejadas.
+Com relação aos alunos que irão realizar o seu estágio supervisionado, compete:
+- Obedecer às rotinas e normas internas da instituição onde realiza o estágio, sob pena de interrupção e desligamento por transgressão dessas normas;
+- Cumprir rigorosamente a programação de estágio, conforme planejamento específico;
+- Submeter-se aos instrumentos de controle e avaliação estabelecidos pela Universidade e/ou unidade concedente;
+- Entregar relatório final à unidade em que se realiza o estágio e à unidade da UFPI;
+- Realizar o estágio com responsabilidade profissional, sujeitando-se ao código de ética específico, às normas e regulamentos da instituição.
+## 3.3.2. Trabalho de Conclusão de Curso
+De acordo com o Regulamento Geral da Graduação da Pró-Reitoria de Ensino de Graduação (PREG) da UFPI (Resolução CEPEX Nº 177/12), atualizado em 20 de junho de 2018, o Trabalho de Conclusão de Curso (TCC) corresponde a uma produção acadêmica que expresse as competências e habilidades desenvolvidas pelos alunos, assim como os conhecimentos por estes adquiridos durante o curso de graduação.
+O Trabalho de Conclusão de Curso é um instrumento de iniciação científica que integra diversas áreas do conhecimento, a fim de permitir que o aluno possa desenvolver e aplicar os conhecimentos científicos, técnicos e culturais adquiridos ao longo do curso.
+No caso do curso de bacharelado em Ciência da Computação da UFPI, o TCC deverá ser desenvolvido ao longo de duas disciplinas obrigatórias, nomeadas Trabalho de Conclusão de Curso I e Trabalho de Conclusão de Curso II, que deverão ser aproveitadas com sucesso para a integralização curricular.
+O presente Regulamento do Trabalho de Conclusão do Curso disciplina o processo de elaboração, apresentação e avaliação dos trabalhos dos discentes do curso de Ciência da Computação. Esse regulamento pode ser alterado por meio do voto da maioria absoluta dos membros do Colegiado. As atividades necessárias ao cumprimento deste Regulamento cabem à Coordenação do Bacharelado em Ciência da Computação.
+O regulamento do TCC para o curso de Ciência da Computação está descrito no Apêndice II.
+## 3.3.3. Atividades Complementares
+As atividades complementares de graduação da Universidade Federal do Piauí - UFPI estão regulamentadas de acordo com o Regulamento Geral da Graduação da
+Pró-Reitoria de Ensino de Graduação (PREG) da UFPI (Resolução Nº 177/12 CEPEX/UFPI), atualizado em 20 de junho de 2018 e a Resolução Nº 150/06 CEPEX/UFPI, que dispõe sobre as Atividades Científico-Acadêmico-Culturais nos cursos de graduação da UFPI. Toda a legislação e documentação vigentes referente ao Estágio Supervisionado estão disponíveis no sítio da Coordenadoria Geral de Estágio da Universidade Federal do Piauí.
+De acordo com o Art. 92 da Resolução Nº 177/12 - CEPEX/UPFI, as 'atividades complementares de graduação, a serem desenvolvidas durante o período da formação, constituem o conjunto de estratégias didático-pedagógicas que permitem, no âmbito do currículo, a articulação entre teoria e pratica e a complementação, por parte do estudante, dos saberes e habilidades necessárias a sua formação'.
+Para integralização curricular, poderão ser reconhecidos pela UFPI no âmbito das atividades complementares outros conhecimentos não previstos na matriz curricular do Bacharelado em Ciência da Computação, como os estudos complementares, cursos realizados em outras áreas afins e que proporcionem o reconhecimento de habilidades e competências, desde que submetidos à Coordenação do Curso e estejam em conformidade com a Resolução 150/06 CEPEX/UFPI.
+Por meio das Atividades Complementares ampliam-se o espaço de participação do aluno no processo didático-pedagógico, no qual deve ser sujeito da relação pedagógica, de acordo com a legislação e das políticas educacionais no sentido de flexibilizar os cursos, dando oportunidade ao aluno de buscar uma formação de acordo com suas aptidões.
+Segundo o §1º do Art. 93º da resolução N° 177/12 - CEPEX/UFPI, os colegiados do cursos de graduação devem estipular a carga horária referente às atividades complementares que integrarão seus currículos até o percentual de 10% (dez por cento) da carga horária total do currículo, tendo como patamar mínimo 120 (cento e vinte) horas. Dessa forma, para o curso de Bacharelado em Ciência da Computação da UFPI, o Colegiado definiu que, para integralização curricular, o aluno deve cumprir uma carga horária mínima de 120 horas de Atividades Complementares.
+O registro de Atividades Complementares de graduação deverá ser efetuado pelos discentes através do sistema eletrônico de cadastro (SIGAA) dentro do período estipulado pelo Calendário Acadêmico. A coordenação do curso de Computação deverá efetuar a avaliação das Atividades Complementares de graduação durante o
+período de avaliação estipulado pelo Calendário Acadêmico. Cabe ao coordenador do curso avaliar o desempenho do aluno nas Atividades Complementares e emitir decisão de deferido/indeferido, estipulando a carga horária a ser aproveitada de acordo com as normas de aproveitamento estabelecidas neste documento, e homologará no sistema SIGAA para que seja incluída no histórico escolar do aluno, conforme parágrafos 1º à 3º do Art. 96 da Resolução 177/12 - CEPEX/UFPI.
+O regulamento das Atividades Complementares para o curso de Ciência da Computação está descrito no Apêndice III.
+## 3.4.  Metodologia
+De acordo com as Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação (RESOLUÇÃO Nº 5, de 16 de novembro de 2016 do Conselho Nacional de Educação - CNE / Câmara de Educação Superior - CES), e o documento de referenciais de formação para os cursos de computação da Sociedade Brasileira de Computação (SBC - 2017), a metodologia de ensino deve ser centrada no aluno como sujeito da aprendizagem e apoiada no professor como facilitador do processo de ensino-aprendizagem.
+De uma forma geral, o aluno deve ser estimulado a resolver os problemas apresentados, tornando-se independente e criativo, e o professor deve apresentar as aplicações dos conteúdos teóricos, ser um mediador, estimular a competição, a comunicação, provocar a realização de trabalho em equipe, motivar os alunos para os estudos e orientar o raciocínio e desenvolver as capacidades de comunicação e de negociação . Dessa forma, o aluno deve aprender a lidar com as tecnologias disponíveis e aplica-las nas organizações, a fim de desenvolver novos produtos e executar serviços e processos.
+O curso de Bacharelado em Ciência da Computação possui uma diversidade de áreas, que envolvem conteúdos mais teóricos e, por vezes, outros com o enfoque mais práticos. Dessa forma, o professor deve ter uma flexibilidade metodológica de ensino e aprendizagem para suas disciplinas, aplicando as atividades mais adequadas ao conteúdo e ao contexto da aula, a fim de otimizar os resultados de acordo com o perfil do egresso desejado.
+Nesse ínterim, as atividades didáticas para o curso de computação deverão ser calcadas, quando pertinente, em:
+- Aulas teóricas expositivas, utilizando os recursos tecnológicos disponíveis, tais como quadro de acrílico, projeto multimídia, computadores e dispositivos embarcados, onde os conteúdos serão expostos e discutidos. Além disso, o professor deve conectar o conteúdo teórico para as aplicações práticas e os assuntos de outras disciplinas;
+- Aulas práticas e experimentais, para que o aluno possa vivenciar na prática os conteúdos teóricos, utilizando os recursos computacionais e tecnológicos disponíveis;
+- Seminários, individuais ou em grupos, baseados em literatura científica clássica e atual, onde os fundamentos básicos das aulas expositivas subsidiarão discussões mais aprofundadas em temáticas voltadas para a formação do profissional da Computação, bem como desenvolvendo a capacidade de reflexão do aluno sobre temáticas atuais, ensinando como aprender a aprender. Além disso, os seminários irão contribuir na prática de desenvolvimento de ideias, organização, estilo e adaptação à exposição pública de ideias;
+- Atividades práticas extraclasse que permita aos discentes aprofundar o conteúdo e buscar soluções adequadas para os problemas apresentados;
+- Aulas em vídeo e/ou documentários, que permita ao aluno ter acesso adicional aos conteúdos teóricos abordados nas disciplinas;
+- Grupos de estudos orientados por professores do departamento de computação, que permita a grupos de alunos se aprofundar em determinados conteúdos, difundir conhecimento e resolver problemas em conjunto.
+As metodologias de ensino deverão sempre abordar a aplicabilidade direta e indireta do conhecimento adquirido na formação e atuação do profissional da Computação, permitindo a aprendizagem da arte de aprender. Neste sentido, podem ser desenvolvidos:
+- Exercícios teóricos e/ou práticos;
+- Trabalhos de pesquisa bibliográfica e/ou sistemáticas;
+- Estudos dirigidos;
+- Grupos de discussão;
+- Elaboração de trabalhos práticos com temas atuais.
+Os alunos do curso de Ciência da Computação também são incentivados a participar de projetos científicos, através dos programas de Iniciação Científica (IC). A Iniciação Científica é uma importante ferramenta para que o aluno da graduação possa emergir e vivenciar o universo da pesquisa científica. Ela fornece ao aluno de graduação um amadurecimento científico, possibilitando um maior desenvolvimento do poder crítico e da capacidade de tomadas de decisões. Além disso, a iniciação científica é um importante passo inicial para o aluno que pretenda seguir na área da pesquisa e almeja ingressar em cursos como mestrado e doutorado. Assim, o aluno terá oportunidade de participar diretamente em projetos de pesquisas, coordenados pelos professores do Departamento de Computação, e aplicar os principais conceitos adquiridos ao longo do curso.
+Além disso, os projetos de monitoria de disciplinas permitem que os alunos de computação possam melhorar os seus conhecimentos já adquiridos e transmitir para outros discentes. A monitoria engloba o acompanhamento da dinâmica de uma disciplina junto ao docente responsável, através do atendimento aos alunos matriculados na disciplina em questão e o auxílio na definição, execução, acompanhamento e correção de atividades específicas.
+## 4.  POLÍTICAS INSTITUCIONAIS
+## 4.1.  Políticas institucionais de ensino, pesquisa e extensão
+- Ensino de graduação
+No âmbito na Universidade Federal do Piauí (UFPI), a Pró-Reitoria de Ensino de Graduação (PREG) supervisiona e coordena o ensino de graduação da UFPI. Está sob sua responsabilidade também o desenvolvimento de políticas que favoreça a matrícula em disciplina, a avaliação de professor e de estágio - que estimulem, garantam a qualidade do ensino e insiram os alunos no mercado de trabalho. Com vistas a nortear o alcance de suas atribuições em busca da excelência, a PREG adotou algumas políticas, conforme segue: a implantação do Sistema de Gestão Acadêmica-SIGAA permitiu que a tecnologia assumisse uma importante função no apoio pedagógico visando ao desenvolvimento do potencial humano. Esta ação vem sendo desenvolvida, apoiando o ensino de graduação, visando um ensino inovador, foco da UFPI, para os anos vindouros. Assim, é meta da UFPI promover a convergência do ensino presencial com o ensino à distância, incluindo 20% da carga horária dos cursos de graduação, desenvolvidos à distância via SIGAA. Outra política, implementada no ensino de graduação, foi à correção do fluxo curricular objetivando a redução da retenção e a elevação da taxa de sucesso.
+Existem diversas formas de ingresso na UFPI, regulamentado pelo Estatuto, pelo Regimento Geral e Resolução No 177/2012-CEPEX que trata das normas relativas ao ensino de graduação. Os ingressos especiais ocorrem por meio de cotas, vestibular para alunos do campo e do curso de Libras, convênios para alunos estrangeiros e cotas definidas de acordo com a Lei n°12.711/2012.
+Para ampliar o processo de internacionalização, atualmente, existe na UFPI 7 (sete) convênios com instituições estrangeiras enviando e recebendo alunos e docentes para realização de intercâmbio e participação em publicações internacionais.
+## · Ensino de pós-graduação
+No âmbito na Universidade Federal do Piauí (UFPI), a Pró-Reitoria de Ensino de Pós-Graduação (PRPG) é o órgão responsável pela coordenação, planejamento, supervisão e fiscalização dos Programas de Pós-Graduação Stricto Sensu, Lato Sensu e Residências Médicas Uni e Multiprofissionais. Ela também é responsável pela coordenação das atividades de capacitação de servidores (docentes e técnico-
+administrativos) em nível de Pós-Graduação e pela emissão e registro de Diplomas e Certificados da Pós-Graduação da UFPI.
+De acordo com o tripé sociedade, financiamento e internacionalização das pósgraduações, considerando também os entraves ao crescimento da pós-graduação na UFPI, o plano de metas do PNE e linhas de pesquisa consideradas importantes pelo MCT&amp;I e CAPES, a UFPI propõe os seguintes objetivos gerais:
+- a) aumentar a visibilidade dos programas de Pós-Graduação;
+- b) aumentar a contratação de docentes doutores, levando em consideração as demandas dos cursos de graduação e de pós-graduação;
+- c) aumentar significativamente as contratações de técnicos administrativos para os programas de pós-graduação e para os laboratórios de pesquisa;
+- d) incentivar a vinda de pesquisadores para os programas de pós-graduação;
+- e) criar o programa institucional de professor pesquisador visitante com recursos institucionais;
+- f) criar o programa institucional de bolsas Demanda Social com recursos da instituição;
+- g) agilizar processos internos e melhorar o controle acadêmico do sistema de PósGraduação;
+- h) estimular a qualificação de docentes e técnicos administrativos, priorizando a titulação em grau de mestrado e doutorado;
+- i) aumentar o intercâmbio nacional e internacional de docentes e discentes;
+- j) melhorar o acervo bibliográfico específico para a Pós-Graduação;
+- k) fomentar a internacionalização dos programas e estimular a participação de docentes em programas de intercâmbio como Ciência sem Fronteiras, CAPESDAAD, CAPES-Fulbright, e outros de interesse;
+- l) aumentar a captura de recursos nos Editais publicados pelas agências de financiamento de recursos do país.
+## · Pesquisa e Inovação Tecnológica
+No âmbito na Universidade Federal do Piauí (UFPI), a Pró-Reitoria de Pesquisa e Inovação (PROPESQI) tem como missão institucional promover a construção do conhecimento por meio da pesquisa, potencializando o desenvolvimento humano, científico e tecnológico, de forma sustentável.
+Assim, pretende tornar-se um centro de referência na produção de conhecimento científico na região do meio norte, por meio do desenvolvimento de pesquisas de excelência científica e possui as seguintes diretrizes:
+- a) ampliar e fortalecer as políticas/ações de apoio à pesquisa e inovação tecnológica;
+- b) acompanhar, fiscalizar e apoiar as atividades de pesquisa que envolvem os projetos e os grupos de pesquisa da UFPI;
+- c) coordenar e executar os programas PIBIC e PIBITI, e sua interação com as políticas acadêmicas da PROPESQI;
+- d) fortalecer o programa de Iniciação Científica Voluntária (ICV);
+- e) intensificar as estratégias de incentivo à participação de pesquisadores nas chamadas públicas de órgãos de fomento à P, D &amp; I.
+De forma contínua a PROPESQI possui os seguintes objetivos: i) ampliar o número de bolsas de Iniciação Científica nos programas PIBIC, PIBIC-AF, PIBIC-EM e PIBITI, tanto do CNPq quanto da própria UFPI; ii) aumentar o número de discentes na Iniciação Científica Voluntária (ICV); iii) melhorar a qualidade dos Grupos de Pesquisa da UFPI - Diretório dos Grupos de Pesquisa no Brasil/CNPq; e iv) aumentar o número de pesquisadores com Bolsa Produtividade.
+Como forma de divulgação das pesquisas realizadas na UFPI para a sociedade, a PROPESQI realiza anualmente o Seminário de Iniciação Científica da UFPI, um dos maiores e melhores eventos da categoria no Piauí.
+O NINTEC é o órgão da UFPI gestor da propriedade intelectual. Considerando suas atribuições normativas, o Núcleo participa de programas, tais como: Rede NITNE: Fase II - FINEP, onde as metas, em sua maioria, coincidem com as ações do próprio NINTEC/UFPI. Vale enfatizar que é seguido na UFPI um plano de gestão considerando as demandas e limitações, porém, com a meta principal de tonar o NINTEC a partir do próximo quinquênio, um centro de referência e excelência na área de propriedade intelectual e licenciamento de tecnologias no Mercado.
+## · Extensão
+No âmbito na Universidade Federal do Piauí (UFPI), a Pró-Reitoria de Extensão e Cultura (PREXC) é o órgão responsável por articular e coordenar as atividades de extensão e cultura de diversos setores da Universidade com outros segmentos da sociedade, através de programas, projetos, cursos, eventos, atividades culturais,
+prestação de serviços, etc., em todas as suas áreas de atuação. Nesta articulação abre espaço para o diálogo entre a Universidade e a Sociedade, trazendo questões a serem pensadas, conhecendo e acompanhando de forma interativa as produções da comunidade, reduzindo distâncias através da ação extensionista e intervindo nas realidades, com vistas à transformação social.
+De forma contínua a PREXC possui os seguintes objetivos: i) ampliar e aprimorar o Programa Institucional de bolsas de Extensão - PIBEX; e ii) aprimorar a interface entre Academia e Setor Produtivo, através da construção de um Núcleo de Empreendedorismo da UFPI com gestão compartilhada entre Incubadoras, Empresas Juniores e Grupos Acadêmicos.
+## 4.2.  Políticas institucionais de apoio à comunidade acadêmica 4.2.1. Apoio ao docente
+O regime de trabalho dos docentes do Curso de Ciência da Computação obedece a Lei 8.112/1990, que dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais, e legislação correlata. Na UFPI, a Superintendência de Recursos Humanos (SRH) é o órgão executivo responsável pela gestão e pelo desenvolvimento dos Recursos Humanos e tem como competência orientar, promover, coordenar e supervisionar a execução das atividades relativas à administração de pessoal desenvolvida pelas Coordenações e demais unidades administrativas sob sua supervisão; promover a orientação e a integração das unidades da SRH quanto às políticas e ações de gestão de pessoas; delegar atribuições aos servidores envolvidos na Superintendência; praticar todos os demais atos necessários ao exercício das funções vinculadas à SRH.
+De acordo com os Art. 183 e 185 da Lei 8.112/90, a União manterá Plano de Seguridade Social para o servidor e sua família, que compreendem: a) aposentadoria; b) auxílio-natalidade; c) salário-família; d) licença para tratamento de saúde; e) licença à gestante, à adotante e licença-paternidade; f) licença por acidente em serviço; g) assistência à saúde; h) garantia de condições individuais e ambientais de trabalho satisfatórias.
+A SRH/UFPI é uma unidade do Subsistema Integrado de Atenção à Saúde do Servidor (SIASS), instituído pelo Decreto nº 6.833/2009, e que tem por objetivo coordenar e integrar ações e programas nas áreas de assistência à saúde, perícia oficial, promoção, prevenção e acompanhamento da saúde dos servidores da
+administração federal direta, autárquica e fundacional, de acordo com a política de atenção à saúde e segurança do trabalho do servidor público federal, estabelecida em Lei. A PRAEC também oferece serviços de assistência ao servidor da UFPI, que contribuem significativamente para o bem-estar do servidor, tais como assistência odontológica, pedagógica, psicológica e alimentação nos Restaurantes Universitários. Com relação aos afastamentos para capacitação profissional e para exercício de mandato eletivo, a UFPI permite os seguintes:
+- Para estudo ou missão no exterior: (baseado nos Art. 95 e 96, Lei nº 8.112/1990) é o tipo de afastamento no qual o servidor não poderá ausentar-se do País para estudo ou missão oficial sem autorização da autoridade competente. A ausência não poderá exercer a 4 (quatro) anos, e finda a missão ou estudo, somente decorrido igual período, será permitida nova ausência;
+- Para exercício de mandato eletivo: (baseado no Art. 94, Lei nº 8.112/1990) é o afastamento concedido ao servidor investido em mandato eletivo federal, estadual, municipal ou distrital;
+- Para servir a outro órgão/entidade: (baseado no Art. 93, Lei nº 8.112/1990) é a cessão do servidor para exercício de cargo em comissão ou função em confiança em outro órgão ou entidade dos Poderes da União, dos Estados, ou do Distrito Federal e dos Municípios, mediante solicitação da autoridade interessada, especificando o motivo da requisição;
+- Para participação em programa de Pós-Graduação strictu sensu no país: (baseado no Art. 96, Lei nº 8.112/1990) é o afastamento, com remuneração, para participação em Programa de Pós-Graduação stricto sensu em instituição de ensino superior no País, a interesse da Administração Superior da UFPI.
+## 4.2.2. Apoio ao discente
+O Curso de Ciência da Computação possui algumas vertentes que possibilita apoio aos discentes no que diz respeito a operacionalização extraclasse, permitindo complementar seu conhecimento em relação ao curso, assim como a Universidade.
+Os programas têm apoio da própria Universidade que utiliza recursos próprios e verbas governamentais dependendo da modalidade. O gerenciamento destes
+recursos é feito através da Pró-reitora de Assuntos Estudantis e Comunitários (PRAEC) que concede os benefícios para os estudantes cadastrados e que atendem às exigências legais para recebê-los.
+As inscrições para os benefícios de permanência (bolsas e auxílios) ocorrem anualmente, no primeiro semestre, com possibilidade de abertura de inscrições no segundo semestre (em caso de disponibilidade de vagas), destinando-se exclusivamente aos estudantes em situação de vulnerabilidade socioeconômica de todos os Campi da UFPI. Para ser beneficiário, o estudante deve estar matriculado em no mínimo 4 disciplinas ou ter carga horária de 300 horas (por semestre), além de não ser portador de diploma de curso superior.
+Além das bolsas e auxílios, a PRAEC também oferece serviços de assistência ao estudante da UFPI, que contribuem significativamente para o sucesso acadêmico, tais como assistência odontológica, pedagógica, psicológica e alimentação nos Restaurantes Universitários.
+De maneira geral, os benefícios de permanência (bolsas e auxílios) ofertados aos discentes são:
+- Bolsa de Apoio Estudantil - BAE: auxílio financeiro no valor de R$ 400,00 mensais, concedido por 24 meses;
+- Isenção da Taxa de Alimentação - ITA: isenção do valor cobrado para acesso aos restaurantes universitários para os estudantes de baixa renda e desconto parcial para demais estudantes;
+- Auxílio Creche - AC: auxílio financeiro no valor de R$ 400,00 mensais concedido a estudantes com baixa renda familiar que sejam pais ou mães de crianças de até 3 anos e onze meses de idade;
+- Residência Universitária - REU: residência e alimentação para estudantes oriundos de outros municípios do Estado do Piauí ou outros Estados da Federação, em relação ao Campus onde o mesmo está matriculado;
+- Bolsa de Incentivo a Atividades Multiculturais e Acadêmicas - BIAMA: auxílio financeiro no valor de R$ 400,00 mensais para alunos que desenvolvem atividades em projetos supervisionados por docentes/técnicos da UFPI, na sua área de formação, oportunizando a integração entre conhecimento e prática;
+- Bolsa de Inclusão Social - BINCS: auxílio financeiro de R$ 400,00 destinado ao estudante regularmente matriculado na UFPI que presta auxílio acadêmico
+a um estudante com necessidade educacional especial (NEE) desta Instituição. O auxiliar é indicado pelo estudante com NEE, com quem tenha afinidade e manifeste habilidades para assisti-lo durante o curso;
+- Bolsa de Inclusão Social - BINCS (Estudantes Surdos): auxílio financeiro de R$ 400,00 destinado ao estudante regularmente matriculado na UFPI que presta auxílio acadêmico a um estudante surdo, desta Instituição. Para concorrer à BINCS o candidato deve ter habilidades em LIBRAS;
+- Apoio à Participação em Eventos Científicos - APEC: ajuda de custo para auxiliar nas despesas relativas à participação do estudante em eventos acadêmicos fora do campus onde cursa a graduação;
+- Bolsa de Incentivo as Atividades Socioculturais e Esportivas - BIASE: auxílio financeiro no valor de R$ 400,00 mensais para estimular a participação dos/as estudantes em projetos de atividades socioculturais e/ou esportivas, supervisionadas por docentes ou técnicos/as da UFPI, e visa incentivar atividades voltadas a um dos dez eixos do Programa Nacional de Assistência Estudantil - PNAES;
+- Auxílio ao Estudante Estrangeiro: atendimento odontológico, psicossocial e pedagógico, além de bolsa de apoio estudantil, desde que se enquadre nos requisitos exigidos pela Lei;
+- Bolsa Permanência (PBP) para Quilombolas e Indígenas: bolsa de R$ 900,00 mensais, até a conclusão do curso, paga pelo programa bolsa permanência do Governo Federal (PBP/MEC), com recursos oriundos do FNDE.
+Adicionalmente, existe o Núcleo de Acessibilidade da UFPI - NAU que promove ações institucionais que possibilitam o acesso e a permanência de pessoas com necessidades educacionais especiais dentro da Universidade. Também conta com o Serviço Psicossocial - SEPS que promove ações para superação das dificuldades psicopedagógicas que os alunos enfrentam durante sua formação acadêmica. O SEPS é divido em dois serviços:
+- Serviço de Apoio Psicológico - SEPS: tem como objetivo a promoção da saúde mental dos discentes por meio de ajuda as dificuldades emocionais relacionadas a vivência acadêmica contribuindo para o enfrentamento e superação destas promovendo uma melhor qualidade de vida para estes;
+- Serviço Pedagógico - SEPE: realiza o acompanhamento e orientação educacional dos estudantes da UFPI buscando que estes concluam o curso em tempo hábil, minimizar as retenções e evasões. São realizadas as seguintes acompanhamento do rendimento acadêmico dos (as) estudantes beneficiados (as) pelos programas da assistência estudantil; diagnóstico das necessidades educacionais; orientação educacional aos estudantes com baixo rendimento; encaminhamento das demandas aos demais serviços internos ou externos à UFPI e registro das informações para os setores que trabalham com a política de assistência estudantil, quando solicitado.
+Os estudantes do curso de Ciência da Computação da UFPI também contam com apoio para iniciação científica através da Pró-reitoria de Pesquisa e Inovação PROPESQI. Para desenvolvimento das potencialidades de pesquisa e inovação, a saber:
+- Tipo de bolsas e Incentivos a pesquisa para o discente: Programa de Institucional de Bolsas de Iniciação Científica -PIBIC, Programa de Institucional de Bolsas de Iniciação Científica de Ações Afirmativas - PIBIC(Af), Bolsas de Iniciação em Desenvolvimento Tecnológico e Inovação (PIBITI), além do programa de Iniciação Científica Voluntária (ICV) e Programa de Iniciação Tecnológica Voluntária (ITV).
+O curso também conta com bolsas para incentivo a projeto de extensão com parceria da Pró-Reitoria de Extensão e Cultura - PREXC onde os alunos desenvolvem trabalhos que tem objetivo trazer melhorias para coletividade.
+- Tipo de bolsas e Incentivos a extensão para o discente: Programa Institucional de Bolsa de Extensão (PIBEX), o Programa de Extensão Voluntária (PEV) e Bolsas com parceria da Prefeitura Universitária (PREUNI).
+Além das possibilidades de bolsas existentes apresentadas anteriormente, os estudantes do curso de Ciência da Computação da UFPI podem realizar intercâmbio para outras Instituições de Ensino Superior no Brasil por intermédio do Programa Santander Universidades. Paralelamente a isso também se tem a possibilidade de realizar intercâmbio em Universidades Estrangeiras, tais como os programas BrasilMéxico (BRAMEX) e Brasil-Colômbia (BRACOL).
+É importante mencionar que o Curso de Ciência da Computação também tem o apoio regular da PREUNI na aquisição de transporte para participação dos discentes em eventos científicos da área. As realizações de tais atividades permitem
+complementar a formação dos discentes, além de oferecer uma vantagem competitiva para os mesmos ao ingressarem no mercado de trabalho. Ressalta-se que em muitas disciplinas profissionais do curso, os alunos são orientados a desenvolverem trabalhos científicos nos quais visam publicações em eventos científicos ou periódicos do âmbito nacional e internacional.
+## 5.  SISTEMÁTICA DE AVALIAÇÃO
+## 5.1.  Avaliação da aprendizagem
+A avaliação discente será realizada em conformidade com a Resolução nº 177/12 do Conselho de Ensino, Pesquisa e Extensão (CEPEX). A aprovação em componente curricular está condicionada ao rendimento acadêmico do aluno, mensurado através da avaliação do ensino-aprendizagem e da assiduidade às atividades didáticas, e implica a contabilização de sua carga horária e consequente integralização como componente curricular.
+Entende-se por avaliação da aprendizagem o processo formativo de diagnóstico, realizado pelo professor, sobre as competências e habilidades desenvolvidas pelos alunos, assim como sobre os conhecimentos por estes adquiridos. Entende-se por assiduidade do aluno a frequência às atividades didáticas (aulas teóricas e práticas e demais atividades exigidas em cada disciplina) programadas para o período letivo.
+De acordo com o Art. 101º da Resolução 177/2012, para efeito de registro, o número de notas parciais deverá ser proporcional à carga horária da disciplina, respeitado o mínimo de:
+- 2 (duas) avaliações, nas disciplinas com carga horária igual ou inferior a 45 (quarenta e cinco) horas;
+- 3 (três) avaliações, nas disciplinas com carga horária de 60 (sessenta) a 75 (setenta e cinco) horas;
+- 4 (quatro) avaliações, nas disciplinas com carga horária superior a 75 (setenta e cinco) horas.
+A avaliação do rendimento acadêmico será feita por meio do acompanhamento contínuo do desempenho do aluno, sob forma de prova escrita, oral ou prática, trabalho de pesquisa, de campo, individual ou em grupo, seminário, ou outros instrumentos constantes no plano de disciplina. As avaliações devem verificar o desenvolvimento das competências e habilidades e versar sobre os conteúdos propostos no programa da disciplina.
+De acordo com o Art. 111º da Resolução 177/2012, será considerado 'aprovado' no componente curricular o aluno que obtiver frequência igual ou superior a 75% da carga horária do componente curricular e obtenha:
+- Média aritmética igual ou superior a 7 (sete) nas avaliações parciais, quando será liberado de prestar exame final; ou
+- Média aritmética igual ou superior a 4 (quatro) nas avaliações parciais e submetido ao exame final, obtiver média aritmética igual ou superior a 6 (seis), resultante da média aritmética das avaliações parciais e da nota do exame final. Ao aluno reprovado por falta será atribuída a média final igual a 0 (zero).
+De acordo com o Art. 108º da Resolução 177/2012, impedido de participar de qualquer avaliação, o aluno tem direito de requerer a oportunidade de realizá-la em segunda chamada. Consideram-se motivos que justificam a ausência do aluno às verificações parciais ou ao exame final:
+- Doença;
+- Doença ou óbito de familiares diretos;
+- ·
+- Audiência judicial;
+- Militares, policiais e outros profissionais em missão oficial;
+- Participação em congressos, reuniões oficiais ou eventos culturais representando a Universidade, o Município ou o Estado;
+- Outros motivos que, apresentados, possam ser julgados procedentes.
+## 5.2.  Do PPC
+O NDE é o responsável pelo acompanhamento e avaliação do Currículo do Bacharelado em Ciência da Computação durante sua execução (avaliação em processo), e após a conclusão da primeira turma (avaliação do egresso).
+A avaliação em processo será realizada através da aplicação de questionários específicos a professores e alunos, no final de cada semestre, além de reuniões e seminários. Adicionalmente, ao final do segundo ano de curso, os alunos deverão ser submetidos a um exame com 30 (trinta) questões de múltipla escolha para analisar o nível de conhecimento adquirido em relação às áreas de matemática e de fundamentos de computação.
+A avaliação do egresso será realizada através de questionários direcionados aos graduados, atuantes ou não no mercado de trabalho.
+## 1.1.  Avaliação do curso pelos alunos
+Os alunos têm a oportunidade de avaliar cada disciplina do curso e de avaliar o curso como um todo.
+A avaliação de disciplinas é efetuada através do sistema SIGAA e ocorre antes da matrícula curricular do semestre letivo seguinte. Nos questionários, diversos itens são verificados: avaliação do docente (pontualidade, didática, disponibilidade, etc.), avaliação da disciplina (ementa, relacionamento com outras disciplinas do curso, bibliografia, etc.), suporte ao ensino (presença de monitores e assistentes de ensino, oferecimento de plantões de dúvidas, etc.) e participação dos alunos nas aulas, dentre outros.
+Por fim, a avaliação do curso deverá ser promovida durante as disciplinas de trabalho de conclusão de curso (TCC) e estágio supervisionado, ocasião em que o aluno deverá entregar sua monografia ou artigo técnico-científico correspondente às atividades que realizou. No texto, o aluno deverá incluir uma avaliação do curso, abordando: a qualidade do corpo docente, a estrutura curricular e a infraestrutura disponível. Essas informações serão avaliadas e frequentemente serão utilizadas para se melhorar a qualidade do curso dos alunos.
+## 5.3.  Avaliações Externas ao Curso
+A qualidade do curso também tem sido atestada pelos ranques e classificações nacionais frequentemente divulgados. Na última avaliação do ENADE, realizada em 2017, nosso curso obteve nota 3 (três). Tradicionalmente o curso tem recebido 4 (quatro) estrelas na avaliação do Guia do Estudante da Editora Abril.
+## 6.  EMENTÁRIO DAS DISCIPLINAS
+## 6.1.  Disciplinas Obrigatórias
+A sequência proposta de realização das disciplinas obrigatórias do Bacharelado em Ciência da Computação, bem como o número de créditos, carga horária, pré-requisitos, ementa e bibliografia, encontra-se nas subseções a seguir.
+## 6.1.1. 1 o Período
+## DISCIPLINA: Cálculo Diferencial e Integral I
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+EMENTA: Limite, Continuidade e Derivada. Regras de Derivação. Máximos e Mínimos. Comportamento de funções.
+## BIBLIOGRAFIA BÁSICA:
+- LEITHOLD, L. O Cálculo com Geometria Analítica. 3ed. São Paulo, Harbra, 1994.
+- STEWART, J. Calculus. 6ed. Brooks/Cole Pub, Vol I, 2008.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SWOKOWSKI, E. Cálculo com Geometria Analítica. Vol I, Makron Books do Brasil, São Paulo, 1983.
+- THOMAS, G. B. Cálculo. Vol I, Addison Weslley, São Paulo, 2002.
+- GUIDORIZZI, H. L. Um Curso de Cálculo. Vol I, Livros Técnicos e Científicos Ed., 1997.
+DISCIPLINA:
+Introdução à Lógica
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+EMENTA: LÓGICA PROPOSICIONAL: conectivos lógicos. Sentenças e classificação das sentenças moleculares. Reescrita de sentenças. Simbologia das sentenças. Função verdade. Interpretações. Simplificação de sentenças. Tautologias, contingências e contradições. Regras de inferência. Formas normais conjuntivas e disjuntivas. Argumento válido. Demonstração da validade de argumentos. Demonstração direta e indireta condicional e por absurdo. Árvores de derivação. Construção de árvores de refutação. Cálculo Proposicional e Álgebra dos Conjuntos. LÓGICA DE PREDICADOS: cálculo de predicados de 1a ordem. Símbolos da linguagem. Definição de fórmula. Escopo de um quantificador. Negação de fórmulas quantificadas. Enunciados categóricos. Diagramas de EulerVenn para enunciados categóricos. Argumentos categóricos. Árvores de refutação. Semântica. Propriedades sintáticas.
+## BIBLIOGRAFIA BÁSICA:
+- SILVA, F. S. C. da; De MELO, A. C. V.; FINGER, M. Lógica para Computação. 1ed. São Paulo: Cengage Learning, 2006.
+- DAGLHIAN, Jacob. Lógica e Álgebra de Boole. 4ed. São Paulo: Atlas, 1995.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SOUZA, F. V. de. Lógica Computacional. UAPI. Teresina. 2008.
+- SOUZA, J. N. de. Lógica para Ciência da Computação: Uma Introdução Concisa. 1ed. Editora Campus. Rio de Janeiro, 2008.
+DISCIPLINA:
+Informática e Sociedade
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+EMENTA: Aspecto histórico da Tecnologia na Sociedade. Implicações sociais, políticas e econômicas da Informática na Sociedade. Influência da comunicação e compartilhamento de dados eletrônicos na sociedade. Privacidade e liberdade de expressão. Legislação pertinente a computação e informática. Crimes cibernéticos. Mercado de trabalho de Informática e direito trabalhista. Ética e Moral. Código de ética profissional de informática. Direitos de propriedade intelectual e patentes. Tendências e perspectivas sociais com uso da computação e informática.
+## BIBLIOGRAFIA BÁSICA:
+- MARTINI, Renato. Sociedade da informação: para onde vamos [livro eletrônico]. São Paulo: Trevisan Editora, 2017.
+- CASTELLS, Manuel, A Sociedade em Rede. São Paulo: Paz e Terra, 2007. NEGROPONTE, Nicholas, A Vida Digital, 2 ed. São Paulo: Companhia das Letras, 2002.
+- DERTOUZOS, Michael, 'O que será : como o novo mundo da informação transformará nossas vidas', Cia. das Letras, São Paulo, 1997.
+- YOUSSEF, Antônio Nicolau. Informática e Sociedade - Serie Princípios, São Paulo. Ática: 2010.
+- BATISTA, Sueli Soares dos Santos. Educação, sociedade e trabalho. 1. ed. São Paulo: Érica, 2014.
+- CASTELLE, Manuel. A Galáxia da Internet: reflexões sobre a Internet, os negócios e a sociedade. São Paulo: Zahar, 2000.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- PAESANI, Liliana Minardi Direito de informática : comercialização e desenvolvimento internacional do software. 10. ed. - São Paulo : Atlas, 2015
+- FRIEDMAN, Thomas L. O Mundo é Plano. Objetiva, 2005.
+- GABOR, Denis. O Desafio do Futuro. 3 ed. Rio de Janeiro: Expressão e Cultura, 1974.
+- RATTNER, Henrique. Informática e Sociedade. Brasília: Brasiliense, 1985.
+- SCHAFF, Adam. A Sociedade Informática. 4 ed. Brasília: Brasiliense, 1993.
+- FRIEDMAN, Thomas L., 'O Mundo é Plano', Ed. Objetiva, 2005.
+- TOFFLER, Alvin: "A Terceira Onda", 19ª Edição. Record, 1993.
+- RIFKIN, Jeremy, 'O Fim dos Empregos', Ed. McGraw Hill Ltda., São Paulo.
+- WIENER, Norberto: "Cibernética e Sociedade" (1950), Editora Cultrix, 1984.
+| DISCIPLINA: Programação Estruturada   | DISCIPLINA: Programação Estruturada   |
+|---------------------------------------|---------------------------------------|
+| Créditos:                             | Carga Horária:                        |
+| 3.1.0                                 | 60h                                   |
+EMENTA: Conceitos básicos de organização de computadores. Conceito de algoritmos e programação estruturada. Estruturas básicas de controle. Algoritmos baseados em estruturas de dados homogêneas. Algoritmos baseados em estruturas de dados heterogêneas. Funções. Passagem de parâmetros. Recursão. Armazenamento de dados persistente. Estudo de uma linguagem de programação estruturada.
+## BIBLIOGRAFIA BÁSICA:
+- DEITEL, P.; DEITEL, H. C: Como programar. 6ª Edição. São Paulo: Pearson Prentice Hall, 2011.
+- MIZRAHI, Victorine Viviane. Treinamento em linguagem C. 2ª Edição. Sao Paulo: Pearson Prentice Hall, 2008
+- SCHILDT, Herbert. C, completo e total. 3ed. São Paulo: Makron Books, 1997.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ASCENCIO, A. F. G.; CAMPUS, E. A. V. Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/C++ e Java. 2 ed. Pearson: Prentice Hall. 2008.
+- BACKES, André. Linguagem C: Completa e Descomplicada. 1 Ed. Rio de Janeiro: Editora Campus, 2012.
+- EDELWEISS, Nina; LIVI, Maria Aparecida Castro. Algoritmos e Programação com exemplos em Pascal e C. Porto Alegre: Bookman, 2014.
+- FARRER, H. Algoritmos Estruturados. 3 ed. Rio de Janeiro: LTC. 2011.
+- KERNIGHAN, B. W.; RITCHIE, D. M. C: A Linguagem de Programação. Rio de Janeiro: Campus, 1986.
+- MOKARZEL, Fabio Carneiro; SOMA, Nei Yoshihiro. Introdução à Ciência da Computação. Campus, 2008.
+- SENNE, Edson Luiz França. Curso de programação em C. São Paulo: Visual Books, 2009.
+DISCIPLINA:
+Inglês Técnico e Científico
+| Créditos:   | Carga Horária:   | Pré-requisito(s):   |
+|-------------|------------------|---------------------|
+| 4.0.0       | 60h              | - - - - -           |
+EMENTA: Utilizar as estratégias de leitura: skimming , scanning , etc. Exercitar diferentes níveis de compreensão: general comprehension, main points comprehension and details . Desenvolver habilidades mentais, senso crítico e capacidade de aplicação de conteúdo à realidade do aluno.
+## BIBLIOGRAFIA BÁSICA:
+- GADELHA, Isabel Maria Brasil. Compreendendo a Leitura em Língua Inglesa. Teresina: EDUFPI, 2007.
+- GADELHA, Isabel Maria Brasil. Inglês Instrumental: leitura, conscientização e prática. Teresina: EDUFPI, 2000.
+- SOUSA, M. do S. E. de, SOUSA, C. N. N. de, GONÇALVES, L. R. L. R. et al. Inglês Instrumental: estratégias de leitura. Teresina: Editora Halley, 2002.
+## BIBLIOGRAFIA COMPLEMENTAR:
+Textos de linguagem acadêmica. Fontes de textos: livros, revistas, periódicos, enciclopédias, etc.
+| DISCIPLINA: Seminários de Introdução ao Curso   | DISCIPLINA: Seminários de Introdução ao Curso   | DISCIPLINA: Seminários de Introdução ao Curso   |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| Créditos:                                       | Carga Horária:                                  | Pré-requisito(s):                               |
+| 2.0.0                                           | 30h                                             | - - - - -                                       |
+EMENTA: Apresentação do perfil do curso, da definição e das especificidades da Ciência da Computação e da Universidade. Áreas e Subáreas da Ciência da Computação. Desenvolvimento de habilidades e atitudes necessárias ao desenvolvimento profissional. Apresentação das principais normas de graduação vigentes adotadas pela UFPI. Projeto de Pesquisa, Extensão, Monitoria e Atividades complementares. Palestras sobre temas atuais nas diversas áreas do curso.
+## BIBLIOGRAFIA BÁSICA:
+- BROOK SHERL, I. GLENN. Ciência da Computação: Uma visão abrangente. Bookman, 2013.
+- LAGES, NEWTON; GUIMARAES, ANGELO. Introdução a Ciência da Computação. LTC, 1998.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- TANEMBAUM, Andrew S. Organização estruturada de computadores. 3.ed. Rio de Janeiro: Pearson, 2015.
+- NORTON, Peter. Introdução à Informática. 2ed. São Paulo: Makron Books, 2005.
+- UNIVERSIDADE FEDERAL DO PIAUÍ. Normas de funcionamento dos Cursos de Graduação da Universidade Federal do Piauí. Resolução 177. 2012.
+DISCIPLINA:
+Introdução a Metodologia Científica
+| Créditos:   | Carga Horária:   | Pré-requisito(s):   |
+|-------------|------------------|---------------------|
+| 4.0.0       | 60h              | - - - - -           |
+EMENTA: Metodologia do Trabalho Científico. Pré-requisitos do Trabalho Científico. Visão geral do Trabalho Científico. Elaboração do Trabalho Científico. O Processo do Conhecimento. Ciências.
+## BIBLIOGRAFIA BÁSICA:
+- INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL. Normas para Apresentação de Documentos Científicos. Curitiba: Ed. da UFPR, 2000.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ANDRADE, M. Margarida de Introdução à Metodologia do Trabalho Científico: elaboração de trabalhos na graduação. 8 ed. São Paulo: Atlas, 2007.
+- DEMO, P. Metodologia do Conhecimento Científico. São Paulo: Atlas, 2008.
+- FACHIN, O. Fundamentos de Metodologia. 5 ed. São Paulo: Saraiva, 2006.
+- LAKATOS, E. M. Metodologia Científica. 5 ed. São Paulo: Atlas, 2008.
+- LEITE, F.T. Metodologia Científica Métodos e Técnicas de Pesquisa: monografias, dissertações, teses e livros. São Paulo: Idéias e Letras, 2008.
+- MATTAR, J. Metodologia Científica na Era da Informática. 3 ed. São Paulo: Saraiva, 2008.
+- SEVERINO, A. J. Metodologia do Trabalho Científico. 23 ed. SP: Cortez, 2007.
+## 6.1.2. 2 o Período
+DISCIPLINA:
+Cálculo Diferencial e Integral II
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                  |
+|-------------|------------------|------------------------------------|
+| 2.2.0       | 60h              | - Cálculo Diferencial e Integral I |
+EMENTA: Integral. Métodos de Integração. Funções de Múltiplas Variáveis: Limite, Continuidade, Derivadas Parciais, Derivada Direcional, Gradiente, Máximos e Mínimos.
+## BIBLIOGRAFIA BÁSICA:
+- STEWART, J. Calculus. 6ed. Brroks/Cole Pub, Vol I, 2008.
+- BOULOS, P. Introdução ao Cálculo. Vol II e III, EdgardBlucher Ltda, São Paulo, 1974.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- THOMAS, G. B. Cálculo. Vol I, Addison Weslley, São Paulo, 2002.
+- GUIDORIZZI, H. L. Um Curso de Cálculo. Vol I, Livros Técnicos e Científicos Ed., 1997.
+## DISCIPLINA: Circuitos Digitais
+| Créditos:   | Carga Horária:   | Pré-requisito(s):     |
+|-------------|------------------|-----------------------|
+| 2.2.0       | 60h              | - Introdução à Lógica |
+EMENTA: Álgebra booleana. Sistemas numéricos. Aritmética binária: ponto fixo e flutuante. Simplificação e implementação de circuitos. Implementação de portas lógicas com transistores e diodos. Famílias lógicas. Circuitos combinacionais: análise e síntese. Circuitos aritméticos. Codificadores, decodificadores e controladores. Circuitos multiplex e demultiplex. Transmissão síncrona e assíncrona de dados. Circuitos sequenciais: latches, flip-flops e registradores. Memórias: RAM e ROM. Organização de memórias.
+## BIBLIOGRAFIA BÁSICA:
+- IDOETA, Ivan; CAPUANO, Francisco. Elementos de Eletrônica Digital. Rio de Janeiro: Érica, 1999.
+- TAUB, Herbert. Circuitos Digitais e Microprocessadores. McGrow-Hill, 1984.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- GAJSKI, Daniel. Principles of Digital Design. Upper Saddle River: Prentice-Hall, 1997.
+- GARCIA, Paulo Alves; MARTINI, Jose Sidnei Colombo. Eletrônica Digital: teoria e laboratório. São Paulo: Érica, 2006.
+- MALVINO, Albert P., Microcomputadores e Microprocessadores. São Paulo: McGraw-Hill do Brasil, 1985.
+- NAGLE, H. Troy et. al. An Introduction to Computer Logic. Prentice-Hall, 1975.
+- ZUFFO, João A., Sistemas Eletrônicos Digitais: organização interna e projetos. São Paulo: Edgar Blucher, 1976. vol. I e II.
+DISCIPLINA:
+Matemática Discreta
+| Créditos:   | Carga Horária:   | Pré-requisito(s):     |
+|-------------|------------------|-----------------------|
+| 2.2.0       | 60h              | - Introdução à Lógica |
+EMENTA: Conjuntos. Relações. Funções. Operações. Números Naturais. Axiomas de Peano. Indução. Definições Recursivas. Sistemas Algébricos. Homomorfismo. Congruência. Produto Direto. Grupos. Anéis e Corpos. Tipos Abstrato de Dados.
+## BIBLIOGRAFIA BÁSICA:
+- DOMINGUES, Hygino H.; IEZZI, Gelson. Álgebra Moderna. 3. ed. São Paulo: Atual Editora, 2000.
+- DEAN, Richard A. Elementos de Álgebra Abstrata. Rio de Janeiro: Livros Técnicos e Científicos, 1974.
+- HERSTEIN, I. Tópicos de Álgebra. São Paulo: Ed. Polígono, 1970.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- GONÇALVES, Adilson. Introdução à Álgebra. Rio de Janeiro: IMPA, 1979.
+- GILL, Arthur. Applied Algebra for the Computer Sciences. New Jersey: PrenticeHall, 1975.
+DISCIPLINA:
+## Estruturas de Dados
+| Créditos:   | Carga Horária:   | Pré-requisito(s):         |
+|-------------|------------------|---------------------------|
+| 2.2.0       | 60h              | - Programação Estruturada |
+EMENTA: Estruturas de dados lineares: listas, pilhas, filas, filas com prioridade, sets e maps. Algoritmos de busca sequencial e binária. Algoritmos de ordenação. Tabelas Hash. Árvores binárias de busca. Estratégias de travessias em árvores.
+## BIBLIOGRAFIA BÁSICA:
+- SEDGEWICK, R. &amp; WAYNE, K. Algorithms, 4th Edition, Addison-Wesley, 2011.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- CELES, W.; CERQUEIRA, R.; RANGEL, J. L. Introdução a Estrutura de Dados: com técnicas de programação em C. Rio de Janeiro, Elsevier, 2004.
+- CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. Algoritmos:
+Teoria e Prática. 3a edição. Elsevier. 2012.
+- DROZDEK, Adam. Estrutura de Dados e Algoritmos em C++. Thomson Learning, São Paulo, 2002.
+- TENENBAUM, A. M.; LANGSAM, Y.; AUGENSTEIN,M. J. Estruturas de Dados usando C. Pearson Makron Books, 1995.
+DISCIPLINA:
+Programação Orientada a Objetos
+| Créditos:   | Carga Horária:   | Pré-requisito(s):         |
+|-------------|------------------|---------------------------|
+| 2.2.0       | 60h              | - Programação Estruturada |
+EMENTA: Conceitos de orientação a objetos. Objetos e classes. Herança, classes abstratas e interfaces. Classes Genéricas. Projeto de classes. Tratamento de exceções. Teste de unidade para programas orientados a objeto. Depuração e profiling. Estudo de uma linguagem orientada a objetos.
+## BIBLIOGRAFIA BÁSICA:
+- DEITEL, H. M; DEITEL, P. J. Java: como programar. 3 ed. Porto Alegre: Bookman, 2010.
+- BARNES, David J.; KÖLLING, Michael. Objects First with Java. A Practical Introduction using BlueJ. 6th edition. Pearson, 2016.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- Meyer, B. Object-Oriented Software Construction. Prentice Hall, 2nd edition, 2000. ISBN 01-362-9155-4.
+- ANSELMO, Fernando. Aplicando Lógica Orientada a Objetos em Java. Florianópolis: Visual Books, 2003.
+- ARNOLD, Ken; GOSLING, James; HOLMES, David. A Linguagem de Programação Java. 4 ed. Porto Alegre: Bookman, 2007.
+- BARNES, David J.; KÖLLING, Michael. Programação Orientada a Objetos com Java. São Paulo: Pearson, 2004.
+- CARDOSO, Caíque. Orientação a Objetos na Prática: aprendendo orientação a objetos com Java. Rio de Janeiro: Ciência Moderna, 2006.
+- COSTA, Luís C. M. Java Avançado. Rio de Janeiro: Ciência Moderna, 2006.
+- SANTOS, Rafael. Introdução à Programação Orientada a Objetos usando Java. Rio de Janeiro: Elsevier, 2003;
+## DISCIPLINA: Laboratório de Programação
+Créditos: Carga Horária:
+Pré-requisito(s): 1.3.0
+60h
+- Programação Estruturada
+EMENTA: Desenvolvimento sistemático e implementação de programas envolvendo: estruturas básicas de controle, estrutura de dados homogêneas e heterogêneas, modularidade e recursividade, tipos dinâmicos de dados, arquivos. Depuração, testes e documentação de programas.
+## BIBLIOGRAFIA BÁSICA:
+- ASCENCIO, A. F. G. e CAMPOS, E. A. V. Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/C++ e Java. 2a edição. Pearson: Prentice Hall. 2008.
+- MIZRAHI, V. Viviane. Treinamento em linguagem C. 2a edição. Pearson Prentice Hall, 2015.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SCHILDT, Herbert. C, completo e total. 3 ed. São Paulo: Pearson Education, 1996.BARCLAY, Kenneth. C Problem solving and programming. New York: Prentice-Hall, 1989.
+- FARRER, H. Algoritmos Estruturados. 2 ed. Rio de Janeiro: LTC, 1993.
+- GUIMARAES, Ângelo de Moura; LAGES, Newton Alberto de Castilho. Algoritmos
+- e Estruturas de Dados. Rio de Janeiro: Livros Técnicos e Científicos, 1985.
+- KERNIGHAN, Brian W; RITCHIE, Dennis M. C: a linguagem de programação padrão ANSI. Rio de Janeiro: Campus, 1990.
+- WIRTH, Niklaus. Algoritmos e Estruturas de Dados. Rio de Janeiro: Prentice-Hall do Brasil, 1989.
+## 6.1.3. 3 o Período
+## DISCIPLINA: Álgebra Linear
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                   |
+|-------------|------------------|-------------------------------------|
+| 2.2.0       | 60h              | - Cálculo Diferencial e Integral II |
+EMENTA: Espaços vetoriais. Transformações lineares. Autovalores e autovetores. Diagonalização de operadores. Produto interno.
+## BIBLIOGRAFIA BÁSICA:
+- BOLDRINI, J. L. Álgebra Linear. 3 ed. São Paulo: Harbra, 1986.
+- CALLIOLI, Carlos A.; COSTA, R. C. F.; DOMINGUES, H. H. Álgebra Linear e Aplicações. 4 ed. São Paulo: Atual, 1983.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BOULOS, P.; CAMARGO I. Geometria Analítica: um tratamento vetorial. São Paulo: McGraw-Hill, 1987.
+- BOULOS, P.; CAMARGO I. Introdução à Geometria Analítica no Espaço. São Paulo: Makron Books,1997.
+- MONTEIRO, A.; PINTO, G. Álgebra Linear e Geometria Analítica. McGraw-Hill, 1999.
+- PENNEY, D. E.; EDWARDS JUNIOR, C. H. Introdução à Álgebra Linear. Prentice-Hall, 1998.
+## DISCIPLINA: Arquitetura de Computadores
+Créditos: Carga Horária:
+Pré-requisito(s): 3.1.0
+60h
+- Circuitos Digitais
+EMENTA: Organização multinível de computadores: memórias, unidades centrais de processamento, entrada e saída. Micro e macro arquitetura. Linguagens de montagem. Modos de endereçamento, conjunto de instruções. Mecanismos de interrupção e de exceção. Barramento, comunicações, interfaces e periféricos. Organização de memória. Memória auxiliar. Arquiteturas RISC e CISC. Pipeline escalar.
+## BIBLIOGRAFIA BÁSICA:
+- STALLINGS, William. Arquitetura e organização de computadores: projeto para o desempenho. 5 ed. São Paulo: Prentice Hall, 2003.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- TANENBAUM, Andrew S. Organização estruturada de computadores. 3 ed. Rio de Janeiro: Prentice-Hall do Brasil, 1992.
+- HENNESSY, John L; PATTERSON, David A. Arquitetura de computadores: uma abordagem quantitativa. Rio de Janeiro: Campus, 2003.
+| DISCIPLINA: Probabilidade e Estatística   | DISCIPLINA: Probabilidade e Estatística   | DISCIPLINA: Probabilidade e Estatística   |
+|-------------------------------------------|-------------------------------------------|-------------------------------------------|
+| Créditos:                                 | Carga Horária:                            | Pré-requisito(s):                         |
+| 2.2.0                                     | 60h                                       | - Cálculo Diferencial e Integral I        |
+EMENTA: Estatística descritiva. Cálculo das probabilidades. Variáveis aleatórias. Distribuição de probabilidade. Amostras e Distribuições Amostrais. Estimação. Teste de hipótese. Análise de variância. Correlação e Regressão.
+## BIBLIOGRAFIA BÁSICA:
+- BUSSAB, W. O.; MORETTIN, P. A. Estatística Básica. 4 ed. São Paulo: Atual, 1987.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BUSSAB, W. O.; MORETTIN, P. A. Estatística Básica. 5 ed. São Paulo: Saraiva, 2003.
+- LAPPINI, Juan Carlos. Estatística usando Excel. Rio de Janeiro: Compus, 2005.
+- MEYER, Paul L. Probabilidade Aplicação à Estatística. Rio de Janeiro: Livros Técnicos Científicos, 1984.
+- COSTA NETO, Pedro de Oliveira. Estatística. São Paulo: Edgard Blucher Ltda, 2002.
+- FONSECA, Jairo Simon da e Martins, Gilberto Andrade. Curso de Estatística. São Paulo: Atlas S.A., 1996.
+DISCIPLINA:
+Banco de Dados
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                       |
+|-------------|------------------|---------------------------------------------------------|
+| 2.2.0       | 60h              | - Estruturas de Dados - Programação Orientada a Objetos |
+EMENTA: Abordagem e evolução dos Sistemas de Banco de Dados. Componentes de um Sistema de Banco de Dados. Projeto do núcleo das funções de um SGBD (linguagens, mecanismos de consulta, gerenciamento de transações, gerenciamento de buffer, métodos de acesso, recuperação e segurança). Arquitetura e Independência de dados. Modelagem Conceitual de Dados (E-R e UML). Modelo de Dados Relacional. Álgebra Relacional Básica.
+## BIBLIOGRAFIA BÁSICA:
+- ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de Banco de Dados. 6 ed. São Paulo: Pearson Addinson Wesley, 2011.
+- KORTH, Henry F; SILBERSCHATZ, Abraham. Sistema de Banco de Dados. 6 ed. Rio de Janeiro: Campus, 2012.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ALVES, William Pereira. Fundamentos de bancos de dados. São Paulo: Érica, 2004.
+- GUIMARÃES, Célio C. Fundamentos de Bancos de Dados. Campinas (SP): UNICAMP, 2003.
+- MACHADO, Felipe Nery Rodrigues. Banco de dados: projeto e implementação. São Paulo: Érica, 2004.
+| DISCIPLINA: Interface Humano Computador   | DISCIPLINA: Interface Humano Computador   | DISCIPLINA: Interface Humano Computador   |
+|-------------------------------------------|-------------------------------------------|-------------------------------------------|
+| Créditos:                                 | Carga Horária:                            | Pré-requisito(s):                         |
+| 2.2.0                                     | 60h                                       | - Programação Orientada a Objetos         |
+EMENTA: Design de interação: conceitos, métodos e técnicas. Fundamentos de IHC. Design centrado no usuário. Análise de usuários. Fatores humanos. Acessibilidade de software. Usabilidade: métricas, testes e avaliação. Tecnologias para IHC: interfaces gráficas, Web, Mobile e Games.
+## BIBLIOGRAFIA BÁSICA:
+- SHNEIDERMAN, Ben; PLAISANT, Catherine; COHEN, Maxine; JACOBS, Steven. ELMQVIST, Niklas and DIAKOPOULOS, Nicholas. Designing the User Interface: Strategies for Effective Human-Computer Interaction, 6th Edition. Addison-Wesley, 2016.
+- SHARP, Helen; ROGERS, Y.; PREECE, J. Design de Interação: além da interação homem-computador. Artmed, 3ª edição, 2013.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BAXTER, Kathy; COURAGE, Catherine; CAINE, Kelly. Understanding Your Users: A Practical Guide to User Research Methods. Morgan Kaufmann, 2015.
+- BUXTON, William. Sketching User Experiences: Getting the Design Right and the Right Design. Elsevier/Morgan Kaufman, 2007
+- MACKENZIE, I. Scott. Human-computer interaction: An empirical research perspective. Morgan Kaufmann, 2013.
+- NIELSEN, Jacob. Projetando website: designing web usability. Tradução de Ana Gibson. Rio de janeiro: Campus 2000.
+- SAURO, Jeff; LEWIS, James R. Quantifying the user experience: Practical statistics for user research. Elsevier, 2012.
+- ZIMMERMAN, John et al. Design Research Through Practice. Morgan Kaufmann, 2011.
+DISCIPLINA:
+Teoria e Aplicações em Grafos
+| Créditos:   | Carga Horária:   | Pré-requisito(s):     |
+|-------------|------------------|-----------------------|
+| 3.1.0       | 60h              | - Estruturas de Dados |
+EMENTA: Conceitos fundamentais: grafos, subgrafos, grafos não orientados, grafos orientados, grafos valorados, família de grafos e isomorfismo. Conexidade. Representação computacional de grafos. Travessia, Buscas, Ordenação topológica. Árvores geradoras mínimas. Caminhos mínimos. Grafos hamiltonianos. Grafos eulerianos. Fluxo máximo. Emparelhamento em grafos bipartidos. Caixeiro viajante.
+## BIBLIOGRAFIA BÁSICA:
+- SZWARCFITER, Jayme Luiz. Grafos e Algoritmos Computacionais. Editora Campus, 1983.
+- BOAVENTURA, Paulo O. Grafos: Teoria, Modelos e Algoritmos. Editora Edgard Blucher Ltda, 2006.
+- CORMEN, Thomas H., LEISERSON, Charles E., RIVEST, Ronald L. Algoritmos: teoria e prática. Tradução de Vanderberg D. de Sousa. 2. ed. Campus, 2002.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- STEEN, Maarten van. Graph Theory and Complex Network - An Introduction. Published by Maarten van Steen, 2010.
+- DIESTEL, R. Graph Theory. Springer Verlag, 1997.
+- LUNA, Henrique Pacca e GOLDBERG, Marcos Cesar. Otimização Combinatória e Programação Linear - Modelos e Algoritmos. Ed. Campus, 2000.
+- CHARTRAND, Gary. Introductory Graph Theory. Dover Publications, 1885.
+- BONDY, J.A. Murty, U.S.R., Graph Theory with Applications. MacMillan, 1976.
+- SEDGEWICK, Robert., Algorithms in C++. Addison Wesley, 1992.
+- ZIVIANI, Nivio., Projeto de Algoritmos: com implementações em Pascal e C. 2ª. edição. Pioneira Thomson Learning, 2004.
+## 6.1.4. 4 o Período
+DISCIPLINA:
+Computação Gráfica
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                  |
+|-------------|------------------|----------------------------------------------------|
+| 2.2.0       | 60h              | - Álgebra Linear - Programação Orientada a Objetos |
+EMENTA: Introdução. Renderização. Modelagem Geométrica. Transformações Geométricas. Projeções Geométricas. Recorte (Clipping). Visibilidade. Rasterização. Iluminação. Sombreamento (Shading). Textura. Animação.
+## BIBLIOGRAFIA BÁSICA:
+- AZEVEDO, E. et al. Computação Gráfica: Teoria e Prática - Geração de Imagens. Volume 1. 3 ed. Rio de Janeiro: Elsevier, 2018.
+- GORTLER, S. J. Foundations of 3D Computer Graphics. The MIT Press, 2012.
+- MARSCHNER, S.; SHIRLEY, P. Fundamentals of Computer Graphics. 4 ed. Willard, USA: CRC Press, 2015.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- AKENINE-MÖLLER, T. et al. Real-Time Rendering. 4 ed. Willard, USA: CRC Press, 2018.
+- HEARN, D.; BAKER, M. P. Computer Graphics: C version. 2 ed. Upper Saddle River, NJ: Prentice Hall, 1998.
+- HEARN, D. et al. Computer Graphics with OpenGL. 4 ed. Edinburgh Gate, UK: Pearson, 2014.
+- HUGHES, J. F. et al. Computer Graphics: Principles and Practice. 3 ed. AddisonWesley. 2014.
+- PHARR, M. et al. Physically Based Rendering: From Theory to Implementation. 3 ed. Morgan Kaufmann, 2016.
+- VELHO, L.; GOMES, J. Fundamentos da Computação Gráfica. 1 ed. Rio de Janeiro: IMPA, 2015.
+- SHREUNER, D. et al. OpenGL Programming Guide: The Official Guide to Learning OpenGL, Version 4.5 With SPIR-V (Red Book). 9 ed. Addison-Wesley, 2017.
+| DISCIPLINA: Sistemas Operacionais   | DISCIPLINA: Sistemas Operacionais                                   |
+|-------------------------------------|---------------------------------------------------------------------|
+| Créditos:                           | Carga Horária: Pré-requisito(s):                                    |
+| 2.2.0                               | 60h - Arquitetura de Computadores - Programação Orientada a Objetos |
+EMENTA: Introdução aos Sistemas Operacionais. Princípios de Sistemas Operacionais. Conceito de Processos, Concorrência e Escalonamento. Gerenciamento de Memória. Multiprogramação, memória virtual e paginação. Gerenciamento de Dispositivos. Deadlocks. Sistemas de Arquivos. Virtualização. Segurança e proteção. Conceitos de Sistemas embarcados e de tempo real. Estudo de casos.
+## BIBLIOGRAFIA BÁSICA:
+- TANENBAUM, Andrew S. e BOS, Herbert. Sistemas Operacionais Modernos. 4 ed. São Paulo: Pearson Education do Brasil. 2016.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SILBERSCHATZ, Abraham; GALVIM, Peter Baer; GAGNE, Greg. Fundamentos de Sistemas Operacionais. 9 ed. Rio de Janeiro: LTC. 2015.
+- OLIVEIRA, Rômulo Silva de; CARISSIMI, Alexandre da Silva; TOSCANI, Simão Sirineo. Sistemas Operacionais. 4 ed. Porto Alegre: Bookman. 2010.
+## DISCIPLINA: Programação Linear
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                          |
+|-------------|------------------|--------------------------------------------|
+| 2.2.0       | 60h              | - Programação Estruturada - Álgebra Linear |
+EMENTA: Formulação de problemas de programação linear. Resolução Gráfica. Método Simplex. Teoria de Dualidade. Análise de pós-otimização.
+## BIBLIOGRAFIA BÁSICA:
+- BREGALDA, Paulo Fábio, et all. Introdução à Programação Linear. Ed. Campus, 3a. Edição. 1988.
+- PUCINNI, Abelardo de Lima. Introdução à Programação Linear. Editora LTC. 1987.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- TAHA, Hamdy A. Pesquisa Operacional. Editora Pearson, 8ed, 2008.
+- MACULAN F°, Nelson. Programação Linear. Editora Atlas.
+- ARENALES, M.; ARMENTANO, V.; MORABITO R. e YANASSE, H. Pesquisa Operacional - para cursos de engenharia. Ed. Campus, 2007.
+- LUNA, H. P. e GOLDBERG, M. C. Otimização Combinatória e Programação Linear - Modelos e Algoritmos. Ed. Campus, 2000.
+- LACHTERMACHER, G. Pesquisa Operacional na tomada de decisões - Modelagem em Excel. Editora Campus, 2002.
+- BELFIORE, P. e FÁVERO, L. P. Pesquisa Operacional - Para cursos de Engenharia. Editora Campus, 2012.
+DISCIPLINA:
+Redes de Computadores
+| Créditos:   | Carga Horária:   | Pré-requisito(s):             |
+|-------------|------------------|-------------------------------|
+| 2.2.0       | 60h              | - Arquitetura de Computadores |
+EMENTA: Conceitos e princípios básicos de redes de computadores, componentes básicos de hardware e software que compõem uma rede de computadores. Conceitos básicos das arquiteturas TCP/IP e OSI. Principais modelos de aplicações:
+cliente-servidor e P2P. Redes de acesso e meios de transmissão. Camada de aplicação da arquitetura TCP/IP e os principais protocolos. Mecanismos utilizados no controle de fluxo, controle de congestionamento e na entrega confiável de dados. Camada de transporte da arquitetura TCP/IP. Protocolos TCP e UDP. Comutação de circuitos e de pacotes. Camada de rede da arquitetura TCP/IP e principais protocolos. Componentes de um roteador IP, algoritmos de escalonamento e descarte de pacotes. Algoritmos de roteamento. Camada de enlace da arquitetura TCP/IP. Enlace ponto a ponto e de difusão. Protocolos de acesso ao meio. Principais tecnologias da camada de enlace. Redes móveis e sem fio. Princípios de gerenciamento de redes de computadores.
+## BIBLIOGRAFIA BÁSICA:
+- KUROSE, J. F. and ROSS, K. W. Computer Networking: a Top-Down Approach. 7 ed. Pearson, 2016.
+- Douglas Comer, Redes de Computadores e Internet. 6 ed. Bookman. 2016.
+- TANEMBAUM, A. S. Redes de computadores. 5 ed. Editora Pearson. 2011.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- Douglas Comer, Internetworking with TCP/IP. Volume 1. 6 ed. Pearson. 2013.
+## DISCIPLINA: Projeto e Análise de Algoritmos
+| Créditos:   | Carga Horária:   | Pré-requisito(s):               |
+|-------------|------------------|---------------------------------|
+| 2.2.0       | 60h              | - Teoria e Aplicações em Grafos |
+EMENTA: Conceito de algoritmo. Análise e Eficiência de um Algoritmo (notação assintótica e relações de recorrência). Técnicas de projeto de algoritmos: Força Bruta, Divisão e Conquista, Programação Dinâmica, Método Guloso, Backtracking, Branch and Bound. Problemas NP - Completo.
+## BIBLIOGRAFIA BÁSICA:
+- CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. Algoritmos: Teoria e Prática. 3 ed. Rio de Janeiro. Campus. 2012.
+- MICHAEL, T. G. e ROBERTO, T., Projeto de Algoritmos: Fundamentos, Análise e Exemplos da Internet. Bookman. 2004.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- CORMEN, T. H. Desmistificando Algoritmos. 1 ed. Rio de Janeiro. Campus. 2014.
+- ZIVIANI, N. Projeto de Algoritmos com implementações em Java e C++. São Paulo. Thomson Learning. 2007.
+- ZIVIANI, N. Projeto de Algoritmos com implementações em Pascal e C. São Paulo. Thomson Learning. 2004.
+| DISCIPLINA: Processamento Digital de Imagens   | DISCIPLINA: Processamento Digital de Imagens   | DISCIPLINA: Processamento Digital de Imagens       |
+|------------------------------------------------|------------------------------------------------|----------------------------------------------------|
+| Créditos:                                      | Carga Horária:                                 | Pré-requisito(s):                                  |
+| 2.2.0                                          | 60h                                            | - Álgebra Linear - Programação Orientada a Objetos |
+EMENTA: Fundamentos da Imagem Digital. Transformações de Intensidade. Processamento de Imagens Coloridas. Filtragem Espacial. Restauração e Reconstrução de Imagens. Compressão de Imagens. Processamento Morfológico. Segmentação de imagens.
+## BIBLIOGRAFIA BÁSICA:
+- GONZALEZ, R. C.; WOODS, R. Processamento Digital de Imagens. 3 ed, São Paulo, Pearson Prentice Hall, 2010.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- PEDRINI, Hélio; SCHWARTZ, W. R. Análise de Imagens Digitais: princípios, algoritmos e aplicações. São Paulo, Thomson Learning, 2008.
+- CASTLEMAN, K. R. Digital Image Processing. Prentice Hall, 1979.
+- PACIORNIK, S.; MAURICIO, M. H. P. Digital Imaging. IN ASM Handbook: metallography and microstructures, 2004.
+- RUSS, J. C. The Image Processing Handbook. CRC, 2006.
+## 6.1.5. 5 o Período
+## DISCIPLINA: Sistemas Distribuídos
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                               |
+|-------------|------------------|-------------------------------------------------|
+| 2.2.0       | 60h              | - Sistemas Operacionais - Redes de Computadores |
+EMENTA: Conceitos Fundamentais de Sistemas Distribuídos; Comunicação e Sincronização em Sistemas Distribuídos; Conceitos e Tecnologias de Middleware; Sistemas de Arquivos Distribuídos; Coordenação e Acordo; Transações Distribuídas; Computação em Nuvem; Computação móvel e ubíqua; Estudos de Caso.
+## BIBLIOGRAFIA BÁSICA:
+- COULOURIS, George; DOLLIMORE, Jean; KINDBERG, Tim; BLAIR, Gordon. Sistemas Distribuídos: Conceitos e Projeto. 5 ed. Bookman, 2013.
+- TANENBAUM, A.; STEEN, M. V. Sistemas Distribuídos: princípios e paradigmas. 2 ed. Pearson, 2008.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- FOKKINK, W. Distributed Algorithms: An Intuitive Approach. The MIT Press, 2013.
+- KUROSE, J. F. and ROSS, K. W. Computer Networking: a Top-Down Approach. 7 ed. Pearson, 2016.
+- KSHEMKALYANI, Ajay; SINGHAL, Mukesh. Distributed Computing: principles, algorithms, and systems. Cambridge University Press, 2008.
+- BIRDMAN, K. P. Reliable Distributed Systems: Technologies, Web Services, and Applications. Springer, 2010.
+## DISCIPLINA: Teoria da Computação
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                          |
+|-------------|------------------|--------------------------------------------|
+| 2.2.0       | 60h              | - Matemática Discreta - Estrutura de Dados |
+EMENTA: Conceitos Básicos. Linguagens Regulares. Expressões Regulares. Gramáticas Regulares. Autômatos Finitos. Linguagens Livres do Contexto. Gramáticas Livres do Contexto. Autômatos com Pilha. Linguagens Recursivamente
+Enumeráveis. Linguagens Recursivas. Gramáticas Irrestritas. Máquinas de Turing. Decidibilidade.
+## BIBLIOGRAFIA BÁSICA:
+- MENEZES, Paulo Blauth. Linguagens Formais e Autômatos. Vol. 3. 6 ed. Bookman, 2011.
+- VIEIRA, N.J. Introdução aos Fundamentos da Computação: Linguagens e Máquinas, Cengage, 2006.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- HOPCROFT, John E.; ULLMAN, Jeffrei D.; MOTWANI, Rajeev. Introdução à Teoria de Autômatos, Linguagens e Computação. 2 ed. Rio de Janeiro: Campus, 2002.
+- SIPSER, Michael. Introdução à Teoria da Computação. 1 ed. Cengage Learning. 2005.
+DISCIPLINA:
+Engenharia de Software I
+Créditos: Carga Horária:
+2.2.0
+60h
+Pré-requisito(s): - Banco de Dados
+EMENTA: Visão geral e princípios fundamentais da Engenharia de Software. Conhecimentos básicos do ciclo de vida do software e seus estágios iniciais: requisitos, análise e desenho. Apresentação de técnicas, métodos e ferramentas para modelagem de sistema de software.
+## BIBLIOGRAFIA BÁSICA:
+- FILHO, W., Engenharia de Software: fundamentos, métodos e padrões, LTC Editora. 3 ed. Rio de Janeiro - RJ, 2009.
+- SOMMERVILLE, I. Engenharia de Software. 9 ed. São Paulo: Pearson Prentice Hall, 2011.
+- PRESSMAN, R. Engenharia de Software: uma abordagem profissional. 8 ed. Rio de Janeiro: Mc Graw-Hill, 2016.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BECK, Kent. Programação extrema (XP) explicada: acolha as mudanças. Porto Alegre: Bookman, 2004.
+- AMBLER, Scott W. Modelagem ágil: práticas eficazes para a programação eXtrema e o processo unificado. Porto Alegre: Bookman, 2004.
+- MEYER, Bertrand. Agile! The Good, the Hype and the Ugly. Springer International Publishing, 2014.
+- MOLINARI, Leonardo. Gestão de projetos: técnicas e projetos com ênfase em web. São Paulo: Érica, 2004.
+| DISCIPLINA: Segurança em Sistemas   | DISCIPLINA: Segurança em Sistemas                   |
+|-------------------------------------|-----------------------------------------------------|
+| Créditos:                           | Carga Horária: Pré-requisito(s):                    |
+| 3.1.0                               | 60h - Sistemas Operacionais - Redes de Computadores |
+EMENTA: Fundamentos de segurança da informação. Criptografia clássica e moderna. Criptoanálise. Serviços e mecanismos de segurança. Segurança de redes de computadores. Desenvolvimento seguro. Gestão de segurança da informação.
+## BIBLIOGRAFIA BÁSICA:
+- STALLINGS, W. Criptografia e Segurança de Redes: princípios e práticas. 4 ed. São Paulo: Pearson, 2008.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BURNETT, S.; PAINE, S. Criptografia e Segurança: o guia oficial RSA. Rio de Janeiro: Campus, 2006.
+- GOODRICH, Michal T.; TAMASSIA, Roberto. Introdução à Segurança de Computadores. Editora Bookman, 2013.
+- KAHN, D. The Codebreakers: the story of secret writing. Macmillan Publisshing Co. Inc., 1967.
+- MENEZES, A. J. ET. AL. Handbook of applied cryptography. CRC Press, 2001.
+- PFLEEGER, Charles P. Security in Computing. Prentice Hall, 2015.
+- SCHNEIER, B. Applied Cryptography. John Wiley &amp; Sons, 1996.
+- SINGH, S. O Livro dos Códigos. Record, 2001.
+## DISCIPLINA: Inteligência Artificial
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                                                                 |
+|-------------|------------------|---------------------------------------------------------------------------------------------------|
+| 2.2.0       | 60h              | - Programação Orientada a Objetos - Probabilidade e Estatística - Projeto e Análise de Algoritmos |
+EMENTA: História da IA. Agentes Inteligentes.Caracterização dos problemas de IA. Métodos de busca para resolução de problemas: busca cega e informada. Busca com adversários: análise de jogos com minimax e poda alfa-beta. Formalismos de representação de conhecimento e inferência. Sistemas baseados em conhecimento. Aprendizado de máquina: noções gerais, tipos e paradigmas de aprendizado. Introdução a técnicas simbólicas e estatísticas de aprendizado de máquina. Algumas aplicações de IA: PLN, robótica, mineração de dados e big data. Introdução à programação lógica.
+## BIBLIOGRAFIA BÁSICA:
+- RUSSEL, S., NORVIG, P. Inteligência Artificial. 3ed. Rio de Janeiro: Campus, 2013.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- COPPIN, Ben. Inteligência Artificial . Rio de Janeiro: LTC, 2010.
+- FACELI, K., LORENA, A. C., GAMA, J. e CARVALHO, A.: Inteligência Artificial: Uma Abordagem de Aprendizado de Máquina, Editora LTC, 2011.
+- ROSA, J. L. G.: Fundamentos da Inteligência Artificial, Editora LTC, 2011.
+## 6.1.6. 6 o Período
+| DISCIPLINA: Compiladores   | DISCIPLINA: Compiladores                                     |
+|----------------------------|--------------------------------------------------------------|
+| Créditos:                  | Carga Horária: Pré-requisito(s):                             |
+| 2.2.0                      | 60h - Programação Orientada a Objetos - Teoria da Computação |
+EMENTA: Conceitos básicos (compilação e interpretação). Estrutura de um Compilador. Análise léxica. Análise sintática descendente e ascendente. Análise semântica. Tabela de símbolos. Representações intermediárias de código. Geração de código e ambientes de execução. Noções de otimização de código. Ferramentas para construção de compiladores. Projeto de um compilador simplificado.
+## BIBLIOGRAFIA BÁSICA:
+- AHO, Alfred V.; LAM, Monica S.; SETHI, R.; ULLMAN, Jeffrey D. Compiladores: princípios, técnicas e ferramentas. 2 ed. São Paulo: Pearson, 2008.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- APPEL, Andrew W. Modern Compiler Implementation in Java. Cambridge: Cambridge University, 2002.
+- COOPER, Keith D.; TORCZON, Linda.; Construindo compiladores. Rio de Janeiro: Elsevier. 2014.
+- GRUNE, Dick; BAL, Henri E.; JACOBS, Ceriel J.; LANGENDOEN, Koen G. Projeto moderno de compiladores: implementação e aplicações. Rio de Janeiro: Editora Campus. 2001.
+- PARR, Terence. The Definitive ANTLR Reference: building domain-specific languages. Pragmatic Bookshelf, 2007.
+- PRICE, Ana Maria de Alencar; TOSCANI, Simão Sirineo. Implementação de Linguagens de Programação: compiladores. 2 ed. Porto Alegre: Sagra Luzzatto, 2001.
+## DISCIPLINA: Linguagens de Programação
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                 |
+|-------------|------------------|-----------------------------------|
+| 3.1.0       | 60h              | - Programação Orientada a Objetos |
+EMENTA: Critérios de avaliação das linguagens. Sintaxe e semântica das linguagens de programação. Métodos formais de descrição das linguagens. Gramáticas. BNF e EBNF. Análise léxica e sintática. Grafos de sintaxe. Tipos de dados primitivos e estruturados. Equivalência de tipos. inferência de tipos, coerção e subtipos. Vinculações estática e dinâmica; Escopo estático e dinâmico. Garbage collection. Parâmetros e ordem de avaliações. Controle do fluxo em nível de expressões, de instruções e de programas. Desvios. Subprogramas. Passagem de parâmetros. Implementação de subprogramas. Implementação de escopos estáticos e dinâmicos. Tipos abstratos de dados, objetos e classes. Monomorfismo, sobrecarga, polimorfismo e herança.
+## BIBLIOGRAFIA BÁSICA:
+- SEBESTA, Robert W. Concepts of Programming Languages. Tenth Edition. Addison Wesley. 2012.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SEBESTA, Robert W. Conceitos de Linguagens de Programação. 9 ed. Porto Alegre: Bookman, 2011.
+- SCOTT, Michael L. Programming Language Pragmatics. Morgan Kaufmann Publishers, 2000.
+- SETHI, Ravi. Programming Languages: concepts and constructs. 2 ed. Reading: Addison Wesley, 1996.
+- WATT, David A. Programming Language Design Concepts. John Wiley &amp; Sons, Ltd. 2004.
+DISCIPLINA:
+Engenharia de Software II
+| Créditos:   | Carga Horária:   | Pré-requisito(s):          |
+|-------------|------------------|----------------------------|
+| 2.2.0       | 60h              | - Engenharia de Software I |
+EMENTA: Métodos e técnicas para projeto de sistemas de software. Projeto de arquitetura, projeto detalhado, implementação e teste de software. Padrões de Projeto. Gerência de Projeto. Gerência da Qualidade. Melhoria do processo de software. Evolução de software.
+## BIBLIOGRAFIA BÁSICA:
+- FILHO, W., Engenharia de Software: fundamentos, métodos e padrões, LTC Editora. 3 ed. Rio de Janeiro - RJ, 2009.
+- SOMMERVILLE, I. Engenharia de Software. 9 ed. São Paulo: Pearson Prentice Hall, 2011.
+- PRESSMAN, R. Engenharia de Software: uma abordagem profissional. 8 ed. Rio de Janeiro: Mc Graw-Hill, 2016.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- SOMMERVILLE, I. Engenharia de Software. 9. ed. São Paulo: Pearson Prentice Hall, 2011.
+- BECK, Kent. Programação extrema (XP) explicada: acolha as mudanças. Porto Alegre: Bookman, 2004.
+- AMBLER, Scott W. Modelagem ágil: praticas eficazes para a programação eXtrema e o processo unificado. Porto Alegre: Bookman, 2004.
+- GAMMA, E.; HELM, R.; JOHNSON, R.; VLISSIDES, J. Design Patterns: Elements of Reusable Object- Oriented Software. 1 ed. Addison-Wesley Professional, 1995. ISBN: 9780201633610.
+- MENS, T., DEMEYER, S. Software Evolution. Springer-Verlag Berlin Heidelberg, 2008.
+- MENS, T., SEREBRENIK, A., CLEVE, A. Evolving Software Systems. SpringerVerlag Berlin Heidelberg, 2014
+- TRIPATHY, P.; NAIK, K.. Software Evolution and Maintenance: A Practitioner's Approach. 1 ed. JohnWiley &amp; Sons, 2014. ISBN: 978-0-470-60341-3
+- MOLINARI, Leonardo. Gestão de projetos: técnicas e projetos com ênfase em web. São Paulo: Érica, 2004.
+| DISCIPLINA: Bancos de Dados Relacionais   | DISCIPLINA: Bancos de Dados Relacionais   | DISCIPLINA: Bancos de Dados Relacionais   |
+|-------------------------------------------|-------------------------------------------|-------------------------------------------|
+| Créditos:                                 | Carga Horária:                            | Pré-requisito(s):                         |
+| 2.2.0                                     | 60h                                       | - Banco de Dados                          |
+EMENTA: Mapeamento de esquema conceitual em relacional. Álgebra Relacional. Linguagem SQL (uso, consultas, junções e outras operações). Normalização (5 formas normais). Projeto de Banco de Dados Relacionais. Cálculo Relacional.
+## BIBLIOGRAFIA BÁSICA:
+- ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de Banco de Dados. 6 ed. São Paulo: Pearson Addinson Wesley, 2011.
+- KORTH, Henry F; SILBERSCHATZ, Abraham. Sistema de banco de dados. 6 ed. Rio de Janeiro: Campus, 2012.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ALVES, William Pereira. Fundamentos de bancos de dados. São Paulo: Érica, 2004.
+- GUIMARÃES, Célio C. Fundamentos de Bancos de Dados. Campinas (SP): UNICAMP, 2003.
+- MACHADO, Felipe Nery Rodrigues. Banco de dados: projeto e implementação. São Paulo: Érica, 2004.
+## 6.1.7. 7 o Período
+DISCIPLINA:
+Programação Funcional
+| Créditos:   | Carga Horária:   | Pré-requisito(s):           |
+|-------------|------------------|-----------------------------|
+| 2.2.0       | 60h              | - Linguagens de Programação |
+EMENTA: Introdução às linguagens funcionais. Compilação de linguagens funcionais. Introdução ao λ-calculus. Variáveis livres e ligadas. Combinadores. Regras de conversão: β, α e η-conversão. Captura. Teoremas de Church-Rosser. Ordem de redução. Recursão no λ-calculus. Programação funcional básica em Haskell: tipos primitivos e estruturados: strings e tuplas. Polimorfismo em Haskell. Provas de programas em Haskell. Listas e Expressões ZF. Funções de alta ordem. classes em Haskell, checagem de tipos. Sobrecarga e type class. Módulos, tipos algébricos e tipos abstratos de dados.. Eficiência em programas funcionais Lazy evaluation. Semântica de ações. Entrada/saída de dados em linguagens funcionais. Canais e arquivos.
+## BIBLIOGRAFIA BÁSICA:
+- THOMPSON, Simon. Haskell: the craft of functional programming. 3 ed. Addison Wesley, 2011.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BIRD, Richard. Introduction to Functional Programming using Haskell. 2 ed. Prentice Hall, 1998.
+- HINDLEY, J. Roger and SELDIN, Jonathan P. Lambda-calculus and Combinators, an Introduction. Cambridge University Press, 2008.
+- HUDAK, Paul. The Haskell School of Expression: learning functional programming multimedia. Cambridge University Press, 2000.
+- PEYTON JONES, Simon L. Implementation of Functional Programming Languages. Prentice Hall, 1986.
+- RABHI, Fethi; LAPALME, Guy. Algorithms: a functional programming approach. 2 ed. Addison Wesley, 1999.
+| DISCIPLINA: Trabalho de Conclusão de Curso I   | DISCIPLINA: Trabalho de Conclusão de Curso I   | DISCIPLINA: Trabalho de Conclusão de Curso I                                  |
+|------------------------------------------------|------------------------------------------------|-------------------------------------------------------------------------------|
+| Créditos:                                      | Carga Horária:                                 | Pré-requisito(s):                                                             |
+| 2.2.0                                          | 60h                                            | - Sistemas Distribuídos - Inteligência Artificial - Engenharia de Software II |
+EMENTA: O aluno deverá elaborar um projeto de pesquisa individual, de acordo com o Regulamento para Trabalho de Conclusão de Curso, sob o acompanhamento do professor orientador, e supervisão da Coordenação do Curso.
+## BIBLIOGRAFIA BÁSICA:
+- CERVO, Amado Luiz. Metodologia científica. São Paulo: Makron Books, 2007.
+- MARCONI, Marina de Andrande &amp; LAKATOS, Eva Maria. Metodologia do Trabalho Científico. São Paulo: Atlas, 2007.
+- SANTOS, A.R. Metodologia científica - A construção do conhecimento. 3 ed. Rio de Janeiro: DP &amp; A, 2000, 139p.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). Referências bibliográficas, NBR 6023. Rio de Janeiro, 2002.
+- ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). Projeto de Pesquisa, NBR 15827. Rio de Janeiro, 2011.
+- MANZINI, E. J. Considerações sobre a elaboração de roteiro para entrevista semi-estruturada. In: MARQUEZINE, M. C; ALMEIDA, M. A; OMOTE, S. (Org.). Colóquios sobre pesquisa em educação especial, Londrina, 2003, v.1, p.11-25.
+- MEDEIROS &amp; ANDRADE. Manual de Elaboração de referências bibliográficas. São Paulo; Atlas. 2001, 188p.
+- MINAYO, Maria Cecília. Pesquisa social: teoria, método e criatividade. 17. ed. Petrópolis: Vozes, 2000.
+## DISCIPLINA: Educação Ambiental, Tecnologia e Sociedade
+Créditos: Carga Horária:
+Pré-requisito(s): 2.0.0
+30h
+EMENTA: Os fundamentos políticos da proteção do meio ambiente; Conflitos sócioambientais; Direito a um meio ambiente sadio; Desenvolvimento sustentável; Políticas públicas para o desenvolvimento sustentável; Objetivos, contextos e métodos da educação ambiental ; A política de ciência e tecnologia e a interação entre o homem e seu ambiente natural ou construído: rural ou urbano. Responsabilidade do profissional de informática em relação ao meio ambiente.
+## BIBLIOGRAFIA BÁSICA:
+- DIAS, Genebaldo Freire. Educação Ambiental: Princípios e Práticas, São Paulo, Gaia, 2006.
+- KEGLEVICH, Estevão; PARREIRA, Ivonete. Práticas de educação ambiental. 1ed. Goiânia: Descubra, 2004.
+- PEDRINI, Alexandre de Gusmão (org.). Educação Ambiental: Reflexões e Práticas Contemporâneas, Petrópolis, Vozes. 2001.
+- SATO, Michele. Educação ambiental. 1ed. São Paulo: Rima, 2003.
+- SPAREMBERGER, Raquel F. Lopes; AUGUSTIN, Sergio. Direito ambiental e bioética: legislação, educação e cidadania. 1ed. Caxias do Sul: EDUCS, 2004.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BELTRÃO, Jimena Felipe &amp; BELTRÃO, Jane Felipe. Educação Ambiental na Pan Amazônia. Belém, UNAMAZ, UFPA, 1992.
+- DUPAS, G. Meio Ambiente e Crescimento Econômico: tensões estruturais. São Paulo: UNESP. 2008.
+- MEDEIROS, Fernanda L. F. Meio ambiente: direito e dever fundamental. 1ed. São Paulo: Livraria do Advogado, 2004.
+- MEDINA, N., SANTOS, E.C. Educação ambiental. 1ed. São Paulo: Vozes, 2000.
+- MOREIRA, I. Meio Ambiente e Sociedade. São Paulo: Ática, 2007.
+- MONTENEGRO, Magda. Meio ambiente e responsabilidade civil. 1ed. São Paulo: IOB/Thompson, 2005.
+- PHILIPPI JR., Arlindo; PELICIONI, Maria Cecília F. Educação ambiental e sustentabilidade. 1ed. São Paulo: Manole, 2004.
+- SANCHEZ, L. E. Avaliação de Impacto Ambiental: conceitos e métodos. São Paulo: Oficina de Textos, 2006.
+- SILVA, Américo L. M. da. Direito do meio ambiente e dos recursos naturais. 1ed. São Paulo: Revista dos tribunais, 2005.
+- SIQUEIRA, José E.; PROTA, Leonardo; GRANGE, Luciana; ARANTES, Olívia M. N. Ética, ciência e responsabilidade. 1ed. São Paulo: Loyola, 2005.
+- SOARES, Guido Fernando Silva. Direito internacional do meio ambiente. Emergência, Obrigações e Responsabilidades. São Paulo: Atlas, 2001.
+- VIANNA, José Ricardo Alvarez. Responsabilidade civil por danos ao meio ambiente. 1ed. Curitiba: Juruá, 2004.
+- WILLIAMS, E., KUEHR, R. Computers and the Environment: understanding and Managing their impacts. New York: Kluwer Academic Publishers, 2003.
+## 6.1.8. 8 o Período
+| DISCIPLINA: Trabalho de Conclusão de Curso II   | DISCIPLINA: Trabalho de Conclusão de Curso II   | DISCIPLINA: Trabalho de Conclusão de Curso II   |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| Créditos:                                       | Carga Horária:                                  | Pré-requisito(s):                               |
+| 2.2.0                                           | 60h                                             | - Trabalho de Conclusão de Curso I              |
+EMENTA: O aluno deverá executar um projeto de pesquisa individual (elaborado na disciplina Trabalho de Conclusão de Curso I), sob o acompanhamento e orientação do professor orientador e defender publicamente sua monografia de acordo com o Regulamento para Trabalho de Conclusão de Curso.
+## BIBLIOGRAFIA BÁSICA:
+- CERVO, Amado Luiz. Metodologia científica. São Paulo: Makron Books, 2007.
+- MARCONI, Marina de Andrande &amp; LAKATOS, Eva Maria. Metodologia do
+- Trabalho Científico. São Paulo: Atlas, 2007.
+- SANTOS, A.R. Metodologia científica - A construção do conhecimento. 3 ed. Rio de Janeiro: DP &amp; A, 2000, 139p.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). Referências bibliográficas, NBR 6023. Rio de Janeiro, 2002.
+- ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). Projeto de Pesquisa, NBR 15827. Rio de Janeiro, 2011.
+- MANZINI, E. J. Considerações sobre a elaboração de roteiro para entrevista semi-estruturada. In: MARQUEZINE, M. C; ALMEIDA, M. A; OMOTE, S. (Org.). Colóquios sobre pesquisa em educação especial, Londrina, 2003, v.1, p.11-25.
+- MEDEIROS &amp; ANDRADE. Manual de Elaboração de referências bibliográficas. São Paulo; Atlas. 2001, 188p.
+- MINAYO, Maria Cecília. Pesquisa social: teoria, método e criatividade. 17. ed. Petrópolis: Vozes, 2000.
+## 6.2.  Disciplinas Optativas
+O aluno para integralizar o Bacharelado em Ciência da Computação deverá cursar um mínimo de 36 Unidades Didáticas Pedagógicas (quinhentas e quarenta horas) de Disciplinas Optativas disponíveis na matriz curricular do curso. Será permitido ao aluno inscrever-se em quantas disciplinas desejar, desde que respeitado o número mínimo de 12 e máximo de 28 Unidades Didáticas Pedagógicas por período, incluindo as disciplinas obrigatórias. As disciplinas optativas do Bacharelado em Ciência da Computação, bem como o número de créditos, carga horária, prérequisitos, ementa e bibliografia, podem ser visualizadas nas tabelas a seguir.
+| DISCIPLINA: Banco de Dados Distribuídos e Paralelos   | DISCIPLINA: Banco de Dados Distribuídos e Paralelos   | DISCIPLINA: Banco de Dados Distribuídos e Paralelos   |
+|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
+| Créditos:                                             | Carga Horária:                                        | Pré-requisito(s):                                     |
+| 2.2.0                                                 | 60h                                                   | - Banco de Dados                                      |
+EMENTA: Armazenamento Distribuído; Processamento de Consultas Distribuído; Modelo Transacional Distribuído; Soluções homogêneas e heterogêneas; Arquiteturas Paralelas de Banco de Dados; Replicação de Dados e Consistência.
+## BIBLIOGRAFIA BÁSICA:
+- ÖZSU, M. T. e VALDURIEZ, P. Princípios de Sistemas de Banco de Dados Distribuídos, Editora Campus, 2001.
+- ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de Banco de Dados. 6 ed. São Paulo: Pearson Addinson Wesley, 2011.
+- KORTH, Henry F; SILBERSCHATZ, Abraham. Sistema de banco de dados. 6 ed. Rio de Janeiro: Campus, 2012.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ALVES, William Pereira. Fundamentos de bancos de dados. São Paulo: Érica, 2004.
+- GUIMARÃES, Célio C. Fundamentos de Bancos de Dados. Campinas (SP): UNICAMP, 2003.
+- MACHADO, Felipe Nery Rodrigues. Banco de dados: projeto e implementação. São Paulo: Érica, 2004.
+DISCIPLINA:
+Cálculo Diferencial e Integral III
+Créditos: Carga Horária:
+2.2.0
+60h
+EMENTA:
+Pré-requisito(s): - Cálculo Diferencial e Integral II
+Integrais Múltiplas. Integrais de Linha. Séries. Sequências.
+## BIBLIOGRAFIA BÁSICA:
+- STEWART, J. Calculus. 6ed. Brroks/Cole Pub, Vol I, 2008.
+- GUIDORIZZI, H. L. Um Curso de Cálculo. Vol I, Livros Técnicos e Científicos Ed., 1997.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- ANTON, H. Cálculo, Um Novo Horizonte. Vol. 2, Bookman, Porto Alegre, 2000.
+- LANG, S. Cálculo. Vol. 1 e 2, LTC Ed., Rio de Janeiro, 1978.
+- FLEMMING, D. M. e GONÇALVES, M. B. Cálculo B. Prentice Hall, São Paulo, 2007.
+DISCIPLINA:
+Computação Paralela
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Sistemas Distribuídos
+EMENTA: Fundamentos de computação paralela. Modelos de Arquiteturas Paralelas: Taxonomia de Flynn, Lei de Amdahl, modelos UMA e NUMA, arquiteturas SIMD e MIMD, Memória compartilhada e Memória Distribuída, Consistência de memória, SMP, GPU; Programação Paralela em sistemas fortemente acoplados; Programação paralela em sistemas fracamente acoplados.
+## BIBLIOGRAFIA BÁSICA:
+- PACHECO, Peter. An Introduction to Parallel Programming. 1 ed. Morgan Kaufmann, 2011.
+- GRAMA, A; GUPTA, A; KARYPIS, G; KUMAR, V. Introduction to Parallel Computing. Addison-Wesley, 2003.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- COULOURIS, George; DOLLIMORE, Jean; KINDBERG, Tim; BLAIR, Gordon. Sistemas Distribuídos: Conceitos e Projeto. 5 ed. Bookman, 2013.
+- TANENBAUM, A.; STEEN, M. V. Sistemas Distribuídos: princípios e paradigmas. 2 ed. Pearson, 2008.
+DISCIPLINA:
+Eletricidade e Magnetismo
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                  |
+|-------------|------------------|------------------------------------|
+| 2.2.0       | 60h              | - Cálculo Diferencial e Integral I |
+EMENTA: Carga elétrica e Lei de Coloumb. Campo elétrico e Lei de Gauss. Potencial elétrico. Capacitores. Corrente e resistência elétrica. Circuito de corrente contínua. Campo magnético. Lei de Biot-Savart e aplicações. Lei da indução de Faraday. Lei de Lenz. Fem devida ao movimento. Campos elétricos induzidos.
+## BIBLIOGRAFIA BÁSICA:
+- WALKER, J.; RESNICK, R.; HALLIDAY, D. Fundamentos de Física 3 Eletromagnetismo. 10ed, LTC, 2016.
+- CUTNELL, JOHN D.; JOHSON, K. W. Física Vol. 3. 9ed, LTC, 2016.
+- FREEDMAN, R. A.; YOUNG, H. D.; Física 3 - Eletromagnetismo. 12ed, AddisonWesley, 2016.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- CARRON, W.; GUIMARÃES, O. Física: Volume único. 2ed, Moderna, São Paulo, 2003.
+- TIPLER, P. A.; MOSCA, G. Física para Cientistas e Engenheiros, Vol. 2 Eletricidade, Magnetismo e Óptica. 6ed, LTC, Rio de Janeiro, 2009.
+- NUSSENVEIG, H. M. Curso de Física Básica, VOl. 3. 2ed, Edgard Blucher, São Paulo, 2015.
+- RESNICK, R.; HALLIDAY, D. Física 3. 5ed, LTC, Rio de Janeiro, 2004.
+## DISCIPLINA: Empreendedorismo
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                   |
+|-------------|------------------|-------------------------------------|
+| 2.2.0       | 60h              | - Seminários de Introdução ao Curso |
+EMENTA: Perfil empreendedor. Processo visionário inovador disruptivo. Estudo de casos de empreendedores de sucesso. Entrevista com empreendedores. Modelos de negócios. Análise de mercado. Plano de marketing. Projeto de modelo de negócio. Plano de negócio simplificado. Plano de negócio completo.
+## BIBLIOGRAFIA BÁSICA:
+- FERRARI, Roberto. Empreendedorismo para Computação. Elsevier, São Paulo, 2012.
+- CHIAVENATO, Idalberto. Empreendedorismo - Dando Asas ao Espírito Empreendedor. Manole, São Paulo, 2016.
+- DORNELAS, José Carlos Assis. Empreendedorismo Corporativo. Elsevier, São Paulo, 2010.
+COZZI, Afonso; DOLABELA, Fernando, et al. Empreendedorismo de Base Tecnológica. Elsevier, São Paulo, 2012.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- DAILTON, Felipini, Empreendedorismo na Internet - Como Agarrar esta Nova Oportunidade de Negócios. Lebooks, São Paulo, 2016.
+- DORNELAS, Jose Carlos Assis. Empreendedorismo na Prática - Mitos e Verdades do Empreendedor de Sucesso. LTC, São Paulo, 2015.
+- DOLABELLA, F. Oficina do empreendedor. 6. Ed. São Paulo: Editora. de Cultura, 1999.
+- DOLABELA, F. A vez do sonho. 2. ed. São Paulo: Cultura Editores, 2002.
+- DORNELAS, J. C. A. Empreendedorismo: transformando idéias em negócios. Rio de Janeiro: Campus, 2001.
+- FILION, Louis Jacques, DOLABELA, Fernando. Boa Idéia! E agora? Plano de negócio, o caminho seguro para criar e gerenciar sua empresa. São Paulo: Makron Books, 2000.
+DISCIPLINA:
+Engenharia de Software Experimental
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Engenharia de Software II
+EMENTA: Conceitos básicos em engenharia de software experimental. Levantamento bibliográfico: mapeamento sistemático, revisão sistemática, revisão informal. Tipos de estudos experimentais. Levantamentos de campo (surveys), estudos de casos e experimentos controlados. Projetos experimentais. Processo de experimentação. Análises qualitativas e quantitativas de dados. Ameaças à validade.
+## BIBLIOGRAFIA BÁSICA:
+- WOHLIN, C.; RUNESON, P.; HOST, M.; OHLSSON, M. C.; REGNELL, B.; WESSLÉN, A. Experimentation in Software Engineering: An Introduction. Springer, 2012, ISBN 3642290434.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- JURISTO, N.; MORENO, A.M. Basics of Software Engineering Experimentation. Springer, 2010, ISBN 1441950116.
+- Artigos e relatórios técnicos diversos.
+DISCIPLINA:
+Estruturas de Dados Avançadas
+Créditos: Carga Horária:
+2.2.0
+60h
+Pré-requisito(s): - Estruturas de Dados
+EMENTA: Árvores Balanceadas: AVL, 2-3 e rubro-negras. Grafos: classificação topológica, componentes fortemente conectados, casamento ( matching ). Árvores B e B+. Algoritmos e estruturas de dados baseadas em strings . Fluxo de redes: fluxo máximo (algoritmo Ford-Fulkerson), teorema do fluxo máximo - corte mínimo, casamento máximo.
+## BIBLIOGRAFIA BÁSICA:
+- AHUJA, R.K.; MAGNANTI, T. L.; ORLIN, J. B. Network Flows: Theory, Algorithms ans Applications. Prentice Hall, 1993.
+- CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. Introduction to Algorithms. MIT Press and McGraw-Hill. 2nd ed. 2001.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- COOK, W. J.; CUNNINGHAM, W. H.; PULLEYBLANK, W. R. SCHRIJVER, A. Combinatorial Optimization. John Wiley, 1998.
+- SEDGEWICK, R. &amp; WAYNE, K. Algorithms, 4th ed. Addison-Wesley, 2011.
+| DISCIPLINA: Fluxos em Redes   | DISCIPLINA: Fluxos em Redes                              |
+|-------------------------------|----------------------------------------------------------|
+| Créditos:                     | Carga Horária: Pré-requisito(s):                         |
+| 2.2.0                         | 60h - Programação Linear - Teoria e Aplicações em Grafos |
+EMENTA: Noções de teoria dos grafos. Problemas de caminho mínimo, transporte, designação, transbordo, fluxo com custo mínimo e fluxo máximo.
+## BIBLIOGRAFIA BÁSICA:
+- BAZARRA, Mokhtar S. et all. Linear Programming and Network Flows. John Wiley &amp; Sons, Inc, 1990.
+- TAHA, Hamdy A. Pesquisa Operacional. Pearson, 8ª Edição, 2008.
+- GOLDBARG, Marco Cesar, LUNA, Henrique Pacca Loureiro e Goldbarg Elizabeth Ferreira Gouvêa. Programação Linear e Fluxos em Redes. Campus, 2015.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- DAVID, J. e RADER, Jr. Deterministic Operations Research - Models and Methods in linear Optimization. John Wiley &amp; Sons, Inc, 2010.
+- LAWLER, E. Combinatorial Optimization: Network and Matroids. Holt, Rinehart &amp; Winston, 1976.
+- AHUJA, Ravindra. K, MAGNANTI, T.L e ORLIN. J. B. Network Flows: Theory, Algorithms, and Applications. Prentice Hall, 1993.
+## DISCIPLINA: Laboratório de Compiladores
+| Créditos:   | Carga Horária:   | Pré-requisito(s):   |
+|-------------|------------------|---------------------|
+| 2.2.0       | 60h              | - Compiladores      |
+EMENTA: Projeto e implementação de um compilador (análise léxica, sintática, semântica e geração de código). Teste de um compilador.
+## BIBLIOGRAFIA BÁSICA:
+- APPEL, Andrew W. Modern Compiler Implementation in Java. Cambridge: Cambridge University, 2002
+- COOPER, Keith D.; TORCZON, Linda.; Construindo compiladores. Rio de Janeiro: Elsevier. 2014.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- PARR, Terence. The Definitive ANTLR Reference: building domain-specific languages. Pragmatic Bookshelf, 2007.
+- PRICE, Ana Maria; TOSCANI, S. Implementação de Linguagens de Programação: compiladores. 2 ed. Sagra Luzzatto, 2001.
+## DISCIPLINA: Libras
+| Créditos:   | Carga Horária:   | Pré-requisito(s):   |
+|-------------|------------------|---------------------|
+| 2.2.0       | 60h              | - - - - -           |
+EMENTA: Familiarização do discente com o mundo da surdez. O sujeito surdo em um mundo ouvinte. Apresentação e desenvolvimento da língua brasileira de sinais. Libras como língua legítima da comunidade surda, e os sinais como alternativa natural para expressão linguística. A língua portuguesa como uma segunda língua.
+## BIBLIOGRAFIA BÁSICA:
+- AHLGREEN, I. &amp; HYLTENSTAM, K. Bilingualism in deaf education. Hamburg: signum-verl., 1994.
+- Conferência Mundial sobre Necessidades Educativas Especiais: acesso e qualidade. (1944: Salamanca). Declaração de Salamanca, e linha de ação sobre necessidades educativas especiais. 2ed, CORDE, Brasília, 1997.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- QUADROS, R. M. Aquisição de L1 e L2: o contexto da pessoa surda. Anais do Seminário Desafios e Possibilidades na Educação Bilíngue para Surdos. Ro de Janeiro, INES, 1997.
+- SKLIAR, C. A Surdez: um olhar sobre as diferenças. Porto Alegre: Mediação, 1998.
+| DISCIPLINA: Métodos Computacionais em Estatística   | DISCIPLINA: Métodos Computacionais em Estatística   | DISCIPLINA: Métodos Computacionais em Estatística   |
+|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| Créditos:                                           | Carga Horária:                                      | Pré-requisito(s):                                   |
+| 2.2.0                                               | 60h                                                 | - Probabilidade e Estatística                       |
+EMENTA: Geração de amostras aleatórias. Simulação. Método de Monte Carlo. Métodos de Ordenação. Métodos Computacionalmente Intensivos: Bootstrap e Jackknife .
+## BIBLIOGRAFIA BÁSICA:
+- BUSTOS, O. H. Simulação Estocástica: teoria e algoritmos. Rio de Janeiro, IMPA, 1992.
+- KENNEDY, W. J.; GENTLE, J. E. Statistical Computing. Marcel Dekker, New York, 1980.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- DACHS, J. N. W. Estatística Computacional: uma introdução em turbo pascal. Rio de Janeiro, LTC, 1988.
+- SILVA, D. N. da. O Método Bootstrap UNICAMP, Campinas, 1995.
+- e aplicações à regressão múltipla.
+- EFRON, B. The Jackkknife, the Bootstrap and other resampling plans. CBMSNSF, Stanford, 1980.
+## DISCIPLINA:
+Métodos Numéricos
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                   |
+|-------------|------------------|-----------------------------------------------------|
+| 2.2.0       | 60h              | - Cálculo Diferencial e Integral I - Álgebra Linear |
+EMENTA: Erros em processos numéricos; Resolução numérica de sistemas de equações lineares; Resolução numérica de equações não lineares; Interpolação; Integração e diferenciação numérica; Método dos mínimos quadrados.
+## BIBLIOGRAFIA BÁSICA:
+- MORAES, Cláudio Dalcídio. 2 ed. Cálculo Numérico Computacional. Rio de Janeiro: Atlas, 1994.
+- RUGGIERO, Márcio A. Gomes; LOPES, Vera Lúcia da Rocha. Cálculo Numérico; aspectos teóricos e computacionais. 2 ed.São Paulo: Makron Books do Brasil, 1996.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- BARROSO, Leônidas Conceição et al. Cálculo Numérico: com aplicações. 2 ed. São Paulo: Harbra, 1987.
+- CUNHA, M. Cristina C. Métodos Numéricos. 2 ed. Campinas (SP): UNICAMP, 2003.
+- MIRSHAWKA, Vitor. Cálculo Numérico. São Paulo: Livraria Nobel, 1983.
+## DISCIPLINA: Modelagem e Simulação de Sistemas
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                         |
+|-------------|------------------|-----------------------------------------------------------|
+| 2.2.0       | 60h              | - Programação Orientada a Objetos - Redes de Computadores |
+EMENTA: Modelagem de Sistemas. Introdução à teoria das filas. Introdução à simulação de eventos discretos. Ferramentas de simulação. Validação e Verificação. Análise de resultados de simulação. Avaliação de desempenho de sistemas.
+## BIBLIOGRAFIA BÁSICA:
+- JAIN, R. Art of Computer Systems Performance Analysis: Techniques for Experimental Design Measurements Simulation and Modeling. 2 ed. New York: John Wiley &amp; Sons, 2015.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- CHWIF,Leonardo; MEDINA,Afonso C. Modelagem e Simulação de Eventos Discretos. 4 Ed. Elsevier - Campus, 2015.
+- ABOELELA E. Computer Networks: a systems approach- network experiments manual. 2 ed. New York: Morgan Kaufmann, 2007.
+- FILHO, P. J. de F. Introdução à Modelagem e Simulação de Sistemas. 2 ed. Florianópolis: Visual Books, 2008.
+- INCE, N.; BRAGG, A. Recent Advances in Modeling and Simulation Tools for Communication Networks and Services. New York: Springer, 2007.
+DISCIPLINA:
+Prática Desportiva I
+| Créditos:   | Carga Horária:   | Pré-requisito(s):   |
+|-------------|------------------|---------------------|
+| 0.2.0       | 30h              | - - - - -           |
+EMENTA:
+x - x - x - x - x - x - x - x - x - x
+## BIBLIOGRAFIA BÁSICA:
+x - x - x - x - x - x - x - x - x - x
+## BIBLIOGRAFIA COMPLEMENTAR:
+x - x - x - x - x - x - x - x - x - x
+DISCIPLINA:
+Processamento de Linguagem Natural
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                       |
+|-------------|------------------|---------------------------------------------------------|
+| 2.2.0       | 60h              | - Estruturas de Dados - Programação Orientada a Obejtos |
+EMENTA: Introdução ao processamento de linguagem natural. Gramáticas estocásticas e determinísticas. Técnicas de análise (parsing). Interpretação semântica. Métodos baseados em Corpora. POS tagging e morfologia. Recuperação
+de Informação (modelo espaço vetorial, TF-IDF, Precisão e Recall). Extração de Informação. Classificação e categorização de Textos. Aplicações.
+## BIBLIOGRAFIA BÁSICA:
+- BIRD, S.; KLEIN, E.; LOPER, E. Natural Language Processing with Python. 1st ed. O'Reilly. 2009.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- JURAFSKY, D. and MARTIN, J. H. Speech and Language Processing. Prentice Hall. 2nd ed. 2008.
+- MANNING, C. D.; RAGHAVAN, P. and SCHUTZE, H. Introduction to Information Retrieval. Cambridge University Press. 2009.
+## DISCIPLINA: Programação Inteira
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                      |
+|-------------|------------------|--------------------------------------------------------|
+| 2.2.0       | 60h              | - Programação Linear - Projeto e Análise de Algoritmos |
+EMENTA: O escopo da programação inteira: aplicações e modelagem. Otimalidade, Relaxação e Limitantes. Branch and Bound e Pré-processamento. Planos de Cortes. Branch-and-Cut. Desigualdades fortemente válidas. Aplicações de algoritmos exatos e/ou heurísticos a problemas específicos: mochila 0-1, caixeiro viajante e roteamento de veículos.
+## BIBLIOGRAFIA BÁSICA:
+- WOLSEY, Laurence A. Integer Programming. John Wiley &amp; Sons, 1998.
+- TAHA, Hamdy A. Pesquisa Operacional. Pearson, 8ª Edição, 2008.
+- DAVID J e RADER Jr. Deterministic Operations Research - Models and Methods in linear Optimization. John Wiley &amp; Sons, Inc, 2010.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- LUNA, Henrique Pacca e GOLDBERG, Marcos Cesar. Otimização Combinatória e Programação Linear - Modelos e Algoritmos. Ed. Campus, 2000.
+- NEMHAUSER, George L e WOLSEY, Laurence A. Integer and Combinatorial Optimization. John Wiley &amp; Sons, Inc, 1999.
+- TOTH Paolo e VIGO Daniele. The Vehicle Routing Problem. Society for Industrial and Applied Mathematics, 2002
+- ATAMTURK, Alper e SAVELSBERGH, Martin W.P. Integer-Programming Software Systems. Annals of Operations Research, 140, 67-124, 2005.
+## DISCIPLINA: Programação Não-Linear
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                   |
+|-------------|------------------|-------------------------------------|
+| 2.2.0       | 60h              | - Cálculo Diferencial e Integral II |
+EMENTA: Definição do problema de programação não linear. Minimização de funções sem restrições: condições de otimalidade, modelos de algoritmos com buscas direcionais, métodos clássicos de descida. Minimização de funções com restrições lineares: condições de otimalidade, método de restrições ativas. Minimização de funções com restrições não lineares: condições de otimalidade, métodos de resolução.
+## BIBLIOGRAFIA BÁSICA:
+- LUENBERGER, D.G. Introduction to Linear and Nonlinear Programming, Addison-Wesley, 1984.
+- BAZARRA, H.D. SHERALI e SHETTY, Nonlinear Programming: Theory and Algorithms, John Wiley, 1993.
+- FritZSCHE, Helmut. Programação Não-Linear - Análise e Métodos. Editora Edgard Blucher Ltda, 1978.
+- YANG, Xin-She. Engineering Optimization - An Introduction with Metaheuristic Applications. John Wiley &amp; Sons, 2010.
+- RIBEIRO, A. A., e Karas, E. W. Otimização Contínua - Aspectos Teóricos e Computacionais. Cengage Learning, 2014.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- FRIEDLANDER, A . Elementos de Programação Não Linear, Editora da Unicamp, 1994.
+- TAHA, H. A. Operations Research: An Introduction. Editora Prentice-Hall, Inc, 6a Edição, 1997.
+- MANGASARIAN, O.L. Nonlinear Programming, Philadelphia, SIAM, 1994.
+## DISCIPLINA: Redes de Comunicação sem Fio
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                         |
+|-------------|------------------|-----------------------------------------------------------|
+| 2.2.0       | 60h              | - Programação Orientada a Objetos - Redes de Computadores |
+EMENTA: Introdução às redes de comunicação sem fio. Tópicos em tecnologias de Comunicação sem fio atuais e futuras. Estudo de casos.
+## BIBLIOGRAFIA BÁSICA:
+- KUROSE, J. F. and ROSS, K. W. Computer Networking: a Top-Down Approach. 7 ed. Pearson, 2016.
+- Douglas Comer, Redes de Computadores e Internet. 6 ed. Bookman. 2016.
+- TANEMBAUM, A. S. Redes de computadores. 5 ed. Editora Pearson. 2011.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- Artigos Científicos do Portal de Periódicos da CAPES.
+- Padrões e especificações de Tecnologias de Comunicação sem fio.
+DISCIPLINA:
+Redes Neurais Artificiais
+| Créditos:   | Carga Horária:   | Pré-requisito(s):         |
+|-------------|------------------|---------------------------|
+| 2.2.0       | 60h              | - Inteligência Artificial |
+EMENTA: Introdução a Redes Neurais Artificiais (RNAs). Arquiteturas de RNAs. Aprendizagem de RNAs. Características Principais e Resumo Histórico das RNAs. Rede Perceptron. Rede Adaline. Redes Perceptron de Múltiplas Camadas (PMC). Redes de Função de Base Radial. Redes Recorrentes de Hopfield. Redes Autoorganizáveis de Kohonen. Redes LVQ e counter-propagation. Redes ART (Adaptive Resonance Theory). Rede HTM (Hierarchical Temporal Memory). Redes de Elman. Redes de Jordan.
+## BIBLIOGRAFIA BÁSICA:
+- SAMARASINGHE, S. Neural Networks for Applied Sciences and Engineering: From Fundamentals to Complex Pattern Recognition. Auerbach Publications; 1 edition; 2006.
+- HAYKIN, S. Neural Networks and Learning Machines. Prentice Hall, 2008.
+- SILVA, I. N.; SPATTI, D. H.; FLAUZINO, R. A. Redes Neurais Artificiais para Engenharia e Ciências Aplicadas: curso prático. Artliber, 2010.
+- FAUSETT, L. V. Fundamentals of Neural Networks: Architectures, Algorithms and Applications. Pearson; 1 Edition; 1993.
+- ENGELBRECHT, A. P. Computational Intelligence: an Introduction. John Wiley &amp; Sons, 2007.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- GRAUPE, D. Principles of Artificial Neural Networks. World Scientific Publishing Company; 3rd edition; 2013.
+- HOPGOOD, A. A. Intelligent Systems for Engineers and Scientists. CRC Press; 3 edition (December 12, 2011).
+- CARVALHO, A. C. P. L. F. BRAGA, A. P. &amp; LUDERMIR, T. B. Redes Neurais Artificiais: teoria e aplicações. LTC, 2007.
+- REZENDE, S. O. Sistemas Inteligentes: Fundamentos e Aplicações. Manole, 2003.
+- NEGNEVITSKY, M. Artificial Intelligence: A Guide to Intelligent Systems. AddisonWesley; 2 edition (November 12, 2004).
+- GROSAN, C. e ABRAHAM, A. Intelligent Systems: A Modern Approach. Springer; 2011.
+- LUGER, G. F. Inteligência Artificial. Pearson, 6a Edição, 2013.
+| DISCIPLINA: Relações Étnico-Raciais, Gênero e Diversidade   | DISCIPLINA: Relações Étnico-Raciais, Gênero e Diversidade   | DISCIPLINA: Relações Étnico-Raciais, Gênero e Diversidade   |
+|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
+| Créditos:                                                   | Carga Horária:                                              | Pré-requisito(s):                                           |
+| 4.0.0                                                       | 60h                                                         | - - - - -                                                   |
+EMENTA: Educação e Diversidade Cultural. O racismo, o preconceito e a discriminação racial e suas manifestações no currículo da escola. As diretrizes curriculares para a educação das relações étnico-raciais. Diferenças de gênero e diversidade na sala de aula.
+## BIBLIOGRAFIA BÁSICA:
+- ABRAMOVAY, M.; GARCIA, M. C. Relações raciais na escola: reprodução de desigualdades em nome da igualdade. Brasília: UNESCO, 2006.
+- PERRENOUD, P. A. A Pedagogia na escola das diferenças: fragmentos de uma sociologia do fracasso. 2. ed. Porto Alegre: Artmed, 2010.
+- SCHLEUMER, F.; OLIVEIRA, O. de. Estudos étnico-raciais. Bauru: Canal 6, 2009.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- COELHO, M. C. Trajetórias da Diversidade na Educação. São Paulo: Física Editora, 2012.
+- CUNHA, E. Práticas Pedagógicas para inclusão e diversidade. Rio de Janeiro: Wak, 2011.
+- FRANCO, S. C. Cultura, Inclusão e Diversidade. São Paulo: Moderna Editora, 2013.
+- GOMES, N. L.; SILVA, P. B. G. (org.). Experiências étnicos-culturais para a formação de professores. Belo Horizonte: Autêntica, 2002.
+- MEYER, D. E. Alguns são mais iguais que os outros: etnia, raça e nação em ação no currículo escolar. In: A escola cidadã no contexto da globalização. 4. ed. São Paulo: Vozes, 2000.
+## DISCIPLINA: Sistemas Embarcados
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Arquitetura de Computadores
+EMENTA: Especificação (requisitos, linguagens, níveis e estilos de descrição). Hardware: entrada e saída (sample-hold,conversores A/D e D/A, sensores e atuadores), unidades de processamento (microprocessadores, DSPs, ASIPs e lógica reconfigurável) e memórias (flash, cache e scratch pad). Eficiência energética: compiladores energeticamente conscientes e gerenciamento de potência (DVS e DPM). Compactação de código. Ferramentas de projeto de hardware e de software (simulador, síntese comportamental e lógica, gerador de código e depurador). Systems-on-Chip e co-projeto de hardware e software.
+## BIBLIOGRAFIA BÁSICA:
+- OLIVEIRA, A.S.; ANDRADE, F.S. Sistemas Embarcados: Hardware e Firmware na Prática. São Paulo: Érica, 2006.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- PONT, M. J. Embedded C. São Paulo: Addison-Wesley Publishing, 2003.
+- SILVA JUNIOR, V.P. Aplicações práticas do microcontrolador 8051. 11. ed. São Paulo: Editora Érica, 2003.
+- SIMON. D. E. An Embedded Software Primer. São Paulo: Addison- Wesley Publishing, 1999.
+- YAGHMOUR, K.; MASTERS, J.; BEM-YOUSSEF, G.; GERUM, P. Construindo Sistemas Linux Embarcados. 2. ed. São Paulo: Alta Books, 2009.
+DISCIPLINA:
+Sistemas Fuzzy
+Créditos: Carga Horária: 60h
+Pré-requisito(s): 2.2.0
+- Programação Estruturada
+EMENTA: Computação Granular. Conjuntos Clássicos. Teoria de Conjuntos Fuzzy. Lógica Clássica. Lógica Fuzzy. Sistemas Fuzzy Baseados em Regras.
+## BIBLIOGRAFIA BÁSICA:
+- ROSS, T. J. Fuzzy Logic with Engineering Applications. John Wiley and Sons, 2010.
+- PEDRYCZ, W. e GOMIDE, F. Fuzzy Systems Engineering: Toward HumanCentric Computing. Wiley-IEEE Press; 1 edition, 2007;
+- ENGELBRECHT, A. P. Computational Intelligence: an Introduction. John Wiley &amp; Sons, 2007.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- HOPGOOD, A. A. Intelligent Systems for Engineers and Scientists. CRC Press; 3 edition (December 12, 2011);
+- REZENDE, S. O. Sistemas Inteligentes: Fundamentos e Aplicações. Manole, 2003;
+- PEDRYCZ, W. e GOMIDE, F. An Introduction to Fuzzy Sets. MIT Press Cambridge, 1998;
+- PEDRYCZ, W. Fuzzy Control and Fuzzy Systems. John Wiley and Sons, 1993;
+- SHAW, I. S. e M. G. SIMÕES. Controle e Modelagem Fuzzy. Edgard Blucher: FAPESP, 1999;
+- ZIMMERMANN, H. J. Fuzzy Set Theory and Its Applications. Kluwer Academic Publishers, 2001;
+- MENDEL, J.M. Uncertain Rule-Based Fuzzy Logic Systems: Introduction and New Directions. Prentice Hall, 2001;
+- BUCKLEY, J. J. e SILER, W. Fuzzy Expert Systems and Fuzzy Reasoning. Jonh Wiley, 2004;
+- NEGNEVITSKY, M. Artificial Intelligence: A Guide to Intelligent Systems. AddisonWesley; 2 edition (November 12, 2004);
+- GROSAN, C. e ABRAHAM, A. Intelligent Systems: A Modern Approach. Springer; 2011.
+DISCIPLINA:
+Teste de Software
+| Créditos:   | Carga Horária:   | Pré-requisito(s):           |
+|-------------|------------------|-----------------------------|
+| 2.2.0       | 60h              | - Engenharia de Software II |
+EMENTA: Introdução. Fundamentos do teste de software. Níveis de teste. Técnicas de teste. Métricas de Teste. Exemplos de fluxo de teste. Automação de testes.
+## BIBLIOGRAFIA BÁSICA:
+- PERRY, William E., Effective Methods for Software Testing, 3a. edição, Editora John Wiley &amp; Sons, 2006.
+- BLACK, Rex, Managing the Testing Process: Practical Tools and Techniques for Managing Hardware and Software Test, Editora John Wiley &amp; Sons, 3a edição, 2009.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- HUTCHESON, Marnie L., Software Testing Fundamentals: Methods and Metrics, Editora John Wiley &amp; Sons, 2003.
+DISCIPLINA:
+Tópicos em Arquitetura de Computadores
+| Créditos:   | Carga Horária:   | Pré-requisito(s):             |
+|-------------|------------------|-------------------------------|
+| 2.2.0       | 60h              | - Arquitetura de Computadores |
+EMENTA:
+Ementa livre na área de Arquitetura de Computadores.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Banco de Dados
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Banco de Dados
+EMENTA:
+Ementa livre na área de Banco de Dados.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Bioinformática
+Créditos: Carga Horária:
+Pré-requisito(s): 4.0.0
+60h
+- Programação Estruturada
+EMENTA:
+Ementa livre na área de Bioinformática.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Computação Aplicada
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Estruturas de Dados
+EMENTA:
+Ementa livre na área de Computação.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Engenharia de Software
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Engenharia de Software II
+EMENTA:
+Ementa livre na área de Engenharia de Software.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Inteligência Artificial
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- [ ] - Inteligência Artificial
+EMENTA:
+Ementa livre na área de Inteligência Artificial.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Programação
+Créditos: Carga Horária:
+2.2.0
+60h
+EMENTA:
+Pré-requisito(s): - Programação Orientada a Objetos
+Ementa livre na área de Programação.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Redes de Computadores
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Redes de Computadores
+EMENTA: Ementa livre na área de Redes de Computadores.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Segurança em Sistemas
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Segurança em Sistemas
+EMENTA: Ementa livre na área de Segurança em Sistemas.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Sistemas Computacionais
+Créditos: Carga Horária:
+Pré-requisito(s): 2.2.0
+60h
+- Estruturas de Dados
+EMENTA: Ementa livre na área de Sistemas Computacionais.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Tópicos em Sistemas Operacionais
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): - Sistemas Operacionais
+EMENTA: Ementa livre na área de Sistemas Operacionais.
+## BIBLIOGRAFIA BÁSICA:
+- A ser escolhida pelo ministrante.
+## BIBLIOGRAFIA COMPLEMENTAR:
+- A ser escolhida pelo ministrante.
+DISCIPLINA:
+Visão Computacional
+| Créditos:   | Carga Horária:   | Pré-requisito(s):                                  |
+|-------------|------------------|----------------------------------------------------|
+| 2.2.0       | 60h              | - Álgebra Linear - Programação Orientada a Objetos |
+EMENTA: Fundamentos de Visão Computacional. Formação e Processamento de Imagens. Descritores de Características e Correspondência. Movimento. Segmentação e Agrupamento. Câmeras. Rastreamento. Reconhecimento.
+## BIBLIOGRAFIA BÁSICA:
+- FORSYTH, D.; PONCE, J. Computer Vision, a Modern Approach. Prentice Hall, 2003.
+- SZELISKI, R. Computer Vision: algorithms and applications. Springer, 2011.
+| BIBLIOGRAFIA COMPLEMENTAR:                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - SZELISKI, Richard; ZISSERMAN, Andrew. Multiple View Geometry in Computer Vision. 3 ed. Cambridge University Press. 2011. - GONZALEZ, R. C.; WOODS, R. Processamento Digital de Imagens. 3 ed, São Paulo, Pearson Prentice Hall, 2010. - TRUCCO, A. Veri. Introductory Techniques for 3 - D Computer Vision. Prentice Hall, 1998. - FAUGERAS, O. Three - Dimensional Computer Vision a Geometric Approach. The MIT Press, 1993. |
+## 7.  CORPO DOCENTE
+## 7.1.  Núcleo Docente Estruturante - NDE
+O Núcleo Docente Estruturante (NDE) do Curso de BCC foi nomeado através da Portaria n o 125/2018-PREG/UFPI e é composto pelos seguintes professores:
+- Kelson Rômulo Teixeira Aires (Presidente);
+- André Castelo Branco Soares;
+- Erico Meneses Leão;
+- Raimundo Santos Moura;
+- Rodrigo de Melo Sousa Veras.
+## 7.2.  Atuação e regime de trabalho do coordenador
+O Coordenador do curso, Prof. Kelson Rômulo Teixeira Aires, é Professor Assistente II, pertencente ao quadro efetivo da instituição desde 2002 em regime de dedicação exclusiva (DE - 40h). Ele está no cargo desde janeiro de 2016, em seu terceiro mandato, haja vista ter sido coordenador no biênio 2014 e 2015, antes de se afastar para o doutoramento.
+O Prof. Kelson tem atuado na graduação, em disciplinas da primeira metade do curso, além de atuar no Programa de Pós-Graduação em Ciência da Computação PPGCC, como membro efetivo.
+A coordenação tem fornecido todo o suporte aos alunos e à realização de eventos na área do curso.
+## 7.3.  Perfil do corpo docente
+O corpo docente do Bacharelado em Ciência da Computação é formado por 23 professores na área de Ciência da Computação lotados no Departamento de Computação. Dos 23 docentes, são 17 Doutores e 6 Mestres. A Tabela 06 apresenta a lista dos docentes com a respectiva área de formação.
+Tabela 06 - Docentes do Bacharelado em Ciência da Computação.
+| Docente                     | CPF            | Regime de Trabalho   | Titulação                                          |
+|-----------------------------|----------------|----------------------|----------------------------------------------------|
+| André Castelo Branco Soares | 803.957.673-34 | DE - 40h             | Doutorado em Ciência da Computação pela UFPE, 2009 |
+| André Macedo Santana        | 628.763.923-72 | DE - 40h             | Doutorado em Engenharia Elétrica pela UFRN, 2011   |
+| Antônio Costa de Oliveira   | 152.088.263-72 | DE - 40h             | Doutorado em Engenharia de Produção pela USP, 2002 |
+| Antônio Helson Mineiro Soares         | 945.753.633-91   | DE - 40h   | Doutorado em Ciência da Computação pela USP, 2014                                                         |
+|---------------------------------------|------------------|------------|-----------------------------------------------------------------------------------------------------------|
+| Armando Soares Sousa                  | 798.461.493-87   | DE - 40h   | Mestrado em Ciência da Computação pela UFPE, 2007                                                         |
+| Carlos André Batista de Carvalho      | 914.110.253-34   | DE - 40h   | Doutorado em Ciência da Computação pela UFC, 2018                                                         |
+| Erico Meneses Leão                    | 976.914.453-34   | DE - 40h   | Doutorado em Engenharia Informática pela Faculdade de Engenharia da Universidade do Porto, Portugal, 2016 |
+| Flavio Ferry de Oliveira Moreira      | 716.040.733-49   | DE - 40h   | Mestrado em Ciência da Computação pela UFPE, 2003                                                         |
+| Francisco Nilson Rodrigues dos Santos | 047.288.663-00   | DE - 40h   | Mestrado em Ciência da Computação pela UFPE, 1981                                                         |
+| Francisco Vieira de Sousa             | 050.290.234-53   | DE - 40h   | Doutorado em Ciência da Computação pela UFPE, 2000                                                        |
+| Guilherme Amaral Avelino              | 998.971.133-04   | DE - 40h   | Doutorado em Ciência da Computação pela UFMG, 2018                                                        |
+| Ivan Saraiva Silva                    | 437.280.904-25   | DE - 40h   | Doutorado em Informática pela Université Pierre et Marie Curie, LISE / CNRS, França, 1995                 |
+| Kelson Rômulo Teixeira Aires          | 579.300.403-30   | DE - 40h   | Doutorado em Engenharia Elétrica e de Computação pela UFRN, 2009                                          |
+| Laurindo de Sousa Britto Neto         | 643.550.633-72   | DE - 40h   | Doutorado em Engenharia Elétrica pela UNICAMP, 2016                                                       |
+| Luiz Claudio Demes da Mata Sousa      | 429.040.803-68   | TP - 20h   | Doutorado em Biotecnologia pela UECE, 2010                                                                |
+| Magno Alves dos Santos                | 217.275.203-78   | DE - 40h   | Mestrado em Ciência da Computação pela UFMG, 1997                                                         |
+| Pedro de Alcântara dos Santos Neto    | 470.564.523-53   | DE - 40h   | Doutorado em Ciência da Computação pela UFMG, 2005                                                        |
+| Raimundo Santos Moura                 | 428.984.393-04   | DE - 40h   | Doutorado em Engenharia Elétrica e de Computação pela UFRN, 2009                                          |
+| Ricardo de Andrade Lira Rabelo        | 912.843.763-20   | DE - 40h   | Doutorado em Engenharia Elétrica pela USP, 2010                                                           |
+| Rodrigo de Melo Souza Veras           | 641.754.563-68   | DE - 40h   | Doutorado em Engenharia de Teleinformática pela UFC, 2014                                                 |
+| Rosianni de Oliveira Cruz             | 769.466.573-49   | DE - 40h   | Mestrado em Ciência da Computação pela USP, 2005                                                          |
+| Vinícius Ponte Machado                | 751.764.243-04   | DE - 40h   | Doutorado em Engenharia Elétrica e de Computação pela UFRN, 2009                                          |
+| Weslley Emmanuel Martins Lima         | 622.691.513-72   | TP - 20h   | Mestrado em Ciência da Computação pela USP, 2003                                                          |
+## 8.  INFRAESTRUTURA FÍSICA E INSTALAÇÕES ACADÊMICAS
+## 8.1.  Local de funcionamento, infraestrutura física e laboratórios
+Atualmente, o Departamento de Computação encontra-se no bloco SG-09 do Centro de Ciências da Natureza - CCN do Campus Ministro Petrônio Portela da UFPI, com uma área total de 885m2. O bloco do Departamento de Computação passou por uma reforma e ampliação em março de 2010 e sua estrutura física está dividida em 3 sub-blocos principais, que são compostos pelos seguintes ambientes:
+- Sub-bloco 1 (área construída de 195m2)
+- o Recepção do Departamento de Computação;
+- o Sala da Chefia do Departamento de Computação;
+- o Sala de Arquivo;
+- o Sala da Coordenação do curso de Ciência da Computação;
+- o 1 sala de aula com capacidade para 20 alunos;
+- o 1 sala do Centro Acadêmico de computação;
+- o 1 laboratório temático com capacidade para 10 integrantes;
+- o 5 gabinetes individuais de professores.
+- Sub-bloco 2 (área construída de 195m2)
+- o 2 salas de aula com capacidade para 35 alunos;
+- o 1 laboratório temático com capacidade para 10 integrantes;
+- o 5 gabinetes individuais de professores.
+- Sub-bloco 3 (área construída de 484m2)
+- o 2 Laboratórios de Ensino de Graduação (LEG), cada um deles com capacidade para 24 alunos;
+- o 4 laboratórios temáticos com capacidade para 10 alunos;
+- o 16 gabinetes individuais de professores;
+- o 1 lavabo de uso exclusivo dos professores;
+- o 1 copa de uso exclusivo dos professores;
+- o 2 banheiros de acesso exclusivo para funcionários da UFPI;
+- o 2 banheiros que servem a comunidade da UFPI em geral.
+Os laboratórios temáticos do Departamento de Computação são espaços específicos para o desenvolvimento de atividades de pesquisa e extensão no âmbito da graduação, tais como iniciação científica e projetos de pesquisas coordenados pelos docentes do departamento. Os laboratórios possuem a estrutura necessária
+para o desenvolvimento dessas atividades, tais como: split, bancadas, cadeiras, armários, computadores e estrutura de rede instalada.
+Os Laboratórios de Ensino de Graduação (LEG) são ambientes utilizados pelos alunos do curso de Ciência da Computação para estudo e desenvolvimento de atividades previstas no âmbito da graduação. Além disso, esses laboratórios serão utilizados para ministrar aulas práticas previstas no curso de Ciência da Computação. Atualmente, cada LEG está equipado com split, bancadas, cadeiras e computadores para atender as demandas dos alunos do curso de computação.
+Por sua vez, os gabinetes individuais dos professores são ambientes utilizados para as atividades docente e atendimento aos alunos. Cada gabinete é equipado com split, armário, mesa escritório e cadeira.
+Dentro desse contexto, o bloco do Departamento de Computação atualmente dispõe dos seguintes equipamentos listados na Tabela 07.
+Tabela 07 - Lista de equipamentos do Departamento de Computação.
+|   Item | Descrição                                                                                            |   Quantidade |
+|--------|------------------------------------------------------------------------------------------------------|--------------|
+|      1 | Computadores para os LEG's, equipados com processador Intel i5, 8GB de memória RAM e 500GB de HD.    |           31 |
+|      2 | Computadores para coordenação e chefia, equipados com processador Intel i3, 4GB de memória RAM.      |           02 |
+|      3 | Computadores para os laboratórios temáticos, equipados com processador Intel i3, 4GB de memória RAM. |           10 |
+|      4 | Datashow.                                                                                            |           05 |
+|      5 | Quadro interativo.                                                                                   |           01 |
+|      6 | Telas de projeção de imagem.                                                                         |           03 |
+O rápido avanço tecnológico e a necessidade constante dos alunos de computação por softwares complexos e aplicações sofisticadas exigem uma política de atualização e modernização dos equipamentos computacionais dos respectivos laboratórios do curso. Dessa forma, uma política razoável de modernização dos sistemas de computação do curso de Ciência da Computação deve incluir uma atualização anual dos equipamentos computacionais e da infraestrutura dos Laboratórios de Ensino de Graduação e dos Laboratórios temáticos, que incluem: computadores equipados com processadores modernos e boa capacidade de memória RAM e processamento de vídeo, além de cadeiras de laboratório, nobreaks e Datashow. Destaca-se que, a fim de garantir a segurança dos equipamentos, dos docentes e discentes, os laboratórios e gabinetes de professores deveriam ter seu
+acesso controlado por um sistema de controle de acesso eletrônico (crachá e senha). Dessa forma, torna-se necessário a instalação de tal sistema na infraestrutura atual do Departamento de Computação.
+Além disso, diante da formação cada vez mais abrangente dos docentes do curso de Computação, torna-se necessário a aquisição de outras classes de equipamentos computacionais, além dos equipamentos tradicionais, tais como: microcontroladores, dispositivos de processamento gráfico, dispositivos sensores e sistemas embarcados. É importante destacar também que os equipamentos a serem substituídos serão reaproveitados para atividades de menor demanda computacional, como exemplo, para a secretaria do Departamento de Computação e coordenação do curso de Computação, além de outros setores administrativos da UFPI.
+Além do bloco SG-09, o curso de Ciência da Computação contará com o apoio do prédio do Núcleo de Computação de Alto Desempenho - NCAD, onde atualmente funciona o Programa de Pós-Graduação em Ciência da Computação. O Núcleo de Computação de Alto Desempenho encontra-se num prédio de 720m2, instalado ao lado do bloco SG-09 do Departamento de Computação conta com os equipamentos listados na Tabela 08, sendo dividido em dois pavimentos com os seguintes ambientes:
+- 8 Laboratórios temáticos com capacidade para até 12 alunos;
+- 1 Laboratório de Ensino com capacidade para 22 alunos;
+- 1 mini auditório com capacidade para cerca de 25 pessoas equipado com equipamento de videoconferência;
+- 1 sala de reunião;
+- 15 gabinetes individuais para professores;
+- 1 sala de servidores;
+- Recepção e copa;
+- Sala de coordenação.
+Tabela 08 - Lista de equipamentos do NCAD.
+|   Item | Descrição                                                                                                                 |   Quantidade |
+|--------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+|      1 | Computadores para os laboratórios temáticos, equipados com processadores Intel i3 ou i5, com memória RAM entre 4GB e 8GB. |           26 |
+|      2 | Computadores para os laboratórios temáticos, equipados com tecnologia AMD Vision e 4GB de memória RAM.                    |           32 |
+|   3 | UCS SP8 C220M4S VALUE w/E502650 v3,8x16GB 2133 MHz with 300GB 6Gb SAS 10K RPM SFF HDD/hot plug/drive sled mounted - Rack Server Cisco.   |   01 |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------|------|
+|   4 | Equipamento de vídeo conferência.                                                                                                        |   01 |
+|   5 | Datashow.                                                                                                                                |   03 |
+|   6 | Placas DE0 para prototipagem de circuitos em dispositivos reconfiguráveis.                                                               |   05 |
+|   7 | Placas DE2 para prototipagem de circuitos em dispositivos reconfiguráveis.                                                               |   05 |
+|   8 | Placa de Vídeo de Alto Desempenho: modelo nVidia Tesla Série 20, ou similar.                                                             |   02 |
+|   9 | Time Completo para Futebol de Robôs, Modelo Sci-Soccer da xBot.                                                                          |   03 |
+|  10 | Robôs ominidirecionais com câmera embarcada.                                                                                             |   06 |
+|  11 | 6 kits de desenvolvimento de hardware livre - arduino.                                                                                   |   06 |
+O sistema de bibliotecas da UFPI, por sua vez, é composto por 01 (uma) biblioteca comunitária e 09 (nove) bibliotecas setoriais. A biblioteca comunitária dispõe de 77.414 títulos e 235.920 exemplares, sendo 805 títulos e 2.176 exemplares da área de computação. Para apoio a estudos e pesquisas, os discentes do curso de Ciência da Computação contarão ainda com a Biblioteca Setorial do Centro de Ciências da Natureza, que possui um acervo de 3.580 títulos e 9.567 exemplares, sendo 267 títulos e 334 exemplares na área de Computação. Vale ressaltar que os discentes poderão ainda acessar as bibliotecas digitais (IEEE, ACM, e assim por diante) através do portal de periódicos da CAPES.
+## 9.  EQUIVALÊNCIA ENTRE PROJETOS PEDAGÓGICOS
+É importante estabelecer a equivalência entre as disciplinas dos dois currículos afim de permitir que alunos do currículo 04 e 05 possam cursar juntos numa mesma turma as disciplinas equivalentes. Isto diminui a carga de trabalho dos docentes visto que este lecionará uma mesma disciplina para dois currículos.
+A equivalência entre as disciplinas é apresentada na Tabela 09.
+Tabela 09 - Quadro de equivalência de disciplinas.
+| MATRIZ ATUAL (Currículo 4)   | MATRIZ ATUAL (Currículo 4)                         |         | MATRIZ PROPOSTA (Currículo 5)   | MATRIZ PROPOSTA (Currículo 5)                     |
+|------------------------------|----------------------------------------------------|---------|---------------------------------|---------------------------------------------------|
+| CÓDIGO                       | DISCIPLINA (CRÉDITOS)                              | Direção | CÓDIGO                          | DISCIPLINA (CRÉDITOS)                             |
+|                              | 1º PERÍODO                                         |         |                                 |                                                   |
+| CLE0187                      | Inglês Técnico e Científico (4.0.0)                | ↔      | CLE0187                         | Inglês Técnico e Científico (4.0.0)               |
+| DBI0057                      | Educação Ambiental Tecnologia e Sociedade (2.0.0)  | ↔      | DBI0057                         | Educação Ambiental Tecnologia e Sociedade (2.0.0) |
+| DFI0254                      | Introdução à Metodologia Científica (4.0.0)        | ↔      | DFI0254                         | Introdução à Metodologia Científica (4.0.0)       |
+| DIE0073                      | Introdução à Ciência da Computação (2.0.0)         | ↔      | A definir                       | Seminários de Introdução ao Curso (2.0.0)         |
+| DIE0074                      | Introdução à Lógica (4.0.0)                        | ↔      | A definir                       | Introdução à Lógica (2.2.0)                       |
+| DIE0075                      | Programação Estruturada (3.1.0)                    | ↔      | DIE0075                         | Programação Estruturada (3.1.0)                   |
+| DMA0168                      | Cálculo Diferencial e Integral I (4.2.0)           | ↔      | A definir                       | Cálculo Diferencial e Integral I (2.2.0)          |
+| 2º PERÍODO                   |                                                    |         |                                 |                                                   |
+| DFI0005                      | Eletricidade e Magnetismo (4.2.0)                  | ↔      | A definir                       | Eletricidade e Magnetismo (2.2.0)                 |
+| DIE0025                      | Circuitos Digitais (2.2.0)                         | ↔      | DIE0025                         | Circuitos Digitais (2.2.0)                        |
+| DIE0076                      | Estruturas de Dados I (2.2.0)                      | ↔      | A definir                       | Estruturas de Dados (2.2.0)                       |
+| DIE0077                      | Laboratório de Programação (0.2.0)                 | ↔      | A definir                       | Laboratório de Programação (1.3.0)                |
+| DMA0055                      | Cálculo Diferencial e Integral II (4.2.0)          | ↔      | A definir                       | Cálculo Diferencial e Integral II (2.2.0)         |
+| DMA0057                      | Matemática Discreta (2.2.0)                        | ↔      | DMA0057                         | Matemática Discreta (2.2.0)                       |
+|                              | 3º PERÍODO                                         |         |                                 |                                                   |
+| CGB0025                      | Probabilidade e Estatística (4.2.0)                | ↔      | A definir                       | Probabilidade e Estatística (2.2.0)               |
+| DIE0078                      | Empreendedorismo Computação (2.2.0)                | ↔      | A definir                       | Empreendedorismo (2.2.0)                          |
+| DIE0079                      | Estruturas de Dados II (2.2.0)                     | ↔      | A definir                       | Estruturas de Dados Avançadas (2.2.0)             |
+| DIE0080                      | Métodos Numéricos (2.2.0)                          | ↔      | A definir                       | Métodos Numéricos (2.2.0)                         |
+| DIE0081                      | Programação Orientada a Objetos (2.2.0)            | ↔      | A definir                       | Programação Orientada a Objetos (2.2.0)           |
+| DMA0058                      | Álgebra Linear (3.1.0)                             | ↔      | A definir                       | Álgebra Linear (2.2.0)                            |
+|                              | 4º PERÍODO                                         |         |                                 |                                                   |
+| DIE0082                      | Arquitetura de Computadores (3.1.0)                | ↔      | DIE0082                         | Arquitetura de Computadores (3.1.0)               |
+| DIE0083                      | Interface Humano Computador (2.2.0)                | ↔      | DIE0083                         | Interface Humano Computador (2.2.0)               |
+| DIE0084                      | Teorias e Aplicações em Grafos (3.1.0)             | ↔      | DIE0084                         | Teorias e Aplicações em Grafos (3.1.0)            |
+| DIE0085                      | Programação Linear (2.2.0)                         | ↔      | DIE0085                         | Programação Linear (2.2.0)                        |
+| DIE0086                      | Fundamentos de Banco de Dados (2.2.0)              | ↔      | A definir                       | Banco de Dados (2.2.0)                            |
+| DIE0087                      | Informática e Sociedade (4.0.0)                    | ↔      | A definir                       | Informática e Sociedade (2.2.0)                   |
+|                              | 5º PERÍODO                                         |         |                                 |                                                   |
+| DIE0088                      | Banco de Dados Avançados (2.2.0)                   | ↔      | A definir                       | Bancos de Dados Relacionais (2.2.0)               |
+| DIE0089                      | Engenharia de Software I (4.0.0)                   | ↔      | A definir                       | Engenharia de Software I (2.2.0)                  |
+| DIE0090                      | Redes de Computadores I (3.1.0)                    | ↔      | A definir                       | Tópicos em Redes de Computadores (2.2.0)          |
+| DIE0091                      | Sistemas Operacionais (4.0.0)                      | ↔      | A definir                       | Sistemas Operacionais (2.2.0)                     |
+| DIE0092                      | Teoria da Computação (2.2.0)                       | ↔      | DIE0092                         | Teoria da Computação (2.2.0)                      |
+| DIE0093                      | Projeto e Análise de Algoritmos (2.2.0)            | ↔      | DIE0093                         | Projeto e Análise de Algoritmos (2.2.0)           |
+|                              | 6º PERÍODO                                         |         |                                 |                                                   |
+| DIE0128                      | Inteligência Computacional para Otimização (4.0.0) | ↔      | A definir                       | Fluxos em Redes (2.2.0)                           |
+| DIE0129    | Introdução a Redes Neurais Artificiais (4.0.0)   | ↔   | A definir   | Redes Neurais Artificiais (2.2.0)              |
+|------------|--------------------------------------------------|------|-------------|------------------------------------------------|
+| DIE0131    | Modelagem e Simulação de Sistemas (4.0.0)        | ↔   | A definir   | Modelagem e Simulação de Sistemas (2.2.0)      |
+| DIE0132    | Pesquisa Operacional (4.0.0)                     | ↔   | A definir   | Programação Inteira (2.2.0)                    |
+| DIE0133    | Programação Não Linear (4.0.0)                   | ↔   | A definir   | Programação Não Linear (2.2.0)                 |
+| DIE0094    | Engenharia de Software II (4.0.0)                | ↔   | A definir   | Engenharia de Software II (2.2.0)              |
+| DIE0095    | Computação Gráfica (2.2.0)                       | ↔   | A definir   | Computação Gráfica (2.2.0)                     |
+| DIE0096    | Inteligência Artificial (4.2.0)                  | ↔   | A definir   | Inteligência Artificial (2.2.0)                |
+| DIE0097    | Linguagens de Programação (3.1.0)                | ↔   | DIE0097     | Linguagens de Programação (3.1.0)              |
+| DIE0098    | Redes de Computadores II (3.1.0)                 | ↔   | A definir   | Redes de Computadores (2.2.0)                  |
+| 7º PERÍODO | 7º PERÍODO                                       |      |             |                                                |
+| DFI0073    | Prática Desportiva I (0.2.0)                     | ↔   | DFI0073     | Prática Desportiva I (0.2.0)                   |
+| DIE0134    | Processamento Digital de Imagem (4.0.0)          | ↔   | A definir   | Processamento Digital de Imagens (2.2.0)       |
+| DIE0135    | Programação Corrente (4.0.0)                     | ↔   | A definir   | Computação Paralela (2.2.0)                    |
+| DIE0137    | Sistemas Distribuídos (4.0.0)                    | ↔   | A definir   | Sistemas Distribuídos (2.2.0)                  |
+| DIE0138    | Engenharia de Software Experimental (2.0.0)      | ↔   | A definir   | Engenharia de Software Experimental (2.2.0)    |
+| DIE0140    | Tópicos em Bioinformática (4.0.0)                | ↔   | DIE0140     | Tópicos em Bioinformática (4.0.0)              |
+| LIBRAS012  | Libras - Língua Brasileira de Sinais (2.2.0)     | ↔   | LIBRAS012   | Libras - Língua Brasileira de Sinais (2.2.0)   |
+| DIE0099    | Construção de Compiladores (4.2.0)               | ↔   | A definir   | Compiladores (2.2.0)                           |
+| DIE0100    | Programação Funcional (2.2.0)                    | ↔   | DIE0100     | Programação Funcional (2.2.0)                  |
+| DIE0101    | Segurança em Sistemas (3.1.0)                    | ↔   | DIE0101     | Segurança em Sistemas (3.1.0)                  |
+| DIE0102    | Trabalho de Conclusão de Curso I (0.4.0)         | ↔   | A definir   | Trabalho de Conclusão de Curso I (2.2.0)       |
+| DIE0103    | Estágio Supervisionado (0.6.0)                   | ↔   | A definir   | Estágio Supervisionado (0.22.0)                |
+| 8º PERÍODO | 8º PERÍODO                                       |      |             |                                                |
+| CGB0064    | Tópicos em Estatística Computacional (4.0.0)     | ↔   | A definir   | Métodos Computacionais em Estatística (2.2.0)  |
+| DIE0141    | Tópicos em Arquitetura de Computadores (4.0.0)   | ↔   | A definir   | Tópicos em Arquitetura de Computadores (2.2.0) |
+| DIE0142    | Tópicos em Bancos de Dados (4.0.0)               | ↔   | A definir   | Tópicos em Banco de Dados (2.2.0)              |
+| DIE0143    | Tópicos em Compiladores (4.0.0)                  | ↔   | A definir   | Laboratório de Compiladores (2.2.0)            |
+| DIE0144    | Tópicos em Computação (4.0.0)                    | ↔   | A definir   | Tópicos em Computação Aplicada (2.2.0)         |
+| DIE0145    | Tópicos em Computação Gráfica (4.0.0)            | ↔   | A definir   | Visão Computacional (2.2.0)                    |
+| DIE0146    | Tópicos em Engenharia de Software (4.0.0)        | ↔   | A definir   | Tópicos em Engenharia de Software (2.2.0)      |
+| DIE0147    | Tópicos em Inteligência Artificial (4.0.0)       | ↔   | A definir   | Tópicos em Inteligência Artificial (2.2.0)     |
+| DIE0148    | Tópicos em Linguagens de Programação (4.0.0)     | ↔   | A definir   | Tópicos em Sistemas Computacionais (2.2.0)     |
+| DIE0149    | Tópicos em Programação (4.0.0)                   | ↔   | A definir   | Tópicos em Programação (2.2.0)                 |
+| DIE0150    | Tópicos em Redes de Computadores (4.0.0)         | ↔   | A definir   | Tópicos em Redes de Computadores (2.2.0)       |
+| DIE0151    | Tópicos em Sistemas Operacionais (4.0.0)         | ↔   | A definir   | Tópicos em Sistemas Operacionais (2.2.0)       |
+| DIE0153    | Tópicos em Segurança de Sistemas (4.0.0)         | ↔   | A definir   | Tópicos em Segurança em Sistemas (2.2.0)       |
+| DIE0104    | Trabalho de Conclusão de Curso II (2.2.0)        | ↔   | DIE0104     | Trabalho de Conclusão de Curso II (2.2.0)      |
+## 10.  ADAPTAÇÃO CURRICULAR
+Os alunos que ingressarem na Universidade no segundo semestre letivo de 2019 iniciam a implantação do novo Currículo ora proposto, graduando a 1ª turma no 1º semestre letivo do ano 2023, perfazendo um total de 08 períodos (quatro anos letivos).
+Os alunos que ingressaram a partir de 2017.1 devem, compulsoriamente, ser migrados para o novo currículo.
+Os alunos que ingressaram antes de 2017.1 terão 04 (quatro) períodos para integralização curricular. Caso não consigam, devem, compulsoriamente, ser migrados para o novo currículo. Entretanto, esses alunos poderão, a qualquer momento da vigência do referido prazo, optar pela transferência para o novo currículo aproveitando os créditos das disciplinas equivalentes de acordo com a Tabela 09.
+Afim de otimizar a carga horária dos professores do Departamentos envolvidos e propiciar a execução dos currículos 4 e 5 durante o período de transição, as disciplinas do currículo 5 equivalentes serão ofertadas para os alunos do currículo 4. Para as disciplinas do currículo 4 sem equivalência no currículo 5 serão criadas turmas específicas.
+Os casos que não estão contemplados pelos critérios acima serão estudados individualmente pelo Colegiado do Curso. Caberá ao Colegiado do Bacharelado em Ciência da Computação, planejar, organizar e coordenar ações para implantação deste currículo, assim como sistematizar resultados e propor novos encaminhamentos.
+## REFERÊNCIAS
+1. Resolução CEPEX nº 177/12, de 5 de novembro de 2012 - Normas de Funcionamento dos Cursos dos Cursos de Graduação da Universidade Federal do Piauí.
+2. Resolução CEPEX nº 054/17 - Dispõe sobre o atendimento educacional a estudantes com necessidades educacionais especiais na UFPI.
+3. Parecer CNE/CES no 136/2012, aprovado em 8 de março de 2012 - Diretrizes Curriculares Nacionais para os cursos de graduação em Computação.
+4. Resolução CNE/CES nº 5, de 16 de novembro de 2016 - Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação, abrangendo os cursos de bacharelado em Ciência da Computação, em Sistemas de Informação, em Engenharia de Computação, em Engenharia de Software e de licenciatura em Computação, e dá outras providências.
+5. Zorzo, A. F.; Nunes, D.; Matos, E.; Steinmacher, I.; Leite, J.; Araujo, R. M.; Correia, R.; Martins, S. 'Referenciais de Formação para os Cursos de Graduação em Computação'. Sociedade Brasileira de Computação (SBC). 153p, 2017. ISBN 978-85-7669-424-3.
+6. The Loint Task Force on Computing Curricula. Curriculum Guidelines for Undergraduate Degree Programs in Computer Science . ACM and IEEE Computer Society, Dec., 2013.
+7. Plano de Desenvolvimento Institucional da Universidade Federal do Piauí.
+8. Lei nº 9.394, de 20 de dezembro de 1996 e suas alterações. Lei de Diretrizes e Bases da Educação Nacional.
+9. Lei nº 10.436, de 24 de abril de 2002. Dispõe sobre a Língua Brasileira de Sinais - Libras e dá outras providências.
+10. Lei nº 10.861, de 14 de abril de 2004. Institui o Sistema Nacional de Avaliação da Educação Superior (SINAES) e dá outras providências.
+11. Lei nº 13.005, de 25 de junho de 2014. Aprova o Plano Nacional de Educação (PNE) e dá outras providências.
+12. Lei nº 13.146, de 6 de julho de 2015. Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).
+13. Decreto nº 3276, de 06 de dezembro de 1999. Dispõe sobre a formação em nível superior de professores para atuar na educação básica e dá outras providências.
+14. Decreto nº 5.626, de 22 de dezembro de 2005. Regulamenta a Lei no 10.436, de 24 de abril de 2002, que dispõe sobre a Língua Brasileira de Sinais - Libras, e o art. 18 da Lei no 10.098, de 19 de dezembro de 2000.
+15. Decreto nº 5.773, de 9 de maio de 2006. Dispõe sobre o exercício das funções de regulação, supervisão e avaliação de instituições de educação superior e cursos superiores de graduação e sequenciais no sistema federal de ensino.
+16. Decreto nº 5.773, de 9 de maio de 2006. Dispõe sobre o exercício das funções de regulação, supervisão e avaliação de instituições de educação superior e cursos superiores de graduação e sequenciais no sistema federal de ensino.
+17. Portaria Normativa MEC nº 4.059, de 10 de dezembro de 2004. Regulamenta a introdução, na organização pedagógica e curricular de seus cursos
+superiores reconhecidos, a oferta de disciplinas integrantes do currículo que utilizem modalidade semi-presencial.
+18. Portaria Normativa MEC nº 40, de 12 de dezembro de 2007. Institui o e-MEC, sistema eletrônico de fluxo de trabalho e gerenciamento de informações relativas aos processos de regulação da educação superior no sistema federal de educação.
+19. Portaria Normativa MEC n° 23, de 01 de dezembro de 2010. Altera dispositivos da Portaria Normativa nº 40, de 12 de dezembro de 2007, que Institui o e-MEC, sistema eletrônico de fluxo de trabalho e gerenciamento de informações relativas aos processos de regulação, avaliação e supervisão da educação superior no sistema federal de educação, e o Cadastro e-MEC de Instituições e Cursos Superiores e consolida disposições sobre indicadores de qualidade, Banco de Avaliadores (BASIS) e o Exame Nacional de Desempenho de Estudantes (ENADE) e outras disposições.
+20. Portaria Normativa MEC nº 1.383, de 31 de outubro de 2017. Aprova, em extrato, os indicadores do Instrumento de Avaliação de Cursos de Graduação para os atos de autorização, reconhecimento e renovação de reconhecimento nas modalidades presencial e a distância do Sistema Nacional de Avaliação da Educação Superior - Sinaes.
+21. Resolução CONAES n° 01, de 17 de junho de 2010. Normatiza o Núcleo Docente Estruturante e dá outras providências.
+## APÊNDICE I - FLUXOGRAMA DE DISCIPLINAS DO CURSO
+<!-- image -->
+## APÊNDICE II - REGULAMENTO DO TRABALHO DE CONCLUSÃO DE CURSO
+## CAPÍTULO I DOS OBJETIVOS
+- Art. 1. O Trabalho de Conclusão de Curso (TCC) é um instrumento de iniciação científica a ser desenvolvido em disciplinas obrigatórias para a integralização curricular.
+- Art. 2. O TCC será desenvolvido em 02 (duas) disciplinas obrigatórias a serem ofertadas pelo Departamento de Computação a seguir discriminadas: Trabalho de Conclusão de Curso I (com carga horária de 60 horas) e Trabalho de Conclusão de Curso II I (com carga horária de 60 horas), perfazendo um total de 120 (cento e vinte) horas.
+- §1° Ao fim da disciplina Trabalho de Conclusão de Curso I, o discente deverá apresentar o seu Projeto de TCC, contendo o Referencial Teórico e o Plano de Trabalho a ser desenvolvido durante a disciplina Trabalho de Conclusão de Curso II.
+§2° O TCC deverá ser concluído ao longo da disciplina Trabalho de Conclusão de Curso II e apresentado para uma banca examinadora, na forma de monografia ou artigo científico, em sessão aberta à comunidade.
+Art. 3. O TCC tem como objetivos:
+- I) o aprofundamento em área específica de conhecimento;
+2. II) incentivar o interesse por atividades de pesquisa; e
+3. III) formar um profissional com melhor visão científica da área em que vai atuar.
+## CAPÍTULO II DA COORDENAÇÃO
+- Art. 4. Cabe à Coordenação do Curso de Ciência da Computação o desenvolvimento de atividades necessárias ao cumprimento deste Regulamento.
+Art. 5. A coordenação do curso deverá criar um repositório institucional próprio para arquivo do TCC.
+## CAPÍTULO III
+## DA OBRIGATORIEDADE
+- Art. 6. O Trabalho de Conclusão de Curso constitui requisito obrigatório para Colação de Grau no Bacharelado em Ciência da Computação.
+Art. 7. Para realização do TCC o estudante pode optar por uma das seguintes categorias:
+- I) Trabalho de Revisão Bibliográfica;
+2. II) Análise de dados existentes;
+3. III) Pesquisa Experimental;
+4. IV) Pesquisa Teórica.
+## CAPÍTULO IV
+## DA ORIENTAÇÃO E VAGAS
+Art. 8. Poderão orientar TCC os professores mestres ou doutores do Departamento de Computação da Universidade Federal do Piauí (UFPI).
+PARÁGRAFO ÚNICO - Poderão atuar como co-orientador de TCC professores de outras Instituições ou de outros departamentos da Universidade Federal do Piauí que tenham qualificação na área do trabalho, desde que aprovados pela coordenação do curso de Ciência da Computação.
+Art. 9. O número de orientandos será distribuído conforme a disponibilidade do corpo docente.
+Art. 10. A oferta das disciplinas Trabalho de Conclusão de Curso I e Trabalho de Conclusão de Curso II serão solicitadas ao Departamento de Computação pela Coordenação do Curso de Ciência da Computação na época da Oferta de Disciplinas, a cada período letivo.
+## CAPÍTULO V DA MATRÍCULA
+Art. 11. O discente deve fazer seu TCC nos dois últimos períodos do curso, matriculando-se nas disciplinas Trabalho de Conclusão de Curso I e Trabalho de Conclusão de Curso II, respectivamente, conforme Calendário Universitário.
+§1° Caso o discente queira realizar seu TCC antes do previsto no caput deste Artigo, pode fazê-lo desde que tenha cursado, no mínimo, 80% das disciplinas do Curso e cumpra os pré-requisitos definidos para a disciplina no currículo do curso.
+§2° Caso o número de discentes exceda a quantidade de vagas ofertadas por período letivo, dar-se-á prioridade aos estudantes que tiverem maior número de créditos.
+§3° Por ocasião da matrícula na disciplina Trabalho de Conclusão de Curso I, o discente deve preencher formulário próprio, indicando o professor orientador e a temática sobre a qual pretende desenvolver seu TCC. Esse formulário deve possuir o visto do professor, concordando em orientar esse estudante.
+§4° A matrícula na disciplina Trabalho de Conclusão de Curso II só poderá ser efetuada mediante a aprovação do discente no Trabalho de Conclusão de Curso I.
+## CAPÍTULO VI
+## DO PLANEJAMENTO E CONDUÇÃO DO TRABALHO
+Art. 12. O discente deverá elaborar o Plano de Trabalho a ser desenvolvido no Trabalho de Conclusão de Curso, sob orientação do professor Orientador, constando Título, Resumo, Introdução, Objetivos, Metodologia e Cronograma de execução.
+§1° A execução do TCC é da inteira responsabilidade do discente, cabendo ao professor orientador o acompanhamento e orientação das atividades previstas no Projeto de TCC.
+§2° O Coordenador do Curso ou os professores responsáveis pelas disciplinas farão uma reunião com os discentes matriculados em TCC I e TCC II, detalhando todo o funcionamento das mesmas e definindo as datas para entrega dos trabalhos.
+§3° O discente matriculado na disciplina Trabalho de Conclusão de Curso I deverá apresentar, dentro do prazo estipulado na disciplina em cada período, um resumo da proposta de TCC devidamente aprovada (com o parecer de aceite) pelo professor orientador.
+Art. 13. Ao longo das disciplinas de Trabalho de Conclusão de Curso I e Trabalho de Conclusão de Curso II, o discente deve elaborar relatórios mensais atestando o andamento do TCC.
+PARÁGRAFO ÚNICO - Os relatórios mensais de acompanhamento do estágio deveram ser entregues ao professor orientador.
+## CAPÍTULO VII
+## DA APRESENTAÇÃO E JULGAMENTO DO TRABALHO
+Art. 14. A aprovação do discente na disciplina de Trabalho de Conclusão de Curso I se dará mediante a análise do Projeto de TCC por parte do professor responsável pela disciplina.
+PARÁGRAFO ÚNICO - O Projeto de TCC do discente deverá ser devidamente aprovado e assinado pelo professor orientador.
+Art. 15. A aprovação do discente na disciplina de Trabalho de Conclusão de Curso II se dará mediante julgamento por uma Comissão Examinadora do TCC, através de uma apresentação aberta à comunidade.
+PARÁGRAFO ÚNICO - A apresentação do TCC do discente só poderá ocorrer com a devida autorização do professor orientador.
+Art. 16. O Projeto de TCC I e o documento final do TCC II deverão ser entregues através do sistema eletrônico SIGAA, conforme modelos definidos pela Coordenação do curso, em datas previamente definidas pelos professores responsáveis pelas disciplinas.
+§1° Caso o estudante não entregue o trabalho na primeira data definida, ele poderá entregar em uma segunda data, porém seu trabalho terá como nota máxima 80% da nota total para a disciplina.
+§2° Caso o estudante não entregue o trabalho na segunda data definida, ele será automaticamente reprovado por nota.
+Art. 17. A banca examinadora do TCC II deverá ser definida pelo professor orientador e aprovada e cadastrada pela Coordenação do Curso através do SIGAA, dentro dos prazos definidos pelo Calendário Universitário.
+§1º A Banca Examinadora deve ser composta por, pelo menos, 03 (três) membros para proceder a avaliação do TCC, presidida pelo professor orientador do trabalho.
+§2° Na falta do professor orientador, o co-orientador é membro nato da banca examinadora. Na ausência de co-orientador, o Coordenador do curso poderá definir um professor do Departamento de Computação para presidir a banca examinadora.
+§3° O discente ou o professor orientador são responsáveis por encaminhar uma cópia do TCC para cada membro da banca examinadora em prazo razoável à data de defesa pública.
+§4° A banca examinadora deverá ser composta por pelo menos um professor do Departamento de Computação.
+Art. 18. O Professor Orientador, em acordo com os demais membros da banca examinadora, deve fixar data, horário e local para a apresentação e julgamento do TCC, em sessão aberta e amplamente divulgada no âmbito do Centro de Ciências da Natureza.
+§1° A data a que se refere o caput deste Artigo não poderá exceder o último dia do período estabelecido para o Exame Final no Calendário Universitário.
+§2° O tempo de apresentação do TCC deverá ser de até 40 minutos e o de arguição deverá ser de até 20 minutos para cada componente da banca examinadora.
+Art. 19. A banca examinadora deverá observar os seguintes critérios de avaliação do TCC:
+I) nível de adequação do texto ao tema do trabalho;
+- II) clareza e objetividade do texto;
+- III) nível de profundidade do conteúdo abordado;
+IV) relevância das conclusões apresentadas;
+V) domínio do assunto;
+VI) apresentação e
+VII) relevância da bibliografia consultada.
+PARÁGRAFO ÚNICO - A banca examinadora pode acrescentar outros critérios além dos especificados neste Artigo, de acordo com o assunto e tipo de trabalho em julgamento.
+Art. 20. As avaliações do TCC I e TCC II devem obedecer ao disposto no Regulamento Geral da Graduação da Pró-Reitoria de Ensino de Graduação (PREG) da UFPI (Resolução CEPEX Nº 177/12), atualizado em 20 de junho de 2018.
+PARÁGRAFO ÚNICO - Fica estabelecido que as notas dadas ao Projeto de TCC I pelo professor responsável pela disciplina e ao TCC II pela banca examinadora serão as notas das disciplinas Trabalho de Conclusão de Curso I e Trabalho de Conclusão de Curso II, respectivamente.
+Art. 21. Após a sessão de julgamento e tendo o TCC sido aprovado, o discente deverá proceder as correções eventualmente recomendadas pela banca examinadora e entregar o trabalho ao professor orientador, no prazo de 15 (quinze) dias após sua defesa.
+Art. 22. Ao discente que não conseguir aprovação nas disciplinas Trabalho de Conclusão de Curso I ou Trabalho de Conclusão de Curso II será concedida oportunidade para reformulação do mesmo trabalho, com nova matrícula curricular.
+## CAPÍTULO VIII
+## DAS DISPOSIÇÕES GERAIS
+Art. 23. Caso o professor orientador venha a desistir de orientar um discente, deve encaminhar à Coordenação do Curso pedido de desistência acompanhado de exposição de motivos.
+PARÁGRAFO ÚNICO - A Coordenação do Curso reserva-se o direito de aceitar ou não o pedido.
+Art. 24. Os casos omissos serão resolvidos pelo Colegiado do Curso de Ciência da Computação ouvido o Departamento de Computação.
+## APÊNDICE III - REGULAMENTO DAS ATIVIDADES COMPLEMENTARES
+Art. 1. As Atividades Complementares integram a parte flexível do currículo do Bacharelado em Ciência da Computação, sendo o seu integral cumprimento indispensável para a obtenção do diploma de graduação.
+- Art. 2. As Atividades Complementares deverão ser desenvolvidas a partir do ingresso do aluno no curso e devem ser compatíveis com o PPC do curso.
+- Art. 3. Compõem as Atividades Complementares as seguintes atividades, organizadas por diferentes categorias, com a respectiva carga horária:
+| CÓDIGO                                                                                 | ATIVIDADES                                                                                                                 | COMPROVAÇÃO                                                                            | CH                                                                                     | CH MÁXIMA                                                                              |
+|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                                                                | CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                            |
+| UFP0375                                                                                | Visita técnica a empresa da área                                                                                           | Relatórios ou declaração da visita técnica                                             | 5h                                                                                     | 10h                                                                                    |
+| CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                                                                  | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              |
+| UFP2024                                                                                | Participação em atividades extracurriculares de assistência a populações carentes ou de baixa renda na área de informática | Certificados ou documento correlato                                                    | 10h                                                                                    | 120h                                                                                   |
+| UFP2025                                                                                | Participação em programas de voluntariado na área de informática                                                           | Certificados ou documento correlato                                                    | 10h                                                                                    | 120h                                                                                   |
+| CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                                                             | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         |
+| UFP0381                                                                                | Representação nos conselhos universitários por gestão                                                                      | Portarias, Atos ou documentos correlatos                                               | 15h                                                                                    | 15h                                                                                    |
+| UFP0382                                                                                | Desempenho de cargo de representação estudantil                                                                            | Portarias, Atos ou documentos correlatos                                               | 10h                                                                                    | 10h                                                                                    |
+| CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO                                                 | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             |
+| UFP2026                                                                                | Estágio extracurricular                                                                                                    | Certificados ou documento correlato                                                    | 30h                                                                                    | 90h                                                                                    |
+| CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS                                     | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS |
+| UFP2027                                                                                | Desenvolvimento de software sem patente                                                                                    | Laudo de banca composta por professores do                                             | 10h                                                                                    | 30h                                                                                    |
+|                                                                          |                                                                          | Departamento de Computação                                               |                                                                          |                                                                          |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| UFP2028                                                                  | Desenvolvimento de software com patente                                  | Laudo de banca composta por professores do Departamento de Computação    | 90h                                                                      | 90h                                                                      |
+| CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 |
+| UFP0351                                                                  | Participação em projeto de iniciação cientifica (6 meses)                | Relatório parcial ou documento correlato                                 | 30h                                                                      | 60h                                                                      |
+| UFP0350                                                                  | Participação em projeto de iniciação cientifica concluído                | Certificado de Iniciação Científica, relatórios ou documento correlato   | 60h                                                                      | 60h                                                                      |
+| UFP0349                                                                  | Monitoria voluntária ou remunerada em disciplinas do curso / período     | Certificados de monitoria                                                | 20h                                                                      | 40h                                                                      |
+| CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS |
+| UFP0362                                                                  | Participação em evento científico da área                                | Certificados, declaração ou documento correlato                          | 10h                                                                      | 40h                                                                      |
+| UFP0366                                                                  | Presença em defesa de tese de doutorado da área                          | Certificados, declaração ou documento correlato                          | 4h                                                                       | 60h                                                                      |
+| UFP0361                                                                  | Participar da organização de evento científico da área                   | Certificados, declaração ou documento correlato                          | 30h                                                                      | 60h                                                                      |
+| UFP0364                                                                  | Presença em defesa de dissertação de mestrado da área                    | Certificados, declaração ou documento correlato                          | 2h                                                                       | 60h                                                                      |
+| UFP0363                                                                  | Presença em defesa de TCC da área                                        | Certificados, declaração ou documento correlato                          | 1h                                                                       | 60h                                                                      |
+| CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        |
+| UFP0358                                                                  | Curso de extensão na área de interesse do curso - aluno 10 horas         | Certificados ou documento correlato                                      | 5h                                                                       | 30h                                                                      |
+| UFP0360                                                                  | Curso de idiomas - 60 horas                                              | Certificados ou documento correlato                                      | 30h                                                                      | 60h                                                                      |
+| UFP0359                                                                                                                  | Curso de extensão na área de interesse do curso - aluno 20 horas                                                         | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 30h                                                                                                                      |
+|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| UFP0352                                                                                                                  | Programa de extensão na UFPI - ministrante 10 horas                                                                      | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 60h                                                                                                                      |
+| UFP0353                                                                                                                  | Programa de extensão na UFPI - ministrante 20 horas                                                                      | Certificados ou documento correlato                                                                                      | 20h                                                                                                                      | 60h                                                                                                                      |
+| UFP0354                                                                                                                  | Programa de extensão na UFPI - aluno 10 horas                                                                            | Certificados ou documento correlato                                                                                      | 5h                                                                                                                       | 60h                                                                                                                      |
+| UFP0355                                                                                                                  | Programa de extensão na UFPI - aluno 20 horas                                                                            | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 60h                                                                                                                      |
+| UFP0356                                                                                                                  | Curso de extensão na área de interesse do curso - ministrante 20 horas                                                   | Certificados ou documento correlato                                                                                      | 20h                                                                                                                      | 30h                                                                                                                      |
+| UFP0357                                                                                                                  | Curso de extensão na área de interesse do curso - ministrante 10 horas                                                   | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 30h                                                                                                                      |
+| CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR |
+| UFP0378                                                                                                                  | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 30 horas           | Histórico escolar ou documento que comprove o aproveitamento da disciplina                                               | 15h                                                                                                                      | 60h                                                                                                                      |
+| UFP0377                                                                                                                  | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 60 horas           | Histórico escolar ou documento que comprove o aproveitamento da disciplina                                               | 30h                                                                                                                      | 60h                                                                                                                      |
+| CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 |
+| UFP0367                                                                                                                  | Periódico avaliado pelo QUALIS capes da área                                                                             | Certificados, declaração, cópias das publicações ou documentos correlatos                                                | 90h                                                                                                                      | 90h                                                                                                                      |
+| UFP0369                                                                                                                  | Periódico sem QUALIS capes da área                                                                                       | Certificados, declaração, cópias das publicações ou documentos correlatos                                                | 45h                                                                                                                      | 90h                                                                                                                      |
+| UFP0370                                                                                                                  | Artigo em conferência avaliada pelo QUALIS capes da área                                                                 | Certificados, declaração, cópias das                                                                                     | 60h                                                                                                                      | 90h                                                                                                                      |
+|         |                                                | publicações ou documentos correlatos                                      |     |     |
+|---------|------------------------------------------------|---------------------------------------------------------------------------|-----|-----|
+| UFP0371 | Artigo em conferência sem QUALIS capes da área | Certificados, declaração, cópias das publicações ou documentos correlatos | 30h | 90h |
+| UFP0372 | Apresentação de artigo científico              | Certificados, declaração, cópias das publicações ou documentos correlatos | 30h | 90h |
+| UFP0373 | Livro publicado com ISBN                       | Certificados, declaração, cópias das publicações ou documentos correlatos | 90h | 90h |
+| UFP0374 | Capítulo de livro publicado com ISBN           | Certificados, declaração, cópias das publicações ou documentos correlatos | 45h | 90h |
+- §1° O aluno deve cumprir, para integralização curricular, a carga horária total de cento e vinte (120) horas de Atividades Complementares de graduação.
+- §2° Cabe ao coordenador do curso orientar o aluno na frequência e certificação das Atividades Complementares de graduação.
+- §3° As atividades de pesquisa envolvem:
+- I - A realização de trabalho de pesquisa, sob orientação de docente do curso que o aluno estiver matriculado ou docente de outro curso, desde que aprovado pela coordenação;
+- II - Trabalhos publicados em periódicos ou conferências científicas, nacionais ou internacionais;
+- III - Participação, como expositor ou debatedor, em evento científico;
+- IV - Os eventos técnico-científicos a que se refere o inciso III são considerados válidos quando:
+- a) Promovidos pelo próprio curso ou por ele apoiados;
+b) aprovados pelo Coordenador do Curso, no caso de serem promovidos por outras instituições.
+§4º São consideradas atividades de extensão, que deverão buscar a integração com ensino e a pesquisa, todas aquelas desenvolvidas com a participação da comunidade não-universitária.
+§5º A monitoria compreende o exercício de atividades junto à docente responsável por disciplina, ou atividade do currículo do curso, e tem como objetivo fomentar vocações acadêmicas e estreitar a cooperação no ensino-aprendizagem entre professores e alunos.
+I -Os projetos de monitoria serão divulgados amplamente, e serão desenvolvidos na forma da legislação estabelecida pela UFPI.
+Art. 4. As Atividades Complementares devem atender às seguintes normas gerais:
+I - São consideradas disciplinas extracurriculares para validação como Atividades Complementares, as disciplinas oferecidas pela UFPI ou outras Instituições de Ensino Superior (lES), fora do horário regular das aulas e cujo conteúdo não esteja integralmente contemplado por nenhuma disciplina do currículo;
+II - As disciplinas de áreas afins, assim definidas pelo Colegiado do Curso, pertencentes aos demais cursos da UFPI ou de outras IES, são consideradas disciplinas extracurriculares;
+III - A validação de qualquer das atividades, definidas no artigo anterior, depende de prévia aprovação do Coordenador do Curso através do sistema SIGAA;
+Art. 5. Cabe ao aluno a responsabilidade de comprovar a sua participação nas atividades previstas no Art. 3°.
+Art. 6. O presente regulamento só pode ser alterado pelo voto da maioria absoluta dos membros do Colegiado do Curso.
+Art. 7. Compete ao Colegiado do Curso dirimir dúvidas referentes à interpretação deste regulamento, assim como suprir as suas lacunas, expedindo os atos complementares que se fizerem necessários.
+Art. 8. Este regulamento entra em vigor imediatamente após a autorização do Conselho de Ensino Pesquisa e Extensão - CEPEX, devendo os itens das atividades complementares serem revistos semestralmente.
+## APÊNDICE IV - RELATÓRIO DO NDE REFERENDANDO AS REFERÊNCIAS BILIOGRÁFICAS
+## RELATÓRIO SOBRE ACERVO BIBLIOGRÁFICO BIBLIOGRAFIA BÁSICA E COMPLEMENTAR
+## CURSO:
+- 1) O acervo bibliográfico físico foi tombado e encontra-se disponível na Biblioteca Setorial do Centro de Ciências da Natureza e na Biblioteca Central da UFPI.
+- 2) O acervo virtual possui contrato disponível na Biblioteca Setorial do Centro de Ciências da Natureza e na Biblioteca Central da UFPI, através do Portal de Periódicos da CAPES. Estão disponíveis ao usuário por meio do site www.periodicos.capes.gov.br (acessado em 29/01/2019);
+- 3) O acervo bibliográfico básico e complementar (físico/virtual) é adequado e atualizado aos componentes curriculares descritos no PPC;
+- 4) O acervo bibliográfico físico e complementar é adequado em relação ao número de vagas (autorizadas/reconhecidas) por quantidade de exemplares para o curso de Bacharelado em Ciência da Computação e de outros cursos que utilizam os títulos;
+- 5) A instituição garante acesso ao acervo bibliográfico básico/complementar virtual tanto no ambiente interno com instalações e recursos tecnológicos que atende à demanda, sendo ofertado de forma ininterrupta via internet. Aos portadores de deficiência disponibiliza ferramentas de acessibilidade e de soluções de apoio à leitura, estudo e aprendizagem na Biblioteca Central da UFPI (disponibilizadas pela NAU/PRAEC);
+- 6) Há garantia, em relação ao acervo virtual da quantidade de acesso no espaço físico da Instituição e no âmbito externo;
+## ACERVO: PERIÓDICO
+O acervo possui exemplares, com assinatura de acesso virtual ou domínio público, especializado que contemplam as unidades curriculares do curso. É atualizado, de forma a garantir a quantidade de acesso demandada, com plano de contingência de modo a garantir o acesso e o serviço.
+## Teresina, 31 de Janeiro de 2019
+## Núcleo Docente Estruturante
+
+---
+Kelson Rômulo Teixeira Aires - Presidente
+
+---
+André Castelo Branco Soares
+
+---
+Erico Meneses Leão
+
+---
+Raimundo Santos Moura
+
+---
+Rodrigo de Melo Souza Veras

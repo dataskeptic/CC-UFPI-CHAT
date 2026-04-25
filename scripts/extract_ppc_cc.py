@@ -21,7 +21,7 @@ from datetime import datetime
 # ── Configuração ───────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
 INPUT_PDF  = PROJECT_ROOT / "docs_sigaa_cc/Projeto Pedagógico do Curso (Currículo 5 - Criado em 2019).pdf"
-OUTPUT_DIR = PROJECT_ROOT / "extracted_docs/extracted_ppc_cc"
+OUTPUT_DIR = PROJECT_ROOT / "extracted_text/extracted_ppc_cc"
 
 # ── Padrões de ruído específicos do PPC UFPI ──────────────────────────────────
 NOISE_PATTERNS = [

@@ -1,0 +1,43 @@
+============================================================
+PROFESSOR: OTÁVIO CURY DA COSTA CASTRO
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=3507880
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+não informada
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Graduado em Ciência da Computação na Universidade Federal do Piauí (UFPI). Realiza pesquisa na área de Engenharia de Software. Possui conhecimento em Inteligência Computacional aplicada à Engenharia de Software.
+
+--- ÁREAS DE INTERESSE ---
+não informadas
+
+--- CURRÍCULO LATTES ---
+https://lattes.cnpq.br/0059526491446654
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: Não informado
+E-mail        : otaviocury.oc@gmail.com
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN012      ALGORITMOS E PROGRAMAÇÃO                           60h      46T34
+  DC/CCN012      ALGORITMOS E PROGRAMAÇÃO                           60h      35N12
+  DIE0154        INFORMATICA APLICADA A CONTABILIDADE               30h      4N12
+  DIE0014        INTRODUCAO A COMPUTACAO                            60h      35N34
+  DC/CCN079      MICROINFORMÁTICA                                   60h      35N34
+  DC/CCN014      SISTEMAS DE INFORMAÇÕES GERENCIAIS                 60h      24T56
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN012      ALGORITMOS E PROGRAMAÇÃO                           60h      46T34
+  DC002          PROGRAMAÇÃO DE COMPUTADORES                        60h      35T34
+  DC/CCN014      SISTEMAS DE INFORMAÇÕES GERENCIAIS                 60h      24T56
+
+============================================================

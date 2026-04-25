@@ -1,0 +1,62 @@
+# JOSE RODRIGUES TORRES NETO
+
+**Perfil SIGAA:** [https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=3209654](https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=3209654)
+
+## Descrição Pessoal
+
+não informada
+
+## Formação Acadêmica / Profissional
+
+Doutor em Ciências da Computação e Matemática Computacional pelo Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo (ICMC/USP), desde 2020, tendo trabalhado em decisão de descarregamento de dados em ambientes de computação em névoa heterogênea. Foi pesquisador visitante (visiting student researcher), durante 12 meses, no laboratório PARADISE no SITE (School of Information Technology and Engineering) da University of Ottawa, no Canadá, com uma bolsa estágio de pesquisa no exterior (BEPE) da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP). Recebeu, em 2015, o título de Mestre em Ciência da Computação pelo Instituto de Computação da Universidade Estadual de Campinas (UNICAMP), tendo trabalhado na área de coleta de dados usando veículos aéreos não tripulados. Recebeu o prêmio de melhor artigo na The 15th IEEE International Conference on Computer and Information Technology de 2015. É graduado em bacharelado em Ciência da Computação pela Universidade Estadual do Piauí (UESPI), onde participou do grupo de pesquisa Omnipresent and Pervasive Systems Laboratory - OPALA (UESPI), atuando na área de computação móvel e úbíqua.
+
+## Áreas de Interesse
+
+Atualmente, atua na área de Ciência da Computação, com ênfase em Sistemas Computacionais Distribuídos, nos seguintes temas: computação urbana, smart health, internet das coisas, sensoriamento inteligente, descarregamento de dados e computação em névoa.
+
+## Currículo Lattes
+
+[http://lattes.cnpq.br/9861146782162614](http://lattes.cnpq.br/9861146782162614)
+
+## Contatos
+
+- **Endereço:** Não informado
+- **Sala:** Não informado
+- **Telefone/Ramal:** 86 99575-5581
+- **E-mail:** jtorres@ufpi.edu.br
+
+## Disciplinas Ministradas (Graduação — Últimos 4 Semestres)
+
+### 2026.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN027 | INTERFACE HUMANO COMPUTADOR | 60h | 24T34 |
+| DC/CCN038 | SISTEMAS DISTRIBUÍDOS | 60h | 24M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+| DC/CCN046 | TRABALHO DE CONCLUSÃO DE CURSO I - TCC I | 60h | 6M3456 |
+
+### 2025.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN027 | INTERFACE HUMANO COMPUTADOR | 60h | 24T34 |
+| DC/CCN038 | SISTEMAS DISTRIBUÍDOS | 60h | 24M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+| DC/CCN046 | TRABALHO DE CONCLUSÃO DE CURSO I - TCC I | 60h | 6M3456 |
+
+### 2025.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN027 | INTERFACE HUMANO COMPUTADOR | 60h | 24T34 |
+| DC/CCN038 | SISTEMAS DISTRIBUÍDOS | 60h | 24M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2024.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN027 | INTERFACE HUMANO COMPUTADOR | 60h | 24T34 |
+| DC/CCN038 | SISTEMAS DISTRIBUÍDOS | 60h | 24M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |

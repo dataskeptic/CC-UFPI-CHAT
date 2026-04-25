@@ -1,0 +1,69 @@
+# JOSE EDSON CARVALHO MELO
+
+**Perfil SIGAA:** [https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1322566](https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1322566)
+
+## Descrição Pessoal
+
+não informada
+
+## Formação Acadêmica / Profissional
+
+não informada
+
+## Áreas de Interesse
+
+não informadas
+
+## Currículo Lattes
+
+[link não informado](link não informado)
+
+## Contatos
+
+- **Endereço:** Não informado
+- **Sala:** 15B
+- **Telefone/Ramal:** 8935622247
+- **E-mail:** zeedsonc@ufpi.edu.br
+
+## Disciplinas Ministradas (Graduação — Últimos 4 Semestres)
+
+### 2026.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DIE0170 | INTRODUCAO A CIENCIA DOS COMPUTADORES EC | 60h | 24M34 |
+| DIE0021 | INTRODUCAO A COMPUTACAO F | 60h | 24M56 |
+| DC/CCN019 | INTRODUÇÃO À LÓGICA | 60h | 35M34 |
+| DC002 | PROGRAMAÇÃO DE COMPUTADORES | 60h | 35T34 |
+
+### 2025.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN012 | ALGORITMOS E PROGRAMAÇÃO | 60h | 46T34 |
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 4M34 |
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 5M34 |
+| CGB0083 | INFORMATICA AGROPECUARIA | 45h | 4M6 2T34 |
+| DIE0170 | INTRODUCAO A CIENCIA DOS COMPUTADORES EC | 60h | 26M34 |
+| DIE0156 | INTRODUCAO A COMPUTACAO - M | 60h | 35M56 |
+| DC/CCN011 | PROGRAMAÇÃO ESTRUTURADA | 60h | 24M56 |
+| CCBIO127 | TECNOLOGIAS APLICADAS AO ENSINO | 60h | 5T56 6T34 |
+
+### 2025.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 4M34 |
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 5M34 |
+| CGB0083 | INFORMATICA AGROPECUARIA | 45h | 4M6 2T34 |
+| CCBIO091 | METODOLOGIA CIENTIFICA | 60h | 5T34 6T56 |
+
+### 2024.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 5M34 |
+| CCGBEF/CPCE004 | INFORMÁTICA | 30h | 4M34 |
+| CGB0083 | INFORMATICA AGROPECUARIA | 45h | 6M3 2T34 |
+| CCBIO091 | METODOLOGIA CIENTIFICA | 60h | 26N34 |
+| CCGBEAG/CPCE007 | METODOLOGIA CIENTÍFICA | 45h | 2N34 6N3 |

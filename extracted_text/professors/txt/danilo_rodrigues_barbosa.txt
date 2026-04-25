@@ -1,0 +1,34 @@
+============================================================
+PROFESSOR: DANILO RODRIGUES BARBOSA
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1192852
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+Não informado
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Não informado
+
+--- ÁREAS DE INTERESSE ---
+Não informado
+
+--- CURRÍCULO LATTES ---
+Não informado
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: Não informado
+E-mail        : instrutordanilo@gmail.com
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN012      ALGORITMOS E PROGRAMAÇÃO                           60h      35M34
+  DIE0170        INTRODUCAO A CIENCIA DOS COMPUTADORES EC           60h      26M34
+  DIE0021        INTRODUCAO A COMPUTACAO F                          60h      24T56
+  DC/CCN011      PROGRAMAÇÃO ESTRUTURADA                            60h      24M56
+
+============================================================

@@ -1,0 +1,58 @@
+============================================================
+PROFESSOR: LUIZ CLAUDIO DEMES DA MATA SOUSA
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1305000
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+não informada
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+não informada
+
+--- ÁREAS DE INTERESSE ---
+não informadas
+
+--- CURRÍCULO LATTES ---
+link não informado
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: 5237
+E-mail        : Não informado
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN045      BANCOS DE DADOS RELACIONAIS                        60h      35T34
+  DC/CCN067      TÓPICOS EM BIOINFORMÁTICA                          60h      35T56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN045      BANCOS DE DADOS RELACIONAIS                        60h      35T34
+  DIE0155        BIOCOMPUTACAO                                      60h      35T56
+  DIE0159        BIOINFORMATICA                                     60h      35T56
+  DC/CCN067      TÓPICOS EM BIOINFORMÁTICA                          60h      35T56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN045      BANCOS DE DADOS RELACIONAIS                        60h      35T34
+  DIE0155        BIOCOMPUTACAO                                      60h      35T56
+  DIE0159        BIOINFORMATICA                                     60h      35T56
+  DC/CCN067      TÓPICOS EM BIOINFORMÁTICA                          60h      35T56
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN045      BANCOS DE DADOS RELACIONAIS                        60h      35T34
+  DIE0155        BIOCOMPUTACAO                                      60h      35T56
+  DIE0159        BIOINFORMATICA                                     60h      35T56
+  DC/CCN067      TÓPICOS EM BIOINFORMÁTICA                          60h      35T56
+
+============================================================

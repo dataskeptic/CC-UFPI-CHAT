@@ -1,0 +1,52 @@
+============================================================
+PROFESSOR: LAURINDO DE SOUSA BRITTO NETO
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1642492
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+não informada
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Doutor em Ciência da Computação (IC/Unicamp, 2016), Mestre em Sistemas e Computação (Dimap/UFRN, 2007) e Bacharel em Sistemas de Informação (FATEPI, 2004).
+
+--- ÁREAS DE INTERESSE ---
+Visão Computacional, Computação Gráfica, Processamento de Imagens e Interação Humano-Computador.
+
+--- CURRÍCULO LATTES ---
+http://lattes.cnpq.br/7916184937654329
+
+--- CONTATOS ---
+Endereço      : Departamento de Computação, Centro de Ciências da Natureza, Universidade Federal do Piauí, Campus Ministro Petrônio Portella.
+Sala          : Não informado
+Telefone/Ramal: 86 3215-5837
+E-mail        : laurindoneto@ufpi.edu.br
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN032      COMPUTAÇÃO GRÁFICA                                 60h      24T34
+  DIE0154        INFORMATICA APLICADA A CONTABILIDADE               30h      4N12
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN032      COMPUTAÇÃO GRÁFICA                                 60h      24T34
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+  DC/CCN081      VISÃO COMPUTACIONAL                                60h      35T34
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN032      COMPUTAÇÃO GRÁFICA                                 60h      24T34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN032      COMPUTAÇÃO GRÁFICA                                 60h      24T34
+  DC/CCN030      TEORIA DA COMPUTAÇÃO                               60h      24M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+============================================================

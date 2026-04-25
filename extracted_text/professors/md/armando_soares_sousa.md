@@ -1,0 +1,66 @@
+# ARMANDO SOARES SOUSA
+
+**Perfil SIGAA:** [https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1886865](https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1886865)
+
+## Descrição Pessoal
+
+Professor Adjunto de Ciência da Computação - UFPI/DC Membro do Grupo de Pesquisas LOST/PPGCC Central Point of Contact AWS Academy UFPI
+
+## Formação Acadêmica / Profissional
+
+Acadêmica: Doutorado em Ciência da Computação - UFC - 2024 MBA em Gestão de Projetos - FGV/SP - 2016 Mestrado em Ciência da Computação - UFPE/Cin - 2008 Especialista em Tecnologias da Informação - UFPE/Cin - 2004 Graduado em Ciência da Computação - UFPI - 2001 Profissional: Bolsista FUNCAP Formação Acadêmica - Doutorado MDCC/UFC - Fortaleza/CE/Brasil - 2018/2022 Coordenador de Planejamento Administrativo - UFPI/PROPLAN - Teresina/PI/Brasil - 2017/2018 Diretor de Tecnologia da Informação - UFPI/NTI - Teresina/PI/Brasil - 2015/2017 Coordenador de Sistemas - UFPI/NTI - Teresina/PI/Brasil - 2013/2015 Gerente de Projetos - Remanso - Grupo Claudino - Teresina/PI/Brasil - 2011 Oracle Developer - Unimix Tecnologia - Recife/PE/Brasil - 2010 Consultor Técnico - InformeAir - Recife/PE/Brasil - 2010 Consultant in Knowledge and Learning - Inter American Development Bank - Washington D.C/USA - 2009 Software Engineer - Hackstrike - Tel Aviv/Israel - 2008 Engenheiro de Software - C.E.S.A.R - Recife/PE/Brasil - 2007 Engenheiro de Testes - C.E.S.A.R - Recife/PE/Brasil - 2004/2006 Gerente de Sistemas - System Group - Maceió/AL/Brasil - 2003 Desenvolvedor de Sistemas - ID5 - Web Solution - Maceió/AL/Brasil - 2002 Analista de Sistemas - DETRAN-AL - Maceió/AL/Brasil - 2002
+
+## Áreas de Interesse
+
+Engenharia de Software Gerência de Projetos Computação em Nuvem Inteligência Artificial Inovação, Tecnologia e Negócios
+
+## Currículo Lattes
+
+[http://lattes.cnpq.br/7157995294447623](http://lattes.cnpq.br/7157995294447623)
+
+## Contatos
+
+- **Endereço:** Universidade Federal do Piauí. Campus Universitário Ministro Petrônio Portela Ininga 64049-550 - Teresina, PI - Brasil URL da Homepage: www.ufpi.br
+- **Sala:** Não informado
+- **Telefone/Ramal:** 5627
+- **E-mail:** armando@ufpi.edu.br
+
+## Disciplinas Ministradas (Graduação — Últimos 4 Semestres)
+
+### 2026.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN024 | LABORATÓRIO DE PROGRAMAÇÃO | 60h | 35T34 |
+| DC/CCN070 | TÓPICOS EM COMPUTAÇÃO APLICADA | 60h | 24M56 |
+| DC/CCN071 | TÓPICOS EM ENGENHARIA DE SOFTWARE | 60h | 24T34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+| DC/CCN046 | TRABALHO DE CONCLUSÃO DE CURSO I - TCC I | 60h | 6M3456 |
+
+### 2025.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN024 | LABORATÓRIO DE PROGRAMAÇÃO | 60h | 35T34 |
+| DC/CCN070 | TÓPICOS EM COMPUTAÇÃO APLICADA | 60h | 24M56 |
+| DC/CCN071 | TÓPICOS EM ENGENHARIA DE SOFTWARE | 60h | 24T34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2025.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN024 | LABORATÓRIO DE PROGRAMAÇÃO | 60h | 35T34 |
+| DC/CCN011 | PROGRAMAÇÃO ESTRUTURADA | 60h | 24M56 |
+| DIE0013 | TECNOLOGIA DA INFORMÁTICA E DA COMUNICACAO | 60h | 36M56 |
+| DC/CCN071 | TÓPICOS EM ENGENHARIA DE SOFTWARE | 60h | 24T34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2024.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN012 | ALGORITMOS E PROGRAMAÇÃO | 60h | 6M3456 |
+| DC/CCN024 | LABORATÓRIO DE PROGRAMAÇÃO | 60h | 35T34 |
+| DC/CCN071 | TÓPICOS EM ENGENHARIA DE SOFTWARE | 60h | 24T34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6T3456 |

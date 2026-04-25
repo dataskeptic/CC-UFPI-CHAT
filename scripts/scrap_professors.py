@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 DEPT_URL = "https://sigaa.ufpi.br/sigaa/public/departamento/professores.jsf?id=144"
 BASE_URL = "https://sigaa.ufpi.br"
 PROJECT_ROOT = Path(__file__).parent.parent
-OUTPUT_ROOT = PROJECT_ROOT / "extracted_docs" / "professors"
+OUTPUT_ROOT = PROJECT_ROOT / "extracted_text" / "professors"
 OUTPUT_MD = OUTPUT_ROOT / "md"
 OUTPUT_TXT = OUTPUT_ROOT / "txt"
 

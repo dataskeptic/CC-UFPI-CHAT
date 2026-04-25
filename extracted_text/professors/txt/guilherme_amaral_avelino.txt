@@ -1,0 +1,55 @@
+============================================================
+PROFESSOR: GUILHERME AMARAL AVELINO
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1744590
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+Professor do Departamento de Computação da Universidade Federal do Piauí, atua nas áreas de Engenharia de Software e Inteligência Artificial, com foco no desenvolvimento de sistemas inteligentes e no uso de dados para apoiar a evolução e sustentabilidade de software em larga escala. É professor permanente dos programas de pós-graduação em computação, atuando no PPGCC e no DCCMAPI. Sua pesquisa abrange temas de Engenharia de Software empírica, como mineração de repositórios, produtividade de desenvolvedores e aspectos sociotécnicos do desenvolvimento. Mais recentemente, tem investigado a interseção entre IA e Engenharia de Software, incluindo os impactos da IA generativa nas práticas de desenvolvimento e os desafios na construção de sistemas confiáveis baseados em IA. Doutor em Ciência da Computação pela Universidade Federal de Minas Gerais, com período de pesquisa na Eindhoven University of Technology, também possui mestrado pela Universidade Federal de Pernambuco e graduação pela própria UFPI. Além da atuação acadêmica, participa de iniciativas voltadas à infraestrutura computacional para IA e à aplicação de soluções orientadas por dados em desafios do setor público. Para mais informações sobre sua atuação, acesse: https://gavelino.github.io.
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Bacharel em Ciência da Computação - UFPI Mestre em Ciência da Computação - UFPE Doutor em Ciência da Computação - UFMG
+
+--- ÁREAS DE INTERESSE ---
+Engenharia de Software e Inteligência Artificial
+
+--- CURRÍCULO LATTES ---
+http://lattes.cnpq.br/9924454852039192
+
+--- CONTATOS ---
+Endereço      : Departamento de Computação - DC/CCN
+Sala          : Não informado
+Telefone/Ramal: 981196096
+E-mail        : gaa@ufpi.edu.br
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN044      ENGENHARIA DE SOFTWARE II                          60h      35M34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN044      ENGENHARIA DE SOFTWARE II                          60h      35M34
+  DIE0154        INFORMATICA APLICADA A CONTABILIDADE               30h      2T34
+  DC/CCN071      TÓPICOS EM ENGENHARIA DE SOFTWARE                  60h      35M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN044      ENGENHARIA DE SOFTWARE II                          60h      35M34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN044      ENGENHARIA DE SOFTWARE II                          60h      35M34
+  DC/CCN071      TÓPICOS EM ENGENHARIA DE SOFTWARE                  60h      35T34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+============================================================

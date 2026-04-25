@@ -1,0 +1,58 @@
+# IVAN SARAIVA SILVA
+
+**Perfil SIGAA:** [https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1177449](https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=1177449)
+
+## Descrição Pessoal
+
+Sou professor universitário desde julho de 1996. Atualmente sou professor Titular lotado no Departamento de Computação da UFPI. Fui professor lotado no Departamento de Informática e Matemática Aplicada da UFRN de julho de 1996 a abril de 2010. Em 2010 me transferi para a UFPI, onde estou lotado no Departamento de Computação. Ministro regularmente as disciplinas Circuitos Digitais e Arquitetura de Computadores no curso de graduação em Ciência da Computação, ocasionalmente ofereço as disciplinas Tópicos em Arquitetura de Computadores e Tópico em Computação. Na pós-graduação ofereço a disciplina Projeto de Hardware, nos primeiros semestres letivos de cada ano, e Sistemas Embarcados, nos segundos semestres de cada ano. Minhas áreas de pesquisa são Concepção de circuitos e sistemas integrados, sistemas embarcados e arquitetura de computadores. Em termos de experiência administrativa já fui coordenador de graduação, vice-coordenador e coordenador de pós-graduação e chefe de departamento. Representei por um período de dois anos o Centro de Ciências Exatas e da Terra da UFRN no Conselho Universitário (CONSUNI) da UFRN. Na UFPI representei o Centro de Ciências da Natureza no Conselho de Ensino, Pesquisa e Extensão (CEPEX) e no Conselho Universitário (CONSUN), por um período de quatro anos. Como membro do CEPEX/UFPI fui eleito para integrar a Câmara de Ensino de Graduação (CAMEN)
+
+## Formação Acadêmica / Profissional
+
+Graduação em Engenharia Elétrica pela Universidade federal da Paraíba (Campina Grande) - 1989 Mestrado em Engenharia Elétrica pela Universidade Federal da Paraíba (Campina Grande) - 1990 Mestrado em Microeletrônica pela Universidade Pierre e Marie Curie (Paris VI) - 1991 Doutorado em Microeletrônica pela Universidade Pierre e Marie Curie (Paris VI) - 1995
+
+## Áreas de Interesse
+
+Sistemas Integrados Sistemas Embarcados Arquitetura de processadores multi-core
+
+## Currículo Lattes
+
+[http://lattes.cnpq.br/1844463012703650](http://lattes.cnpq.br/1844463012703650)
+
+## Contatos
+
+- **Endereço:** Departamento de Informática e Estatística UFPI - Campus Universitário Ministro Petrônio Portella - Bairro Ininga - Teresina - PI - CEP: 64049-550 http://www.die.ufpi.br Fones: 86 3215-5837 (Departamento) 86 3215-5839 (Curso de Ciência da Computação)
+- **Sala:** Não informado
+- **Telefone/Ramal:** Não informado
+- **E-mail:** ivan@ufpi.edu.br
+
+## Disciplinas Ministradas (Graduação — Últimos 4 Semestres)
+
+### 2026.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN031 | ARQUITETURA DE COMPUTADORES | 60h | 35M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2025.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN031 | ARQUITETURA DE COMPUTADORES | 60h | 35M34 |
+| DC/CCN073 | TÓPICOS EM PROGRAMAÇÃO | 60h | 35T56 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2025.1
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN031 | ARQUITETURA DE COMPUTADORES | 60h | 35M34 |
+| DC/CCN068 | TÓPICOS EM ARQUITETURA DE COMPUTADORES | 60h | 35T56 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |
+
+### 2024.2
+
+| Código | Disciplina | Carga Horária | Horário |
+|--------|------------|---------------|---------|
+| DC/CCN031 | ARQUITETURA DE COMPUTADORES | 60h | 35M34 |
+| DC/CCN049 | TRABALHO DE CONCLUSÃO DE CURSO II - TCC II | 60h | 6M3456 |

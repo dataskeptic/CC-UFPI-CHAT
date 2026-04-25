@@ -1,0 +1,153 @@
+============================================================
+ÍNDICE DE PROFESSORES — CIÊNCIA DA COMPUTAÇÃO / UFPI
+============================================================
+
+Professor : ANDRE CASTELO BRANCO SOARES
+E-mail    : andre.soares@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/4545154317245176
+Arquivo   : txt/andre_castelo_branco_soares.txt  |  md/andre_castelo_branco_soares.md
+Disciplinas (graduação): 14
+
+Professor : ANTONIO COSTA DE OLIVEIRA
+E-mail    : costa@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/6511083001417681
+Arquivo   : txt/antonio_costa_de_oliveira.txt  |  md/antonio_costa_de_oliveira.md
+Disciplinas (graduação): 18
+
+Professor : ANTONIO HELSON MINEIRO SOARES
+E-mail    : ahms@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/0055233538172646
+Arquivo   : txt/antonio_helson_mineiro_soares.txt  |  md/antonio_helson_mineiro_soares.md
+Disciplinas (graduação): 43
+
+Professor : ARMANDO SOARES SOUSA
+E-mail    : armando@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/7157995294447623
+Arquivo   : txt/armando_soares_sousa.txt  |  md/armando_soares_sousa.md
+Disciplinas (graduação): 18
+
+Professor : CARLOS ANDRE BATISTA DE CARVALHO
+E-mail    : candrebc@ufpi.edu.br
+Lattes    : —
+Arquivo   : txt/carlos_andre_batista_de_carvalho.txt  |  md/carlos_andre_batista_de_carvalho.md
+Disciplinas (graduação): 39
+
+Professor : ERICO MENESES LEAO
+E-mail    : ericoleao@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/1117954290627743
+Arquivo   : txt/erico_meneses_leao.txt  |  md/erico_meneses_leao.md
+Disciplinas (graduação): 13
+
+Professor : FLAVIO FERRY DE OLIVEIRA MOREIRA
+E-mail    : ffom75@yahoo.com.br
+Lattes    : http://lattes.cnpq.br/5297474354868897
+Arquivo   : txt/flavio_ferry_de_oliveira_moreira.txt  |  md/flavio_ferry_de_oliveira_moreira.md
+Disciplinas (graduação): 16
+
+Professor : GLAUBER DIAS GONCALVES
+E-mail    : ggoncalves@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/5984202704503148
+Arquivo   : txt/glauber_dias_goncalves.txt  |  md/glauber_dias_goncalves.md
+Disciplinas (graduação): 12
+
+Professor : GUILHERME AMARAL AVELINO
+E-mail    : gaa@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/9924454852039192
+Arquivo   : txt/guilherme_amaral_avelino.txt  |  md/guilherme_amaral_avelino.md
+Disciplinas (graduação): 13
+
+Professor : IVAN SARAIVA SILVA
+E-mail    : ivan@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/1844463012703650
+Arquivo   : txt/ivan_saraiva_silva.txt  |  md/ivan_saraiva_silva.md
+Disciplinas (graduação): 10
+
+Professor : JOSE EDSON CARVALHO MELO
+E-mail    : zeedsonc@ufpi.edu.br
+Lattes    : link não informado
+Arquivo   : txt/jose_edson_carvalho_melo.txt  |  md/jose_edson_carvalho_melo.md
+Disciplinas (graduação): 21
+
+Professor : JOSE RODRIGUES TORRES NETO
+E-mail    : jtorres@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/9861146782162614
+Arquivo   : txt/jose_rodrigues_torres_neto.txt  |  md/jose_rodrigues_torres_neto.md
+Disciplinas (graduação): 14
+
+Professor : KELSON ROMULO TEIXEIRA AIRES
+E-mail    : kelson@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/0065931835203045
+Arquivo   : txt/kelson_romulo_teixeira_aires.txt  |  md/kelson_romulo_teixeira_aires.md
+Disciplinas (graduação): 18
+
+Professor : LAURINDO DE SOUSA BRITTO NETO
+E-mail    : laurindoneto@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/7916184937654329
+Arquivo   : txt/laurindo_de_sousa_britto_neto.txt  |  md/laurindo_de_sousa_britto_neto.md
+Disciplinas (graduação): 10
+
+Professor : LUIZ CLAUDIO DEMES DA MATA SOUSA
+E-mail    : —
+Lattes    : link não informado
+Arquivo   : txt/luiz_claudio_demes_da_mata_sousa.txt  |  md/luiz_claudio_demes_da_mata_sousa.md
+Disciplinas (graduação): 16
+
+Professor : PEDRO DE ALCANTARA DOS SANTOS NETO
+E-mail    : PASN@UFPI.EDU.BR
+Lattes    : http://lattes.cnpq.br/3452982259415951
+Arquivo   : txt/pedro_de_alcantara_dos_santos_neto.txt  |  md/pedro_de_alcantara_dos_santos_neto.md
+Disciplinas (graduação): 15
+
+Professor : RAIMUNDO SANTOS MOURA
+E-mail    : rsm@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/7902070751612416
+Arquivo   : txt/raimundo_santos_moura.txt  |  md/raimundo_santos_moura.md
+Disciplinas (graduação): 15
+
+Professor : RICARDO DE ANDRADE LIRA RABELO
+E-mail    : —
+Lattes    : http://lattes.cnpq.br/2263553634422386
+Arquivo   : txt/ricardo_de_andrade_lira_rabelo.txt  |  md/ricardo_de_andrade_lira_rabelo.md
+Disciplinas (graduação): 12
+
+Professor : RODRIGO DE MELO SOUZA VERAS
+E-mail    : rveras@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/2634254790193199
+Arquivo   : txt/rodrigo_de_melo_souza_veras.txt  |  md/rodrigo_de_melo_souza_veras.md
+Disciplinas (graduação): 7
+
+Professor : ROSIANNI DE OLIVEIRA CRUZ FORTES
+E-mail    : rosiannicruz@ufpi.edu.br
+Lattes    : link não informado
+Arquivo   : txt/rosianni_de_oliveira_cruz_fortes.txt  |  md/rosianni_de_oliveira_cruz_fortes.md
+Disciplinas (graduação): 18
+
+Professor : VINICIUS PONTE MACHADO
+E-mail    : vinicius@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/9385561556243194
+Arquivo   : txt/vinicius_ponte_machado.txt  |  md/vinicius_ponte_machado.md
+Disciplinas (graduação): 14
+
+Professor : WESLLEY EMMANUEL MARTINS LIMA
+E-mail    : weslley@ufpi.edu.br
+Lattes    : http://lattes.cnpq.br/0083177495755609
+Arquivo   : txt/weslley_emmanuel_martins_lima.txt  |  md/weslley_emmanuel_martins_lima.md
+Disciplinas (graduação): 12
+
+Professor : ANDRE MACEDO SANTANA
+E-mail    : —
+Lattes    : —
+Arquivo   : txt/andre_macedo_santana.txt  |  md/andre_macedo_santana.md
+Disciplinas (graduação): 0
+
+Professor : DANILO RODRIGUES BARBOSA
+E-mail    : instrutordanilo@gmail.com
+Lattes    : —
+Arquivo   : txt/danilo_rodrigues_barbosa.txt  |  md/danilo_rodrigues_barbosa.md
+Disciplinas (graduação): 4
+
+Professor : OTÁVIO CURY DA COSTA CASTRO
+E-mail    : otaviocury.oc@gmail.com
+Lattes    : https://lattes.cnpq.br/0059526491446654
+Arquivo   : txt/otavio_cury_da_costa_castro.txt  |  md/otavio_cury_da_costa_castro.md
+Disciplinas (graduação): 9

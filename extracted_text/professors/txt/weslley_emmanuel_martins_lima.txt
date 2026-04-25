@@ -1,0 +1,54 @@
+============================================================
+PROFESSOR: WESLLEY EMMANUEL MARTINS LIMA
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=2460883
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+não informada
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Mestre em Ciência da Computação(IME-USP,2003), Bacharel em Ciência da Computação(UFPI,2000).
+
+--- ÁREAS DE INTERESSE ---
+Inteligência Artificial, Processamento de Linguagem Natural, Rede de Computadores
+
+--- CURRÍCULO LATTES ---
+http://lattes.cnpq.br/0083177495755609
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: 837
+E-mail        : weslley@ufpi.edu.br
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN010      ALGORITMOS E PROGRAMAÇÃO                           60h      24T34
+  DC/CCN021      INFORMÁTICA E SOCIEDADE                            60h      24T56
+  DC/CCN033      SISTEMAS OPERACIONAIS                              60h      35T34
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN010      ALGORITMOS E PROGRAMAÇÃO                           60h      24T34
+  DC/CCN021      INFORMÁTICA E SOCIEDADE                            60h      24T56
+  DIE0021        INTRODUCAO A COMPUTACAO F                          60h      2N34 6N12
+  DC/CCN033      SISTEMAS OPERACIONAIS                              60h      35T34
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN010      ALGORITMOS E PROGRAMAÇÃO                           60h      24T34
+  DC/CCN033      SISTEMAS OPERACIONAIS                              60h      35T34
+
+  Semestre: 2022.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN038      SISTEMAS DISTRIBUÍDOS                              60h      35T56
+  DC/CCN033      SISTEMAS OPERACIONAIS                              60h      35T34
+  DC/CCN077      TÓPICOS EM SISTEMAS OPERACIONAIS                   60h      24T56
+
+============================================================

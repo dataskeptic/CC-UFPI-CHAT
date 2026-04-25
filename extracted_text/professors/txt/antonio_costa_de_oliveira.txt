@@ -1,0 +1,60 @@
+============================================================
+PROFESSOR: ANTONIO COSTA DE OLIVEIRA
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=342807
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+Professor Associado do Departamento de Computação da UFPI atuando na linha de Computação Aplicada - Programação Inteira, Fluxos em Redes, Redes Neurais e Metaheurísticas. Coordenador do RAPOOZA (Laboratório de Robótica Aplicada, Pesquisa Operacional e Otimização).
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Doutorado em Engenharia de Produção (2002) - Escola Politécnica - USP Mestrado em Otimização e Pesquisa Operacional (1987) - UNICAMP Graduação em Licenciatura em Matemática (1983) - UFPI
+
+--- ÁREAS DE INTERESSE ---
+- Programação Inteira - Fluxos em Redes - Metaheurísticas
+
+--- CURRÍCULO LATTES ---
+http://lattes.cnpq.br/6511083001417681
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: 5837
+E-mail        : costa@ufpi.edu.br
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN055      FLUXOS EM REDES                                    60h      24T56
+  DC/CCN034      PROGRAMAÇÃO LINEAR                                 60h      24M34
+  DC/CCN028      TEORIA E APLICAÇÕES EM GRAFOS                      60h      35M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN055      FLUXOS EM REDES                                    60h      24T56
+  DC/CCN034      PROGRAMAÇÃO LINEAR                                 60h      24M34
+  DC/CCN028      TEORIA E APLICAÇÕES EM GRAFOS                      60h      35M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN055      FLUXOS EM REDES                                    60h      24T56
+  DC/CCN034      PROGRAMAÇÃO LINEAR                                 60h      24M34
+  DIE0067        PROGRAMACAO LINEAR I                               60h      24M34
+  DC/CCN028      TEORIA E APLICAÇÕES EM GRAFOS                      60h      35M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN055      FLUXOS EM REDES                                    60h      24T56
+  DC/CCN034      PROGRAMAÇÃO LINEAR                                 60h      24M34
+  DIE0067        PROGRAMACAO LINEAR I                               60h      24M34
+  DC/CCN028      TEORIA E APLICAÇÕES EM GRAFOS                      60h      35M56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+============================================================

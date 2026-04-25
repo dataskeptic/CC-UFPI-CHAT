@@ -1,0 +1,54 @@
+============================================================
+PROFESSOR: RICARDO DE ANDRADE LIRA RABELO
+Perfil SIGAA: https://sigaa.ufpi.br/sigaa/public/docente/portal.jsf?siape=2061294
+============================================================
+
+--- DESCRIÇÃO PESSOAL ---
+não informada
+
+--- FORMAÇÃO ACADÊMICA / PROFISSIONAL ---
+Graduação em Ciência da Computação - Universidade Federal do Piauí - UFPI (2001 - 2005) Doutorado em Ciências - Programa de Engenharia Elétrica - Universidade de São Paulo - USP (2006 - 2010)
+
+--- ÁREAS DE INTERESSE ---
+- Fundamentos e Aplicações de Sistemas Inteligentes (Redes Neurais Artificiais, Sistemas Fuzzy, Computação Evolutiva, Inteligência de Enxames e Imunocomputação) - Robótica Inteligente - Redes de Sensores Sem Fio - Qualidade da Energia Elétrica - Smart Grid - Coordenação Hidrotérmica - Engenharia de Software Guiada por Busca
+
+--- CURRÍCULO LATTES ---
+http://lattes.cnpq.br/2263553634422386
+
+--- CONTATOS ---
+Endereço      : Não informado
+Sala          : Não informado
+Telefone/Ramal: Não informado
+E-mail        : Não informado
+
+--- DISCIPLINAS MINISTRADAS (GRADUAÇÃO — ÚLTIMOS 4 SEMESTRES) ---
+
+  Semestre: 2026.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN070      TÓPICOS EM COMPUTAÇÃO APLICADA                     60h      35T56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+
+  Semestre: 2025.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN050      EMPREENDEDORISMO                                   60h      35T56
+  DC/CCN072      TÓPICOS EM INTELIGÊNCIA ARTIFICIAL                 60h      35N12
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+  DC/CCN046      TRABALHO DE CONCLUSÃO DE CURSO I - TCC I           60h      6M3456
+
+  Semestre: 2025.1
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN021      INFORMÁTICA E SOCIEDADE                            60h      24T56
+  DC/CCN076      TÓPICOS EM SISTEMAS COMPUTACIONAIS                 60h      35M34
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      6M3456
+
+  Semestre: 2024.2
+  Código         Disciplina                                         C.H.     Horário
+  -------------- -------------------------------------------------- -------- ----------------
+  DC/CCN021      INFORMÁTICA E SOCIEDADE                            60h      24T56
+  DC/CCN049      TRABALHO DE CONCLUSÃO DE CURSO II - TCC II         60h      5T56 5N12
+
+============================================================

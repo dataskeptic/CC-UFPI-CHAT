@@ -1,0 +1,174 @@
+# Calendário Acadêmico UFPI - 2026 (Otimizado para RAG/Embeddings)
+**Instituição:** Universidade Federal do Piauí (UFPI)
+**Resolução:** CEPEX/UFPI Nº 907, de 17 de Outubro de 2025
+**Abrangência:** Cursos de Graduação Presenciais
+**Períodos Letivos Regulares:** 2026.1 e 2026.2
+
+---
+## [BLOCO 1: REGRAS GERAIS E CONTAGEM DE DIAS LETIVOS - ANO 2026]
+**Contexto:** Informações quantitativas sobre os períodos letivos da UFPI no ano de 2026.
+* **Regra de Sábados:** São letivos todos os sábados, exceto se feriado ou quando houver indicação de Recesso Escolar.
+* **Recessos Escolares:** Referem-se apenas às Atividades Didático-Pedagógicas, ocorrendo o funcionamento administrativo normalmente.
+* **Dias Letivos 2026.1 (Total de 100 dias):** Março (19 dias, início do 1º Bimestre 10/03), Abril (22 dias), Maio (24 dias, início do 2º Bimestre 12/05), Junho (25 dias), Julho (10 dias).
+* **Dias Letivos 2026.2 (Total de 100 dias):** Agosto (18 dias, início do 1º Bimestre 11/08), Setembro (25 dias), Outubro (23 dias, início do 2º Bimestre 14/10), Novembro (22 dias), Dezembro (12 dias).
+* **Colações de Grau:** No semestre 2026.1 ocorrem as colações dos concludentes de 2025.2. No semestre 2026.2 ocorrem as colações dos concludentes de 2026.1.
+
+---
+## [BLOCO 2: CRONOGRAMA DO PERÍODO LETIVO 2026.1]
+
+### [MÊS: FEVEREIRO | ANO: 2026 | PERÍODO LETIVO: 2026.1]
+**Contexto:** Preparação e pré-matrículas do período letivo 2026.1 na UFPI.
+* **Até 09/02/2026:** Homologação do Quadro de Atividades Docentes (QAD) relativo ao Período Letivo 2026.1.
+* **Até 09/02/2026:** Encaminhamento, pelas Coordenações, à PREG, da capacidade anual de processamento e portaria da comissão de revalidação.
+* **23/02/2026 a 27/02/2026:** Proposta de Matrícula Curricular para 2026.1 on-line (Portal do Discente).
+* **23/02/2026 a 29/04/2026:** Trancamento de Matrícula no Curso para o Período Letivo 2026.1.
+
+### [MÊS: MARÇO | ANO: 2026 | PERÍODO LETIVO: 2026.1]
+**Contexto:** Início das aulas e ajustes de matrícula do período letivo 2026.1 na UFPI.
+* **02/03/2026 e 03/03/2026:** Ajuste das turmas ofertadas e/ou Complementação da Oferta de Disciplinas para 2026.1.
+* **04/03/2026:** Processamento das Propostas de Matrícula do Período Letivo 2026.1.
+* **05/03/2026 e 06/03/2026:** Ajuste de Matrícula: Cancelamento e/ou Acréscimo em componente curricular para 2026.1 on-line.
+* **Até 06/03/2026:** Reuniões Pedagógicas e Cadastro das Atividades Curriculares de Extensão no SIGAA junto à PREXC.
+* **09/03/2026:** Processamento das solicitações de acréscimo e cancelamento de disciplina para 2026.1.
+* **10/03/2026:** INÍCIO DAS AULAS DO PERÍODO LETIVO 2026.1 (e Início do 1º Bimestre de 2026.1).
+* **10/03/2026:** Matrícula para Aluno Especial, Aluno em Trânsito e Mobilidade Estudantil Interna para 2026.1.
+* **10/03/2026:** Publicação do cronograma de cadastro de Estágio Obrigatório no SIGAA para 2026.1.
+* **10/03/2026 a 12/03/2026:** Solicitação de Disciplina em Caráter Especial exclusivas para Formandos de 2026.1.
+* **10/03/2026 a 13/03/2026:** Inscrição de Candidatos à Monitoria para 2026.1 no SIGAA.
+* **10/03/2026 a 29/04/2026:** Solicitação de Aproveitamento de Estudos (Dispensa de Disciplina) e Trancamento de Disciplina para 2026.1.
+* **16/03/2026 e 17/03/2026:** Ajuste das turmas ofertadas e/ou Complementação para 2026.1.
+* **18/03/2026 a 20/03/2026:** Matrícula em caráter extraordinário em vagas remanescentes para 2026.1.
+* **23/03/2026 a 26/03/2026:** Ajuste das turmas ofertadas e/ou Complementação para 2026.1.
+* **24/03/2026 a 27/03/2026:** Matrícula Compulsória pelas Coordenações de Curso para 2026.1.
+
+### [MÊS: ABRIL | ANO: 2026 | PERÍODO LETIVO: 2026.1]
+**Contexto:** Andamento do semestre, prazos limites e preparação para o 2º Bimestre de 2026.1 na UFPI.
+* **09/04/2026:** Publicação de Edital de Mobilidade Estudantil Nacional (ANDIFES) para 2026.2.
+* **27/04/2026 e 28/04/2026:** Solicitação on-line para Cadastro de Disciplinas do 2º Bimestre de 2026.1.
+* **29/04/2026:** Último dia para Aproveitamento de Estudos (Dispensa) e Trancamento de Matrícula/Disciplina em 2026.1.
+* **29/04/2026 e 30/04/2026:** Confirmação da Oferta de Disciplina para o 2º Bimestre de 2026.1.
+
+### [MÊS: MAIO | ANO: 2026 | PERÍODO LETIVO: 2026.1]
+**Contexto:** Início do 2º Bimestre de 2026.1 e preparações antecipadas para 2026.2 na UFPI.
+* **04/05/2026 a 06/05/2026:** Solicitação de Estágio Obrigatório para não vinculados à UFPI para o período 2026.2.
+* **04/05/2026 a 22/05/2026:** Envio do Quadro de Atividades Docentes (QAD) relativo a 2026.2.
+* **04/05/2026 a 29/05/2026:** Solicitação on-line da Oferta de Disciplinas para 2026.2.
+* **04/05/2026 a 12/06/2026:** Digitação das Atividades Científico-Acadêmico-Culturais (Atividades Complementares).
+* **04/05/2026 a 19/06/2026:** Análise e Validação das Atividades Complementares.
+* **11/05/2026 e 12/05/2026:** Digitação e consolidação do Resultado Final do 1º Bimestre de 2026.1.
+* **11/05/2026 a 19/06/2026:** Digitação das Atividades Curriculares de Extensão (ACE).
+* **11/05/2026 a 26/06/2026:** Análise das Atividades Curriculares de Extensão (ACE).
+* **12/05/2026:** Início do 2º Bimestre do período letivo 2026.1.
+* **12/05/2026 e 13/05/2026:** Matrícula Compulsória para o 2º Bimestre de 2026.1.
+* **25/05/2026 a 19/06/2026:** Confirmação da Oferta de Disciplina para 2026.2.
+
+### [MÊS: JUNHO | ANO: 2026 | PERÍODO LETIVO: 2026.1]
+**Contexto:** Reta final de 2026.1 e editais para o próximo semestre (2026.2) na UFPI.
+* **02/06/2026:** Divulgação do Edital para Seleção de Monitores para 2026.2.
+* **10/06/2026 e 11/06/2026:** Solicitação de ingresso como Aluno Especial e Mobilidade Interna para 2026.2.
+* **11/06/2026 e 12/06/2026:** Solicitação de Mudança/Permuta de Turno para 2026.2.
+* **19/06/2026:** Último dia para confirmação da Oferta de Disciplina para 2026.2.
+* **Até 30/06/2026:** Homologação do Quadro de Atividades Docentes (QAD) de 2026.2.
+
+### [MÊS: JULHO | ANO: 2026 | PERÍODO LETIVO: 2026.1 (Encerramento)]
+**Contexto:** Encerramento das aulas, exames finais e consolidação de notas de 2026.1 na UFPI.
+* **01/07/2026 a 07/07/2026:** Cadastro do Edital de Monitoria no SIGAA para 2026.2.
+* **11/07/2026:** CONCLUSÃO DAS AULAS DO PERÍODO LETIVO 2026.1.
+* **13/07/2026 a 15/07/2026:** Digitação e consolidação do Resultado Final de 2026.1.
+* **14/07/2026:** Último dia para Realização de Exame Final do Período Letivo 2026.1.
+* **16/07/2026 a 30/07/2026:** Período de Férias Docentes (15 dias).
+* **20/07/2026 a 24/07/2026:** Avaliação Docente do Período Letivo 2026.1.
+
+---
+## [BLOCO 3: CRONOGRAMA DO PERÍODO LETIVO 2026.2]
+
+### [MÊS: JULHO | ANO: 2026 | PERÍODO LETIVO: 2026.2]
+**Contexto:** Pré-matrículas para o início do semestre 2026.2 na UFPI.
+* **27/07/2026 a 31/07/2026:** Proposta de Matrícula Curricular para 2026.2 on-line.
+* **27/07/2026 a 25/09/2026:** Trancamento de Matrícula no Curso para 2026.2.
+
+### [MÊS: AGOSTO | ANO: 2026 | PERÍODO LETIVO: 2026.2]
+**Contexto:** Início das aulas e ajustes do período letivo 2026.2 na UFPI.
+* **03/08/2026 e 04/08/2026:** Ajuste das turmas e Alterações da Oferta para 2026.2.
+* **05/08/2026:** Processamento das Propostas de Matrícula de 2026.2.
+* **06/08/2026 e 07/08/2026:** Ajuste de Matrícula: Cancelamento e Acréscimo para 2026.2.
+* **10/08/2026:** Processamento de ajustes, Cadastro de ACE e Reuniões Pedagógicas.
+* **11/08/2026:** INÍCIO DAS AULAS DO PERÍODO LETIVO 2026.2 (e Início do 1º Bimestre de 2026.2).
+* **11/08/2026:** Matrícula Aluno Especial/Mobilidade, e Publicação do cronograma de estágio para 2026.2.
+* **11/08/2026 a 13/08/2026:** Solicitação de Disciplina Especial para Formandos de 2026.2.
+* **11/08/2026 a 14/08/2026:** Inscrição à Monitoria para 2026.2 no SIGAA.
+* **11/08/2026 a 25/09/2026:** Solicitação de Aproveitamento (Dispensa) e Trancamento de Disciplina para 2026.2.
+* **17/08/2026 e 18/08/2026:** Ajuste de turmas para 2026.2.
+* **19/08/2026 a 21/08/2026:** Matrícula extraordinária em vagas remanescentes de 2026.2.
+* **24/08/2026 a 27/08/2026:** Ajuste de turmas para 2026.2.
+* **25/08/2026 a 28/08/2026:** Matrícula Compulsória para 2026.2.
+
+### [MÊS: SETEMBRO | ANO: 2026 | PERÍODO LETIVO: 2026.2]
+**Contexto:** Prazos limites e trâmites de 2º bimestre de 2026.2 na UFPI.
+* **14/09/2026:** Publicação de Edital de Mobilidade Estudantil Nacional para 2027.1.
+* **21/09/2026 a 30/10/2026:** Digitação das Atividades Complementares.
+* **21/09/2026 a 06/11/2026:** Análise das Atividades Complementares.
+* **24/09/2026 e 25/09/2026:** Solicitação de Cadastro de Disciplinas para o 2º Bimestre de 2026.2.
+* **25/09/2026:** Último dia para Trancamento de Matrícula/Disciplina e Aproveitamento de Estudos em 2026.2.
+* **28/09/2026 a 06/11/2026:** Digitação de ACE (Extensão).
+* **28/09/2026 a 13/11/2026:** Análise de ACE (Extensão).
+* **28/09/2026 a 30/09/2026:** Confirmação da Oferta para o 2º Bimestre de 2026.2.
+
+### [MÊS: OUTUBRO | ANO: 2026 | PERÍODO LETIVO: 2026.2]
+**Contexto:** Início do 2º bimestre de 2026.2 e ações de planejamento para 2027.1 na UFPI.
+* **05/10/2026 a 07/10/2026:** Estágio Obrigatório para não vinculados à UFPI (para 2027.1).
+* **05/10/2026 a 23/10/2026:** Envio do QAD relativo a 2027.1.
+* **05/10/2026 a 31/10/2026:** Solicitação da Oferta de Disciplinas para 2027.1.
+* **13/10/2026 e 14/10/2026:** Resultado Final do 1º Bimestre de 2026.2 e Solicitação Aluno Especial para 2027.1.
+* **14/10/2026:** Início do 2º Bimestre de 2026.2.
+* **14/10/2026 e 16/10/2026:** Matrícula Compulsória do 2º Bimestre de 2026.2.
+* **15/10/2026:** Recesso Acadêmico para Docentes e Discentes.
+* **26/10/2026 a 19/11/2026:** Confirmação da Oferta de Disciplinas para 2027.1.
+
+### [MÊS: NOVEMBRO | ANO: 2026 | PERÍODO LETIVO: 2026.2]
+**Contexto:** Eventos acadêmicos gerais e editais finais do período 2026.2 na UFPI.
+* **09/11/2026 a 13/11/2026:** Seminário Integrado da UFPI - SIUFPI.
+* **13/11/2026:** Divulgação do Edital de Seleção de Monitores para 2027.1.
+* **16/11/2026 e 17/11/2026:** Solicitação de Mudança/Permuta de Turno para 2027.1.
+* **19/11/2026:** Último dia para confirmação da Oferta para 2027.1.
+* **29/11/2026:** Exame Nacional de Desempenho dos Estudantes - ENADE.
+* **30/11/2026 a 04/12/2026:** Cadastro do Edital de Monitoria no SIGAA para 2027.1.
+
+### [MÊS: DEZEMBRO | ANO: 2026 | PERÍODO LETIVO: 2026.2 (Encerramento)]
+**Contexto:** Final do período 2026.2, fechamento de notas e exames na UFPI.
+* **14/12/2026:** CONCLUSÃO DAS AULAS DO PERÍODO LETIVO 2026.2.
+* **15/12/2026 a 17/12/2026:** Digitação e consolidação do Resultado Final de 2026.2.
+* **16/12/2026:** Último dia para Realização de Exame Final do Período 2026.2.
+* **18/12/2026 a 22/12/2026:** Avaliação Docente do Período Letivo 2026.2.
+* **24/12/2026 a 01/01/2027:** Recesso Escolar.
+
+---
+## [BLOCO 4: FERIADOS E DIAS NÃO LETIVOS - ANO 2026]
+**Contexto:** Feriados Nacionais, Estaduais e Municipais do calendário civil que afetam o funcionamento da UFPI em 2026.
+
+| Data (2026) | Feriado | Esfera / Observação |
+|---|---|---|
+| 01 de Janeiro | Confraternização Universal | Feriado Nacional |
+| 17 de Fevereiro | Carnaval | Feriado Nacional |
+| 18 de Fevereiro | Quarta-feira de Cinzas | Feriado Nacional |
+| 03 de Abril | Sexta-feira Santa | Feriado Nacional |
+| 21 de Abril | Tiradentes | Feriado Nacional |
+| 01 de Maio | Dia do Trabalho | Feriado Nacional |
+| 04 de Junho | Corpus Christi | Feriado Nacional |
+| 07 de Setembro | Independência do Brasil | Feriado Nacional |
+| 12 de Outubro | Na.Sa. Aparecida (Padroeira) | Feriado Nacional |
+| 19 de Outubro | Dia do Piauí | Feriado Estadual (PI) |
+| 28 de Outubro | Dia do Servidor Público | Feriado Nacional |
+| 02 de Novembro | Dia de Finados | Feriado Nacional |
+| 15 de Novembro | Proclamação da República | Feriado Nacional |
+| 20 de Novembro | Dia da Consciência Negra | Feriado Nacional |
+| 24 de Dezembro | Véspera de Natal | Feriado Nacional |
+| 25 de Dezembro | Natal | Feriado Nacional |
+| 31 de Dezembro | Véspera de Ano Novo | Feriado Nacional |
+
+**Feriados Municipais e Padroeiros (Por Campus da UFPI):**
+* **Julho:** 02/07 (Padroeira de Floriano) - Não letivo só no CAFS/UFPI; 08/07 (Aniversário de Floriano) - Não letivo só no CAFS/UFPI.
+* **Agosto:** 15/08 (Padroeira de Picos) - Não letivo só no CSHNB/UFPI; 16/08 (Aniversário de Teresina) - Não letivo só no CMPP/UFPI.
+* **Setembro:** 24/09 (Padroeira de Bom Jesus) - Não letivo só no CPCE/UFPI.
+* **Outubro:** 04/10 (Dia de São Francisco / Picos) - Não letivo só no CSHNB/UFPI.
+* **Dezembro:** 08/12 (Nossa Senhora da Conceição / Teresina) - Não letivo só no CMPP/UFPI; 12/12 (Aniversário de Picos) - Não letivo só no CSHNB/UFPI; 15/12 (Aniversário de Bom Jesus) - Não letivo só no CPCE/UFPI.
