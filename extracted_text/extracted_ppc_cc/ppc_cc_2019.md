@@ -2,7 +2,7 @@
 title: "Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação"
 curriculum: "Currículo 5 - Criado em 2019"
 institution: "Universidade Federal do Piauí (UFPI)"
-extracted_at: "2026-04-23T20:24:24"
+extracted_at: "2026-04-25T16:32:16"
 extractor: "docling+tableformer-accurate"
 ---
 
