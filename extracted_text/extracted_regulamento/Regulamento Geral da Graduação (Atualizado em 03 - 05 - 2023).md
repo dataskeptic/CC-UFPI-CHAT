@@ -2,7 +2,7 @@
 title: "Regulamento Geral da Graduação da UFPI"
 institution: "Universidade Federal do Piauí (UFPI)"
 updated: "03/05/2023"
-extracted_at: "2026-04-25T22:40:36"
+extracted_at: "2026-04-25T22:49:53"
 extractor: "docling+tableformer-accurate"
 ---
 

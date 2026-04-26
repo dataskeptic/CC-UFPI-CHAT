@@ -16,7 +16,7 @@ from datetime import datetime
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-INPUT_PDF  = PROJECT_ROOT / "docs_sigaa_cc/Regulamento Geral da Graduação (Atualizado em 03 - 05 - 2023)"
+INPUT_PDF  = PROJECT_ROOT / "docs_sigaa_cc/Regulamento Geral da Graduação (Atualizado em 03 - 05 - 2023).pdf"
 OUTPUT_DIR = PROJECT_ROOT / "extracted_text/extracted_regulamento"
 
 # ── Noise patterns ─────────────────────────────────────────────────────────────
