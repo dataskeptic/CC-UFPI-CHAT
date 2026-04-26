@@ -2,7 +2,7 @@
 title: "Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação"
 curriculum: "Currículo 5 - Criado em 2019"
 institution: "Universidade Federal do Piauí (UFPI)"
-extracted_at: "2026-04-25T18:34:39"
+extracted_at: "2026-04-25T22:03:35"
 extractor: "docling+tableformer-accurate"
 ---
 
@@ -575,9 +575,9 @@ A qualidade do curso também tem sido atestada pelos ranques e classificações 
 A sequência proposta de realização das disciplinas obrigatórias do Bacharelado em Ciência da Computação, bem como o número de créditos, carga horária, pré-requisitos, ementa e bibliografia, encontra-se nas subseções a seguir.
 ## 6.1.1. 1 o Período
 ## DISCIPLINA: Cálculo Diferencial e Integral I
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): 
 EMENTA: Limite, Continuidade e Derivada. Regras de Derivação. Máximos e Mínimos. Comportamento de funções.
 ## BIBLIOGRAFIA BÁSICA:
 - LEITHOLD, L. O Cálculo com Geometria Analítica. 3ed. São Paulo, Harbra, 1994.
@@ -588,9 +588,9 @@ EMENTA: Limite, Continuidade e Derivada. Regras de Derivação. Máximos e Míni
 - GUIDORIZZI, H. L. Um Curso de Cálculo. Vol I, Livros Técnicos e Científicos Ed., 1997.
 DISCIPLINA:
 Introdução à Lógica
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): 
 EMENTA: LÓGICA PROPOSICIONAL: conectivos lógicos. Sentenças e classificação das sentenças moleculares. Reescrita de sentenças. Simbologia das sentenças. Função verdade. Interpretações. Simplificação de sentenças. Tautologias, contingências e contradições. Regras de inferência. Formas normais conjuntivas e disjuntivas. Argumento válido. Demonstração da validade de argumentos. Demonstração direta e indireta condicional e por absurdo. Árvores de derivação. Construção de árvores de refutação. Cálculo Proposicional e Álgebra dos Conjuntos. LÓGICA DE PREDICADOS: cálculo de predicados de 1a ordem. Símbolos da linguagem. Definição de fórmula. Escopo de um quantificador. Negação de fórmulas quantificadas. Enunciados categóricos. Diagramas de EulerVenn para enunciados categóricos. Argumentos categóricos. Árvores de refutação. Semântica. Propriedades sintáticas.
 ## BIBLIOGRAFIA BÁSICA:
 - SILVA, F. S. C. da; De MELO, A. C. V.; FINGER, M. Lógica para Computação. 1ed. São Paulo: Cengage Learning, 2006.
@@ -600,9 +600,9 @@ EMENTA: LÓGICA PROPOSICIONAL: conectivos lógicos. Sentenças e classificação
 - SOUZA, J. N. de. Lógica para Ciência da Computação: Uma Introdução Concisa. 1ed. Editora Campus. Rio de Janeiro, 2008.
 DISCIPLINA:
 Informática e Sociedade
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): 
 EMENTA: Aspecto histórico da Tecnologia na Sociedade. Implicações sociais, políticas e econômicas da Informática na Sociedade. Influência da comunicação e compartilhamento de dados eletrônicos na sociedade. Privacidade e liberdade de expressão. Legislação pertinente a computação e informática. Crimes cibernéticos. Mercado de trabalho de Informática e direito trabalhista. Ética e Moral. Código de ética profissional de informática. Direitos de propriedade intelectual e patentes. Tendências e perspectivas sociais com uso da computação e informática.
 ## BIBLIOGRAFIA BÁSICA:
 - MARTINI, Renato. Sociedade da informação: para onde vamos [livro eletrônico]. São Paulo: Trevisan Editora, 2017.
@@ -750,10 +750,9 @@ EMENTA: Conceitos de orientação a objetos. Objetos e classes. Herança, classe
 - COSTA, Luís C. M. Java Avançado. Rio de Janeiro: Ciência Moderna, 2006.
 - SANTOS, Rafael. Introdução à Programação Orientada a Objetos usando Java. Rio de Janeiro: Elsevier, 2003;
 ## DISCIPLINA: Laboratório de Programação
-Créditos: Carga Horária:
-Pré-requisito(s): 1.3.0
-60h
-- Programação Estruturada
+Créditos: 1.3.0
+Carga Horária: 60h
+Pré-requisito(s): Programação Estruturada - Programação Estruturada
 EMENTA: Desenvolvimento sistemático e implementação de programas envolvendo: estruturas básicas de controle, estrutura de dados homogêneas e heterogêneas, modularidade e recursividade, tipos dinâmicos de dados, arquivos. Depuração, testes e documentação de programas.
 ## BIBLIOGRAFIA BÁSICA:
 - ASCENCIO, A. F. G. e CAMPOS, E. A. V. Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/C++ e Java. 2a edição. Pearson: Prentice Hall. 2008.
@@ -780,10 +779,9 @@ EMENTA: Espaços vetoriais. Transformações lineares. Autovalores e autovetores
 - MONTEIRO, A.; PINTO, G. Álgebra Linear e Geometria Analítica. McGraw-Hill, 1999.
 - PENNEY, D. E.; EDWARDS JUNIOR, C. H. Introdução à Álgebra Linear. Prentice-Hall, 1998.
 ## DISCIPLINA: Arquitetura de Computadores
-Créditos: Carga Horária:
-Pré-requisito(s): 3.1.0
-60h
-- Circuitos Digitais
+Créditos: 3.1.0
+Carga Horária: 60h
+Pré-requisito(s): Circuitos Digitais - Circuitos Digitais
 EMENTA: Organização multinível de computadores: memórias, unidades centrais de processamento, entrada e saída. Micro e macro arquitetura. Linguagens de montagem. Modos de endereçamento, conjunto de instruções. Mecanismos de interrupção e de exceção. Barramento, comunicações, interfaces e periféricos. Organização de memória. Memória auxiliar. Arquiteturas RISC e CISC. Pipeline escalar.
 ## BIBLIOGRAFIA BÁSICA:
 - STALLINGS, William. Arquitetura e organização de computadores: projeto para o desempenho. 5 ed. São Paulo: Prentice Hall, 2003.
@@ -958,10 +956,9 @@ Enumeráveis. Linguagens Recursivas. Gramáticas Irrestritas. Máquinas de Turin
 - SIPSER, Michael. Introdução à Teoria da Computação. 1 ed. Cengage Learning. 2005.
 DISCIPLINA:
 Engenharia de Software I
-Créditos: Carga Horária:
-2.2.0
-60h
-Pré-requisito(s): - Banco de Dados
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Banco de Dados - Banco de Dados
 EMENTA: Visão geral e princípios fundamentais da Engenharia de Software. Conhecimentos básicos do ciclo de vida do software e seus estágios iniciais: requisitos, análise e desenho. Apresentação de técnicas, métodos e ferramentas para modelagem de sistema de software.
 ## BIBLIOGRAFIA BÁSICA:
 - FILHO, W., Engenharia de Software: fundamentos, métodos e padrões, LTC Editora. 3 ed. Rio de Janeiro - RJ, 2009.
@@ -1086,9 +1083,9 @@ EMENTA: O aluno deverá elaborar um projeto de pesquisa individual, de acordo co
 - MEDEIROS &amp; ANDRADE. Manual de Elaboração de referências bibliográficas. São Paulo; Atlas. 2001, 188p.
 - MINAYO, Maria Cecília. Pesquisa social: teoria, método e criatividade. 17. ed. Petrópolis: Vozes, 2000.
 ## DISCIPLINA: Educação Ambiental, Tecnologia e Sociedade
-Créditos: Carga Horária:
-Pré-requisito(s): 2.0.0
-30h
+Créditos: 2.0.0
+Carga Horária: 30h
+Pré-requisito(s): 
 EMENTA: Os fundamentos políticos da proteção do meio ambiente; Conflitos sócioambientais; Direito a um meio ambiente sadio; Desenvolvimento sustentável; Políticas públicas para o desenvolvimento sustentável; Objetivos, contextos e métodos da educação ambiental ; A política de ciência e tecnologia e a interação entre o homem e seu ambiente natural ou construído: rural ou urbano. Responsabilidade do profissional de informática em relação ao meio ambiente.
 ## BIBLIOGRAFIA BÁSICA:
 - DIAS, Genebaldo Freire. Educação Ambiental: Princípios e Práticas, São Paulo, Gaia, 2006.
@@ -1144,12 +1141,13 @@ EMENTA: Armazenamento Distribuído; Processamento de Consultas Distribuído; Mod
 - MACHADO, Felipe Nery Rodrigues. Banco de dados: projeto e implementação. São Paulo: Érica, 2004.
 DISCIPLINA:
 Cálculo Diferencial e Integral III
-Créditos: Carga Horária:
-2.2.0
-60h
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): - - - - -
 EMENTA:
-Pré-requisito(s): - Cálculo Diferencial e Integral II
-Integrais Múltiplas. Integrais de Linha. Séries. Sequências.
+Créditos: 
+Carga Horária: 
+Pré-requisito(s): Cálculo Diferencial e Integral II Integrais Múltiplas. Integrais de Linha. Séries. Sequências. - Cálculo Diferencial e Integral II
 ## BIBLIOGRAFIA BÁSICA:
 - STEWART, J. Calculus. 6ed. Brroks/Cole Pub, Vol I, 2008.
 - GUIDORIZZI, H. L. Um Curso de Cálculo. Vol I, Livros Técnicos e Científicos Ed., 1997.
@@ -1159,10 +1157,9 @@ Integrais Múltiplas. Integrais de Linha. Séries. Sequências.
 - FLEMMING, D. M. e GONÇALVES, M. B. Cálculo B. Prentice Hall, São Paulo, 2007.
 DISCIPLINA:
 Computação Paralela
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Sistemas Distribuídos
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Sistemas Distribuídos - Sistemas Distribuídos
 EMENTA: Fundamentos de computação paralela. Modelos de Arquiteturas Paralelas: Taxonomia de Flynn, Lei de Amdahl, modelos UMA e NUMA, arquiteturas SIMD e MIMD, Memória compartilhada e Memória Distribuída, Consistência de memória, SMP, GPU; Programação Paralela em sistemas fortemente acoplados; Programação paralela em sistemas fracamente acoplados.
 ## BIBLIOGRAFIA BÁSICA:
 - PACHECO, Peter. An Introduction to Parallel Programming. 1 ed. Morgan Kaufmann, 2011.
@@ -1204,10 +1201,9 @@ COZZI, Afonso; DOLABELA, Fernando, et al. Empreendedorismo de Base Tecnológica.
 - FILION, Louis Jacques, DOLABELA, Fernando. Boa Idéia! E agora? Plano de negócio, o caminho seguro para criar e gerenciar sua empresa. São Paulo: Makron Books, 2000.
 DISCIPLINA:
 Engenharia de Software Experimental
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Engenharia de Software II
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Engenharia de Software II - Engenharia de Software II
 EMENTA: Conceitos básicos em engenharia de software experimental. Levantamento bibliográfico: mapeamento sistemático, revisão sistemática, revisão informal. Tipos de estudos experimentais. Levantamentos de campo (surveys), estudos de casos e experimentos controlados. Projetos experimentais. Processo de experimentação. Análises qualitativas e quantitativas de dados. Ameaças à validade.
 ## BIBLIOGRAFIA BÁSICA:
 - WOHLIN, C.; RUNESON, P.; HOST, M.; OHLSSON, M. C.; REGNELL, B.; WESSLÉN, A. Experimentation in Software Engineering: An Introduction. Springer, 2012, ISBN 3642290434.
@@ -1216,10 +1212,9 @@ EMENTA: Conceitos básicos em engenharia de software experimental. Levantamento 
 - Artigos e relatórios técnicos diversos.
 DISCIPLINA:
 Estruturas de Dados Avançadas
-Créditos: Carga Horária:
-2.2.0
-60h
-Pré-requisito(s): - Estruturas de Dados
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Estruturas de Dados - Estruturas de Dados
 EMENTA: Árvores Balanceadas: AVL, 2-3 e rubro-negras. Grafos: classificação topológica, componentes fortemente conectados, casamento ( matching ). Árvores B e B+. Algoritmos e estruturas de dados baseadas em strings . Fluxo de redes: fluxo máximo (algoritmo Ford-Fulkerson), teorema do fluxo máximo - corte mínimo, casamento máximo.
 ## BIBLIOGRAFIA BÁSICA:
 - AHUJA, R.K.; MAGNANTI, T. L.; ORLIN, J. B. Network Flows: Theory, Algorithms ans Applications. Prentice Hall, 1993.
@@ -1400,10 +1395,9 @@ EMENTA: Educação e Diversidade Cultural. O racismo, o preconceito e a discrimi
 - GOMES, N. L.; SILVA, P. B. G. (org.). Experiências étnicos-culturais para a formação de professores. Belo Horizonte: Autêntica, 2002.
 - MEYER, D. E. Alguns são mais iguais que os outros: etnia, raça e nação em ação no currículo escolar. In: A escola cidadã no contexto da globalização. 4. ed. São Paulo: Vozes, 2000.
 ## DISCIPLINA: Sistemas Embarcados
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Arquitetura de Computadores
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Arquitetura de Computadores - Arquitetura de Computadores
 EMENTA: Especificação (requisitos, linguagens, níveis e estilos de descrição). Hardware: entrada e saída (sample-hold,conversores A/D e D/A, sensores e atuadores), unidades de processamento (microprocessadores, DSPs, ASIPs e lógica reconfigurável) e memórias (flash, cache e scratch pad). Eficiência energética: compiladores energeticamente conscientes e gerenciamento de potência (DVS e DPM). Compactação de código. Ferramentas de projeto de hardware e de software (simulador, síntese comportamental e lógica, gerador de código e depurador). Systems-on-Chip e co-projeto de hardware e software.
 ## BIBLIOGRAFIA BÁSICA:
 - OLIVEIRA, A.S.; ANDRADE, F.S. Sistemas Embarcados: Hardware e Firmware na Prática. São Paulo: Érica, 2006.
@@ -1414,9 +1408,9 @@ EMENTA: Especificação (requisitos, linguagens, níveis e estilos de descriçã
 - YAGHMOUR, K.; MASTERS, J.; BEM-YOUSSEF, G.; GERUM, P. Construindo Sistemas Linux Embarcados. 2. ed. São Paulo: Alta Books, 2009.
 DISCIPLINA:
 Sistemas Fuzzy
-Créditos: Carga Horária: 60h
-Pré-requisito(s): 2.2.0
-- Programação Estruturada
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Programação Estruturada - Programação Estruturada
 EMENTA: Computação Granular. Conjuntos Clássicos. Teoria de Conjuntos Fuzzy. Lógica Clássica. Lógica Fuzzy. Sistemas Fuzzy Baseados em Regras.
 ## BIBLIOGRAFIA BÁSICA:
 - ROSS, T. J. Fuzzy Logic with Engineering Applications. John Wiley and Sons, 2010.
@@ -1457,10 +1451,9 @@ Ementa livre na área de Arquitetura de Computadores.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Banco de Dados
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Banco de Dados
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Banco de Dados - Banco de Dados
 EMENTA:
 Ementa livre na área de Banco de Dados.
 ## BIBLIOGRAFIA BÁSICA:
@@ -1469,10 +1462,9 @@ Ementa livre na área de Banco de Dados.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Bioinformática
-Créditos: Carga Horária:
-Pré-requisito(s): 4.0.0
-60h
-- Programação Estruturada
+Créditos: 4.0.0
+Carga Horária: 60h
+Pré-requisito(s): Programação Estruturada - Programação Estruturada
 EMENTA:
 Ementa livre na área de Bioinformática.
 ## BIBLIOGRAFIA BÁSICA:
@@ -1481,10 +1473,9 @@ Ementa livre na área de Bioinformática.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Computação Aplicada
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Estruturas de Dados
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Estruturas de Dados - Estruturas de Dados
 EMENTA:
 Ementa livre na área de Computação.
 ## BIBLIOGRAFIA BÁSICA:
@@ -1493,10 +1484,9 @@ Ementa livre na área de Computação.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Engenharia de Software
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Engenharia de Software II
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Engenharia de Software II - Engenharia de Software II
 EMENTA:
 Ementa livre na área de Engenharia de Software.
 ## BIBLIOGRAFIA BÁSICA:
@@ -1505,10 +1495,9 @@ Ementa livre na área de Engenharia de Software.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Inteligência Artificial
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- [ ] - Inteligência Artificial
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): [ ] - Inteligência Artificial - [ ] - Inteligência Artificial
 EMENTA:
 Ementa livre na área de Inteligência Artificial.
 ## BIBLIOGRAFIA BÁSICA:
@@ -1517,11 +1506,13 @@ Ementa livre na área de Inteligência Artificial.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Programação
-Créditos: Carga Horária:
-2.2.0
-60h
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): - - - - -
 EMENTA:
-Pré-requisito(s): - Programação Orientada a Objetos
+Créditos: 
+Carga Horária: 
+Pré-requisito(s): Programação Orientada a Objetos - Programação Orientada a Objetos
 Ementa livre na área de Programação.
 ## BIBLIOGRAFIA BÁSICA:
 - A ser escolhida pelo ministrante.
@@ -1529,10 +1520,9 @@ Ementa livre na área de Programação.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Redes de Computadores
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Redes de Computadores
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Redes de Computadores - Redes de Computadores
 EMENTA: Ementa livre na área de Redes de Computadores.
 ## BIBLIOGRAFIA BÁSICA:
 - A ser escolhida pelo ministrante.
@@ -1540,10 +1530,9 @@ EMENTA: Ementa livre na área de Redes de Computadores.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Segurança em Sistemas
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Segurança em Sistemas
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Segurança em Sistemas - Segurança em Sistemas
 EMENTA: Ementa livre na área de Segurança em Sistemas.
 ## BIBLIOGRAFIA BÁSICA:
 - A ser escolhida pelo ministrante.
@@ -1551,10 +1540,9 @@ EMENTA: Ementa livre na área de Segurança em Sistemas.
 - A ser escolhida pelo ministrante.
 DISCIPLINA:
 Tópicos em Sistemas Computacionais
-Créditos: Carga Horária:
-Pré-requisito(s): 2.2.0
-60h
-- Estruturas de Dados
+Créditos: 2.2.0
+Carga Horária: 60h
+Pré-requisito(s): Estruturas de Dados - Estruturas de Dados
 EMENTA: Ementa livre na área de Sistemas Computacionais.
 ## BIBLIOGRAFIA BÁSICA:
 - A ser escolhida pelo ministrante.
@@ -1564,7 +1552,7 @@ DISCIPLINA:
 Tópicos em Sistemas Operacionais
 Créditos: 2.2.0
 Carga Horária: 60h
-Pré-requisito(s): - Sistemas Operacionais
+Pré-requisito(s): Sistemas Operacionais - Sistemas Operacionais
 EMENTA: Ementa livre na área de Sistemas Operacionais.
 ## BIBLIOGRAFIA BÁSICA:
 - A ser escolhida pelo ministrante.
@@ -1882,57 +1870,57 @@ Art. 24. Os casos omissos serão resolvidos pelo Colegiado do Curso de Ciência 
 Art. 1. As Atividades Complementares integram a parte flexível do currículo do Bacharelado em Ciência da Computação, sendo o seu integral cumprimento indispensável para a obtenção do diploma de graduação.
 - Art. 2. As Atividades Complementares deverão ser desenvolvidas a partir do ingresso do aluno no curso e devem ser compatíveis com o PPC do curso.
 - Art. 3. Compõem as Atividades Complementares as seguintes atividades, organizadas por diferentes categorias, com a respectiva carga horária:
-| CÓDIGO                                                                                 | ATIVIDADES                                                                                                                 | COMPROVAÇÃO                                                                            | CH                                                                                     | CH MÁXIMA                                                                              |
+| CÓDIGO | ATIVIDADES | COMPROVAÇÃO | CH | CH MÁXIMA |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                                                                | CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                            | CATEGORIA: VISITAS TÉCNICAS                                                            |
-| UFP0375                                                                                | Visita técnica a empresa da área                                                                                           | Relatórios ou declaração da visita técnica                                             | 5h                                                                                     | 10h                                                                                    |
-| CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                                                                  | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              | CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES                              |
-| UFP2024                                                                                | Participação em atividades extracurriculares de assistência a populações carentes ou de baixa renda na área de informática | Certificados ou documento correlato                                                    | 10h                                                                                    | 120h                                                                                   |
-| UFP2025                                                                                | Participação em programas de voluntariado na área de informática                                                           | Certificados ou documento correlato                                                    | 10h                                                                                    | 120h                                                                                   |
-| CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                                                             | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         | CATEGORIA: VIVÊNCIAS DE GESTÃO                                                         |
-| UFP0381                                                                                | Representação nos conselhos universitários por gestão                                                                      | Portarias, Atos ou documentos correlatos                                               | 15h                                                                                    | 15h                                                                                    |
-| UFP0382                                                                                | Desempenho de cargo de representação estudantil                                                                            | Portarias, Atos ou documentos correlatos                                               | 10h                                                                                    | 10h                                                                                    |
-| CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO                                                 | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             | CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO             |
-| UFP2026                                                                                | Estágio extracurricular                                                                                                    | Certificados ou documento correlato                                                    | 30h                                                                                    | 90h                                                                                    |
-| CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS                                     | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS | CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS |
-| UFP2027                                                                                | Desenvolvimento de software sem patente                                                                                    | Laudo de banca composta por professores do                                             | 10h                                                                                    | 30h                                                                                    |
-|                                                                          |                                                                          | Departamento de Computação                                               |                                                                          |                                                                          |
+| CATEGORIA: VISITAS TÉCNICAS |
+| UFP0375 | Visita técnica a empresa da área | Relatórios ou declaração da visita técnica | 5h | 10h |
+| CATEGORIA: EXPERIÊNCIAS PROFISSIONAIS E/OU COMPLEMENTARES |
+| UFP2024 | Participação em atividades extracurriculares de assistência a populações carentes ou de baixa renda na área de informática | Certificados ou documento correlato | 10h | 120h |
+| UFP2025 | Participação em programas de voluntariado na área de informática | Certificados ou documento correlato | 10h | 120h |
+| CATEGORIA: VIVÊNCIAS DE GESTÃO |
+| UFP0381 | Representação nos conselhos universitários por gestão | Portarias, Atos ou documentos correlatos | 15h |
+| UFP0382 | Desempenho de cargo de representação estudantil | Portarias, Atos ou documentos correlatos | 10h |
+| CATEGORIA: ESTÁGIO NÃO OBRIGATÓRIO, DIFERENCIADO DO ESTÁGIO SUPERVISIONADO |
+| UFP2026 | Estágio extracurricular | Certificados ou documento correlato | 30h | 90h |
+| CATEGORIA: ATIVIDADES ARTÍSTICO-CULTURAIS E ESPORTIVAS E PRODUÇÕES TÉCNICO-CIENTÍFICAS |
+| UFP2027 | Desenvolvimento de software sem patente | Laudo de banca composta por professores do | 10h | 30h |
+| Departamento de Computação |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| UFP2028                                                                  | Desenvolvimento de software com patente                                  | Laudo de banca composta por professores do Departamento de Computação    | 90h                                                                      | 90h                                                                      |
-| CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 | CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA                 |
-| UFP0351                                                                  | Participação em projeto de iniciação cientifica (6 meses)                | Relatório parcial ou documento correlato                                 | 30h                                                                      | 60h                                                                      |
-| UFP0350                                                                  | Participação em projeto de iniciação cientifica concluído                | Certificado de Iniciação Científica, relatórios ou documento correlato   | 60h                                                                      | 60h                                                                      |
-| UFP0349                                                                  | Monitoria voluntária ou remunerada em disciplinas do curso / período     | Certificados de monitoria                                                | 20h                                                                      | 40h                                                                      |
-| CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS | CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS |
-| UFP0362                                                                  | Participação em evento científico da área                                | Certificados, declaração ou documento correlato                          | 10h                                                                      | 40h                                                                      |
-| UFP0366                                                                  | Presença em defesa de tese de doutorado da área                          | Certificados, declaração ou documento correlato                          | 4h                                                                       | 60h                                                                      |
-| UFP0361                                                                  | Participar da organização de evento científico da área                   | Certificados, declaração ou documento correlato                          | 30h                                                                      | 60h                                                                      |
-| UFP0364                                                                  | Presença em defesa de dissertação de mestrado da área                    | Certificados, declaração ou documento correlato                          | 2h                                                                       | 60h                                                                      |
-| UFP0363                                                                  | Presença em defesa de TCC da área                                        | Certificados, declaração ou documento correlato                          | 1h                                                                       | 60h                                                                      |
-| CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        | CATEGORIA: ATIVIDADES DE EXTENSÃO                                        |
-| UFP0358                                                                  | Curso de extensão na área de interesse do curso - aluno 10 horas         | Certificados ou documento correlato                                      | 5h                                                                       | 30h                                                                      |
-| UFP0360                                                                  | Curso de idiomas - 60 horas                                              | Certificados ou documento correlato                                      | 30h                                                                      | 60h                                                                      |
-| UFP0359                                                                                                                  | Curso de extensão na área de interesse do curso - aluno 20 horas                                                         | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 30h                                                                                                                      |
+| UFP2028 | Desenvolvimento de software com patente | Laudo de banca composta por professores do Departamento de Computação | 90h |
+| CATEGORIA: ATIVIDADE DE INICIAÇÃO À DOCÊNCIA E À PEQUISA |
+| UFP0351 | Participação em projeto de iniciação cientifica (6 meses) | Relatório parcial ou documento correlato | 30h | 60h |
+| UFP0350 | Participação em projeto de iniciação cientifica concluído | Certificado de Iniciação Científica, relatórios ou documento correlato | 60h |
+| UFP0349 | Monitoria voluntária ou remunerada em disciplinas do curso / período | Certificados de monitoria | 20h | 40h |
+| CATEGORIA: ATIVIDADES DE APRESENTAÇÃO E/OU ORGANIZAÇÃO DE EVENTOS GERAIS |
+| UFP0362 | Participação em evento científico da área | Certificados, declaração ou documento correlato | 10h | 40h |
+| UFP0366 | Presença em defesa de tese de doutorado da área | Certificados, declaração ou documento correlato | 4h | 60h |
+| UFP0361 | Participar da organização de evento científico da área | Certificados, declaração ou documento correlato | 30h | 60h |
+| UFP0364 | Presença em defesa de dissertação de mestrado da área | Certificados, declaração ou documento correlato | 2h | 60h |
+| UFP0363 | Presença em defesa de TCC da área | Certificados, declaração ou documento correlato | 1h | 60h |
+| CATEGORIA: ATIVIDADES DE EXTENSÃO |
+| UFP0358 | Curso de extensão na área de interesse do curso - aluno 10 horas | Certificados ou documento correlato | 5h | 30h |
+| UFP0360 | Curso de idiomas - 60 horas | Certificados ou documento correlato | 30h | 60h |
+| UFP0359 | Curso de extensão na área de interesse do curso - aluno 20 horas | Certificados ou documento correlato | 10h | 30h |
 |--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| UFP0352                                                                                                                  | Programa de extensão na UFPI - ministrante 10 horas                                                                      | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 60h                                                                                                                      |
-| UFP0353                                                                                                                  | Programa de extensão na UFPI - ministrante 20 horas                                                                      | Certificados ou documento correlato                                                                                      | 20h                                                                                                                      | 60h                                                                                                                      |
-| UFP0354                                                                                                                  | Programa de extensão na UFPI - aluno 10 horas                                                                            | Certificados ou documento correlato                                                                                      | 5h                                                                                                                       | 60h                                                                                                                      |
-| UFP0355                                                                                                                  | Programa de extensão na UFPI - aluno 20 horas                                                                            | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 60h                                                                                                                      |
-| UFP0356                                                                                                                  | Curso de extensão na área de interesse do curso - ministrante 20 horas                                                   | Certificados ou documento correlato                                                                                      | 20h                                                                                                                      | 30h                                                                                                                      |
-| UFP0357                                                                                                                  | Curso de extensão na área de interesse do curso - ministrante 10 horas                                                   | Certificados ou documento correlato                                                                                      | 10h                                                                                                                      | 30h                                                                                                                      |
-| CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR | CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR |
-| UFP0378                                                                                                                  | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 30 horas           | Histórico escolar ou documento que comprove o aproveitamento da disciplina                                               | 15h                                                                                                                      | 60h                                                                                                                      |
-| UFP0377                                                                                                                  | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 60 horas           | Histórico escolar ou documento que comprove o aproveitamento da disciplina                                               | 30h                                                                                                                      | 60h                                                                                                                      |
-| CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 | CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS                                                                 |
-| UFP0367                                                                                                                  | Periódico avaliado pelo QUALIS capes da área                                                                             | Certificados, declaração, cópias das publicações ou documentos correlatos                                                | 90h                                                                                                                      | 90h                                                                                                                      |
-| UFP0369                                                                                                                  | Periódico sem QUALIS capes da área                                                                                       | Certificados, declaração, cópias das publicações ou documentos correlatos                                                | 45h                                                                                                                      | 90h                                                                                                                      |
-| UFP0370                                                                                                                  | Artigo em conferência avaliada pelo QUALIS capes da área                                                                 | Certificados, declaração, cópias das                                                                                     | 60h                                                                                                                      | 90h                                                                                                                      |
-|         |                                                | publicações ou documentos correlatos                                      |     |     |
+| UFP0352 | Programa de extensão na UFPI - ministrante 10 horas | Certificados ou documento correlato | 10h | 60h |
+| UFP0353 | Programa de extensão na UFPI - ministrante 20 horas | Certificados ou documento correlato | 20h | 60h |
+| UFP0354 | Programa de extensão na UFPI - aluno 10 horas | Certificados ou documento correlato | 5h | 60h |
+| UFP0355 | Programa de extensão na UFPI - aluno 20 horas | Certificados ou documento correlato | 10h | 60h |
+| UFP0356 | Curso de extensão na área de interesse do curso - ministrante 20 horas | Certificados ou documento correlato | 20h | 30h |
+| UFP0357 | Curso de extensão na área de interesse do curso - ministrante 10 horas | Certificados ou documento correlato | 10h | 30h |
+| CATEGORIA: DISCIPLINA ELETIVA OFERTADA POR OUTRO CURSO DESTA INSTITUIÇÃO OU POR OUTRAS INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR |
+| UFP0378 | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 30 horas | Histórico escolar ou documento que comprove o aproveitamento da disciplina | 15h | 60h |
+| UFP0377 | Disciplina eletiva cursada nesta ou em outra instituição fora do escopo da matriz curricular do BCC - 60 horas | Histórico escolar ou documento que comprove o aproveitamento da disciplina | 30h | 60h |
+| CATEGORIA: TRABALHOS PUBLICADOS E APROVAÇÃO EM CONCURSOS |
+| UFP0367 | Periódico avaliado pelo QUALIS capes da área | Certificados, declaração, cópias das publicações ou documentos correlatos | 90h |
+| UFP0369 | Periódico sem QUALIS capes da área | Certificados, declaração, cópias das publicações ou documentos correlatos | 45h | 90h |
+| UFP0370 | Artigo em conferência avaliada pelo QUALIS capes da área | Certificados, declaração, cópias das | 60h | 90h |
+| publicações ou documentos correlatos |
 |---------|------------------------------------------------|---------------------------------------------------------------------------|-----|-----|
 | UFP0371 | Artigo em conferência sem QUALIS capes da área | Certificados, declaração, cópias das publicações ou documentos correlatos | 30h | 90h |
-| UFP0372 | Apresentação de artigo científico              | Certificados, declaração, cópias das publicações ou documentos correlatos | 30h | 90h |
-| UFP0373 | Livro publicado com ISBN                       | Certificados, declaração, cópias das publicações ou documentos correlatos | 90h | 90h |
-| UFP0374 | Capítulo de livro publicado com ISBN           | Certificados, declaração, cópias das publicações ou documentos correlatos | 45h | 90h |
+| UFP0372 | Apresentação de artigo científico | Certificados, declaração, cópias das publicações ou documentos correlatos | 30h | 90h |
+| UFP0373 | Livro publicado com ISBN | Certificados, declaração, cópias das publicações ou documentos correlatos | 90h |
+| UFP0374 | Capítulo de livro publicado com ISBN | Certificados, declaração, cópias das publicações ou documentos correlatos | 45h | 90h |
 - §1° O aluno deve cumprir, para integralização curricular, a carga horária total de cento e vinte (120) horas de Atividades Complementares de graduação.
 - §2° Cabe ao coordenador do curso orientar o aluno na frequência e certificação das Atividades Complementares de graduação.
 - §3° As atividades de pesquisa envolvem:

@@ -44,6 +44,7 @@ SUMARIO_START  = re.compile(r"^#+\s*SUMÁRIO\s*$", re.IGNORECASE)
 SUMARIO_END    = re.compile(r"^#+\s*APRESENTAÇÃO\s*$", re.IGNORECASE)
 SIGNATURE_LINE = re.compile(r"^[\\/_ \s]{10,}$")
 
+# Campo de disciplina que aparece ISOLADO em sua própria linha (sem valor)
 DISCIPLINA_FIELD = re.compile(
     r"^(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?):\s*$",
     re.IGNORECASE,
@@ -57,8 +58,6 @@ COVER_BLOCK_RE = re.compile(
     re.DOTALL,
 )
 
-# Título principal da capa que Docling gera como heading — remover do corpo pois
-# já está nos metadados YAML / cabeçalho TXT
 MAIN_TITLE_RE = re.compile(
     r"^##\s+PROJETO PEDAGÓGICO DO CURSO DE BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO\s*$",
     re.IGNORECASE,
@@ -89,7 +88,6 @@ def fix_bidi_arrows(text: str) -> str:
 
 
 def remove_image_comments(text: str) -> str:
-    """Remove os marcadores <!-- image --> gerados pelo Docling."""
     return re.sub(r"<!--\s*image\s*-->", "", text)
 
 
@@ -103,24 +101,165 @@ def deduplicate_cover_block(md: str) -> str:
     return prefix + suffix
 
 
-def fix_inline_fields(lines: list[str]) -> list[str]:
+def normalize_body_spaces(line: str) -> str:
+    if line.startswith("|") or line.startswith("#"):
+        return line
+    return re.sub(r" +", " ", line)
+
+
+# ── Correção dos blocos de disciplina ─────────────────────────────────────────
+#
+# O Docling gera os campos de disciplina em dois padrões problemáticos:
+#
+# Padrão A — campos misturados numa linha só, sem valores:
+#   "Créditos: Carga Horária:"
+#   "Pré-requisito(s): 2.2.0"
+#   "60h"
+#   "- Estruturas de Dados"
+#
+# Padrão B — campo isolado sem valor (já tratado pelo antigo fix_inline_fields):
+#   "Créditos:"
+#   "2.2.0"
+#
+# Esta função normaliza ambos os padrões para:
+#   "Créditos: 2.2.0"
+#   "Carga Horária: 60h"
+#   "Pré-requisito(s): - Estruturas de Dados"
+
+# Detecta linha com múltiplos campos colados (ex: "Créditos: Carga Horária:")
+MULTI_FIELD_RE = re.compile(
+    r"^(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?):.*"
+    r"(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?):.*",
+    re.IGNORECASE,
+)
+
+# Detecta qualquer linha que seja um campo de disciplina (com ou sem valor)
+ANY_FIELD_RE = re.compile(
+    r"^(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?):\s*(.*)",
+    re.IGNORECASE,
+)
+
+# Valores reconhecíveis de crédito (ex: "2.2.0") e carga horária (ex: "60h")
+CREDITO_RE   = re.compile(r"^\d+\.\d+\.\d+$")
+CARGA_RE     = re.compile(r"^\d{2,3}h$", re.IGNORECASE)
+
+
+def fix_discipline_blocks(lines: list[str]) -> list[str]:
+    """
+    Varre as linhas procurando blocos de campos de disciplina e os normaliza.
+    Cada campo deve ficar numa linha com seu valor: "Campo: valor".
+    """
     out = []
     i = 0
     while i < len(lines):
         line = lines[i]
-        if DISCIPLINA_FIELD.match(line.strip()):
-            j = i + 1
-            while j < len(lines) and not lines[j].strip():
-                j += 1
-            if j < len(lines) and not lines[j].startswith(("#", "|")):
-                value = lines[j].strip()
-                out.append(line.rstrip() + " " + value)
-                i = j + 1
-                continue
-        out.append(line)
-        i += 1
+        stripped = line.strip()
+
+        # Caso 1: linha com múltiplos campos colados — inicia coleta do bloco
+        # Caso 2: campo isolado sem valor (padrão antigo)
+        is_multi  = bool(MULTI_FIELD_RE.match(stripped))
+        is_single = bool(DISCIPLINA_FIELD.match(stripped))
+
+        if not (is_multi or is_single):
+            out.append(line)
+            i += 1
+            continue
+
+        # Coleta até 8 linhas seguintes para montar o bloco completo
+        block_lines = [stripped]
+        j = i + 1
+        while j < len(lines) and j < i + 8:
+            nxt = lines[j].strip()
+            # Para ao encontrar heading, linha de tabela, ou linha longa de texto
+            if nxt.startswith(("#", "|")) or (len(nxt) > 80 and not ANY_FIELD_RE.match(nxt)):
+                break
+            # Para ao encontrar "EMENTA" (início do conteúdo da disciplina)
+            if re.match(r"^ementa\b", nxt, re.IGNORECASE):
+                break
+            block_lines.append(nxt)
+            j += 1
+
+        # Extrai os valores do bloco
+        full_text = " ".join(block_lines)
+
+        credito = ""
+        carga   = ""
+        prereqs = []
+
+        # Tenta extrair crédito: padrão N.N.N
+        m = re.search(r"\b(\d+\.\d+\.\d+)\b", full_text)
+        if m:
+            credito = m.group(1)
+
+        # Tenta extrair carga horária: padrão NNh ou NNN h
+        m = re.search(r"\b(\d{2,3})\s*h\b", full_text, re.IGNORECASE)
+        if m:
+            carga = m.group(1) + "h"
+
+        # Pré-requisitos: tudo após "Pré-requisito(s):" até fim do bloco
+        m = re.search(r"Pré-requisito\(?s?\)?:\s*(.*)", full_text, re.IGNORECASE)
+        if m:
+            prereq_raw = m.group(1).strip()
+            # Remove os valores de crédito e carga que podem ter sido capturados
+            prereq_raw = re.sub(r"\b\d+\.\d+\.\d+\b", "", prereq_raw)
+            prereq_raw = re.sub(r"\b\d{2,3}\s*h\b", "", prereq_raw, flags=re.IGNORECASE)
+            prereq_raw = prereq_raw.strip(" -")
+            # Linhas de pré-requisito extras (ex: "- Estruturas de Dados") no bloco
+            for bl in block_lines:
+                if bl.startswith("- ") and not ANY_FIELD_RE.match(bl) and not CREDITO_RE.match(bl.lstrip("- ")) and not CARGA_RE.match(bl.lstrip("- ")):
+                    prereq_raw = prereq_raw + " " + bl if prereq_raw else bl
+            prereq_raw = re.sub(r"\s{2,}", " ", prereq_raw).strip()
+
+        # Emite os campos normalizados
+        out.append(f"Créditos: {credito}")
+        out.append(f"Carga Horária: {carga}")
+        out.append(f"Pré-requisito(s): {prereq_raw if m else '- - - - -'}")
+
+        i = j
     return out
 
+
+# ── Limpeza da tabela do APÊNDICE III ─────────────────────────────────────────
+#
+# O Docling duplica colunas nessa tabela, gerando linhas como:
+#   | Categoria | Categoria | Atividade | Atividade | CH | CH |
+# Esta função opera no texto completo e colapsa colunas duplicadas.
+
+def clean_appendix_table(md: str) -> str:
+    def dedup_row(line: str) -> str:
+        if not line.startswith("|"):
+            return line
+        # Linha separadora — mantém mas simplifica
+        if re.match(r"^\|[\s\-\|:]+\|$", line):
+            return line
+        cells = [c.strip() for c in line.split("|")]
+        cells = [c for c in cells if c != ""]
+        # Remove células duplicadas consecutivas
+        deduped = [cells[0]] if cells else []
+        for c in cells[1:]:
+            if c != deduped[-1]:
+                deduped.append(c)
+        return "| " + " | ".join(deduped) + " |"
+
+    lines = md.splitlines()
+    # Encontra o bloco do APÊNDICE III e aplica dedup só nele
+    in_appendix = False
+    out = []
+    for line in lines:
+        if re.match(r"^##\s+APÊNDICE III", line, re.IGNORECASE):
+            in_appendix = True
+        elif re.match(r"^##\s+", line) and in_appendix:
+            in_appendix = False
+
+        if in_appendix and line.startswith("|"):
+            out.append(dedup_row(line))
+        else:
+            out.append(line)
+
+    return "\n".join(out)
+
+
+# ── Sumário ────────────────────────────────────────────────────────────────────
 
 def clean_sumario(lines: list[str]) -> list[str]:
     out = []
@@ -141,7 +280,6 @@ def clean_sumario(lines: list[str]) -> list[str]:
                     for cell in cells:
                         clean = re.sub(r"-{3,}", "", cell).strip()
                         clean = re.sub(r"\s{2,}", " ", clean)
-                        # Ignora células que são apenas números (nºs de página)
                         if clean and not re.match(r"^\d{1,3}$", clean):
                             sumario_entries.append(clean)
                 elif l.strip() and not re.match(r"^[\-\s]+$", l):
@@ -176,12 +314,6 @@ def clean_signatures(lines: list[str]) -> list[str]:
     return out
 
 
-def normalize_body_spaces(line: str) -> str:
-    if line.startswith("|") or line.startswith("#"):
-        return line
-    return re.sub(r" +", " ", line)
-
-
 # ── Pós-processamento principal (MD) ─────────────────────────────────────────
 
 def post_process_markdown(raw_md: str) -> str:
@@ -196,7 +328,6 @@ def post_process_markdown(raw_md: str) -> str:
     for line in lines:
         in_table = line.startswith("|")
 
-        # Remove a primeira ocorrência do título principal (já nos metadados)
         if not main_title_removed and MAIN_TITLE_RE.match(line.strip()):
             main_title_removed = True
             continue
@@ -204,12 +335,10 @@ def post_process_markdown(raw_md: str) -> str:
         if not in_table and is_noise_line(line):
             continue
 
-        # Corrige heading sem espaço após #
         heading_match = re.match(r"^(#{1,6})([^ #])", line)
         if heading_match:
             line = heading_match.group(1) + " " + line[len(heading_match.group(1)):]
 
-        # Rebaixa headings de capa de ## para ###
         h2_match = re.match(r"^## (.+)$", line)
         if h2_match and is_cover_heading(h2_match.group(1)):
             line = "### " + h2_match.group(1)
@@ -219,11 +348,12 @@ def post_process_markdown(raw_md: str) -> str:
 
         out.append(line)
 
-    out = fix_inline_fields(out)
+    out = fix_discipline_blocks(out)
     out = clean_sumario(out)
     out = clean_signatures(out)
 
     result = "\n".join(out)
+    result = clean_appendix_table(result)
     result = re.sub(r"\n{3,}", "\n\n", result)
     return result.strip()
 
@@ -263,13 +393,6 @@ def render_table_txt(table_lines: list[str]) -> list[str]:
 
 
 def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
-    """
-    Converte MD limpo → TXT estruturado.
-    strip_first_h1_title: remove o primeiro heading de nível 1 ou 2 que
-    corresponda ao título principal do documento, evitando duplicação com
-    o cabeçalho TXT já adicionado externamente.
-    """
-    # Remove frontmatter YAML
     md = re.sub(r"^---\n.*?\n---\n", "", md, flags=re.DOTALL)
 
     lines = md.splitlines()
@@ -280,7 +403,6 @@ def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
     while i < len(lines):
         line = lines[i]
 
-        # Bloco de tabela
         if line.startswith("|"):
             table_block = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -291,7 +413,6 @@ def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
             out.append("")
             continue
 
-        # Headings
         heading_match = re.match(r"^(#{1,6})\s+(.*)", line)
         if heading_match:
             level = len(heading_match.group(1))
@@ -299,7 +420,6 @@ def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
             text  = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
             text  = re.sub(r"`(.+?)`",        r"\1", text)
 
-            # Pula o título principal se já está no cabeçalho TXT
             if strip_first_h1_title and not first_doc_title_skipped and level <= 2:
                 upper = text.upper()
                 if "PROJETO PEDAGÓGICO" in upper and "CIÊNCIA DA COMPUTAÇÃO" in upper:
@@ -325,13 +445,11 @@ def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
             i += 1
             continue
 
-        # Separador de assinatura
         if line.strip() == "---":
             out.append("  " + "_" * 50)
             i += 1
             continue
 
-        # Remove marcação inline
         line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
         line = re.sub(r"\*(.+?)\*",     r"\1", line)
         line = re.sub(r"__(.+?)__",     r"\1", line)
