@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 """
-extract_ppc_cc.py — Extrai o Projeto Pedagógico do Curso (PPC) usando Docling.
-
-Fixes v5:
-- Cabeçalho TXT duplicado: bug de parênteses não fechados → txt_header era
-  concatenado infinitamente. Corrigido com parênteses corretos.
-- Campos de disciplina (Créditos/Carga Horária/Pré-requisito) agora têm os
-  valores inline: "Créditos: 3.1.0" em vez de "Créditos:\n3.1.0".
-- Símbolo ßà nas tabelas de equivalência substituído por "↔" (seta bidirecional).
-- Remoção de duplicação de blocos de capa (Docling repete o heading da capa
-  uma vez por página de rosto — detectado e deduplicado).
-- Sintaxe de PdfPipelineOptions() e DocumentConverter() corrigida.
+extract_ppc_cc.py — Extrai o PPC do Curso de CC/UFPI usando Docling.
 """
 
 import re
@@ -18,15 +8,14 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-# ── Configuração ───────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-INPUT_PDF  = PROJECT_ROOT / "docs_sigaa_cc/Projeto Pedagógico do Curso (Currículo 5 - Criado em 2019).pdf"
-OUTPUT_DIR = PROJECT_ROOT / "extracted_text/extracted_ppc_cc"
+INPUT_PDF    = PROJECT_ROOT / "docs_sigaa_cc/Projeto Pedagógico do Curso (Currículo 5 - Criado em 2019).pdf"
+OUTPUT_DIR   = PROJECT_ROOT / "extracted_text/extracted_ppc_cc"
 
-# ── Padrões de ruído específicos do PPC UFPI ──────────────────────────────────
+# ── Padrões de ruído ───────────────────────────────────────────────────────────
 NOISE_PATTERNS = [
-    re.compile(r"^\s*\t?\s*\d{1,3}\s*\t?\s*$"),          # número de página isolado
-    re.compile(r"^[\-\=\s]+$"),                            # linhas só de traços/iguais
+    re.compile(r"^\s*\t?\s*\d{1,3}\s*\t?\s*$"),
+    re.compile(r"^[\-\=\s]+$"),
     re.compile(r"^MINISTÉRIO DA EDUCAÇÃO\s*$"),
     re.compile(r"^UNIVERSIDADE FEDERAL DO PIAUÍ\s*$"),
     re.compile(r"^CAMPUS MINISTRO PETRÔNIO PORTELA\s*$"),
@@ -51,29 +40,32 @@ COVER_HEADING_PATTERNS = [
     re.compile(r"^Profa?\.?\s+Dr"),
 ]
 
-SUMARIO_START = re.compile(r"^#+\s*SUMÁRIO\s*$", re.IGNORECASE)
-SUMARIO_END   = re.compile(r"^#+\s*APRESENTAÇÃO\s*$", re.IGNORECASE)
-SIGNATURE_LINE = re.compile(r"^[\\/_\s]{10,}$")
+SUMARIO_START  = re.compile(r"^#+\s*SUMÁRIO\s*$", re.IGNORECASE)
+SUMARIO_END    = re.compile(r"^#+\s*APRESENTAÇÃO\s*$", re.IGNORECASE)
+SIGNATURE_LINE = re.compile(r"^[\\/_ \s]{10,}$")
 
-# ── Campos de disciplina que precisam do valor na mesma linha ─────────────────
-# Detecta linhas como "Créditos:", "Carga Horária:", "Pré-requisito(s):"
 DISCIPLINA_FIELD = re.compile(
-    r"^(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?)\s*:\s*$",
+    r"^(Créditos|Carga\s+Hor[aá]ria|Pré-requisito\(?s?\)?):\s*$",
     re.IGNORECASE,
 )
 
-# Símbolo garbled de direção nas tabelas de equivalência
 BIDI_ARROW_RE = re.compile(r"ß\s*à|ßà", re.IGNORECASE)
 
-# Bloco de capa que Docling repete por página → detectar e manter só a 1ª ocorrência
 COVER_BLOCK_RE = re.compile(
     r"## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL DO PIAUÍ"
     r".*?BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
     re.DOTALL,
 )
 
+# Título principal da capa que Docling gera como heading — remover do corpo pois
+# já está nos metadados YAML / cabeçalho TXT
+MAIN_TITLE_RE = re.compile(
+    r"^##\s+PROJETO PEDAGÓGICO DO CURSO DE BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO\s*$",
+    re.IGNORECASE,
+)
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
 
 def is_noise_line(line: str) -> bool:
     stripped = line.strip()
@@ -93,40 +85,30 @@ def is_cover_heading(text: str) -> bool:
 
 
 def fix_bidi_arrows(text: str) -> str:
-    """Substitui o símbolo garbled ßà por ↔."""
     return BIDI_ARROW_RE.sub("↔", text)
 
 
+def remove_image_comments(text: str) -> str:
+    """Remove os marcadores <!-- image --> gerados pelo Docling."""
+    return re.sub(r"<!--\s*image\s*-->", "", text)
+
+
 def deduplicate_cover_block(md: str) -> str:
-    """
-    Docling inclui o heading gigante da capa uma vez por página de rosto.
-    Mantém apenas a primeira ocorrência e remove as demais.
-    """
     matches = list(COVER_BLOCK_RE.finditer(md))
     if len(matches) <= 1:
         return md
-    # Remove todas as ocorrências após a primeira
     first_end = matches[0].end()
     prefix = md[:first_end]
-    suffix = md[first_end:]
-    suffix = COVER_BLOCK_RE.sub("", suffix)
+    suffix = COVER_BLOCK_RE.sub("", md[first_end:])
     return prefix + suffix
 
 
 def fix_inline_fields(lines: list[str]) -> list[str]:
-    """
-    Docling às vezes quebra campos de disciplina em duas linhas:
-        Créditos:
-        3.1.0
-    Esta função junta o valor na mesma linha:
-        Créditos: 3.1.0
-    """
     out = []
     i = 0
     while i < len(lines):
         line = lines[i]
         if DISCIPLINA_FIELD.match(line.strip()):
-            # Procura o próximo valor não-vazio
             j = i + 1
             while j < len(lines) and not lines[j].strip():
                 j += 1
@@ -159,14 +141,15 @@ def clean_sumario(lines: list[str]) -> list[str]:
                     for cell in cells:
                         clean = re.sub(r"-{3,}", "", cell).strip()
                         clean = re.sub(r"\s{2,}", " ", clean)
+                        # Ignora células que são apenas números (nºs de página)
                         if clean and not re.match(r"^\d{1,3}$", clean):
                             sumario_entries.append(clean)
                 elif l.strip() and not re.match(r"^[\-\s]+$", l):
                     clean = re.sub(r"\s{2,}", " ", l.strip())
-                    if clean:
+                    if clean and not re.match(r"^\d{1,3}$", clean):
                         sumario_entries.append(clean)
                 i += 1
-            seen = set()
+            seen: set[str] = set()
             for entry in sumario_entries:
                 if entry not in seen:
                     seen.add(entry)
@@ -199,35 +182,29 @@ def normalize_body_spaces(line: str) -> str:
     return re.sub(r" +", " ", line)
 
 
-# ── Pós-processamento principal ───────────────────────────────────────────────
+# ── Pós-processamento principal (MD) ─────────────────────────────────────────
 
 def post_process_markdown(raw_md: str) -> str:
-    """
-    Limpa e organiza o Markdown bruto gerado pelo Docling:
-    1. Remove bloco de capa duplicado
-    2. Corrige símbolo ßà → ↔
-    3. Remove linhas de ruído fora de tabelas
-    4. Junta campos de disciplina com seus valores (Créditos:, Carga Horária:, Pré-req:)
-    5. Limpa bloco do Sumário
-    6. Limpa assinaturas
-    7. Rebaixa headings de capa de ## para ###
-    8. Normaliza espaços múltiplos no corpo
-    9. Colapsa múltiplas linhas em branco
-    """
-    # Pré-processamento no texto completo
+    raw_md = remove_image_comments(raw_md)
     raw_md = deduplicate_cover_block(raw_md)
     raw_md = fix_bidi_arrows(raw_md)
 
     lines = raw_md.splitlines()
     out = []
+    main_title_removed = False
 
     for line in lines:
         in_table = line.startswith("|")
 
+        # Remove a primeira ocorrência do título principal (já nos metadados)
+        if not main_title_removed and MAIN_TITLE_RE.match(line.strip()):
+            main_title_removed = True
+            continue
+
         if not in_table and is_noise_line(line):
             continue
 
-        # Corrige espaço ausente após # em headings colados
+        # Corrige heading sem espaço após #
         heading_match = re.match(r"^(#{1,6})([^ #])", line)
         if heading_match:
             line = heading_match.group(1) + " " + line[len(heading_match.group(1)):]
@@ -242,7 +219,6 @@ def post_process_markdown(raw_md: str) -> str:
 
         out.append(line)
 
-    # Etapas estruturais em sequência
     out = fix_inline_fields(out)
     out = clean_sumario(out)
     out = clean_signatures(out)
@@ -252,7 +228,7 @@ def post_process_markdown(raw_md: str) -> str:
     return result.strip()
 
 
-# ── Renderização TXT ─────────────────────────────────────────────────────────
+# ── Renderização TXT ──────────────────────────────────────────────────────────
 
 def render_table_txt(table_lines: list[str]) -> list[str]:
     rows = []
@@ -276,24 +252,22 @@ def render_table_txt(table_lines: list[str]) -> list[str]:
 
     out = []
     for k, row in enumerate(rows):
-        padded = []
-        for j in range(num_cols):
-            cell = row[j] if j < len(row) else ""
-            padded.append(cell.ljust(col_widths[j]))
+        padded = [
+            (row[j] if j < len(row) else "").ljust(col_widths[j])
+            for j in range(num_cols)
+        ]
         out.append("  ".join(padded).rstrip())
         if k == 0:
             out.append("  ".join("-" * w for w in col_widths))
     return out
 
 
-def markdown_to_txt(md: str) -> str:
+def markdown_to_txt(md: str, strip_first_h1_title: bool = True) -> str:
     """
-    Converte Markdown limpo → TXT estruturado e legível:
-    - Headings → separadores ASCII por nível
-    - Tabelas → colunas alinhadas com ljust
-    - Remove marcação inline (negrito, itálico, código)
-    - Remove frontmatter YAML
-    - Mantém campos de disciplina inline (já processados)
+    Converte MD limpo → TXT estruturado.
+    strip_first_h1_title: remove o primeiro heading de nível 1 ou 2 que
+    corresponda ao título principal do documento, evitando duplicação com
+    o cabeçalho TXT já adicionado externamente.
     """
     # Remove frontmatter YAML
     md = re.sub(r"^---\n.*?\n---\n", "", md, flags=re.DOTALL)
@@ -301,6 +275,7 @@ def markdown_to_txt(md: str) -> str:
     lines = md.splitlines()
     out = []
     i = 0
+    first_doc_title_skipped = False
 
     while i < len(lines):
         line = lines[i]
@@ -316,13 +291,22 @@ def markdown_to_txt(md: str) -> str:
             out.append("")
             continue
 
-        # Headings → separadores ASCII
+        # Headings
         heading_match = re.match(r"^(#{1,6})\s+(.*)", line)
         if heading_match:
             level = len(heading_match.group(1))
             text  = heading_match.group(2).strip()
             text  = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
             text  = re.sub(r"`(.+?)`",        r"\1", text)
+
+            # Pula o título principal se já está no cabeçalho TXT
+            if strip_first_h1_title and not first_doc_title_skipped and level <= 2:
+                upper = text.upper()
+                if "PROJETO PEDAGÓGICO" in upper and "CIÊNCIA DA COMPUTAÇÃO" in upper:
+                    first_doc_title_skipped = True
+                    i += 1
+                    continue
+
             out.append("")
             if level == 1:
                 out.append("=" * 80)
@@ -341,7 +325,7 @@ def markdown_to_txt(md: str) -> str:
             i += 1
             continue
 
-        # Linha de assinatura
+        # Separador de assinatura
         if line.strip() == "---":
             out.append("  " + "_" * 50)
             i += 1
@@ -409,9 +393,9 @@ def main():
     result = convert(INPUT_PDF)
     print("Conversão concluída. Aplicando pós-processamento...")
 
-    raw_md   = result.document.export_to_markdown(strict_text=False)
-    md_clean = post_process_markdown(raw_md)
-    txt_clean = markdown_to_txt(md_clean)
+    raw_md    = result.document.export_to_markdown(strict_text=False)
+    md_clean  = post_process_markdown(raw_md)
+    txt_clean = markdown_to_txt(md_clean, strip_first_h1_title=True)
 
     now = datetime.now().isoformat(timespec="seconds")
 
@@ -430,7 +414,7 @@ def main():
         "  PROJETO PEDAGÓGICO DO CURSO — BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO\n"
         "  Currículo 5 — Criado em 2019 | UFPI\n"
         f"  Extraído em: {now} | Docling (TableFormer Accurate)\n"
-        "=" * 80 + "\n\n"
+        + "=" * 80 + "\n\n"
     )
 
     final_md  = md_header + md_clean

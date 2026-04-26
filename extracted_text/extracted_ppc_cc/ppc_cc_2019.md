@@ -2,13 +2,10 @@
 title: "Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação"
 curriculum: "Currículo 5 - Criado em 2019"
 institution: "Universidade Federal do Piauí (UFPI)"
-extracted_at: "2026-04-25T16:32:16"
+extracted_at: "2026-04-25T18:34:39"
 extractor: "docling+tableformer-accurate"
 ---
 
-<!-- image -->
-## PROJETO PEDAGÓGICO DO CURSO DE BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
-<!-- image -->
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL DO PIAUÍ CAMPUS MINISTRO PETRÔNIO PORTELA CENTRO DE CIÊNCIAS DA NATUREZA BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
 Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação, da Universidade Federal do Piauí - Campus Ministro Petrônio Portela, no município de Teresina, Piauí, a ser implementado em 2019.2.
  CORPO DIRIGENTE
@@ -409,7 +406,6 @@ Tabela 04 - Lista de disciplinas optativas distribuídas por período.
 ## 3.2.1. Fluxograma
 O fluxograma do curso está apresentado na Tabela 05, e pode ser melhor visualizado no Apêndice I.
 Tabela 05 - Fluxograma de disciplinas do curso.
-<!-- image -->
 ## 3.3.  Estágio supervisionado, atividades complementares e trabalho de conclusão
 ## 3.3.1. Estágio Supervisionado Obrigatório
 O Estágio Supervisionado Obrigatório do curso de Bacharelado em Ciência da Computação da UFPI está regulamentado de acordo com a Lei Federal 11.788 de 25 de setembro de 2008, que dispõe sobre o estágio de estudantes; e o Regulamento Geral da Graduação da Pró-Reitoria de Ensino de Graduação (PREG) da UFPI (Resolução CEPEX Nº 177/12), atualizado em 20 de junho de 2018. A legislação e documentação vigentes referente ao Estágio Supervisionado estão disponíveis no sítio da Coordenadoria Geral de Estágio da Universidade Federal do Piauí.
@@ -1806,7 +1802,6 @@ superiores reconhecidos, a oferta de disciplinas integrantes do currículo que u
 20. Portaria Normativa MEC nº 1.383, de 31 de outubro de 2017. Aprova, em extrato, os indicadores do Instrumento de Avaliação de Cursos de Graduação para os atos de autorização, reconhecimento e renovação de reconhecimento nas modalidades presencial e a distância do Sistema Nacional de Avaliação da Educação Superior - Sinaes.
 21. Resolução CONAES n° 01, de 17 de junho de 2010. Normatiza o Núcleo Docente Estruturante e dá outras providências.
 ## APÊNDICE I - FLUXOGRAMA DE DISCIPLINAS DO CURSO
-<!-- image -->
 ## APÊNDICE II - REGULAMENTO DO TRABALHO DE CONCLUSÃO DE CURSO
 ## CAPÍTULO I DOS OBJETIVOS
 - Art. 1. O Trabalho de Conclusão de Curso (TCC) é um instrumento de iniciação científica a ser desenvolvido em disciplinas obrigatórias para a integralização curricular.
