@@ -2,91 +2,87 @@
 title: "Regulamento Geral da Graduação da UFPI"
 institution: "Universidade Federal do Piauí (UFPI)"
 updated: "03/05/2023"
-extracted_at: "2026-04-23T20:31:25"
+extracted_at: "2026-04-25T22:40:36"
 extractor: "docling+tableformer-accurate"
 ---
 
-## RESOLUÇÃO Nº 177/2012, DO CEPEX/UFPI REGULAMENTO GERAL DA GRADUAÇÃO
 ## RESOLUÇÃO Nº 177/2012, DO CEPEX/UFPI REGULAMENTO GERAL DA GRADUAÇÃO
 ## Atualizado em 03 de maio de 2023
 ### PRÓ-REITORIA DE ENSINO DE GRADUAÇÃO - PREG
 ## SUMÁRIO
 
-- TÍTULO I - DAS DISPOSIÇÕES PRELIMINARES................................................................................
-- TÍTULO II - DA EXECUÇÃO, REGISTRO E CONTROLE ACADÊMICOS...............................................
-- TÍTULO III - DOS CURSOS DE GRADUAÇÃO ...................................................................................
-- CAPÍTULO I - DAS UNIDADES DE VINCULAÇÃO E DO MUNICÍPIO SEDE..............................
-- CAPÍTULO II - DA CRIAÇÃO..................................................................................................
-- CAPÍTULO III - DA ESTRUTURA CURRICULAR.......................................................................
-- CAPÍTULO IV - DO TÍTULO ACADÊMICO..............................................................................
-- CAPÍTULO V - DA ÊNFASE....................................................................................................
-- CAPÍTULO VI - DA INTEGRALIZAÇÃO CURRICULAR ........................................................... 10
-- CAPÍTULO VII - DO TURNO DE FUNCIONAMENTO............................................................ 11
-- CAPÍTULO VIII - DO PROJETO PEDAGÓGICO DO CURSO................................................... 11
-- TÍTULO IV - DOS PERÍODOS LETIVOS...........................................................................................
-- TÍTULO V - DA OFERTA DE VAGAS PARA OS CURSOS..................................................................
-- TÍTULO VI - DOS COMPONENTES CURRICULARES.......................................................................
-- CAPÍTULO I - DAS DISCIPLINAS.......................................................................................... 17
-- CAPÍTULO II - DOS MÓDULOS...........................................................................................
-- CAPÍTULO III - DOS AGRUPAMENTOS...............................................................................
-- CAPÍTULO IV - DAS ATIVIDADES ACADÊMICAS ESPECÍFICAS ............................................
-- Seção I - Das Atividades Acadêmicas Individuais....................................................20
-- Seção II - Das Atividades De Orientação Individual ................................................20
-- Seção III - Das Atividades Especiais Coletivas .........................................................21
-- Seção IV - Do Estágio Obrigatório ...........................................................................21
-- Seção V - Do Trabalho De Conclusão De Curso.......................................................27
-- Seção VI - Das Atividades Complementares ...........................................................28
-- TÍTULO VII - DO HORÁRIO DE AULAS ..........................................................................................
-- TÍTULO VIII - DA AVALIAÇÃO DA APRENDIZAGEM E DA ASSIDUIDADE ......................................
+- TÍTULO I - DAS DISPOSIÇÕES PRELIMINARES
+- TÍTULO II - DA EXECUÇÃO, REGISTRO E CONTROLE ACADÊMICOS
+- TÍTULO III - DOS CURSOS DE GRADUAÇÃO
+- CAPÍTULO I - DAS UNIDADES DE VINCULAÇÃO E DO MUNICÍPIO SEDE
+- CAPÍTULO II - DA CRIAÇÃO
+- CAPÍTULO III - DA ESTRUTURA CURRICULAR
+- CAPÍTULO IV - DO TÍTULO ACADÊMICO
+- CAPÍTULO V - DA ÊNFASE
+- CAPÍTULO VI - DA INTEGRALIZAÇÃO CURRICULAR
+- CAPÍTULO VII - DO TURNO DE FUNCIONAMENTO
+- CAPÍTULO VIII - DO PROJETO PEDAGÓGICO DO CURSO
+- TÍTULO IV - DOS PERÍODOS LETIVOS
+- TÍTULO V - DA OFERTA DE VAGAS PARA OS CURSOS
+- TÍTULO VI - DOS COMPONENTES CURRICULARES
+- CAPÍTULO I - DAS DISCIPLINAS
+- CAPÍTULO II - DOS MÓDULOS
+- CAPÍTULO III - DOS AGRUPAMENTOS
+- CAPÍTULO IV - DAS ATIVIDADES ACADÊMICAS ESPECÍFICAS
+- Seção I - Das Atividades Acadêmicas Individuais20
+- Seção II - Das Atividades De Orientação Individual
+- Seção III - Das Atividades Especiais Coletivas
+- Seção IV - Do Estágio Obrigatório
+- Seção V - Do Trabalho De Conclusão De Curso27
+- Seção VI - Das Atividades Complementares
+- TÍTULO VII - DO HORÁRIO DE AULAS
+- TÍTULO VIII - DA AVALIAÇÃO DA APRENDIZAGEM E DA ASSIDUIDADE
 - CAPÍTULO I - DA AVALIAÇÃO DA APRENDIZAGEM E DA ASSIDUIDADE EM DISCIPLINAS .
-- CAPÍTULO II - DA AVALIAÇÃO DA APRENDIZAGEM E DA ASSIDUIDADE EM OUTRAS UNIDADES DE ESTRUTURAÇÃO DIDÁTICO-PEDAGÓGICA................................................. 36
-- TÍTULO IX - DAS FORMAS DE MENSURAÇÃO DO RENDIMENTO ACADÊMICO ACUMULADO.....
-- TÍTULO X - DA ORIENTAÇÃO ACADÊMICA...................................................................................
+- CAPÍTULO II - DA AVALIAÇÃO DA APRENDIZAGEM E DA ASSIDUIDADE EM OUTRAS UNIDADES DE ESTRUTURAÇÃO DIDÁTICO-PEDAGÓGICA
+- TÍTULO IX - DAS FORMAS DE MENSURAÇÃO DO RENDIMENTO ACADÊMICO ACUMULADO
+- TÍTULO X - DA ORIENTAÇÃO ACADÊMICA
 - TÍTULO XI - DO FUNCIONAMENTO, PARALISAÇÃO E EXTINÇÃO DE CURSO DE GRADUAÇÃO...
-- TÍTULO XII - DAS FORMAS DE INGRESSO....................................................................................
-- CAPÍTULO I - DAS FORMAS REGULARES DE INGRESSO .................................................... 40
-- Seção I - Vestibular E SiSU......................................................................................41
-- Seção II - Da Transferência ex officio .....................................................................41
-- Seção III - Da Transferência Voluntária..................................................................43
-- Seção IV - Do Ingresso De Portador De Curso Superior..........................................46
-- Seção V - Da Remoção ............................................................................................47
-- Seção VI - Da Reintegração .....................................................................................48
-- Seção VII - Das Formas Regulares De Ingresso Definidas Por Meio De Convênios Ou Determinadas Por Lei..............................................................................................49
-- CAPÍTULO II - DAS FORMAS ESPECIAIS DE INGRESSO....................................................... 49
-- Seção I - Do Aluno Especial .....................................................................................49
-- Seção II - Do Aluno Em Mobilidade Nacional Ou Internacional..............................51
-- TÍTULO XIII - DO CADASTRO OU MATRÍCULA INSTITUCIONAL DE ALUNO..................................
-- TÍTULO XIV - DO CURSO ..............................................................................................................
-- TÍTULO XV - DO AMBIENTE ACADÊMICO....................................................................................
-- CAPÍTULO I - DA MATRÍCULA CURRICULAR ......................................................................
-- Seção I - Dos Procedimentos De Matrícula Em Componentes Curriculares Dos Alunos Regulares Em Períodos Letivos Regulares ..............................................................54
-- Seção III - Da Matrícula Curricular E Da Consolidação Dos Resultados Nas Atividades Acadêmicas Específicas...........................................................................................62
-- CAPÍTULO II - DAS SITUAÇÕES ESPECIAIS.......................................................................... 63
-- Seção I - Do Regime De Exercícios Domiciliares .....................................................63
-- Seção II - Do Aproveitamento De Estudos..............................................................66
-- Seção IV - Da Oferta De Componente Curricular Em Períodos Letivos Especiais De
-- Férias
-- ................................................................................................................................ 71
-- Seção V - Da Realização De Atividades Acadêmicas Específicas Em Períodos Letivos
-- Especiais De Férias..................................................................................................72
-- Seção VI - Do Ensino Individual Em Componentes Curriculares.............................72
-- Seção VII - Do Trancamento De Matrícula Em Componente Curricular.................73
-- Seção VIII - Do Trancamento De Curso ...................................................................74
-- Seção IX - Da Permuta De Turno.............................................................................75
-- Seção X - Da Mudança De Ênfase Dentro Da Mesma Modalidade Do Curso.........76
-- Seção XI - Da Mudança De Estrutura Curricular .....................................................77
-- Seção XII - Da Retificação De Notas, Digitação De Notas E Outras Matérias Relacionadas À Verificação Do Rendimento Acadêmico ..............................................................77
-- Seção XIII - Da Permissão Para Cursar Componentes Curriculares Em Outra Instituição De Ensino Superior - Mobilidade Acadêmica...............................................................78
-- Seção XIV - Da Mobilidade Interna E Matrícula Intercampi ....................................79
-- TÍTULO XVI - DA DESVINCULAÇÃO.............................................................................................. 82
-- CAPÍTULO I - DA CONCLUSÃO DE CURSO.......................................................................... 82
-- Seção I - Da Outorga De Grau .................................................................................82
-- CAPÍTULO II - DO CANCELAMENTO DE CURSO................................................................. 87
-- CAPÍTULO I - DOS DOCUMENTOS EXPEDIDOS.................................................................. 89
-- CAPÍTULO II - DOS DOCUMENTOS DE REGISTRO.............................................................. 90
-- TÍTULO XVIII - DA REVALIDAÇÃO DE DIPLOMAS DE CURSOS DE GRADUAÇÃO EXPEDIDOS NO EXTERIOR..................................................................................................................................... 91
-- TÍTULO XIX - DA GUARDA DE DOCUMENTOS.............................................................................. 91
-- TÍTULO XX - DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS............................................................. 92
+- TÍTULO XII - DAS FORMAS DE INGRESSO
+- CAPÍTULO I - DAS FORMAS REGULARES DE INGRESSO
+- Seção I - Vestibular E SiSU41
+- Seção II - Da Transferência ex officio
+- Seção III - Da Transferência Voluntária43
+- Seção IV - Do Ingresso De Portador De Curso Superior46
+- Seção V - Da Remoção
+- Seção VI - Da Reintegração
+- Seção VII - Das Formas Regulares De Ingresso Definidas Por Meio De Convênios Ou Determinadas Por Lei49
+- CAPÍTULO II - DAS FORMAS ESPECIAIS DE INGRESSO
+- Seção I - Do Aluno Especial
+- Seção II - Do Aluno Em Mobilidade Nacional Ou Internacional51
+- TÍTULO XIII - DO CADASTRO OU MATRÍCULA INSTITUCIONAL DE ALUNO
+- TÍTULO XIV - DO CURSO
+- TÍTULO XV - DO AMBIENTE ACADÊMICO
+- CAPÍTULO I - DA MATRÍCULA CURRICULAR
+- Seção I - Dos Procedimentos De Matrícula Em Componentes Curriculares Dos Alunos Regulares Em Períodos Letivos Regulares
+- Seção III - Da Matrícula Curricular E Da Consolidação Dos Resultados Nas Atividades Acadêmicas Específicas62
+- CAPÍTULO II - DAS SITUAÇÕES ESPECIAIS
+- Seção I - Do Regime De Exercícios Domiciliares
+- Seção II - Do Aproveitamento De Estudos66
+- Seção IV - Da Oferta De Componente Curricular Em Períodos Letivos Especiais De Férias
+- Seção V - Da Realização De Atividades Acadêmicas Específicas Em Períodos Letivos Especiais De Férias72
+- Seção VI - Do Ensino Individual Em Componentes Curriculares72
+- Seção VII - Do Trancamento De Matrícula Em Componente Curricular73
+- Seção VIII - Do Trancamento De Curso
+- Seção IX - Da Permuta De Turno75
+- Seção X - Da Mudança De Ênfase Dentro Da Mesma Modalidade Do Curso76
+- Seção XI - Da Mudança De Estrutura Curricular
+- Seção XII - Da Retificação De Notas, Digitação De Notas E Outras Matérias Relacionadas À Verificação Do Rendimento Acadêmico
+- Seção XIII - Da Permissão Para Cursar Componentes Curriculares Em Outra Instituição De Ensino Superior - Mobilidade Acadêmica78
+- Seção XIV - Da Mobilidade Interna E Matrícula Intercampi
+- TÍTULO XVI - DA DESVINCULAÇÃO
+- CAPÍTULO I - DA CONCLUSÃO DE CURSO
+- Seção I - Da Outorga De Grau
+- CAPÍTULO II - DO CANCELAMENTO DE CURSO
+- CAPÍTULO I - DOS DOCUMENTOS EXPEDIDOS
+- CAPÍTULO II - DOS DOCUMENTOS DE REGISTRO
+- TÍTULO XVIII - DA REVALIDAÇÃO DE DIPLOMAS DE CURSOS DE GRADUAÇÃO EXPEDIDOS NO EXTERIOR
+- TÍTULO XIX - DA GUARDA DE DOCUMENTOS
+- TÍTULO XX - DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 - ## RESOLUÇÃO Nº177/12-CEPEX
 - (CONSOLIDADA COM AS ALTERAÇÕES)
 

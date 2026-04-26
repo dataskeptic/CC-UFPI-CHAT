@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-extract_regulamento.py — Extrai o Regulamento Geral da Graduação da UFPI usando Docling.
+extract_regulamento.py — Extracts UFPI Graduation Regulation using Docling.
 
-Características do documento:
-- Estrutura jurídica: Títulos → Capítulos → Artigos → Parágrafos/Incisos
-- Sem tabelas de disciplinas (sem campos Créditos/CH/Pré-req)
-- Cabeçalho institucional repetido em várias páginas
-- Numeração de página isolada em linhas
-- Assinaturas ao final
+Document characteristics:
+- Legal structure: Títulos → Capítulos → Artigos → Parágrafos/Incisos
+- Institutional header repeated on every page
+- Isolated page numbers
+- Signatures at the end
 """
 
 import re
@@ -15,15 +14,15 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-# ── Configuração ───────────────────────────────────────────────────────────────
+# ── Configuration ──────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
 INPUT_PDF  = PROJECT_ROOT / "docs_sigaa_cc/Regulamento Geral da Graduação (Atualizado em 03 - 05 - 2023)"
-OUTPUT_DIR = PROJECT_ROOT / "extracted_text/extracted_regulamento/"
+OUTPUT_DIR = PROJECT_ROOT / "extracted_text/extracted_regulamento"
 
-# ── Padrões de ruído ──────────────────────────────────────────────────────────
+# ── Noise patterns ─────────────────────────────────────────────────────────────
 NOISE_PATTERNS = [
-    re.compile(r"^\s*\d{1,3}\s*$"),                          # número de página isolado
-    re.compile(r"^[\-\=\s]+$"),                               # linhas de traço/igual
+    re.compile(r"^\s*\d{1,3}\s*$"),
+    re.compile(r"^[\-\=\s]+$"),
     re.compile(r"^MINISTÉRIO DA EDUCAÇÃO\s*$"),
     re.compile(r"^UNIVERSIDADE FEDERAL DO PIAUÍ\s*$"),
     re.compile(r"^CAMPUS MINISTRO PETRÔNIO PORTELA\s*$"),
@@ -35,7 +34,7 @@ NOISE_PATTERNS = [
     re.compile(r"^\s*$"),
 ]
 
-# Headings de capa/institucional que devem ser rebaixados de ## para ###
+# Cover/institutional headings to demote from ## to ###
 COVER_HEADING_PATTERNS = [
     re.compile(r"^(REITOR|VICE-REITORA?|PRÓ-REITOR)"),
     re.compile(r"^(PRESIDENTE|VICE-PRESIDENTE|SECRET[AÁ]RIO|CONSELHEIRO)"),
@@ -43,23 +42,27 @@ COVER_HEADING_PATTERNS = [
     re.compile(r"^Profa?\.?\s+Dr"),
 ]
 
-# Assinaturas
-SIGNATURE_LINE = re.compile(r"^[\\/_\s]{10,}$")
+SIGNATURE_LINE = re.compile(r"^[\\/_ \s]{10,}$")
 
-# Cabeçalho institucional repetido por página (deduplicar)
-COVER_BLOCK_RE = re.compile(
-    r"(## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL DO PIAUÍ"
-    r"|## CONSELHO DE ENSINO[,\s]PESQUISA E EXTENSÃO"
-    r"|## UNIVERSIDADE FEDERAL DO PIAUÍ\s*\n)",
+# Repeated institutional heading that Docling emits once per page
+REPEATED_HEADING_RE = re.compile(
+    r"^## (MINISTÉRIO DA EDUCAÇÃO|UNIVERSIDADE FEDERAL DO PIAUÍ"
+    r"|CONSELHO DE ENSINO|RESOLUÇÃO Nº 177)",
     re.IGNORECASE,
 )
 
-# Detecta início/fim do Sumário (se existir)
 SUMARIO_START = re.compile(r"^#+\s*SUM[AÁ]RIO\s*$", re.IGNORECASE)
-SUMARIO_END   = re.compile(r"^#+\s*(APRESENTAÇÃO|TÍTULO|CAPÍTULO|Art\.)\s*", re.IGNORECASE)
+SUMARIO_END   = re.compile(r"^#+\s*(APRESENTAÇÃO|TÍTULO\s+I\b|Art\.)\s*", re.IGNORECASE)
+
+# Art. with ordinal or period, isolated on its own line
+ART_ALONE_RE  = re.compile(r"^(Art\.\s*\d+[ºª°\.]?)\s*$")
+
+# Incisos/paragraphs that Docling sometimes breaks across lines
+# e.g. "I\n- text" or "§ 1º\ntext"
+INCISO_ALONE_RE = re.compile(r"^(I{1,3}V?|VI{0,3}|IX|X{1,3})\s*[-–]\s*$")
 
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# ── Helpers ────────────────────────────────────────────────────────────────────
 
 def is_noise_line(line: str) -> bool:
     stripped = line.strip()
@@ -78,26 +81,38 @@ def is_cover_heading(text: str) -> bool:
     return False
 
 
-def deduplicate_cover_blocks(md: str) -> str:
+def normalize_body_spaces(line: str) -> str:
+    if line.startswith("|") or line.startswith("#"):
+        return line
+    return re.sub(r" {2,}", " ", line)
+
+
+# ── Deduplication of repeated institutional headings ──────────────────────────
+
+def deduplicate_repeated_headings(lines: list[str]) -> list[str]:
     """
-    Remove repetições do bloco de cabeçalho institucional que Docling gera
-    uma vez por página. Mantém só a primeira ocorrência de cada padrão.
+    Docling emits the document header (Resolução, Ministério, etc.) once
+    per page. Keep only the first occurrence of each such heading.
     """
-    seen = set()
-    lines = md.splitlines()
+    seen: set[str] = set()
     out = []
     for line in lines:
-        key = line.strip()
-        if COVER_BLOCK_RE.match(line):
+        if REPEATED_HEADING_RE.match(line):
+            key = line.strip()
             if key in seen:
                 continue
             seen.add(key)
         out.append(line)
-    return "\n".join(out)
+    return out
 
+
+# ── Sumário cleanup ────────────────────────────────────────────────────────────
 
 def clean_sumario(lines: list[str]) -> list[str]:
-    """Se existir Sumário como tabela bagunçada, converte em lista plain-text."""
+    """
+    Converts the Sumário (often a messy table or dotted list from the PDF)
+    into a clean bullet list, stripping dot leaders and page numbers.
+    """
     out = []
     i = 0
     while i < len(lines):
@@ -106,24 +121,48 @@ def clean_sumario(lines: list[str]) -> list[str]:
             out.append("## SUMÁRIO")
             out.append("")
             i += 1
-            entries = []
+            entries: list[str] = []
+            pending = ""
             while i < len(lines):
                 l = lines[i]
                 if SUMARIO_END.match(l.strip()):
                     break
+
+                # Extract text from table cells
                 if l.startswith("|"):
                     cells = [c.strip() for c in l.split("|") if c.strip()]
-                    for cell in cells:
-                        clean = re.sub(r"-{3,}", "", cell).strip()
-                        clean = re.sub(r"\s{2,}", " ", clean)
-                        if clean and not re.match(r"^\d{1,3}$", clean):
-                            entries.append(clean)
-                elif l.strip() and not re.match(r"^[\-\s]+$", l):
-                    clean = re.sub(r"\s{2,}", " ", l.strip())
-                    if clean:
-                        entries.append(clean)
+                    raw = " ".join(cells)
+                else:
+                    raw = l.strip()
+
+                if not raw or re.match(r"^[\-\s]+$", raw):
+                    i += 1
+                    continue
+
+                # Strip dot leaders (sequences of 4+ dots) and trailing page numbers
+                raw = re.sub(r"\.{4,}", "", raw)
+                raw = re.sub(r"\s+\d{1,3}\s*$", "", raw).strip()
+                raw = re.sub(r"\s{2,}", " ", raw)
+
+                if not raw or re.match(r"^\d{1,3}$", raw):
+                    i += 1
+                    continue
+
+                # Join continuation lines: if the line starts with a lowercase
+                # letter or doesn't look like a new entry, it's a continuation
+                if pending and (raw[0].islower() or raw.startswith("Férias") or raw.startswith("Especiais")):
+                    pending = pending.rstrip() + " " + raw
+                else:
+                    if pending:
+                        entries.append(pending)
+                    pending = raw
+
                 i += 1
-            seen = set()
+
+            if pending:
+                entries.append(pending)
+
+            seen: set[str] = set()
             for e in entries:
                 if e not in seen:
                     seen.add(e)
@@ -134,6 +173,56 @@ def clean_sumario(lines: list[str]) -> list[str]:
             i += 1
     return out
 
+
+# ── Join isolated Art. N. with next line ──────────────────────────────────────
+
+def fix_artigo_inline(lines: list[str]) -> list[str]:
+    """
+    Joins 'Art. 42.' on its own line with the following text line.
+    Also handles 'Art. 1º', 'Art. 10.', etc.
+    """
+    out = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if ART_ALONE_RE.match(line.strip()):
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and not lines[j].startswith(("#", "|")):
+                out.append(line.rstrip() + " " + lines[j].strip())
+                i = j + 1
+                continue
+        out.append(line)
+        i += 1
+    return out
+
+
+# ── Join isolated Roman numeral incisos with next line ────────────────────────
+
+def fix_inciso_inline(lines: list[str]) -> list[str]:
+    """
+    Joins 'I -' alone on a line with the following text.
+    Docling sometimes breaks 'I - texto do inciso' into two lines.
+    """
+    out = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if INCISO_ALONE_RE.match(line.strip()):
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and not lines[j].startswith(("#", "|")):
+                out.append(line.rstrip() + " " + lines[j].strip())
+                i = j + 1
+                continue
+        out.append(line)
+        i += 1
+    return out
+
+
+# ── Signatures ────────────────────────────────────────────────────────────────
 
 def clean_signatures(lines: list[str]) -> list[str]:
     out = []
@@ -150,42 +239,11 @@ def clean_signatures(lines: list[str]) -> list[str]:
     return out
 
 
-def normalize_body_spaces(line: str) -> str:
-    if line.startswith("|") or line.startswith("#"):
-        return line
-    return re.sub(r" {2,}", " ", line)
-
-
-def fix_artigo_inline(lines: list[str]) -> list[str]:
-    """
-    Documentos jurídicos às vezes têm o número do artigo separado do texto:
-        Art. 42.
-        Disciplina é o conjunto...
-    Junta numa única linha: "Art. 42. Disciplina é o conjunto..."
-    """
-    out = []
-    i = 0
-    art_re = re.compile(r"^(Art\.\s*\d+[\.\-º]?)\s*$")
-    while i < len(lines):
-        line = lines[i]
-        m = art_re.match(line.strip())
-        if m:
-            j = i + 1
-            while j < len(lines) and not lines[j].strip():
-                j += 1
-            if j < len(lines) and not lines[j].startswith(("#", "|")):
-                out.append(line.rstrip() + " " + lines[j].strip())
-                i = j + 1
-                continue
-        out.append(line)
-        i += 1
-    return out
-
-
-# ── Pós-processamento principal ───────────────────────────────────────────────
+# ── Main post-processing ──────────────────────────────────────────────────────
 
 def post_process_markdown(raw_md: str) -> str:
-    raw_md = deduplicate_cover_blocks(raw_md)
+    # Remove <!-- image --> markers
+    raw_md = re.sub(r"<!--\s*image\s*-->", "", raw_md)
 
     lines = raw_md.splitlines()
     out = []
@@ -196,12 +254,12 @@ def post_process_markdown(raw_md: str) -> str:
         if not in_table and is_noise_line(line):
             continue
 
-        # Corrige heading colado sem espaço ("##Título")
+        # Fix heading missing space after # (e.g. "##Título")
         hm = re.match(r"^(#{1,6})([^ #])", line)
         if hm:
             line = hm.group(1) + " " + line[len(hm.group(1)):]
 
-        # Rebaixa headings de capa de ## para ###
+        # Demote cover headings from ## to ###
         h2 = re.match(r"^## (.+)$", line)
         if h2 and is_cover_heading(h2.group(1)):
             line = "### " + h2.group(1)
@@ -211,7 +269,9 @@ def post_process_markdown(raw_md: str) -> str:
 
         out.append(line)
 
+    out = deduplicate_repeated_headings(out)
     out = fix_artigo_inline(out)
+    out = fix_inciso_inline(out)
     out = clean_sumario(out)
     out = clean_signatures(out)
 
@@ -220,7 +280,7 @@ def post_process_markdown(raw_md: str) -> str:
     return result.strip()
 
 
-# ── Renderização TXT ─────────────────────────────────────────────────────────
+# ── TXT rendering ─────────────────────────────────────────────────────────────
 
 def render_table_txt(table_lines: list[str]) -> list[str]:
     rows = []
@@ -233,16 +293,20 @@ def render_table_txt(table_lines: list[str]) -> list[str]:
             rows.append(cells)
     if not rows:
         return []
-    num_cols = max(len(r) for r in rows)
+
+    num_cols   = max(len(r) for r in rows)
     col_widths = [0] * num_cols
     for row in rows:
         for j, cell in enumerate(row):
             if j < num_cols:
                 col_widths[j] = max(col_widths[j], len(cell))
+
     out = []
     for k, row in enumerate(rows):
-        padded = [row[j].ljust(col_widths[j]) if j < len(row) else " " * col_widths[j]
-                  for j in range(num_cols)]
+        padded = [
+            (row[j] if j < len(row) else "").ljust(col_widths[j])
+            for j in range(num_cols)
+        ]
         out.append("  ".join(padded).rstrip())
         if k == 0:
             out.append("  ".join("-" * w for w in col_widths))
@@ -253,13 +317,12 @@ def markdown_to_txt(md: str) -> str:
     md = re.sub(r"^---\n.*?\n---\n", "", md, flags=re.DOTALL)
 
     lines = md.splitlines()
-    out = []
-    i = 0
+    out   = []
+    i     = 0
 
     while i < len(lines):
         line = lines[i]
 
-        # Tabela
         if line.startswith("|"):
             block = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -270,7 +333,6 @@ def markdown_to_txt(md: str) -> str:
             out.append("")
             continue
 
-        # Headings → separadores ASCII
         hm = re.match(r"^(#{1,6})\s+(.*)", line)
         if hm:
             level = len(hm.group(1))
@@ -297,13 +359,11 @@ def markdown_to_txt(md: str) -> str:
             i += 1
             continue
 
-        # Assinatura
         if line.strip() == "---":
             out.append("  " + "_" * 50)
             i += 1
             continue
 
-        # Remove marcação inline
         line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
         line = re.sub(r"\*(.+?)\*",     r"\1", line)
         line = re.sub(r"__(.+?)__",     r"\1", line)
@@ -318,7 +378,7 @@ def markdown_to_txt(md: str) -> str:
     return result.strip()
 
 
-# ── Conversão Docling ─────────────────────────────────────────────────────────
+# ── Docling conversion ────────────────────────────────────────────────────────
 
 def convert(pdf_path: Path):
     try:
@@ -326,27 +386,20 @@ def convert(pdf_path: Path):
         from docling.datamodel.base_models import InputFormat
         from docling.datamodel.pipeline_options import PdfPipelineOptions, TableFormerMode
     except ImportError:
-        print("[ERRO] Docling não instalado. Execute: pip install docling")
+        print("[ERROR] Docling not installed. Run: pip install docling")
         sys.exit(1)
 
-    print("Configurando pipeline Docling (TableFormer ACCURATE)...")
-
-    pipeline_options = PdfPipelineOptions(
-        do_ocr=False,
-        do_table_structure=True,
-    )
+    print("Configuring Docling pipeline (TableFormer ACCURATE)...")
+    pipeline_options = PdfPipelineOptions(do_ocr=False, do_table_structure=True)
     pipeline_options.table_structure_options.mode = TableFormerMode.ACCURATE
     pipeline_options.table_structure_options.do_cell_matching = True
 
     converter = DocumentConverter(
-        format_options={
-            InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
-        }
+        format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)}
     )
 
-    print(f"Convertendo: {pdf_path.name}")
-    print("Tempo estimado: 1–3 min\n")
-
+    print(f"Converting: {pdf_path.name}")
+    print("Estimated time: 1–3 min\n")
     return converter.convert(str(pdf_path))
 
 
@@ -354,14 +407,13 @@ def convert(pdf_path: Path):
 
 def main():
     if not INPUT_PDF.exists():
-        print(f"[ERRO] PDF não encontrado: {INPUT_PDF}")
-        print("Ajuste a variável INPUT_PDF no início deste script.")
+        print(f"[ERROR] PDF not found: {INPUT_PDF}")
         sys.exit(1)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     result = convert(INPUT_PDF)
-    print("Conversão concluída. Aplicando pós-processamento...")
+    print("Conversion done. Applying post-processing...")
 
     raw_md    = result.document.export_to_markdown(strict_text=False)
     md_clean  = post_process_markdown(raw_md)
@@ -383,25 +435,22 @@ def main():
         "=" * 80 + "\n"
         "  REGULAMENTO GERAL DA GRADUAÇÃO\n"
         "  Universidade Federal do Piauí (UFPI)\n"
-        "  Atualizado em: 03/05/2023\n"
-        f"  Extraído em: {now} | Docling (TableFormer Accurate)\n"
-        "=" * 80 + "\n\n"
+        "  Updated: 03/05/2023\n"
+        f"  Extracted at: {now} | Docling (TableFormer Accurate)\n"
+        + "=" * 80 + "\n\n"
     )
 
-    final_md  = md_header  + md_clean
-    final_txt = txt_header + txt_clean
-
-    stem     = INPUT_PDF.stem  # "Regulamento-Geral-da-Graduacao-Atualizado-em-03-05-2023"
+    stem     = INPUT_PDF.stem
     md_path  = OUTPUT_DIR / f"{stem}.md"
     txt_path = OUTPUT_DIR / f"{stem}.txt"
 
-    md_path.write_text(final_md,  encoding="utf-8")
-    txt_path.write_text(final_txt, encoding="utf-8")
+    md_path.write_text(md_header + md_clean,   encoding="utf-8")
+    txt_path.write_text(txt_header + txt_clean, encoding="utf-8")
 
     print(f"""
-Arquivos gerados:
-  {md_path}  ({len(final_md):,} chars)
-  {txt_path} ({len(final_txt):,} chars)
+Files generated:
+  {md_path}  ({len(md_header + md_clean):,} chars)
+  {txt_path} ({len(txt_header + txt_clean):,} chars)
 """)
 
 
