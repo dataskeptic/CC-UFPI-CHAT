@@ -1,6 +1,7 @@
 experiment:
   format: "txt" # Options: "md", "txt"
   documents_dir: "extracted_text" # Default base dir
+  chroma_db_dir: "chroma_db" # Parent folder for all ChromaDB instances
 
 embeddings:
   type: "local" # Options: "local", "api"
