@@ -38,24 +38,8 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* ── BASE: force light text everywhere ── */
-html, body,
-[class*="css"],
-.stMarkdown, .stMarkdown p, .stMarkdown li, .stMarkdown span,
-.stMarkdown h1, .stMarkdown h2, .stMarkdown h3,
-.stMarkdown strong, .stMarkdown b, .stMarkdown em,
-[data-testid="stMarkdownContainer"],
-[data-testid="stMarkdownContainer"] *,
-[data-testid="stText"], p, span, div, li, td, th {
-    font-family: 'DM Sans', sans-serif !important;
-    color: #1A1816 !important;
-}
-
-/* ── Full-page warm grid ── */
-html, body { background-color: #EDEAE3 !important; }
-
-.stApp {
-    min-height: 100vh;
+/* ── Full-page warm grid — covers everything including stBottom area ── */
+html {
     background-color: #EDEAE3 !important;
     background-image:
         linear-gradient(rgba(90,80,60,0.09) 1px, transparent 1px),
@@ -63,21 +47,33 @@ html, body { background-color: #EDEAE3 !important; }
     background-size: 40px 40px !important;
     background-attachment: fixed !important;
 }
-
-/* Ensure the bottom bar area (stBottom) also gets the bg */
-[data-testid="stBottom"] {
-    background: #16140F !important;
-    border-top: 1px solid #2A2620 !important;
-    padding: 0.8rem 0 0.6rem !important;
+body {
+    background: transparent !important;
 }
-[data-testid="stBottom"]::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -3px; left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.15));
-    pointer-events: none;
+.stApp {
+    background: transparent !important;
+    min-height: 100vh;
+}
+
+/* stBottom: fully transparent so the html background shows through */
+[data-testid="stBottom"],
+[data-testid="stBottom"] > div,
+[data-testid="stBottom"] > div > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ── Global text color ── */
+html, body,
+[class*="css"],
+.stMarkdown, .stMarkdown p, .stMarkdown li,
+.stMarkdown strong, .stMarkdown b, .stMarkdown em,
+[data-testid="stMarkdownContainer"],
+[data-testid="stMarkdownContainer"] *,
+p, span, li, td, th, label {
+    font-family: 'DM Sans', sans-serif !important;
+    color: #1A1816 !important;
 }
 
 /* ── Hide chrome ── */
@@ -147,66 +143,70 @@ html, body { background-color: #EDEAE3 !important; }
 }
 
 /* ── TERMINAL chat input ── */
+/* Outer shell */
 [data-testid="stChatInput"] {
-    position: relative;
     background: #13110C !important;
-    border: 1px solid #2C2820 !important;
+    border: 1px solid #2A2520 !important;
     border-radius: 12px !important;
     padding: 0 !important;
-    box-shadow: 0 6px 40px rgba(0,0,0,0.45), 0 2px 8px rgba(0,0,0,0.3) !important;
-    overflow: hidden;
+    overflow: hidden !important;
+    box-shadow: 0 8px 48px rgba(0,0,0,0.5), 0 2px 10px rgba(0,0,0,0.3) !important;
 }
-/* fake terminal title bar */
+/* macOS dots title bar via ::before */
 [data-testid="stChatInput"]::before {
     content: '●  ●  ●';
     display: block;
-    background: #1E1C17;
+    background: #1C1A14;
     color: #3A3530;
-    font-size: 0.7rem;
-    letter-spacing: 4px;
-    padding: 0.45rem 1rem;
-    border-bottom: 1px solid #2A2620;
-    font-family: monospace;
+    font-size: 0.65rem;
+    letter-spacing: 5px;
+    padding: 0.5rem 1rem 0.4rem;
+    border-bottom: 1px solid #252118;
+    pointer-events: none;
 }
-/* textarea inside */
-[data-testid="stChatInput"] textarea {
+/* Nuke ALL inner backgrounds — Streamlit nests many divs */
+[data-testid="stChatInput"] *:not(textarea):not(button):not(svg):not(path) {
     background: transparent !important;
-    color: #C8C3B0 !important;
-    font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
-    font-size: 0.88rem !important;
-    line-height: 1.6 !important;
     border: none !important;
-    caret-color: #5BB5FF !important;
-    padding: 0.9rem 1rem !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+/* The actual textarea */
+[data-testid="stChatInput"] textarea {
+    background: #13110C !important;
+    color: #3EC97A !important;
+    font-family: 'JetBrains Mono', 'Fira Mono', monospace !important;
+    font-size: 0.87rem !important;
+    line-height: 1.65 !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    caret-color: #3EC97A !important;
+    padding: 0.85rem 1rem !important;
     resize: none !important;
 }
 [data-testid="stChatInput"] textarea::placeholder {
-    color: #3D3830 !important;
+    color: #2E3A2E !important;
     font-family: 'JetBrains Mono', monospace !important;
 }
-/* inner wrapper border removal */
-[data-testid="stChatInput"] > div,
-[data-testid="stChatInput"] > div > div {
-    border: none !important;
-    background: transparent !important;
-    box-shadow: none !important;
-}
-/* send button — terminal-style */
+/* Send button */
 [data-testid="stChatInput"] button {
-    background: #1E1C17 !important;
-    border: 1px solid #2C2820 !important;
+    background: #1C1A14 !important;
+    border: 1px solid #2A2520 !important;
     border-radius: 6px !important;
-    color: #5BB5FF !important;
-    font-family: 'JetBrains Mono', monospace !important;
-    font-size: 0.85rem !important;
-    margin-right: 0.5rem !important;
+    color: #3EC97A !important;
+    margin: 0 0.5rem 0.5rem 0 !important;
 }
 [data-testid="stChatInput"] button:hover {
-    background: #2A2720 !important;
-    color: #8FD4FF !important;
+    background: #252118 !important;
+    color: #6EDEA0 !important;
 }
-/* green prompt prefix pseudo-element not possible directly,
-   but we style the whole input bar */
+[data-testid="stChatInput"] button svg,
+[data-testid="stChatInput"] button svg path {
+    fill: #3EC97A !important;
+    stroke: #3EC97A !important;
+    color: #3EC97A !important;
+}
 
 /* ── Suggestion tags ── */
 .tags-wrap {
@@ -223,7 +223,7 @@ html, body { background-color: #EDEAE3 !important; }
     padding: 0.35rem 0.85rem;
     border: 1px solid #C0BAB0;
     border-radius: 5px;
-    background: rgba(244,241,234,0.75);
+    background: rgba(244,241,234,0.8);
     cursor: default;
     font-family: 'DM Sans', sans-serif !important;
 }
@@ -234,7 +234,6 @@ html, body { background-color: #EDEAE3 !important; }
     border: 1px solid #D5D0C8 !important;
     border-radius: 12px !important;
     margin-bottom: 0.6rem !important;
-    backdrop-filter: blur(6px);
 }
 [data-testid="stChatMessage"] p,
 [data-testid="stChatMessage"] li,
@@ -247,7 +246,6 @@ html, body { background-color: #EDEAE3 !important; }
     font-size: 0.91rem !important;
     line-height: 1.75 !important;
 }
-/* assistant bubble */
 [data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) {
     background: rgba(255,253,247,0.9) !important;
 }
@@ -260,10 +258,7 @@ html, body { background-color: #EDEAE3 !important; }
 }
 [data-testid="stExpander"] summary,
 [data-testid="stExpander"] summary p,
-[data-testid="stExpander"] summary span {
-    color: #7A7268 !important;
-    font-size: 0.78rem !important;
-}
+[data-testid="stExpander"] summary span { color: #7A7268 !important; font-size: 0.78rem !important; }
 [data-testid="stExpander"] p,
 [data-testid="stExpander"] span { color: #2A2720 !important; }
 
