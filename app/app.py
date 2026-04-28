@@ -25,7 +25,7 @@ from rag.pipeline import ask
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="CC-UFPI Chat",
+    page_title="DC/UFPI Chat",
     page_icon="🎓",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -269,14 +269,14 @@ hr { border-color: #D5D0C8 !important; opacity: 1 !important; }
 st.markdown("""
 <div class="badge-wrap">
   <div class="badge">
-    <span class="badge-label">Assistente Oficial do CC-UFPI</span>
+    <span class="badge-label">Assistente Oficial do DC/UFPI</span>
     <span class="badge-cta">Pergunte agora →</span>
   </div>
 </div>
 <div class="hero">
   <h1>Converse com os documentos<br><em>do seu curso.</em></h1>
   <p class="sub">
-    O CC-UFPI Chat responde dúvidas sobre o curso de Ciência da Computação
+    O DC/UFPI Chat responde dúvidas sobre o curso de Ciência da Computação
     com base nos documentos oficiais da UFPI — PPC, Regulamento, Fluxograma,
     Calendário e Corpo Docente.
   </p>
