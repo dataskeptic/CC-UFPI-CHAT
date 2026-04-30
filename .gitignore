@@ -1,8 +1,8 @@
 /docs_sigaa_cc
 .env
-/__pycache__
+**/__pycache__/
+**/*.pyc
+**/*.pyo
 /chroma_db
-/rag/chroma_db_md
-/rag/chroma_db_txt
 .venv-docling
 .venv
